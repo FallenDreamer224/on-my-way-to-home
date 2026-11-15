@@ -1,0 +1,2337 @@
+{
+  "pack_id": "terrain_pack_e",
+  "standards_version": "1.0.0",
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "assets": [
+    {
+      "asset_id": "terrain_pack_e_small_crater_overlay",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "organic_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/small_crater_overlay_v2.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/small_crater_overlay.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Transparent small crater overlay with no full ground background.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "New transparent lunar small crater overlay authored from scratch using sampled neutral regolith grays.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+      "drawing_view": "small-crater-overlay",
+      "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 429,
+      "transparent_pixels": 1619,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision."
+    },
+    {
+      "asset_id": "terrain_pack_e_rocky_patch_overlay",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "organic_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay_v2.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/rocky_patch_overlay.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Transparent rocky patch overlay with no full ground background.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "New transparent lunar rocky patch overlay authored from scratch using sampled neutral regolith grays.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+      "drawing_view": "rocky-patch-overlay",
+      "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 132,
+      "transparent_pixels": 1916,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        64,
+        0,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision."
+    },
+    {
+      "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "organic_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay_v2.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/dark_basalt_patch_overlay.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Transparent dark basalt patch overlay with no full ground background.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "New transparent lunar dark basalt patch overlay authored from scratch using sampled neutral regolith grays.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+      "drawing_view": "dark-basalt-patch-overlay",
+      "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 376,
+      "transparent_pixels": 1672,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        128,
+        0,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision."
+    },
+    {
+      "asset_id": "terrain_pack_e_worn_footpath_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "overlay_path",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/worn_footpath_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/worn_footpath_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Straight worn path along the +column/-column axis; sparse dust strip, no footprints or text.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Straight worn path along the +column/-column axis; sparse dust strip, no footprints or text.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "worn-footpath-tile",
+      "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 207,
+      "transparent_pixels": 1841,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        192,
+        0,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision.",
+      "path_axis_grid": [
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_panel_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "opaque_floor",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_panel_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/base_floor_panel_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Flush metal floor panel with restrained seams and fasteners; full canonical diamond coverage.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Flush metal floor panel with restrained seams and fasteners; full canonical diamond coverage.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "base-floor-panel-tile",
+      "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 1024,
+      "transparent_pixels": 1024,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Optional floor/surface overlay above existing ground; no terrain-kind or walkability change."
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "overlay_edge",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/base_floor_edge_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "SE outward boundary strip (+column), composited above floor panels; not a wall.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "SE outward boundary strip (+column), composited above floor panels; not a wall.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "base-floor-edge-tile",
+      "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 208,
+      "transparent_pixels": 1840,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        64,
+        32,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision.",
+      "outward_grid_direction": [
+        1,
+        0
+      ]
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_sw",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "overlay_edge",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_sw.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_sw.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "SW outward boundary strip (+row), composited above floor panels.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "SW outward boundary strip (+row), composited above floor panels.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "base-floor-edge-tile-sw",
+      "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 208,
+      "transparent_pixels": 1840,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        128,
+        32,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision.",
+      "outward_grid_direction": [
+        0,
+        1
+      ]
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_nw",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "overlay_edge",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_nw.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_nw.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "NW outward boundary strip (-column), composited above floor panels.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "NW outward boundary strip (-column), composited above floor panels.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "base-floor-edge-tile-nw",
+      "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 208,
+      "transparent_pixels": 1840,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        192,
+        32,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision.",
+      "outward_grid_direction": [
+        -1,
+        0
+      ]
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_ne",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "overlay_edge",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_ne.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_ne.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "NE outward boundary strip (-row), composited above floor panels.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "NE outward boundary strip (-row), composited above floor panels.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "base-floor-edge-tile-ne",
+      "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 208,
+      "transparent_pixels": 1840,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        0,
+        64,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision.",
+      "outward_grid_direction": [
+        0,
+        -1
+      ]
+    },
+    {
+      "asset_id": "terrain_pack_e_utility_floor_pad_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "opaque_floor",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/utility_floor_pad_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/utility_floor_pad_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Flush utility floor pad with recessed diagonal service grating and restrained blue trim.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Flush utility floor pad with recessed diagonal service grating and restrained blue trim.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "utility-floor-pad-tile",
+      "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 1024,
+      "transparent_pixels": 1024,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        64,
+        64,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Optional floor/surface overlay above existing ground; no terrain-kind or walkability change."
+    },
+    {
+      "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "organic_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay_v2.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/small_dust_debris_overlay.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Transparent small dust debris overlay with no full ground background.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "New transparent lunar small dust debris overlay authored from scratch using sampled neutral regolith grays.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+      "drawing_view": "small-dust-debris-overlay",
+      "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 59,
+      "transparent_pixels": 1989,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        128,
+        64,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Transparent overlay above its backing terrain/floor. Keep source texture alpha; no collision."
+    },
+    {
+      "asset_id": "terrain_pack_e_landing_marked_ground_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "opaque_ground_variant",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/landing_marked_ground_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/landing_marked_ground_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Neutral regolith-like surface with low-contrast corner landing guide paint; no letters or symbols.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Neutral regolith-like surface with low-contrast corner landing guide paint; no letters or symbols.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+      "drawing_view": "landing-marked-ground-tile",
+      "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 1024,
+      "transparent_pixels": 1024,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        192,
+        64,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Optional floor/surface overlay above existing ground; no terrain-kind or walkability change."
+    },
+    {
+      "asset_id": "terrain_pack_e_hazard_stripe_floor_tile",
+      "standards_version": "1.0.0",
+      "category": "terrain_surface_or_overlay",
+      "role": "opaque_floor",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/hazard_stripe_floor_tile.png"
+      ],
+      "runtime_files": [
+        "assets/terrain/expansion_e/hazard_stripe_floor_tile.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Optional floor panel with a narrow muted amber/dark hazard band along the SE (+column) side.",
+      "review_status": "reviewed_asset_only_not_production_integrated",
+      "exception": null,
+      "generation_id": "030951f5-45b9-4dd3-958b-b5e6dfefa3f5",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Optional floor panel with a narrow muted amber/dark hazard band along the SE (+column) side.",
+      "request_record": "assets/pixellab/source/terrain_pack_e/generation_jobs.json",
+      "drawing_recipe_ref": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_2.json",
+      "drawing_view": "hazard-stripe-floor-tile",
+      "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false,
+      "opaque_pixels": 1024,
+      "transparent_pixels": 1024,
+      "partially_transparent_pixels": 0,
+      "outside_diamond_pixels": 0,
+      "canonical_mask": "abs(2*x-63)+2*abs(2*y-31)<=64; 1024 pixel centers",
+      "atlas_file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "atlas_region_px": [
+        0,
+        96,
+        64,
+        32
+      ],
+      "margin_px": 0,
+      "separation_px": 0,
+      "tilemap_texture_origin_px": [
+        0,
+        0
+      ],
+      "layer_policy": "Optional floor/surface overlay above existing ground; no terrain-kind or walkability change."
+    }
+  ],
+  "gameplay_integration": false,
+  "atlas": {
+    "asset_id": "terrain_pack_e_atlas",
+    "standards_version": "1.0.0",
+    "category": "terrain_atlas",
+    "source_provider": "Native lossless packing of PixelLab outputs",
+    "source_files": [
+      "assets/terrain/expansion_e/small_crater_overlay.png",
+      "assets/terrain/expansion_e/rocky_patch_overlay.png",
+      "assets/terrain/expansion_e/dark_basalt_patch_overlay.png",
+      "assets/terrain/expansion_e/worn_footpath_tile.png",
+      "assets/terrain/expansion_e/base_floor_panel_tile.png",
+      "assets/terrain/expansion_e/base_floor_edge_tile.png",
+      "assets/terrain/expansion_e/base_floor_edge_tile_sw.png",
+      "assets/terrain/expansion_e/base_floor_edge_tile_nw.png",
+      "assets/terrain/expansion_e/base_floor_edge_tile_ne.png",
+      "assets/terrain/expansion_e/utility_floor_pad_tile.png",
+      "assets/terrain/expansion_e/small_dust_debris_overlay.png",
+      "assets/terrain/expansion_e/landing_marked_ground_tile.png",
+      "assets/terrain/expansion_e/hazard_stripe_floor_tile.png"
+    ],
+    "runtime_files": [
+      "assets/terrain/expansion_e/terrain_expansion_atlas.png"
+    ],
+    "file": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+    "usage_terms": "https://pixellab.ai/termsofservice",
+    "native_canvas_size_px": [
+      256,
+      128
+    ],
+    "physical_scale_intent": "Native 64x32 tile regions, unscaled; technical container only.",
+    "review_status": "exact_regions_verified_by_asset_test",
+    "exception": null,
+    "columns": 4,
+    "rows": 4,
+    "used_cells": 13,
+    "empty_cells": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "margin_px": 0,
+    "separation_px": 0,
+    "sha256": "41996a96dde07c0a566d53a437feff95d4917265dd30086a3aeed136ac0b0b5c",
+    "assembly_policy": "Native unscaled PNG blits only; source files remain unchanged.",
+    "derived_from_asset_ids": [
+      "terrain_pack_e_small_crater_overlay",
+      "terrain_pack_e_rocky_patch_overlay",
+      "terrain_pack_e_dark_basalt_patch_overlay",
+      "terrain_pack_e_worn_footpath_tile",
+      "terrain_pack_e_base_floor_panel_tile",
+      "terrain_pack_e_base_floor_edge_tile",
+      "terrain_pack_e_base_floor_edge_tile_sw",
+      "terrain_pack_e_base_floor_edge_tile_nw",
+      "terrain_pack_e_base_floor_edge_tile_ne",
+      "terrain_pack_e_utility_floor_pad_tile",
+      "terrain_pack_e_small_dust_debris_overlay",
+      "terrain_pack_e_landing_marked_ground_tile",
+      "terrain_pack_e_hazard_stripe_floor_tile"
+    ],
+    "tile_regions": [
+      {
+        "asset_id": "terrain_pack_e_small_crater_overlay",
+        "region_px": [
+          0,
+          0,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_rocky_patch_overlay",
+        "region_px": [
+          64,
+          0,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+        "region_px": [
+          128,
+          0,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_worn_footpath_tile",
+        "region_px": [
+          192,
+          0,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_panel_tile",
+        "region_px": [
+          0,
+          32,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile",
+        "region_px": [
+          64,
+          32,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_sw",
+        "region_px": [
+          128,
+          32,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_nw",
+        "region_px": [
+          192,
+          32,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_ne",
+        "region_px": [
+          0,
+          64,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_utility_floor_pad_tile",
+        "region_px": [
+          64,
+          64,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+        "region_px": [
+          128,
+          64,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_landing_marked_ground_tile",
+        "region_px": [
+          192,
+          64,
+          64,
+          32
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_hazard_stripe_floor_tile",
+        "region_px": [
+          0,
+          96,
+          64,
+          32
+        ]
+      }
+    ],
+    "center_anchors": [
+      {
+        "asset_id": "terrain_pack_e_small_crater_overlay",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_rocky_patch_overlay",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_worn_footpath_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_panel_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_sw",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_nw",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_base_floor_edge_tile_ne",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_utility_floor_pad_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_landing_marked_ground_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      },
+      {
+        "asset_id": "terrain_pack_e_hazard_stripe_floor_tile",
+        "image_anchor_px": [
+          32,
+          16
+        ]
+      }
+    ]
+  },
+  "original_terrain_hash_record": "assets/pixellab/source/terrain_pack_e/existing_terrain_hashes.json",
+  "edge_policy": "Four independently authored SE(+column), SW(+row), NW(-column), NE(-row) sparse edge strips. Composite above floor panels; combine adjacent edges at corners. No rotation or mirroring needed.",
+  "footpath_policy": "Straight +column/-column strip only. No automatic turns or junctions.",
+  "recipes": {
+    "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json": {
+      "job": {
+        "canvas": [
+          64,
+          32
+        ],
+        "frame_count": 1,
+        "views": [
+          {
+            "id": "small-crater-overlay",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "rocky-patch-overlay",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "dark-basalt-patch-overlay",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "small-dust-debris-overlay",
+            "offset": [
+              0,
+              0
+            ]
+          }
+        ],
+        "source_bookends_exact": false,
+        "require_clear_border": false
+      },
+      "scene": {
+        "palette": {
+          "g": "#989897",
+          "h": "#9C9C9B",
+          "l": "#A5A5A5",
+          "n": "#949593",
+          "d": "#868685",
+          "k": "#6d6f70",
+          "a": "#78838c",
+          "b": "#828e98",
+          "c": "#65717c",
+          "e": "#48535f",
+          "f": "#aab5bd",
+          "i": "#547b90",
+          "j": "#b39a59",
+          "m": "#323a44",
+          "o": "#898989",
+          "p": "#818181",
+          "q": "#929292",
+          "r": "#777b7d",
+          "s": "#838787"
+        },
+        "layers": [
+          {
+            "id": "surface",
+            "name": "Ground overlay"
+          }
+        ],
+        "views": {
+          "small-crater-overlay": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m",
+                      "o": "o",
+                      "p": "p",
+                      "q": "q",
+                      "r": "r",
+                      "s": "s"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      ".........................n..l..l..l.............................",
+                      "...................n...lhllhlhoodohllllhll......................",
+                      "...................lllllooooooooododododlhl.o...................",
+                      "..................llhoododqoooodooqoooododoooo.n................",
+                      ".................llodooodoooqoooooodooodoodooooo................",
+                      ".............nllllddoooooodooooodooooooqooodddooo...............",
+                      "...............hhdooooooooooooooooooddqooooooooooo..............",
+                      "..............llooooooooqddoooooooooooooqqdoddddoo..............",
+                      "..............llhhhhooqoooooqoooooqoooooqooohhhhoo..............",
+                      "..............lhlhhhoodooooooqooooooqooodooohhhooo..............",
+                      "...............llhhhhoooqoodoooodooooqooooohhhoo................",
+                      "................hlhhhhhoooooooooooooooooohhhhooo................",
+                      "..................loohhhhhooqooooqoooohhhhhoooo.n...............",
+                      ".....................ooohhhhhhhhhhhhhhhhoooo....................",
+                      "...................n...ooooooohhhhooooooo.......................",
+                      "................................oooo............................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "rocky-patch-overlay": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m",
+                      "o": "o",
+                      "p": "p",
+                      "q": "q",
+                      "r": "r",
+                      "s": "s"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "........................h....h........l.........................",
+                      ".................................d.d.lll........................",
+                      ".......................h.......h...llldddd.....d................",
+                      "....................h.l.d..........h.kkk........................",
+                      ".............h......lllld.d....lh.....k......d..................",
+                      "...............hddllllddddd...lll..hdd..........................",
+                      "....................kkkkkdh.llllldd.......dh....................",
+                      ".................h....kh...llllddddd............................",
+                      "...............h...l..d.....lkkkkkk.....lll........h............",
+                      "..............d...ldd......h..kkk.....lllddddd..................",
+                      "...................k.......l...k........kkk.....h...............",
+                      ".........................llddd........d....d....................",
+                      "....................d......k......d.............................",
+                      ".........................d....h.....d...........................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "dark-basalt-patch-overlay": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m",
+                      "o": "o",
+                      "p": "p",
+                      "q": "q",
+                      "r": "r",
+                      "s": "s"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      ".........................rr......r.rrsr.........................",
+                      ".......................rrrrrrrrrrdrdrdr.........................",
+                      ".....................rrprsrrsrrprsrrsrrprdrr.rr.................",
+                      ".................rrsprrsprrsrrrsrrsprrsprrsrrr.rr...............",
+                      "..............rrrrdprrrrssprrrrsprrrrsprrrrssdrrr...............",
+                      "................ddrrrrrrrrrrrrsssssppprrrrrrrrrrrr..............",
+                      ".............drrrrrrrrrrrppssssrrrrrrrrrrrppsssdrrr.............",
+                      ".............rrrrpsrrrrpsrrrrpsrrrrpsrrrrssrrrrddr..............",
+                      ".............rr.rrrsrrpsrrsrrrsrrprrrsrrpsrrsrrrdr..............",
+                      ".............r.rrdrrrrsrrsrprrsrprrsrrsrprrsrdrr................",
+                      "...............rdrdrsrsrsrsrsrsrsrsrsrsrsrsrdr.r................",
+                      ".....................rsrrsrsrrsrrrrsrrprsrr.r.rr................",
+                      ".....................rr.rrddrrdrrddrrdrrdr......................",
+                      "..........................r.....rrr..rr.........................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "small-dust-debris-overlay": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m",
+                      "o": "o",
+                      "p": "p",
+                      "q": "q",
+                      "r": "r",
+                      "s": "s"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      ".................................d.h.q.q........................",
+                      ".......................q......lh.......h........................",
+                      "....................q...d....ldd...q...d..l.....................",
+                      "..........................d...k.h.....q..ldd.d..................",
+                      "...............qhd....l............qhd....k.....................",
+                      ".....................ldd.dq...............hq....................",
+                      ".................q....kq..........l.............................",
+                      "...............q......h..........ldd....h.......................",
+                      "..............h............q....d.k.....q....d..................",
+                      "................................................................",
+                      "......................................d....d....................",
+                      "...........................d......d.............................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json": {
+      "job": {
+        "canvas": [
+          64,
+          32
+        ],
+        "frame_count": 1,
+        "views": [
+          {
+            "id": "worn-footpath-tile",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "base-floor-panel-tile",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "base-floor-edge-tile",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "base-floor-edge-tile-sw",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "base-floor-edge-tile-nw",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "base-floor-edge-tile-ne",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "utility-floor-pad-tile",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "landing-marked-ground-tile",
+            "offset": [
+              0,
+              0
+            ]
+          }
+        ],
+        "source_bookends_exact": false,
+        "require_clear_border": false
+      },
+      "scene": {
+        "palette": {
+          "g": "#989897",
+          "h": "#9C9C9B",
+          "l": "#A5A5A5",
+          "n": "#949593",
+          "d": "#868685",
+          "k": "#6d6f70",
+          "a": "#78838c",
+          "b": "#828e98",
+          "c": "#65717c",
+          "e": "#48535f",
+          "f": "#aab5bd",
+          "i": "#547b90",
+          "j": "#b39a59",
+          "m": "#323a44"
+        },
+        "layers": [
+          {
+            "id": "surface",
+            "name": "Surface art"
+          }
+        ],
+        "views": {
+          "worn-footpath-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "...................d............................................",
+                      ".................ddddd..........................................",
+                      "...............ddndhddd.........................................",
+                      ".............ddnddddddhd.d.n....................................",
+                      "..............d.ddnddddndddd....................................",
+                      ".................dddddddhddnd...................................",
+                      "..................d.ddddddddddd.................................",
+                      ".....................dddnddnddhdd...............................",
+                      ".......................ddhdddndddddd............................",
+                      "........................dddhdddhdddhdd..........................",
+                      "..........................ddddndddhddd..........................",
+                      ".............................ddddnddddhddd..n...................",
+                      "................................dddddhddddd.n...................",
+                      ".............................n..ddddnddddddh.d..................",
+                      "...................................ddddddddhnndd................",
+                      "....................................dddddddhhndddd..............",
+                      "......................................dddddhhnnnndd.............",
+                      "..........................................dhhhhhh...............",
+                      "...........................................hddd.................",
+                      "............................................d...................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "base-floor-panel-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................ee...............................",
+                      ".............................eeccee.............................",
+                      "...........................eeccccccee...........................",
+                      ".........................eeccccffccccee.........................",
+                      ".......................eecccceeeeeeccccee.......................",
+                      ".....................eecccceeeaaaaeeeccccee.....................",
+                      "...................eecccceeeaaaaaaaaeeeccccee...................",
+                      ".................eecccceeeaaaaabaaaaaaeeeccccee.................",
+                      "...............eecccceeeaaaabaaaaaaaaaabeeeccccee...............",
+                      ".............eecccceeeaaaaabaaaaaabaaaaaaaeeeccccee.............",
+                      "...........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaiiiiccccee...........",
+                      ".........eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaeeeccccee.........",
+                      ".......eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee.......",
+                      ".....eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee.....",
+                      "...eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaabaaaaaaaaaaaeeeccccee...",
+                      ".eeccccffeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeffcccee.",
+                      ".eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaabeeeccccee.",
+                      "...eecccceeebaaaaaaaaaaaaaaabaaaaaaaaaaaaaaabaaaaaaaeeeccccee...",
+                      ".....eecccceeeaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee.....",
+                      ".......eecccceeeaaaaabaaaaaaabaaaaaaaaaaaaaaaaaaeeeccccee.......",
+                      ".........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaaaabeeeccccee.........",
+                      "...........eecccceeeaaaaaaaaaaabaaaaaaaaaaaaeeeccccee...........",
+                      ".............eecccceeebaaaaaaaaaaaaaaaaaaaeeeccccee.............",
+                      "...............eecccceeeaaaaaaaaaaaaaaaaeeeccccee...............",
+                      ".................eecccceeeaaaaaaabbaaaeeeccccee.................",
+                      "...................eecccceeeaaaaaaaaeeeccccee...................",
+                      ".....................eecccceeeaaaaeeeccccee.....................",
+                      ".......................eecccceeffeeccccee.......................",
+                      ".........................eecccceeccccee.........................",
+                      "...........................eeccccccee...........................",
+                      ".............................eeccee.............................",
+                      "...............................ee..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "base-floor-edge-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "........................................................ccc.....",
+                      "......................................................cccffff...",
+                      "....................................................cccffffccce.",
+                      "..................................................cccffffccceee.",
+                      "................................................cccffffccceee...",
+                      "..............................................cccffffccceee.....",
+                      "............................................cccffffccceee.......",
+                      "..........................................cccffffccceee.........",
+                      "........................................cccffffccceee...........",
+                      "......................................cccffffccceee.............",
+                      "....................................cccffffccceee...............",
+                      "..................................cccffffccceee.................",
+                      "................................cccffffccceee...................",
+                      "..............................cccffffccceee.....................",
+                      "............................cccffffccceee.......................",
+                      "..........................cccffffccceee.........................",
+                      "...........................ffffccceee...........................",
+                      ".............................ccceee.............................",
+                      "...............................ee..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "base-floor-edge-tile-sw": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      ".....ccc........................................................",
+                      "...ffffccc......................................................",
+                      ".ecccffffccc....................................................",
+                      ".eeecccffffccc..................................................",
+                      "...eeecccffffccc................................................",
+                      ".....eeecccffffccc..............................................",
+                      ".......eeecccffffccc............................................",
+                      ".........eeecccffffccc..........................................",
+                      "...........eeecccffffccc........................................",
+                      ".............eeecccffffccc......................................",
+                      "...............eeecccffffccc....................................",
+                      ".................eeecccffffccc..................................",
+                      "...................eeecccffffccc................................",
+                      ".....................eeecccffffccc..............................",
+                      ".......................eeecccffffccc............................",
+                      ".........................eeecccffffccc..........................",
+                      "...........................eeecccffff...........................",
+                      ".............................eeeccc.............................",
+                      "...............................ee..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "base-floor-edge-tile-nw": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................ee...............................",
+                      ".............................eeeccc.............................",
+                      "...........................eeecccffff...........................",
+                      ".........................eeecccffffccc..........................",
+                      ".......................eeecccffffccc............................",
+                      ".....................eeecccffffccc..............................",
+                      "...................eeecccffffccc................................",
+                      ".................eeecccffffccc..................................",
+                      "...............eeecccffffccc....................................",
+                      ".............eeecccffffccc......................................",
+                      "...........eeecccffffccc........................................",
+                      ".........eeecccffffccc..........................................",
+                      ".......eeecccffffccc............................................",
+                      ".....eeecccffffccc..............................................",
+                      "...eeecccffffccc................................................",
+                      ".eeecccffffccc..................................................",
+                      ".ecccffffccc....................................................",
+                      "...ffffccc......................................................",
+                      ".....ccc........................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "base-floor-edge-tile-ne": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................ee...............................",
+                      ".............................ccceee.............................",
+                      "...........................ffffccceee...........................",
+                      "..........................cccffffccceee.........................",
+                      "............................cccffffccceee.......................",
+                      "..............................cccffffccceee.....................",
+                      "................................cccffffccceee...................",
+                      "..................................cccffffccceee.................",
+                      "....................................cccffffccceee...............",
+                      "......................................cccffffccceee.............",
+                      "........................................cccffffccceee...........",
+                      "..........................................cccffffccceee.........",
+                      "............................................cccffffccceee.......",
+                      "..............................................cccffffccceee.....",
+                      "................................................cccffffccceee...",
+                      "..................................................cccffffccceee.",
+                      "....................................................cccffffccce.",
+                      "......................................................cccffff...",
+                      "........................................................ccc.....",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................",
+                      "................................................................"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "utility-floor-pad-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................ee...............................",
+                      ".............................eeccee.............................",
+                      "...........................eeccccccee...........................",
+                      ".........................eeccccffccccee.........................",
+                      ".......................eecccceeeeeeccccee.......................",
+                      ".....................eecccceeeaaaaeeeccccee.....................",
+                      "...................eecccceeeaaaecaaaeeeccccee...................",
+                      ".................eecccceeeaaaecccaaaaaeeeccccee.................",
+                      "...............eecccceeeaaaecccaaaeeeaabeeeccccee...............",
+                      ".............eecccceeeaaaecccaaaeeeccccaaaeeeccccee.............",
+                      "...........eecccceeeaaaecccaaaeeeccccaaaeaaaeeeccccee...........",
+                      ".........eecccceeeaaaeiicaaaeeeccccaaaeeeccaaaeeeccccee.........",
+                      ".......eecccceeeaaaecccaiieeeccccaaaeeecccaaaaaaeeeccccee.......",
+                      ".....eecccceeeaaaecccaaaeeiicccaaaeeecccaaaeeeeaaaeeeccccee.....",
+                      "...eecccceeeaaaecccaaaeeeccciiaaeeecccaaaeeeecccaaaaeeeccccee...",
+                      ".eeccccffeaaaecccaaaeeeccccaaaiiecccaaaeeeecccaaaeeaaaeeffcccee.",
+                      ".eecccceeeaaaccaaaeeeccccaaaeeeciiaaaeeeecccaaaeeecaabeeeccccee.",
+                      "...eecccceeebaaaeeeccccaaaeeecccaaiieeecccaaaeeecaaaeeeccccee...",
+                      ".....eecccceeeaaaccccaaaeeecccaaaeeeiiccaaaeeecaaaeeeccccee.....",
+                      ".......eecccceeeaaaaaaeeecccaaaeeeeccciiaeeecaaaeeeccccee.......",
+                      ".........eecccceeeaaaeecccaaaeeeecccaaaeiicaabeeeccccee.........",
+                      "...........eecccceeeaaacaaaeeeecccaaaeeecaaaeeeccccee...........",
+                      ".............eecccceeebaaeeeecccaaaeeecaaaeeeccccee.............",
+                      "...............eecccceeeaaacccaaaeeecaaaeeeccccee...............",
+                      ".................eecccceeeaaaaaeeecaaaeeeccccee.................",
+                      "...................eecccceeeaaaecaaaeeeccccee...................",
+                      ".....................eecccceeeaaaaeeeccccee.....................",
+                      ".......................eecccceeffeeccccee.......................",
+                      ".........................eecccceeccccee.........................",
+                      "...........................eeccccccee...........................",
+                      ".............................eeccee.............................",
+                      "...............................ee..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "landing-marked-ground-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................gg...............................",
+                      ".............................gggggg.............................",
+                      "...........................ggnggggggg...........................",
+                      ".........................nggggnigggdggg.........................",
+                      ".......................ggggggfgngfggggngg.......................",
+                      ".....................ggngdgfgggggggfdgggggg.....................",
+                      "...................gngdglgggggggggggggggggggg...................",
+                      ".................gggggggggggglgdgngnggggggggggg.................",
+                      "...............ggnggggggggggdggggggggggdggggggggg...............",
+                      ".............lgggggglggggggdggggggdggggggnggggggngg.............",
+                      "...........ggngggggggggggggggggggggglgggglggggdggggdg...........",
+                      ".........gggggggngglgggggggnggggggggggdggggggggggdggggg.........",
+                      ".......glgglggggggggggggggggggggggggggggggggggggggggggggg.......",
+                      ".....ggggggdggggggggggggdggggggggggggnggggggggglggngggggggg.....",
+                      "...gdggggggnggggggggggdggggggnggglggggggdggggggnggglggggggngg...",
+                      ".ggggggigggggggggggggggggggggggggggggggggggggggggggglgggiggglgg.",
+                      ".ggggfgngfggggggngggglggggggggdggggggggngggglggggggggdfgggfgggn.",
+                      "...fggglgggfdggggnggggggggggdggggnggggggggggdggggnggfgggggggf...",
+                      ".....gnggggggggggggdgggggngggggggggggglgggggngggggngggggglg.....",
+                      ".......ggggggngggggggdgggggggdggggggglggggggngggggggngggg.......",
+                      ".........gggggnlggggggggnlggggggggnlgggggggggdggggggggg.........",
+                      "...........gggggndgggggggggggggdgggggggggggggnlgggggg...........",
+                      ".............ggggggggndlggggggggggggggggggggggnndgg.............",
+                      "...............gggggggggggggggggggggggggggggggggg...............",
+                      ".................ggggggggggggggglddnnnggggggggg.................",
+                      "...................dnggggggggggggggggggdngggg...................",
+                      ".....................gggggggdngggggggggggng.....................",
+                      ".......................dgggggggidgggggggg.......................",
+                      ".........................gglgfgggfgnggg.........................",
+                      "...........................fggdggggfd...........................",
+                      ".............................gggdgg.............................",
+                      "...............................gg..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "assets/pixellab/source/terrain_pack_e/exact_surface_batch_2.json": {
+      "job": {
+        "canvas": [
+          64,
+          32
+        ],
+        "frame_count": 1,
+        "views": [
+          {
+            "id": "hazard-stripe-floor-tile",
+            "offset": [
+              0,
+              0
+            ]
+          }
+        ],
+        "source_bookends_exact": false,
+        "require_clear_border": false
+      },
+      "scene": {
+        "palette": {
+          "g": "#989897",
+          "h": "#9C9C9B",
+          "l": "#A5A5A5",
+          "n": "#949593",
+          "d": "#868685",
+          "k": "#6d6f70",
+          "a": "#78838c",
+          "b": "#828e98",
+          "c": "#65717c",
+          "e": "#48535f",
+          "f": "#aab5bd",
+          "i": "#547b90",
+          "j": "#b39a59",
+          "m": "#323a44"
+        },
+        "layers": [
+          {
+            "id": "surface",
+            "name": "Surface art"
+          }
+        ],
+        "views": {
+          "hazard-stripe-floor-tile": {
+            "nodes": {
+              "surface": {
+                "layer": "surface",
+                "at": [
+                  0,
+                  0
+                ],
+                "draw": [
+                  {
+                    "op": "grid",
+                    "at": [
+                      0,
+                      0
+                    ],
+                    "legend": {
+                      "g": "g",
+                      "h": "h",
+                      "l": "l",
+                      "n": "n",
+                      "d": "d",
+                      "k": "k",
+                      "a": "a",
+                      "b": "b",
+                      "c": "c",
+                      "e": "e",
+                      "f": "f",
+                      "i": "i",
+                      "j": "j",
+                      "m": "m"
+                    },
+                    "rows": [
+                      "...............................ee...............................",
+                      ".............................eeccee.............................",
+                      "...........................eeccccccee...........................",
+                      ".........................eeccccffccccee.........................",
+                      ".......................eecccceeeeeeccccee.......................",
+                      ".....................eecccceeeaaaaeeeccccee.....................",
+                      "...................eecccceeeaaaaaaaaeeeccccee...................",
+                      ".................eecccceeeaaaaabaaaaaaeeeccccee.................",
+                      "...............eecccceeeaaaabaaaaaaaaaabeeeccccee...............",
+                      ".............eecccceeeaaaaabaaaaaabaaaaaaaeeeccccee.............",
+                      "...........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee...........",
+                      ".........eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaeeeccccee.........",
+                      ".......eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee.......",
+                      ".....eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaeeecccjjj.....",
+                      "...eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaabaaaaaaaaaaaeemmjjjjj...",
+                      ".eeccccffeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaammmmffjjjje.",
+                      ".eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaajjjjmmemmmcee.",
+                      "...eecccceeebaaaaaaaaaaaaaaabaaaaaaaaaaaaaaabaaammmjjjjjmmcee...",
+                      ".....eecccceeeaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaajjmmmmmjjjcee.....",
+                      ".......eecccceeeaaaaabaaaaaaabaaaaaaaaaaaaaajjjjjjmmmmcee.......",
+                      ".........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaammmmjjjjjjcee.........",
+                      "...........eecccceeeaaaaaaaaaaabaaaaaaaajjjmmmmmjjcee...........",
+                      ".............eecccceeebaaaaaaaaaaaaaaammjjjjjmmmcee.............",
+                      "...............eecccceeeaaaaaaaaaaaammmmmmjjjjcee...............",
+                      ".................eecccceeeaaaaaaabjjjjmmmmmmcee.................",
+                      "...................eecccceeeaaaammmjjjjjmmcee...................",
+                      ".....................eecccceeejjmmmmmjjjcee.....................",
+                      ".......................eecccjjjffjmmmmcee.......................",
+                      ".........................emmmmjejjjjcee.........................",
+                      "...........................mmmmmjjcee...........................",
+                      ".............................mmmcee.............................",
+                      "...............................ee..............................."
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

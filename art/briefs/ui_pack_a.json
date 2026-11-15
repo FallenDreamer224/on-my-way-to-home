@@ -1,0 +1,431 @@
+{
+  "pack_id": "ui_pack_a",
+  "brief_version": "1.0.0",
+  "standards_version": "1.0.0",
+  "status": "generated",
+  "requested_provider": "PixelLab.ai MCP",
+  "authorization": "User request: Asset Pack A - UI Art Pack; generation authorized for these assets only.",
+  "references": [
+    "docs/ART_BIBLE.md",
+    "art/asset_standards.json",
+    "assets/pixellab/README.md"
+  ],
+  "style_prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding.",
+  "palette_hint": [
+    "#151e26",
+    "#283540",
+    "#465663",
+    "#758692",
+    "#adb9c0",
+    "#dce4e5",
+    "#386c82",
+    "#78b7c4"
+  ],
+  "palette_status": "Proposed generation palette; not a revision to locked project standards.",
+  "output": {
+    "format": "PNG",
+    "color_mode": "RGBA",
+    "transparent_background": true,
+    "baked_text": false,
+    "logo": false,
+    "audio": false,
+    "source_root": "assets/pixellab/source/ui_pack_a",
+    "proposed_runtime_root": "assets/ui/ui_pack_a",
+    "gameplay_integration_requested": false
+  },
+  "generation_plan": {
+    "preferred_tool": "create_image_pro_flash",
+    "reason": "Supports exact small native canvases and a shared style reference. Dedicated create_ui_asset has a 192px minimum per axis, unsuitable for native small UI pieces.",
+    "fallback_policy": "Do not substitute another provider without user direction.",
+    "style_anchor": "Generate cursor_selector first; review its native 16x16 palette/edges, then use the same approved 16x16 reference for all remaining assets.",
+    "state_consistency": "Use normal-state assets as additional appearance guidance for selected/hover/pressed variants. Validate identical state silhouettes and outer alignment before promotion.",
+    "native_size_policy": "Request declared dimensions directly; never resize, stretch, crop or distort provider output to force compliance. Reject or report incompatible outputs.",
+    "nine_slice_policy": "Insets below are proposals only. Measure actual output before establishing verified insets. Keep corners native; tile compatible straight edges and uniform centers rather than stretching decorative pixels."
+  },
+  "assets": [
+    {
+      "asset_id": "ui_pack_a_panel_large",
+      "file_name": "panel_large.png",
+      "category": "ui_frames",
+      "native_canvas_size_px": [
+        256,
+        192
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Large inventory/menu panel frame; thin stepped metal border, restrained cyan corner details, empty uniform dark slate interior for runtime content. Exact native canvas 256x192 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 12,
+        "right": 12,
+        "top": 12,
+        "bottom": 12
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_panel_small",
+      "file_name": "panel_small.png",
+      "category": "ui_frames",
+      "native_canvas_size_px": [
+        128,
+        64
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Small status/tooltip panel frame matching the large panel, restrained border and empty uniform dark slate interior. Exact native canvas 128x64 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_inventory_slot_normal",
+      "file_name": "inventory_slot_normal.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        48,
+        48
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Square empty inventory slot frame, normal state, subdued cool gray border and uniform dark interior; room for a separate 32x32 icon. Exact native canvas 48x48 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 6,
+        "right": 6,
+        "top": 6,
+        "bottom": 6
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_inventory_slot_selected",
+      "file_name": "inventory_slot_selected.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        48,
+        48
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Same shape, border geometry, padding and alignment as inventory_slot_normal. Selected state has a crisp cyan rim, no glow, no item inside. Exact native canvas 48x48 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 6,
+        "right": 6,
+        "top": 6,
+        "bottom": 6
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_button_normal",
+      "file_name": "button_normal.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Empty horizontal button, normal state; cool gray beveled rim, uniform dark slate face, subtle muted white upper edge. Exact native canvas 96x32 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_button_hover",
+      "file_name": "button_hover.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Exactly matching button_normal silhouette and alignment. Hover state uses a slightly brighter cool gray face and restrained cyan rim; no text. Exact native canvas 96x32 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_button_pressed",
+      "file_name": "button_pressed.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Exactly matching button_normal silhouette and alignment. Pressed state uses recessed darker face and inverted bevel; outer shape stays fixed. Exact native canvas 96x32 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_tab_marker",
+      "file_name": "tab_marker.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        32,
+        16
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Minimal slim tab/button marker, a short muted cyan horizontal plate with stepped corners, no text or pictogram. Exact native canvas 32x16 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_interaction_prompt",
+      "file_name": "interaction_prompt.png",
+      "category": "ui_frames",
+      "native_canvas_size_px": [
+        160,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Slim horizontal interaction prompt frame with empty uniform dark interior for runtime key hint and action text; no baked-in key or letters. Exact native canvas 160x32 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_notification_panel",
+      "file_name": "notification_panel.png",
+      "category": "ui_frames",
+      "native_canvas_size_px": [
+        192,
+        64
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Horizontal tutorial/system notification frame, subtle cyan left accent, empty uniform dark slate content area. Exact native canvas 192x64 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_frame",
+      "file_name": "icon_frame.png",
+      "category": "ui_frames",
+      "native_canvas_size_px": [
+        40,
+        40
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Compact empty square icon background frame; unobstructed 32x32 central content region, restrained cool gray rim. Exact native canvas 40x40 pixels.",
+      "proposed_nine_slice_px": {
+        "left": 4,
+        "right": 4,
+        "top": 4,
+        "bottom": 4
+      },
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_cursor_selector",
+      "file_name": "cursor_selector.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        16,
+        16
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. A single compact sci-fi pointer arrow with muted white pixels, cool gray outline and tiny cyan accent, pointing toward the top left. This is a selector artwork, not a text glyph. Exact native canvas 16x16 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_divider",
+      "file_name": "divider.png",
+      "category": "ui_controls",
+      "native_canvas_size_px": [
+        128,
+        16
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. A single thin one-pixel horizontal cool gray separator, small cyan end caps, transparent space above and below; no gradient. Exact native canvas 128x16 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_health",
+      "file_name": "icon_health.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One simple recognizable physical-condition icon: a small medical cross, muted white with tiny cyan inset; no panel, lettering or glow. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_sleep",
+      "file_name": "icon_sleep.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One simple recognizable sleep icon: crescent moon with a single small star, muted white/cool gray and tiny cyan accent; no letters or panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_radiation",
+      "file_name": "icon_radiation.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One clear radiation trefoil warning pictogram in muted white/cyan against transparency, clean centered silhouette; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_emotion",
+      "file_name": "icon_emotion.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One restrained emotional-state pictogram: a simple round face with two pixel eyes and a neutral small mouth, muted white/cyan; no panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_cardiac",
+      "file_name": "icon_cardiac.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One cardiac-state pictogram: recognizable heart with a short crisp pulse notch, muted white/cyan; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_defense",
+      "file_name": "icon_defense.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One defense/body-condition pictogram: compact shield with a small central plate, muted white/cool gray and cyan accent; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_inventory",
+      "file_name": "icon_inventory.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One inventory pictogram: compact utility backpack with distinct flap and two pockets, cool gray/muted white with tiny cyan accent; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_lunar_sample",
+      "file_name": "icon_lunar_sample.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One lunar sample/resource inventory icon: a small angular Moon rock with readable facets, cool gray/muted white and restrained cyan identification detail; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_metal_scrap",
+      "file_name": "icon_metal_scrap.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One scrap/material inventory icon: two small irregular metal offcuts with a bolt hole, cool gray/muted white and tiny cyan detail; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    },
+    {
+      "asset_id": "ui_pack_a_icon_supply_tool",
+      "file_name": "icon_supply_tool.png",
+      "category": "ui_icons",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One supply/tool inventory icon: compact closed utility supply case with handle and latch, cool gray/muted white with tiny cyan clasp; no lettering, logo or panel. Exact native canvas 32x32 pixels.",
+      "proposed_nine_slice_px": null,
+      "review_status": "generated_see_import_manifest",
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "exception": null
+    }
+  ],
+  "acceptance_checks": [
+    "Exactly 23 separate PNG assets, including every requested state and icon.",
+    "Every PNG has its declared native canvas, meaningful transparent pixels, no accidental opaque background, no text or watermark.",
+    "Ten icons are exactly 32x32 and read clearly at 1x in a 960x540 UI preview.",
+    "Inspect each frame and control at 1x and integer magnification; confirm consistent pixel density, palette, clean alpha edges and no excessive glow.",
+    "Button states and inventory slot states keep consistent geometry and anchoring; do not automatically trim.",
+    "Measure and verify frame border/content insets before providing nine-slice resources; prevent decorative border distortion.",
+    "Preserve byte-identical provider originals and generation IDs, exact request prompts, usage terms and source/runtime hashes in completed intake metadata.",
+    "Godot PNG imports: lossless compression, mipmaps off, no rescaling, nearest filtering and no repeat.",
+    "Keep current UI theme, gameplay, project settings, characters, terrain and cameras unchanged during pack delivery."
+  ],
+  "resume_action": "Generation complete. See art/imports/ui_pack_a.json for measured metadata and docs/ui_pack_a_report.md for validation and limitations."
+}

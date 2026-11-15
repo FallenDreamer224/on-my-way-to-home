@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "config_id": "moon_utilities_v2",
+  "basis": "Fictional tutorial configuration. Rates/capacities/alarms are explicit gameplay assumptions, not NASA ratings or clinical limits.",
+  "fixed_step_s": 1,
+  "volume_m3": 100,
+  "heat_capacity_j_per_k": 2000000,
+  "initial_temperature_k": 293.15,
+  "initial_battery_wh": 9000,
+  "battery_capacity_wh": 12000,
+  "charge_efficiency": 0.9,
+  "discharge_efficiency": 0.9,
+  "max_charge_w": 800,
+  "max_discharge_w": 1000,
+  "bus_capacity_w": 2000,
+  "solar_available_w": 1200,
+  "initial_solar_fraction": 1,
+  "initial_resources": {
+    "cabin_o2_kg": 27,
+    "cabin_co2_kg": 0.04,
+    "cabin_n2_kg": 93,
+    "cabin_vapor_kg": 0.8,
+    "oxygen_store_kg": 12,
+    "captured_co2_kg": 0,
+    "potable_kg": 80,
+    "wastewater_kg": 2,
+    "reject_kg": 0,
+    "carbon_feed_kg": 1
+  },
+  "capacities_kg": {
+    "cabin_o2_kg": 100,
+    "cabin_co2_kg": 100,
+    "cabin_n2_kg": 200,
+    "cabin_vapor_kg": 20,
+    "oxygen_store_kg": 20,
+    "captured_co2_kg": 10,
+    "potable_kg": 100,
+    "wastewater_kg": 50,
+    "reject_kg": 20,
+    "carbon_feed_kg": 1
+  },
+  "rates": {
+    "oxygen_load_kg_s": 5E-06,
+    "water_use_kg_s": 3E-05,
+    "water_to_vapor_fraction": 0.25,
+    "oxygen_supply_kg_s": 2E-05,
+    "co2_removal_kg_s": 1E-05,
+    "water_treatment_kg_s": 0.0002,
+    "water_recovery_fraction": 0.8,
+    "dehumidify_kg_s": 2E-05,
+    "carbon_chemical_wh_per_kg": 9000
+  },
+  "targets": {
+    "oxygen_partial_pa": 21000,
+    "co2_kg": 0.03,
+    "humidity_g_m3": 8,
+    "heat_k": 293.15,
+    "cool_k": 293.65
+  },
+  "thermal": {
+    "external_input_w": 100,
+    "passive_rejection_w": 180,
+    "active_rejection_w": 1200,
+    "effective_sink_k": 100
+  },
+  "alarms": {
+    "pressure_min_pa": 90000,
+    "pressure_max_pa": 110000,
+    "oxygen_min_pa": 18000,
+    "oxygen_max_pa": 25000,
+    "co2_max_pa": 500,
+    "humidity_min_g_m3": 3,
+    "humidity_max_g_m3": 16,
+    "temperature_min_k": 283.15,
+    "temperature_max_k": 308.15,
+    "water_reserve_kg": 10,
+    "oxygen_reserve_kg": 2,
+    "battery_reserve_wh": 1000
+  },
+  "equipment": [
+    {
+      "id": "solar",
+      "name": "Solar generation",
+      "watts": 0,
+      "priority": 0,
+      "critical": false
+    },
+    {
+      "id": "battery",
+      "name": "Battery storage",
+      "watts": 0,
+      "priority": 0,
+      "critical": false
+    },
+    {
+      "id": "distribution",
+      "name": "Power distribution",
+      "watts": 0,
+      "priority": 0,
+      "critical": true
+    },
+    {
+      "id": "ventilation",
+      "name": "Cabin ventilation",
+      "watts": 80,
+      "priority": 1,
+      "critical": true
+    },
+    {
+      "id": "oxygen_supply",
+      "name": "Oxygen supply valve",
+      "watts": 20,
+      "priority": 2,
+      "critical": true
+    },
+    {
+      "id": "co2_removal",
+      "name": "CO2 removal",
+      "watts": 100,
+      "priority": 3,
+      "critical": true
+    },
+    {
+      "id": "housekeeping",
+      "name": "Habitat electronics",
+      "watts": 30,
+      "priority": 4,
+      "critical": false
+    },
+    {
+      "id": "heating",
+      "name": "Cabin heating",
+      "watts": 300,
+      "priority": 5,
+      "critical": true
+    },
+    {
+      "id": "thermal_control",
+      "name": "Thermal loop / radiator",
+      "watts": 80,
+      "priority": 6,
+      "critical": true
+    },
+    {
+      "id": "dehumidifier",
+      "name": "Humidity recovery",
+      "watts": 100,
+      "priority": 7,
+      "critical": false
+    },
+    {
+      "id": "water_treatment",
+      "name": "Water treatment",
+      "watts": 180,
+      "priority": 8,
+      "critical": false
+    },
+    {
+      "id": "greenhouse_lights",
+      "name": "Greenhouse lights / pump",
+      "watts": 120,
+      "priority": 9,
+      "critical": false,
+      "enabled": true
+    }
+  ]
+}

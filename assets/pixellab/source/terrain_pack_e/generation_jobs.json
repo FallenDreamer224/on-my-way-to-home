@@ -1,0 +1,348 @@
+{
+  "provider": "PixelLab.ai MCP",
+  "jobs": [
+    {
+      "asset_id": "terrain_pack_e_small_crater_overlay",
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "Native 64x32 transparent PNG ground overlay for a 2:1 diamond-isometric Moon game. Muted neutral lunar grays matching pale regolith near #989897 with #868685 shadows and #A5A5A5 highlights. Crisp subtle one-pixel clusters, upper-left illumination, natural restrained texture. Flat surface marking seen from above, only top surface. Center object around pixel [32,16], small enough to fit within the central 40x18 area of the canvas; leave empty transparent margin. Only the ground feature, no tile slab, thick side faces, background, cast shadow, text, symbols or objects. A small shallow lunar crater, flattened oval rim about 32 pixels wide and 12 high, subtle raised light-gray upper-left lip and darker inset gray basin. Broken irregular natural rim, fine regolith texture, not a deep hole.",
+        "width": 64,
+        "height": 32,
+        "no_background": true,
+        "outline": "lineless",
+        "detail": "medium detail",
+        "view": "high top-down",
+        "seed": 4100
+      },
+      "response": {
+        "job_id": "a436ecfc-13f9-4a45-9228-553b228b01d4",
+        "source_image_id": "1cb93148-0162-5c1c-a113-a78921392a76",
+        "status": "completed",
+        "estimated_generations": 1
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/small_crater_overlay.png",
+      "sha256": "56aad7a8ce8c694ef2fd1c62d7d237459d1a4079de52a669a53ead7510722336",
+      "local_review_status": "rejected_baked_ground_instead_of_transparent_feature"
+    },
+    {
+      "asset_id": "terrain_pack_e_rocky_patch_overlay",
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "Native 64x32 transparent PNG ground overlay for a 2:1 diamond-isometric Moon game. Muted neutral lunar grays matching pale regolith near #989897 with #868685 shadows and #A5A5A5 highlights. Crisp subtle one-pixel clusters, upper-left illumination, natural restrained texture. Flat surface marking seen from above, only top surface. Center object around pixel [32,16], small enough to fit within the central 40x18 area of the canvas; leave empty transparent margin. Only the ground feature, no tile slab, thick side faces, background, cast shadow, text, symbols or objects. A compact flat rocky patch: five tiny irregular dark-gray basalt pebbles embedded in pale regolith dust, one larger pebble and several chips. Overall group about 30 pixels wide and 14 high, low profile with readable facets.",
+        "width": 64,
+        "height": 32,
+        "no_background": true,
+        "outline": "lineless",
+        "detail": "medium detail",
+        "view": "high top-down",
+        "seed": 4101
+      },
+      "response": {
+        "job_id": "12a2fdbe-1cc7-419e-8beb-2ed1fe6aefbe",
+        "source_image_id": "e80d2584-8750-5c15-8dba-6f633427973b",
+        "status": "completed",
+        "estimated_generations": 1
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay.png",
+      "sha256": "9f4cf5b1be19c1e5a6923b2c761d191083c4e87356787929f46424c80ac37552",
+      "local_review_status": "rejected_baked_ground_instead_of_transparent_feature"
+    },
+    {
+      "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "Native 64x32 transparent PNG ground overlay for a 2:1 diamond-isometric Moon game. Muted neutral lunar grays matching pale regolith near #989897 with #868685 shadows and #A5A5A5 highlights. Crisp subtle one-pixel clusters, upper-left illumination, natural restrained texture. Flat surface marking seen from above, only top surface. Center object around pixel [32,16], small enough to fit within the central 40x18 area of the canvas; leave empty transparent margin. Only the ground feature, no tile slab, thick side faces, background, cast shadow, text, symbols or objects. One low contrast irregular dark basalt surface patch about 34 pixels wide and 14 high. Broken mottled boundary, charcoal-gray central grain, restrained mid-gray transition flecks. Flat stained ground, not an isolated rock.",
+        "width": 64,
+        "height": 32,
+        "no_background": true,
+        "outline": "lineless",
+        "detail": "medium detail",
+        "view": "high top-down",
+        "seed": 4102
+      },
+      "response": {
+        "job_id": "2b0fc528-59f8-4ca4-a35f-bfb7d1ed205d",
+        "source_image_id": "4fdfea4b-7c68-5f80-8a43-5ddaa5619677",
+        "status": "completed",
+        "estimated_generations": 1
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay.png",
+      "sha256": "a45f98aa191e8cf3ac4abbc61a7e17f59a05e966344fe6f332b0e4564eab01eb",
+      "local_review_status": "rejected_baked_ground_instead_of_transparent_feature"
+    },
+    {
+      "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "Native 64x32 transparent PNG ground overlay for a 2:1 diamond-isometric Moon game. Muted neutral lunar grays matching pale regolith near #989897 with #868685 shadows and #A5A5A5 highlights. Crisp subtle one-pixel clusters, upper-left illumination, natural restrained texture. Flat surface marking seen from above, only top surface. Center object around pixel [32,16], small enough to fit within the central 40x18 area of the canvas; leave empty transparent margin. Only the ground feature, no tile slab, thick side faces, background, cast shadow, text, symbols or objects. One sparse small scatter of pale and dark neutral-gray dust grains with four tiny stone chips, about 30 pixels wide and 12 high. Asymmetrical, understated ground texture; all grains grouped near the center.",
+        "width": 64,
+        "height": 32,
+        "no_background": true,
+        "outline": "lineless",
+        "detail": "medium detail",
+        "view": "high top-down",
+        "seed": 4103
+      },
+      "response": {
+        "job_id": "923c0570-e430-4572-b757-89c292244fdd",
+        "source_image_id": "ae8053fa-3f23-5a83-87eb-f1bfcfd41b07",
+        "status": "completed",
+        "estimated_generations": 1
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay.png",
+      "sha256": "04d13924b52139a2c2e247add5c5c52c9c9022a5f70a5c30a2f1f6ae5e482d4d",
+      "local_review_status": "rejected_baked_ground_instead_of_transparent_feature"
+    },
+    {
+      "asset_id": "terrain_pack_e_worn_footpath_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Straight worn path along the +column/-column axis; sparse dust strip, no footprints or text.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "worn-footpath-tile"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/worn-footpath-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/worn_footpath_tile.png",
+      "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_panel_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Flush metal floor panel with restrained seams and fasteners; full canonical diamond coverage.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "base-floor-panel-tile"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/base-floor-panel-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/base_floor_panel_tile.png",
+      "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "SE outward boundary strip (+column), composited above floor panels; not a wall.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "base-floor-edge-tile"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/base-floor-edge-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile.png",
+      "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_sw",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "SW outward boundary strip (+row), composited above floor panels.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "base-floor-edge-tile-sw"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/base-floor-edge-tile-sw/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_sw.png",
+      "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_nw",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "NW outward boundary strip (-column), composited above floor panels.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "base-floor-edge-tile-nw"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/base-floor-edge-tile-nw/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_nw.png",
+      "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_ne",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "NE outward boundary strip (-row), composited above floor panels.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "base-floor-edge-tile-ne"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/base-floor-edge-tile-ne/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_ne.png",
+      "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_utility_floor_pad_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Flush utility floor pad with recessed diagonal service grating and restrained blue trim.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "utility-floor-pad-tile"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/utility-floor-pad-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/utility_floor_pad_tile.png",
+      "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_landing_marked_ground_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Neutral regolith-like surface with low-contrast corner landing guide paint; no letters or symbols.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_1.json",
+        "view_id": "landing-marked-ground-tile"
+      },
+      "response": {
+        "job_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "source_image_id": "8774934c-2f26-4ad2-bb30-c8162add110f",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/8774934c-2f26-4ad2-bb30-c8162add110f/assets/landing-marked-ground-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/landing_marked_ground_tile.png",
+      "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_hazard_stripe_floor_tile",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Optional floor panel with a narrow muted amber/dark hazard band along the SE (+column) side.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/exact_surface_batch_2.json",
+        "view_id": "hazard-stripe-floor-tile"
+      },
+      "response": {
+        "job_id": "030951f5-45b9-4dd3-958b-b5e6dfefa3f5",
+        "source_image_id": "030951f5-45b9-4dd3-958b-b5e6dfefa3f5",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/030951f5-45b9-4dd3-958b-b5e6dfefa3f5/assets/hazard-stripe-floor-tile/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/hazard_stripe_floor_tile.png",
+      "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_small_crater_overlay",
+      "attempt": 2,
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "New transparent lunar small crater overlay authored from scratch using sampled neutral regolith grays.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+        "view_id": "small-crater-overlay"
+      },
+      "response": {
+        "job_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "source_image_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/fc1bce09-c0a8-45df-8e77-ebe77b711dc6/assets/small-crater-overlay/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/small_crater_overlay_v2.png",
+      "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_rocky_patch_overlay",
+      "attempt": 2,
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "New transparent lunar rocky patch overlay authored from scratch using sampled neutral regolith grays.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+        "view_id": "rocky-patch-overlay"
+      },
+      "response": {
+        "job_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "source_image_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/fc1bce09-c0a8-45df-8e77-ebe77b711dc6/assets/rocky-patch-overlay/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay_v2.png",
+      "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+      "attempt": 2,
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "New transparent lunar dark basalt patch overlay authored from scratch using sampled neutral regolith grays.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+        "view_id": "dark-basalt-patch-overlay"
+      },
+      "response": {
+        "job_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "source_image_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/fc1bce09-c0a8-45df-8e77-ebe77b711dc6/assets/dark-basalt-patch-overlay/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay_v2.png",
+      "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+      "local_review_status": "selected_and_visually_reviewed"
+    },
+    {
+      "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+      "attempt": 2,
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "New transparent lunar small dust debris overlay authored from scratch using sampled neutral regolith grays.",
+        "recipe_path": "assets/pixellab/source/terrain_pack_e/organic_overlay_recipe.json",
+        "view_id": "small-dust-debris-overlay"
+      },
+      "response": {
+        "job_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "source_image_id": "fc1bce09-c0a8-45df-8e77-ebe77b711dc6",
+        "status": "rendered",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/fc1bce09-c0a8-45df-8e77-ebe77b711dc6/assets/small-dust-debris-overlay/full.png"
+      },
+      "downloaded_source": "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay_v2.png",
+      "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+      "local_review_status": "selected_and_visually_reviewed"
+    }
+  ]
+}

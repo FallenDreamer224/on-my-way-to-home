@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/camera/base_management_camera_rig.gd" id="1_rig"]
+
+[node name="BaseManagementCameraRig" type="Node2D"]
+process_priority = 100
+script = ExtResource("1_rig")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+enabled = false
+process_callback = 1
+position_smoothing_enabled = false

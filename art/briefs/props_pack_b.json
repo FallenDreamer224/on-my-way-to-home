@@ -1,0 +1,173 @@
+{
+  "pack_id": "props_pack_b",
+  "standards_version": "1.0.0",
+  "status": "generated",
+  "source_provider": "PixelLab.ai MCP",
+  "style_reference": {
+    "path": "assets/pixellab/source/props_pack_b/astronaut_style_reference.png",
+    "source_sheet": "assets/characters/astronaut/walk/se.png",
+    "region_px": [
+      0,
+      0,
+      64,
+      64
+    ],
+    "policy": "Native animation-frame extraction for style guidance only, without rescaling; source unchanged.",
+    "additional_visual_review": "assets/characters/chiwis/walk/se.png",
+    "sha256": "864d9b2ec84cf2646f59243aa01f6bbce17e056cbee86c92699d937bc6888a1e"
+  },
+  "style_prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. ",
+  "anchor_policy": "Requested shared base around [32,52]. On export, measure actual visible base center and lowest opaque row+1, keep full canvas, and record ground anchor and negative Sprite2D offset. Do not move pixels to force anchoring.",
+  "assets": [
+    {
+      "asset_id": "props_pack_b_lunar_sample",
+      "file_name": "lunar_sample.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A single small angular lunar basalt sample, irregular rock chunk with a few pale crystalline facets. Low asymmetrical triangular silhouette. About 16-22 pixels wide. No container.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A single small angular lunar basalt sample, irregular rock chunk with a few pale crystalline facets. Low asymmetrical triangular silhouette. About 16-22 pixels wide. No container."
+    },
+    {
+      "asset_id": "props_pack_b_metal_scrap",
+      "file_name": "metal_scrap.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small pile of two bent pale metal offcuts, one distinct circular bolt hole and a dark broken edge. Flat jagged silhouette about 20-26 pixels wide.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A small pile of two bent pale metal offcuts, one distinct circular bolt hole and a dark broken edge. Flat jagged silhouette about 20-26 pixels wide."
+    },
+    {
+      "asset_id": "props_pack_b_supply_pack",
+      "file_name": "supply_pack.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A squat sealed soft rectangular emergency supply pouch, folded white fabric, blue strap and a small red latch accent. No writing or medical cross. About 20-26 pixels wide.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A squat sealed soft rectangular emergency supply pouch, folded white fabric, blue strap and a small red latch accent. No writing or medical cross. About 20-26 pixels wide."
+    },
+    {
+      "asset_id": "props_pack_b_small_equipment_box",
+      "file_name": "small_equipment_box.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A compact rigid white equipment box on short feet, square body with dark seam and blue front latch, top and two sides visible. About 28-34 pixels wide.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A compact rigid white equipment box on short feet, square body with dark seam and blue front latch, top and two sides visible. About 28-34 pixels wide."
+    },
+    {
+      "asset_id": "props_pack_b_tool_case",
+      "file_name": "tool_case.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A low horizontal hard-shell tool case with a clear handle and two clasps, pale gray shell with navy trim. Broad low silhouette about 28-34 pixels wide.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A low horizontal hard-shell tool case with a clear handle and two clasps, pale gray shell with navy trim. Broad low silhouette about 28-34 pixels wide."
+    },
+    {
+      "asset_id": "props_pack_b_small_resource_canister",
+      "file_name": "small_resource_canister.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small upright cylindrical resource canister with screw cap and one dark blue band, white metal body. Narrow tall silhouette about 16-22 pixels wide and 22-28 pixels tall. No hoses.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A small upright cylindrical resource canister with screw cap and one dark blue band, white metal body. Narrow tall silhouette about 16-22 pixels wide and 22-28 pixels tall. No hoses."
+    },
+    {
+      "asset_id": "props_pack_b_utility_crate",
+      "file_name": "utility_crate.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A sturdy medium cubic lunar utility crate with reinforced white corners, slate inset side panels and blue corner fittings. Top and two sides visible, about 32-40 pixels wide. Not a building.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A sturdy medium cubic lunar utility crate with reinforced white corners, slate inset side panels and blue corner fittings. Top and two sides visible, about 32-40 pixels wide. Not a building."
+    },
+    {
+      "asset_id": "props_pack_b_rock_cluster",
+      "file_name": "rock_cluster.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. Three adjoining uneven Moon basalt rocks forming one compact low cluster. One taller rock and two lower angular fragments. Gray cool highlights, navy gray shadows, about 30-40 pixels wide. No crystals, plants or terrain tile.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "Three adjoining uneven Moon basalt rocks forming one compact low cluster. One taller rock and two lower angular fragments. Gray cool highlights, navy gray shadows, about 30-40 pixels wide. No crystals, plants or terrain tile."
+    },
+    {
+      "asset_id": "props_pack_b_broken_machine_part",
+      "file_name": "broken_machine_part.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small broken mechanical rotor assembly lying on the ground, an exposed cog ring, snapped bracket and short dark cable. Irregular diagonal silhouette about 28-36 pixels wide. No complete robot or vehicle.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A small broken mechanical rotor assembly lying on the ground, an exposed cog ring, snapped bracket and short dark cable. Irregular diagonal silhouette about 28-36 pixels wide. No complete robot or vehicle."
+    },
+    {
+      "asset_id": "props_pack_b_beacon_marker",
+      "file_name": "beacon_marker.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small ground-standing signal marker: compact tripod base, short slender pale mast, tiny blue indicator lamp at top. Clear narrow vertical silhouette about 20-28 pixels wide and 32-40 pixels tall. No radiating waves or glow, no lettering.",
+      "logical_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "physical_scale_intent": "A small ground-standing signal marker: compact tripod base, short slender pale mast, tiny blue indicator lamp at top. Clear narrow vertical silhouette about 20-28 pixels wide and 32-40 pixels tall. No radiating waves or glow, no lettering."
+    }
+  ]
+}

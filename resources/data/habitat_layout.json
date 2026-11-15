@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "description": "Fictional future lunar outpost; compact cutaway room maps. No meters or habitation certification implied.",
+  "exterior_entry_cell": [
+    -8,
+    0
+  ],
+  "cycle_presentation_seconds": 1,
+  "rooms": [
+    {
+      "id": "crew_airlock",
+      "title": "Crew airlock",
+      "size": [
+        8,
+        7
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "airlock",
+      "facilities": [
+        {
+          "id": "airlock",
+          "title": "Crew airlock",
+          "point": [
+            3,
+            2
+          ],
+          "fixture": [
+            3,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "outer",
+          "title": "Outer hatch",
+          "destination": "outside",
+          "point": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "inner",
+          "title": "Inner hatch",
+          "destination": "equipment_lock",
+          "point": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "inspection",
+          "title": "Inspect suit / dust seals",
+          "destination": "inspect",
+          "point": [
+            2,
+            5
+          ]
+        },
+        {
+          "id": "cycle",
+          "title": "Cycle pressure",
+          "destination": "cycle",
+          "point": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "seal_outer",
+          "title": "Close outer hatch",
+          "destination": "seal_outer",
+          "point": [
+            2,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    },
+    {
+      "id": "equipment_lock",
+      "title": "Equipment / suit lock",
+      "size": [
+        8,
+        7
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "equipment",
+          "title": "Equipment lock",
+          "point": [
+            2,
+            2
+          ],
+          "fixture": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "suits",
+          "title": "Suit maintenance",
+          "point": [
+            4,
+            2
+          ],
+          "fixture": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "dust",
+          "title": "Dust-removal station",
+          "point": [
+            6,
+            2
+          ],
+          "fixture": [
+            6,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "crew",
+          "title": "Crew airlock",
+          "destination": "crew_airlock",
+          "point": [
+            1,
+            4
+          ]
+        },
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            6,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    },
+    {
+      "id": "hub",
+      "title": "Main habitat / central corridor",
+      "size": [
+        8,
+        9
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "main",
+          "title": "Main habitat / central corridor",
+          "point": [
+            3,
+            6
+          ],
+          "fixture": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": "operations",
+          "title": "Mission operations / communications",
+          "point": [
+            3,
+            2
+          ],
+          "fixture": [
+            3,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "lock",
+          "title": "Equipment lock",
+          "destination": "equipment_lock",
+          "point": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "living",
+          "title": "Living compartment",
+          "destination": "living",
+          "point": [
+            1,
+            4
+          ]
+        },
+        {
+          "id": "engineering",
+          "title": "Engineering",
+          "destination": "engineering",
+          "point": [
+            1,
+            6
+          ]
+        },
+        {
+          "id": "greenhouse",
+          "title": "Greenhouse",
+          "destination": "greenhouse",
+          "point": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Health / science",
+          "destination": "health_lab",
+          "point": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "cargo",
+          "title": "Cargo",
+          "destination": "cargo",
+          "point": [
+            6,
+            6
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    },
+    {
+      "id": "living",
+      "title": "Living compartment",
+      "size": [
+        8,
+        8
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "sleep",
+          "title": "Sleeping quarters",
+          "point": [
+            2,
+            2
+          ],
+          "fixture": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "galley",
+          "title": "Galley / food storage",
+          "point": [
+            4,
+            2
+          ],
+          "fixture": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "Hygiene / waste compartment",
+          "point": [
+            6,
+            2
+          ],
+          "fixture": [
+            6,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            1,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering compartment",
+      "size": [
+        8,
+        8
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "eclss",
+          "title": "Environmental control / ECLSS",
+          "point": [
+            2,
+            2
+          ],
+          "fixture": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Water processing / storage",
+          "point": [
+            4,
+            2
+          ],
+          "fixture": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "power",
+          "title": "Power distribution / engineering",
+          "point": [
+            6,
+            2
+          ],
+          "fixture": [
+            6,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            1,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    },
+    {
+      "id": "health_lab",
+      "title": "Health / science compartment",
+      "size": [
+        8,
+        8
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "medical",
+          "title": "Medical / health monitoring",
+          "point": [
+            2,
+            2
+          ],
+          "fixture": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "Exercise / rehabilitation",
+          "point": [
+            4,
+            2
+          ],
+          "fixture": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "science",
+          "title": "Science lab / sample storage",
+          "point": [
+            6,
+            2
+          ],
+          "fixture": [
+            6,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            1,
+            4
+          ]
+        },
+        {
+          "id": "shelter",
+          "title": "Emergency shelter",
+          "destination": "shelter",
+          "point": [
+            6,
+            5
+          ]
+        }
+      ],
+      "extra_blocked_cells": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "title": "Greenhouse / hydroponics laboratory",
+      "size": [
+        8,
+        7
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "greenhouse",
+          "title": "Greenhouse / hydroponics lab",
+          "point": [
+            3,
+            2
+          ],
+          "fixture": [
+            3,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            1,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "cargo",
+      "title": "Cargo / spares compartment",
+      "size": [
+        8,
+        7
+      ],
+      "spawn": [
+        2,
+        4
+      ],
+      "companion_spawn": [
+        3,
+        4
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "cargo",
+          "title": "Cargo / spare-parts storage",
+          "point": [
+            3,
+            2
+          ],
+          "fixture": [
+            3,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "hub",
+          "title": "Central corridor",
+          "destination": "hub",
+          "point": [
+            1,
+            4
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    },
+    {
+      "id": "shelter",
+      "title": "Protected emergency shelter",
+      "size": [
+        6,
+        6
+      ],
+      "spawn": [
+        2,
+        3
+      ],
+      "companion_spawn": [
+        3,
+        3
+      ],
+      "pressure_domain": "habitat",
+      "facilities": [
+        {
+          "id": "shelter",
+          "title": "Protected emergency shelter",
+          "point": [
+            3,
+            2
+          ],
+          "fixture": [
+            3,
+            1
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "id": "health",
+          "title": "Health / science",
+          "destination": "health_lab",
+          "point": [
+            1,
+            3
+          ]
+        }
+      ],
+      "extra_blocked_cells": []
+    }
+  ],
+  "default_room_zoom": 1
+}

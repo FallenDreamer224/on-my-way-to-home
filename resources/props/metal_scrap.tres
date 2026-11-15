@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="PropAppearance" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/prop_appearance.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/environment/props_pack_b/metal_scrap.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+texture = ExtResource("2")
+ground_anchor = Vector2i(32, 48)

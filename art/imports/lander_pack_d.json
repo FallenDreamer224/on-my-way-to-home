@@ -1,0 +1,1566 @@
+{
+  "pack_id": "lander_pack_d",
+  "standards_version": "1.0.0",
+  "assets": [
+    {
+      "asset_id": "lander_pack_d_moon_lander",
+      "standards_version": "1.0.0",
+      "category": "lander_or_support_asset",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/moon_lander.png"
+      ],
+      "runtime_files": [
+        "assets/vehicles/lander_pack_d/moon_lander.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        320,
+        320
+      ],
+      "physical_scale_intent": "Major player arrival vehicle: broad four-legged transport lander with human-sized entry hatch, matching a 48-56-pixel astronaut. Four-tile footprint is separate from tall canvas and overhang.",
+      "review_status": "reviewed_asset_only_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "ac5e9111-b1c6-4673-b0dc-53c0d83f28a6",
+      "provider_image_id": "1b9562de-fab5-5435-97a6-017cb3820a32",
+      "production_tool": "create_image_pro",
+      "prompt": "One complete MOON LANDER / CREW TRANSPORT CRAFT as a major landmark for a practical near-future lunar survival game. Native 2D pixel art, orthographic 2:1 isometric view from above, top and two sides visible, ground axes slopes plus/minus one half. Broad compact two-level pressure cabin with faceted rounded white/light-gray shell, short upper cockpit with dark navy-blue windows, a clear near-facing entry hatch about 45-50 pixels high on the right/front face, restrained blue seals and gray service panels. Four robust articulated landing legs spread around the cabin with wide footpads, a short central engine bell underneath. Readable iconic sturdy silhouette, practical NASA-inspired engineering, not a fantasy spaceship. About 220-250 pixels wide across legs and 230-260 pixels tall inside native 320x320 canvas, enough transparent padding all around. Ground footprint budget 4x4 tiles (256x128 ground diamond). Native pixel density matches the reference Moon habitat and a 55-pixel human. White/light-gray hull, subtle navy accents, crisp dark blue-gray outlines, clustered restrained shading, upper-left light. Single stationary landed craft only. Entry hatch is closed; leave room for a separate optional boarding ramp. Complete leg silhouette with clean empty transparent margins. No characters, text, lettering, numbers, logos, flags, scenery, floor, dust, smoke, flames, exhaust plume, cast shadow, glowing effects or additional cargo.",
+      "request_record": "assets/pixellab/source/lander_pack_d/generation_jobs.json",
+      "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5",
+      "opaque_bounds_px": [
+        14,
+        22,
+        292,
+        274
+      ],
+      "transparent_pixels": 73137,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 32,
+      "ground_anchor_px_from_image_top_left": [
+        160,
+        284
+      ],
+      "anchor_policy": "Craft: visually measured front-footpad contact center. Ramp/decal: exact design coordinates from PixelLab draw recipes. Cargo: measured lowest base row + 1.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -160,
+        -284
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "explicit_footprint_grid_cells": [
+        4,
+        4
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "footprint_reference_cell": [
+        0,
+        0
+      ],
+      "footprint_outline_relative_to_reference_cell_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          128,
+          48
+        ],
+        [
+          0,
+          112
+        ],
+        [
+          -128,
+          48
+        ]
+      ],
+      "sorting_origin_relative_to_reference_cell_px": [
+        0,
+        112
+      ],
+      "footprint_policy": "4x4 lander and marker budgets, 2x1 ramp, 1x1 cargo. Keep explicit occupied cells separate from sprite canvas and overhang; no collision or gameplay occupancy is implemented.",
+      "orientation": "Single native 2:1 isometric-compatible view; upper-left lighting for raised objects.",
+      "animation": false,
+      "gameplay_behavior": "None added; standalone artwork.",
+      "occlusion_policy": "Review tall/multi-cell occlusion, ramp clearance and actual collision during future scene integration.",
+      "entry_hatch_threshold_px": [
+        205,
+        207
+      ],
+      "image_footprint_vertices_px": [
+        [
+          160,
+          156
+        ],
+        [
+          288,
+          220
+        ],
+        [
+          160,
+          284
+        ],
+        [
+          32,
+          220
+        ]
+      ]
+    },
+    {
+      "asset_id": "lander_pack_d_deployed_ramp",
+      "standards_version": "1.0.0",
+      "category": "lander_or_support_asset",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/deployed_ramp.png"
+      ],
+      "runtime_files": [
+        "assets/vehicles/lander_pack_d/deployed_ramp.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Separate segmented boarding ramp, about one human wide, descending screen down-right from its upper connection. Static presentation only.",
+      "review_status": "reviewed_asset_only_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "a31666e1-01fa-4cff-9f99-d1165a0e9476",
+      "provider_image_id": "a31666e1-01fa-4cff-9f99-d1165a0e9476",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Separate segmented boarding ramp, about one human wide, descending screen down-right from its upper connection. Static presentation only.",
+      "request_record": "assets/pixellab/source/lander_pack_d/generation_jobs.json",
+      "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e",
+      "opaque_bounds_px": [
+        21,
+        17,
+        92,
+        90
+      ],
+      "transparent_pixels": 13200,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "ground_anchor_px_from_image_top_left": [
+        86,
+        106
+      ],
+      "anchor_policy": "Craft: visually measured front-footpad contact center. Ramp/decal: exact design coordinates from PixelLab draw recipes. Cargo: measured lowest base row + 1.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -86,
+        -106
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "explicit_footprint_grid_cells": [
+        2,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "footprint_reference_cell": [
+        0,
+        0
+      ],
+      "footprint_outline_relative_to_reference_cell_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          64,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "sorting_origin_relative_to_reference_cell_px": [
+        32,
+        32
+      ],
+      "footprint_policy": "4x4 lander and marker budgets, 2x1 ramp, 1x1 cargo. Keep explicit occupied cells separate from sprite canvas and overhang; no collision or gameplay occupancy is implemented.",
+      "orientation": "Single native 2:1 isometric-compatible view; upper-left lighting for raised objects.",
+      "animation": false,
+      "gameplay_behavior": "None added; standalone artwork.",
+      "occlusion_policy": "Review tall/multi-cell occlusion, ramp clearance and actual collision during future scene integration.",
+      "attachment_anchor_px": [
+        34,
+        24
+      ],
+      "drawing_recipe": {
+        "job": {
+          "canvas": [
+            128,
+            128
+          ],
+          "frame_count": 1,
+          "views": [
+            {
+              "id": "ramp",
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "source_bookends_exact": false,
+          "require_clear_border": true
+        },
+        "scene": {
+          "palette": {
+            "ink": "#263144",
+            "deck": "#acb6c3",
+            "side": "#667285",
+            "seam": "#768699",
+            "light": "#dce2e8",
+            "blue": "#4d6f9f"
+          },
+          "layers": [
+            {
+              "id": "ramp",
+              "name": "Ramp body"
+            }
+          ],
+          "views": {
+            "ramp": {
+              "nodes": {
+                "ramp": {
+                  "layer": "ramp",
+                  "at": [
+                    0,
+                    0
+                  ],
+                  "draw": [
+                    {
+                      "op": "polygon",
+                      "points": [
+                        [
+                          22,
+                          30
+                        ],
+                        [
+                          46,
+                          18
+                        ],
+                        [
+                          110,
+                          90
+                        ],
+                        [
+                          86,
+                          102
+                        ]
+                      ],
+                      "color": "deck",
+                      "outline": "ink",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "polygon",
+                      "points": [
+                        [
+                          22,
+                          30
+                        ],
+                        [
+                          86,
+                          102
+                        ],
+                        [
+                          86,
+                          106
+                        ],
+                        [
+                          22,
+                          34
+                        ]
+                      ],
+                      "color": "side",
+                      "outline": "ink",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "polygon",
+                      "points": [
+                        [
+                          86,
+                          102
+                        ],
+                        [
+                          110,
+                          90
+                        ],
+                        [
+                          110,
+                          94
+                        ],
+                        [
+                          86,
+                          106
+                        ]
+                      ],
+                      "color": "side",
+                      "outline": "ink",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          30,
+                          39
+                        ],
+                        [
+                          54,
+                          27
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          31,
+                          39
+                        ],
+                        [
+                          53,
+                          28
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          38,
+                          48
+                        ],
+                        [
+                          62,
+                          36
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          39,
+                          48
+                        ],
+                        [
+                          61,
+                          37
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          46,
+                          57
+                        ],
+                        [
+                          70,
+                          45
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          47,
+                          57
+                        ],
+                        [
+                          69,
+                          46
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          54,
+                          66
+                        ],
+                        [
+                          78,
+                          54
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          55,
+                          66
+                        ],
+                        [
+                          77,
+                          55
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          62,
+                          75
+                        ],
+                        [
+                          86,
+                          63
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          63,
+                          75
+                        ],
+                        [
+                          85,
+                          64
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          70,
+                          84
+                        ],
+                        [
+                          94,
+                          72
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          71,
+                          84
+                        ],
+                        [
+                          93,
+                          73
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          78,
+                          93
+                        ],
+                        [
+                          102,
+                          81
+                        ]
+                      ],
+                      "color": "seam",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          79,
+                          93
+                        ],
+                        [
+                          101,
+                          82
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          22,
+                          30
+                        ],
+                        [
+                          86,
+                          102
+                        ]
+                      ],
+                      "color": "ink",
+                      "stroke_width": 4
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          46,
+                          18
+                        ],
+                        [
+                          110,
+                          90
+                        ]
+                      ],
+                      "color": "ink",
+                      "stroke_width": 4
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          22,
+                          29
+                        ],
+                        [
+                          86,
+                          101
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          46,
+                          17
+                        ],
+                        [
+                          110,
+                          89
+                        ]
+                      ],
+                      "color": "light",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          22,
+                          30
+                        ],
+                        [
+                          29,
+                          38
+                        ]
+                      ],
+                      "color": "blue",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          103,
+                          82
+                        ],
+                        [
+                          110,
+                          90
+                        ]
+                      ],
+                      "color": "blue",
+                      "stroke_width": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "lander_pack_d_landing_marker_decal",
+      "standards_version": "1.0.0",
+      "category": "lander_or_support_asset",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/landing_marker_decal.png"
+      ],
+      "runtime_files": [
+        "assets/vehicles/lander_pack_d/landing_marker_decal.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        288,
+        160
+      ],
+      "physical_scale_intent": "Flat dashed 256x128 ground diamond, four 64x32 grid cells on each side, transparent empty center, muted paint/cyan corners. No solid pad geometry.",
+      "review_status": "reviewed_asset_only_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "6f8602f1-f671-4b9f-a5f3-348f6cc4f791",
+      "provider_image_id": "6f8602f1-f671-4b9f-a5f3-348f6cc4f791",
+      "production_tool": "pixelart_workbench.draw",
+      "prompt": "Flat dashed 256x128 ground diamond, four 64x32 grid cells on each side, transparent empty center, muted paint/cyan corners. No solid pad geometry.",
+      "request_record": "assets/pixellab/source/lander_pack_d/generation_jobs.json",
+      "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df",
+      "opaque_bounds_px": [
+        16,
+        16,
+        258,
+        130
+      ],
+      "transparent_pixels": 45410,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 2,
+      "ground_anchor_px_from_image_top_left": [
+        144,
+        144
+      ],
+      "anchor_policy": "Craft: visually measured front-footpad contact center. Ramp/decal: exact design coordinates from PixelLab draw recipes. Cargo: measured lowest base row + 1.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -144,
+        -144
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "explicit_footprint_grid_cells": [
+        4,
+        4
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "footprint_reference_cell": [
+        0,
+        0
+      ],
+      "footprint_outline_relative_to_reference_cell_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          128,
+          48
+        ],
+        [
+          0,
+          112
+        ],
+        [
+          -128,
+          48
+        ]
+      ],
+      "sorting_origin_relative_to_reference_cell_px": [
+        0,
+        112
+      ],
+      "footprint_policy": "4x4 lander and marker budgets, 2x1 ramp, 1x1 cargo. Keep explicit occupied cells separate from sprite canvas and overhang; no collision or gameplay occupancy is implemented.",
+      "orientation": "Single native 2:1 isometric-compatible view; upper-left lighting for raised objects.",
+      "animation": false,
+      "gameplay_behavior": "None added; standalone artwork.",
+      "occlusion_policy": "Review tall/multi-cell occlusion, ramp clearance and actual collision during future scene integration.",
+      "image_footprint_vertices_px": [
+        [
+          144,
+          16
+        ],
+        [
+          272,
+          80
+        ],
+        [
+          144,
+          144
+        ],
+        [
+          16,
+          80
+        ]
+      ],
+      "drawing_recipe": {
+        "job": {
+          "canvas": [
+            288,
+            160
+          ],
+          "frame_count": 1,
+          "views": [
+            {
+              "id": "decal",
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "source_bookends_exact": false,
+          "require_clear_border": true
+        },
+        "scene": {
+          "palette": {
+            "paint": "#acb7c2",
+            "cyan": "#679db9"
+          },
+          "layers": [
+            {
+              "id": "markings",
+              "name": "Ground markings"
+            }
+          ],
+          "views": {
+            "decal": {
+              "nodes": {
+                "markings": {
+                  "layer": "markings",
+                  "at": [
+                    0,
+                    0
+                  ],
+                  "draw": [
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          160,
+                          24
+                        ],
+                        [
+                          168,
+                          28
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          176,
+                          32
+                        ],
+                        [
+                          184,
+                          36
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          192,
+                          40
+                        ],
+                        [
+                          200,
+                          44
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          208,
+                          48
+                        ],
+                        [
+                          216,
+                          52
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          224,
+                          56
+                        ],
+                        [
+                          232,
+                          60
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          240,
+                          64
+                        ],
+                        [
+                          248,
+                          68
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          256,
+                          72
+                        ],
+                        [
+                          264,
+                          76
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          256,
+                          88
+                        ],
+                        [
+                          248,
+                          92
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          240,
+                          96
+                        ],
+                        [
+                          232,
+                          100
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          224,
+                          104
+                        ],
+                        [
+                          216,
+                          108
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          208,
+                          112
+                        ],
+                        [
+                          200,
+                          116
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          192,
+                          120
+                        ],
+                        [
+                          184,
+                          124
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          176,
+                          128
+                        ],
+                        [
+                          168,
+                          132
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          160,
+                          136
+                        ],
+                        [
+                          152,
+                          140
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          128,
+                          136
+                        ],
+                        [
+                          120,
+                          132
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          112,
+                          128
+                        ],
+                        [
+                          104,
+                          124
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          96,
+                          120
+                        ],
+                        [
+                          88,
+                          116
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          80,
+                          112
+                        ],
+                        [
+                          72,
+                          108
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          64,
+                          104
+                        ],
+                        [
+                          56,
+                          100
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          48,
+                          96
+                        ],
+                        [
+                          40,
+                          92
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          32,
+                          88
+                        ],
+                        [
+                          24,
+                          84
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          32,
+                          72
+                        ],
+                        [
+                          40,
+                          68
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          48,
+                          64
+                        ],
+                        [
+                          56,
+                          60
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          64,
+                          56
+                        ],
+                        [
+                          72,
+                          52
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          80,
+                          48
+                        ],
+                        [
+                          88,
+                          44
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          96,
+                          40
+                        ],
+                        [
+                          104,
+                          36
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          112,
+                          32
+                        ],
+                        [
+                          120,
+                          28
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          128,
+                          24
+                        ],
+                        [
+                          136,
+                          20
+                        ]
+                      ],
+                      "color": "paint",
+                      "stroke_width": 1
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          120,
+                          28
+                        ],
+                        [
+                          144,
+                          16
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          168,
+                          28
+                        ],
+                        [
+                          144,
+                          16
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          248,
+                          68
+                        ],
+                        [
+                          272,
+                          80
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          248,
+                          92
+                        ],
+                        [
+                          272,
+                          80
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          168,
+                          132
+                        ],
+                        [
+                          144,
+                          144
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          120,
+                          132
+                        ],
+                        [
+                          144,
+                          144
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          40,
+                          92
+                        ],
+                        [
+                          16,
+                          80
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    },
+                    {
+                      "op": "path",
+                      "points": [
+                        [
+                          40,
+                          68
+                        ],
+                        [
+                          16,
+                          80
+                        ]
+                      ],
+                      "color": "cyan",
+                      "stroke_width": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "asset_id": "lander_pack_d_support_cargo_container",
+      "standards_version": "1.0.0",
+      "category": "lander_or_support_asset",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/support_cargo_container.png"
+      ],
+      "runtime_files": [
+        "assets/vehicles/lander_pack_d/support_cargo_container.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Small nonblocking visual cargo pod to stage near the lander; no inventory or storage behavior.",
+      "review_status": "reviewed_asset_only_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "8d1ce44b-3b51-4494-9649-25dfd79fc1e5",
+      "provider_image_id": "6c231eee-9049-5e70-ba92-1cc8a83dff59",
+      "production_tool": "create_image_pro_flash",
+      "prompt": "One small support cargo container for a lunar landing craft. Compact white/light-gray reinforced cargo pod with beveled corners, dark navy-gray base, restrained blue latch, two recessed grab points. Isometric 2:1 view, top and two sides visible, upper-left lighting, crisp dark blue-gray one-pixel outlines and clustered pixel shading matching the Moon base pack. Single squat box about 36 pixels wide and 30 pixels tall, centered within native 64x64 canvas. Empty transparent margins. Plain unmarked shell. Only the container, no people, writing, logo or background.",
+      "request_record": "assets/pixellab/source/lander_pack_d/generation_jobs.json",
+      "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337",
+      "opaque_bounds_px": [
+        10,
+        12,
+        45,
+        41
+      ],
+      "transparent_pixels": 2713,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 10,
+      "ground_anchor_px_from_image_top_left": [
+        33,
+        53
+      ],
+      "anchor_policy": "Craft: visually measured front-footpad contact center. Ramp/decal: exact design coordinates from PixelLab draw recipes. Cargo: measured lowest base row + 1.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -33,
+        -53
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "footprint_reference_cell": [
+        0,
+        0
+      ],
+      "footprint_outline_relative_to_reference_cell_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "sorting_origin_relative_to_reference_cell_px": [
+        0,
+        16
+      ],
+      "footprint_policy": "4x4 lander and marker budgets, 2x1 ramp, 1x1 cargo. Keep explicit occupied cells separate from sprite canvas and overhang; no collision or gameplay occupancy is implemented.",
+      "orientation": "Single native 2:1 isometric-compatible view; upper-left lighting for raised objects.",
+      "animation": false,
+      "gameplay_behavior": "None added; standalone artwork.",
+      "occlusion_policy": "Review tall/multi-cell occlusion, ramp clearance and actual collision during future scene integration."
+    }
+  ],
+  "gameplay_integration": false,
+  "style_reference": {
+    "path": "assets/buildings/base_pack_c/small_habitat_module.png",
+    "provider_job_id": "72d6a198-ff2b-4b8c-abaf-abb98e8fabe3",
+    "policy": "Match the Moon base white/light-gray/blue materials, outlines, pixel density and upper-left lighting.",
+    "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba"
+  },
+  "assembly_preview": {
+    "lander_front_contact_px": [
+      350,
+      420
+    ],
+    "ramp_upper_attach_at_lander_image_px": [
+      205,
+      207
+    ],
+    "cargo_front_contact_px": [
+      510,
+      435
+    ],
+    "policy": "Preview composition only; connections, hatch clearance, collision and walkability need scene review before gameplay integration."
+  }
+}

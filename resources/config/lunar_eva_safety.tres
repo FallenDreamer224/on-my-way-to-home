@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EvaSafetyLimits" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/eva_safety_limits.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+allowed_cells = Rect2i(-19, -19, 38, 38)
+warning_inset_cells = 3
+boundary_inset_cells = 1
+return_cell = Vector2i(0, 0)
+warning_enabled = true
+boundary_enabled = true
+cooldown_seconds = 6.0
+normal_rearm_seconds = 3.0
+message_duration_seconds = 5.0
+warning_message = "We're nearing our mission limit. Keep reserves and a known route back."
+boundary_message = "Our mission area ends here. We should turn back."
+safety_reason = "Keep reserves for return."

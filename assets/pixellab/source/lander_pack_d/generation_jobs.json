@@ -1,0 +1,108 @@
+{
+  "provider": "PixelLab.ai MCP",
+  "jobs": [
+    {
+      "asset_id": "lander_pack_d_moon_lander",
+      "tool": "create_image_pro",
+      "request": {
+        "description": "One complete MOON LANDER / CREW TRANSPORT CRAFT as a major landmark for a practical near-future lunar survival game. Native 2D pixel art, orthographic 2:1 isometric view from above, top and two sides visible, ground axes slopes plus/minus one half. Broad compact two-level pressure cabin with faceted rounded white/light-gray shell, short upper cockpit with dark navy-blue windows, a clear near-facing entry hatch about 45-50 pixels high on the right/front face, restrained blue seals and gray service panels. Four robust articulated landing legs spread around the cabin with wide footpads, a short central engine bell underneath. Readable iconic sturdy silhouette, practical NASA-inspired engineering, not a fantasy spaceship. About 220-250 pixels wide across legs and 230-260 pixels tall inside native 320x320 canvas, enough transparent padding all around. Ground footprint budget 4x4 tiles (256x128 ground diamond). Native pixel density matches the reference Moon habitat and a 55-pixel human. White/light-gray hull, subtle navy accents, crisp dark blue-gray outlines, clustered restrained shading, upper-left light. Single stationary landed craft only. Entry hatch is closed; leave room for a separate optional boarding ramp. Complete leg silhouette with clean empty transparent margins. No characters, text, lettering, numbers, logos, flags, scenery, floor, dust, smoke, flames, exhaust plume, cast shadow, glowing effects or additional cargo.",
+        "width": 320,
+        "height": 320,
+        "no_background": true,
+        "max_colors": 32,
+        "seed": 3100,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/72d6a198-ff2b-4b8c-abaf-abb98e8fabe3/download",
+        "style_copy": [
+          "color_palette",
+          "outline",
+          "detail",
+          "shading"
+        ]
+      },
+      "response": {
+        "job_id": "ac5e9111-b1c6-4673-b0dc-53c0d83f28a6",
+        "source_image_id": "1b9562de-fab5-5435-97a6-017cb3820a32",
+        "estimated_generations": 15,
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/lander_pack_d/moon_lander.png",
+      "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5"
+    },
+    {
+      "asset_id": "lander_pack_d_support_cargo_container",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "One small support cargo container for a lunar landing craft. Compact white/light-gray reinforced cargo pod with beveled corners, dark navy-gray base, restrained blue latch, two recessed grab points. Isometric 2:1 view, top and two sides visible, upper-left lighting, crisp dark blue-gray one-pixel outlines and clustered pixel shading matching the Moon base pack. Single squat box about 36 pixels wide and 30 pixels tall, centered within native 64x64 canvas. Empty transparent margins. Plain unmarked shell. Only the container, no people, writing, logo or background.",
+        "width": 64,
+        "height": 64,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 3101,
+        "style_image": {
+          "source_image_id": "f7c63dc5-85b0-5e09-9631-68a2b0e95353",
+          "usage_description": "Copy the white/light-gray/blue hardware style only. Draw a cargo container."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "8d1ce44b-3b51-4494-9649-25dfd79fc1e5",
+        "image_id": "6c231eee-9049-5e70-ba92-1cc8a83dff59",
+        "source_image_id": "6c231eee-9049-5e70-ba92-1cc8a83dff59",
+        "job_id": "8d1ce44b-3b51-4494-9649-25dfd79fc1e5",
+        "description": "One small support cargo container for a lunar landing craft. Compact white/light-gray reinforced cargo pod with beveled corners, dark navy-gray base, restrained blue latch, two recessed grab points. Isometric 2:1 view, top and two sides visible, upper-left lighting, crisp dark blue-gray one-pixel outlines and clustered pixel shading matching the Moon base pack. Single squat box about 36 pixels wide and 30 pixels tall, centered within native 64x64 canvas. Empty transparent margins. Plain unmarked shell. Only the container, no people, writing, logo or background.",
+        "seed": 3101,
+        "image_size": {
+          "width": 64,
+          "height": 64
+        },
+        "output_count": 1,
+        "estimated_generations": 5,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/8d1ce44b-3b51-4494-9649-25dfd79fc1e5/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/lander_pack_d/support_cargo_container.png",
+      "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337"
+    },
+    {
+      "asset_id": "lander_pack_d_deployed_ramp",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Separate segmented boarding ramp, about one human wide, descending screen down-right from its upper connection. Static presentation only.",
+        "recipe_path": "assets/pixellab/source/lander_pack_d/deployed_ramp_recipe.json"
+      },
+      "response": {
+        "job_id": "a31666e1-01fa-4cff-9f99-d1165a0e9476",
+        "source_image_id": "a31666e1-01fa-4cff-9f99-d1165a0e9476",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/a31666e1-01fa-4cff-9f99-d1165a0e9476/assets/ramp/full.png",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/lander_pack_d/deployed_ramp.png",
+      "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e"
+    },
+    {
+      "asset_id": "lander_pack_d_landing_marker_decal",
+      "tool": "pixelart_workbench.draw",
+      "request": {
+        "description": "Flat dashed 256x128 ground diamond, four 64x32 grid cells on each side, transparent empty center, muted paint/cyan corners. No solid pad geometry.",
+        "recipe_path": "assets/pixellab/source/lander_pack_d/landing_decal_recipe.json"
+      },
+      "response": {
+        "job_id": "6f8602f1-f671-4b9f-a5f3-348f6cc4f791",
+        "source_image_id": "6f8602f1-f671-4b9f-a5f3-348f6cc4f791",
+        "charged_generations": 0,
+        "download_url": "https://api.pixellab.ai/mcp/pixel-tools/6f8602f1-f671-4b9f-a5f3-348f6cc4f791/assets/decal/full.png",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/lander_pack_d/landing_marker_decal.png",
+      "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df"
+    }
+  ]
+}

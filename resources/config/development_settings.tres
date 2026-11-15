@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DevelopmentSettings" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/development_settings.gd" id="1_settings"]
+
+[resource]
+script = ExtResource("1_settings")
+enabled = true
+show_development_screen = true
+log_startup = false

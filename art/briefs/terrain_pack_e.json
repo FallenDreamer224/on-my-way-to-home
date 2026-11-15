@@ -1,0 +1,314 @@
+{
+  "pack_id": "terrain_pack_e",
+  "standards_version": "1.0.0",
+  "status": "generated",
+  "projection": "2:1 diamond isometric",
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "source_provider": "PixelLab.ai MCP",
+  "palette_reference": "assets/terrain/moon/moon_regolith_atlas_4x3.png",
+  "existing_terrain_hash_record": "assets/pixellab/source/terrain_pack_e/existing_terrain_hashes.json",
+  "canonical_mask": "abs(2*x-63)+2*abs(2*y-31) <= 64 for integer x,y; 1024 covered pixel centers.",
+  "placement_policy": "All tile/overlay canvases center on [32,16]; full native 64x32 regions, zero margins/separation. Keep original ground and logical map unchanged.",
+  "assets": [
+    {
+      "asset_id": "terrain_pack_e_small_crater_overlay",
+      "file_name": "small_crater_overlay.png",
+      "role": "organic_overlay",
+      "description": "Transparent small crater overlay with no full ground background.",
+      "canonical_mask_required": true,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false,
+      "expected_pixels": 429
+    },
+    {
+      "asset_id": "terrain_pack_e_rocky_patch_overlay",
+      "file_name": "rocky_patch_overlay.png",
+      "role": "organic_overlay",
+      "description": "Transparent rocky patch overlay with no full ground background.",
+      "canonical_mask_required": true,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false,
+      "expected_pixels": 132
+    },
+    {
+      "asset_id": "terrain_pack_e_dark_basalt_patch_overlay",
+      "file_name": "dark_basalt_patch_overlay.png",
+      "role": "organic_overlay",
+      "description": "Transparent dark basalt patch overlay with no full ground background.",
+      "canonical_mask_required": true,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false,
+      "expected_pixels": 376
+    },
+    {
+      "asset_id": "terrain_pack_e_worn_footpath_tile",
+      "file_name": "worn_footpath_tile.png",
+      "role": "overlay_path",
+      "description": "Straight worn path along the +column/-column axis; sparse dust strip, no footprints or text.",
+      "expected_pixels": 207,
+      "canonical_mask_required": true,
+      "outward_grid_direction": null,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_panel_tile",
+      "file_name": "base_floor_panel_tile.png",
+      "role": "opaque_floor",
+      "description": "Flush metal floor panel with restrained seams and fasteners; full canonical diamond coverage.",
+      "expected_pixels": 1024,
+      "canonical_mask_required": true,
+      "outward_grid_direction": null,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile",
+      "file_name": "base_floor_edge_tile.png",
+      "role": "overlay_edge",
+      "description": "SE outward boundary strip (+column), composited above floor panels; not a wall.",
+      "expected_pixels": 208,
+      "canonical_mask_required": true,
+      "outward_grid_direction": [
+        1,
+        0
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_sw",
+      "file_name": "base_floor_edge_tile_sw.png",
+      "role": "overlay_edge",
+      "description": "SW outward boundary strip (+row), composited above floor panels.",
+      "expected_pixels": 208,
+      "canonical_mask_required": true,
+      "outward_grid_direction": [
+        0,
+        1
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_nw",
+      "file_name": "base_floor_edge_tile_nw.png",
+      "role": "overlay_edge",
+      "description": "NW outward boundary strip (-column), composited above floor panels.",
+      "expected_pixels": 208,
+      "canonical_mask_required": true,
+      "outward_grid_direction": [
+        -1,
+        0
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_base_floor_edge_tile_ne",
+      "file_name": "base_floor_edge_tile_ne.png",
+      "role": "overlay_edge",
+      "description": "NE outward boundary strip (-row), composited above floor panels.",
+      "expected_pixels": 208,
+      "canonical_mask_required": true,
+      "outward_grid_direction": [
+        0,
+        -1
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_utility_floor_pad_tile",
+      "file_name": "utility_floor_pad_tile.png",
+      "role": "opaque_floor",
+      "description": "Flush utility floor pad with recessed diagonal service grating and restrained blue trim.",
+      "expected_pixels": 1024,
+      "canonical_mask_required": true,
+      "outward_grid_direction": null,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_small_dust_debris_overlay",
+      "file_name": "small_dust_debris_overlay.png",
+      "role": "organic_overlay",
+      "description": "Transparent small dust debris overlay with no full ground background.",
+      "canonical_mask_required": true,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false,
+      "expected_pixels": 59
+    },
+    {
+      "asset_id": "terrain_pack_e_landing_marked_ground_tile",
+      "file_name": "landing_marked_ground_tile.png",
+      "role": "opaque_ground_variant",
+      "description": "Neutral regolith-like surface with low-contrast corner landing guide paint; no letters or symbols.",
+      "expected_pixels": 1024,
+      "canonical_mask_required": true,
+      "outward_grid_direction": null,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "terrain_pack_e_hazard_stripe_floor_tile",
+      "file_name": "hazard_stripe_floor_tile.png",
+      "role": "opaque_floor",
+      "description": "Optional floor panel with a narrow muted amber/dark hazard band along the SE (+column) side.",
+      "expected_pixels": 1024,
+      "canonical_mask_required": true,
+      "outward_grid_direction": null,
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": false
+    }
+  ],
+  "footpath_policy": "Straight +column/-column strip only. No automatic turns or junctions.",
+  "edge_policy": "Four independently authored SE(+column), SW(+row), NW(-column), NE(-row) sparse edge strips. Composite above floor panels; combine adjacent edges at corners. No rotation or mirroring needed.",
+  "gameplay_integration": false
+}

@@ -1,0 +1,9 @@
+# Terrain assets
+
+Approved native 64 x 32 diamond-isometric ground PNGs and atlases belong here. Record atlas regions, margins, separation, and center anchors. Verify seamless edges with nearest filtering, lossless import, and no mipmaps. TileSet and TileMapLayer resources are Phase 0.2 work.
+
+Phase 0.7A imports the finished Moon pack as `moon/moon_regolith_atlas_4x3.png`: one byte-identical copy of the supplied `optional_seam_fixed` atlas. Its 12 static tiles are 64 x 32 pixels, arranged in a 256 x 96 sheet with no margins/separation. The reusable native TileSet is `resources/terrain/moon_terrain.tres`, assigned to Ground's `terrain_art`. Four source IDs retain existing logical kinds; each uses three atlas rows, selected deterministically by cell coordinates. No logical map data or walkability derives from artwork.
+
+Filtering is nearest, repeat disabled, compression lossless, mipmaps/rescaling/premultiplication/alpha-border modification off. Tile regions have ground anchor (32, 16), no origin adjustment and unit scale. The existing Ground offset (-32, -16) is preserved. `art/imports/moon_terrain.json` records source hashes, individual-tile/atlas equivalence, edge audits, regions and the choice rationale. See `docs/phase_0_7A_report.md` for comparison results and reproduction.
+
+The original four-texture replacement API remains available: a nonempty `replacement_textures` array overrides `terrain_art` in regolith/light/dark/dust order and must contain four native 64 x 32 textures. With neither art nor replacement textures configured, the legacy procedural factory remains a test/fallback. Do not resize tiles or change logical source IDs to add visual variety. Future decorative/terrain overlays should use sibling TileMapLayers sharing the existing grid basis and explicit Z ownership; no overlay or obstacle system is introduced by this import.

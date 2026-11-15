@@ -1,0 +1,570 @@
+{
+  "pack_id": "props_pack_b",
+  "standards_version": "1.0.0",
+  "assets": [
+    {
+      "asset_id": "props_pack_b_lunar_sample",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/lunar_sample.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/lunar_sample.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A single small angular lunar basalt sample, irregular rock chunk with a few pale crystalline facets. Low asymmetrical triangular silhouette. About 16-22 pixels wide. No container.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "ff6a1b11-fed9-4e9d-98c7-bc091c5a2886",
+      "provider_image_id": "6caf2fb0-445d-5d6c-ad23-f410f6c8b940",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A single small angular lunar basalt sample, irregular rock chunk with a few pale crystalline facets. Low asymmetrical triangular silhouette. About 16-22 pixels wide. No container.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+      "opaque_bounds_px": [
+        16,
+        16,
+        32,
+        36
+      ],
+      "transparent_pixels": 3386,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        52
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -52
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_metal_scrap",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/metal_scrap.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/metal_scrap.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A small pile of two bent pale metal offcuts, one distinct circular bolt hole and a dark broken edge. Flat jagged silhouette about 20-26 pixels wide.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "0ec85531-ad45-4c3a-9dcd-6f2464c5596c",
+      "provider_image_id": "9f44554d-b6ae-5b94-bc37-ae43f0fcf959",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small pile of two bent pale metal offcuts, one distinct circular bolt hole and a dark broken edge. Flat jagged silhouette about 20-26 pixels wide.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+      "opaque_bounds_px": [
+        11,
+        14,
+        43,
+        34
+      ],
+      "transparent_pixels": 3284,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        48
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -48
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_supply_pack",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/supply_pack_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/supply_pack.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A squat sealed soft rectangular emergency supply pouch, folded white fabric, blue strap and a small red latch accent. No writing or medical cross. About 20-26 pixels wide.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "5c89051b-24bd-4432-879f-6d606e9f63bb",
+      "provider_image_id": "90bc4b64-0cca-5d86-8604-8b59d5629e14",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A squat sealed soft rectangular emergency supply pouch, folded white fabric, blue strap and a small red latch accent. No writing or medical cross. About 20-26 pixels wide. CRITICAL CLEAN EXPORT: every visible pixel must belong to ONE connected object silhouette. Absolutely NO floating pixels, sparkle highlights in empty space, detached debris, specks, dust, particles, cast shadow or ground marks. Any highlights must stay INSIDE the object's contour. Clean fully transparent empty margin on every side. The base must be visibly attached to the main object.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+      "opaque_bounds_px": [
+        14,
+        18,
+        37,
+        31
+      ],
+      "transparent_pixels": 3265,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        49
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -49
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_small_equipment_box",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_equipment_box.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/small_equipment_box.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A compact rigid white equipment box on short feet, square body with dark seam and blue front latch, top and two sides visible. About 28-34 pixels wide.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "1e2adfa0-15ae-48e8-a660-4766e2ae374f",
+      "provider_image_id": "31d35487-0d98-5b35-9e77-d91239036ef7",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A compact rigid white equipment box on short feet, square body with dark seam and blue front latch, top and two sides visible. About 28-34 pixels wide.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+      "opaque_bounds_px": [
+        13,
+        13,
+        37,
+        40
+      ],
+      "transparent_pixels": 2964,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        53
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -31,
+        -53
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_tool_case",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/tool_case_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/tool_case.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A low horizontal hard-shell tool case with a clear handle and two clasps, pale gray shell with navy trim. Broad low silhouette about 28-34 pixels wide.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "ac5623ed-828a-4a4b-9615-8ba25dde02ea",
+      "provider_image_id": "5ab24476-edeb-5810-84f5-591af54a8803",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A low horizontal hard-shell tool case with a clear handle and two clasps, pale gray shell with navy trim. Broad low silhouette about 28-34 pixels wide. CRITICAL CLEAN EXPORT: every visible pixel must belong to ONE connected object silhouette. Absolutely NO floating pixels, sparkle highlights in empty space, detached debris, specks, dust, particles, cast shadow or ground marks. Any highlights must stay INSIDE the object's contour. Clean fully transparent empty margin on every side. The base must be visibly attached to the main object.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+      "opaque_bounds_px": [
+        7,
+        16,
+        50,
+        37
+      ],
+      "transparent_pixels": 2804,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        53
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -53
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_small_resource_canister",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_resource_canister.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/small_resource_canister.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A small upright cylindrical resource canister with screw cap and one dark blue band, white metal body. Narrow tall silhouette about 16-22 pixels wide and 22-28 pixels tall. No hoses.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "c58983ad-3ec2-443e-94ae-4a82b9f97ef0",
+      "provider_image_id": "c8a22319-d924-560a-b1e8-3f530fdf3f44",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small upright cylindrical resource canister with screw cap and one dark blue band, white metal body. Narrow tall silhouette about 16-22 pixels wide and 22-28 pixels tall. No hoses.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+      "opaque_bounds_px": [
+        22,
+        10,
+        18,
+        44
+      ],
+      "transparent_pixels": 3417,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        54
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -31,
+        -54
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_utility_crate",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/utility_crate.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/utility_crate.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A sturdy medium cubic lunar utility crate with reinforced white corners, slate inset side panels and blue corner fittings. Top and two sides visible, about 32-40 pixels wide. Not a building.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "b03c3e01-bdeb-46ee-a844-4aa515693e9e",
+      "provider_image_id": "10e2553e-8b36-5aa2-bfdc-93ef73af089f",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A sturdy medium cubic lunar utility crate with reinforced white corners, slate inset side panels and blue corner fittings. Top and two sides visible, about 32-40 pixels wide. Not a building.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+      "opaque_bounds_px": [
+        10,
+        10,
+        42,
+        46
+      ],
+      "transparent_pixels": 2674,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        56
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -31,
+        -56
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_rock_cluster",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/rock_cluster_v4.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/rock_cluster.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Three adjoining uneven Moon basalt rocks forming one compact low cluster. One taller rock and two lower angular fragments. Gray cool highlights, navy gray shadows, about 30-40 pixels wide. No crystals, plants or terrain tile.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "ec40e117-f6d9-43e7-9511-68b7355df572",
+      "provider_image_id": "00ea1bdb-01f6-5098-a27f-084ba374b6de",
+      "prompt": "A compact cluster of three adjoining angular lunar basalt rocks resting together, one taller middle rock and two short side rocks. Isometric 2:1 diamond ground perspective, light from upper left. Cool white and steel gray flat facets, dark navy-gray crisp one-pixel outlines, sparse blue-gray midtones. Simple clean chunky pixel-art game prop, unified silhouette, transparent empty margins around the rock group. Rocks occupy about 32x28 pixels centered inside a 64x64 canvas. Plain unmarked natural stones.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+      "opaque_bounds_px": [
+        8,
+        11,
+        49,
+        40
+      ],
+      "transparent_pixels": 2977,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 36,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        51
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -51
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_broken_machine_part",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/broken_machine_part_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/broken_machine_part.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A small broken mechanical rotor assembly lying on the ground, an exposed cog ring, snapped bracket and short dark cable. Irregular diagonal silhouette about 28-36 pixels wide. No complete robot or vehicle.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "190d95be-db04-4387-96ee-c7a284cbff85",
+      "provider_image_id": "21192955-3ebd-5c54-898f-6b5493d97c9d",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small broken mechanical rotor assembly lying on the ground, an exposed cog ring, snapped bracket and short dark cable. Irregular diagonal silhouette about 28-36 pixels wide. No complete robot or vehicle. CRITICAL CLEAN EXPORT: every visible pixel must belong to ONE connected object silhouette. Absolutely NO floating pixels, sparkle highlights in empty space, detached debris, specks, dust, particles, cast shadow or ground marks. Any highlights must stay INSIDE the object's contour. Clean fully transparent empty margin on every side. The base must be visibly attached to the main object.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+      "opaque_bounds_px": [
+        8,
+        14,
+        46,
+        38
+      ],
+      "transparent_pixels": 3081,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 24,
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        52
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -31,
+        -52
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    },
+    {
+      "asset_id": "props_pack_b_beacon_marker",
+      "standards_version": "1.0.0",
+      "category": "world_prop",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/beacon_marker.png"
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/beacon_marker.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "A small ground-standing signal marker: compact tripod base, short slender pale mast, tiny blue indicator lamp at top. Clear narrow vertical silhouette about 20-28 pixels wide and 32-40 pixels tall. No radiating waves or glow, no lettering.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "a9230201-d8d5-432f-88c7-7fbcbafcc290",
+      "provider_image_id": "95781599-5447-5686-b5ac-43d6fec5a67e",
+      "prompt": "Standalone single lunar survival game world prop, NOT an inventory icon or UI frame. Native 2D pixel art for On My Way to Home, isometric-compatible 2:1 diamond ground plane, look down at top and two sides, matching the style reference astronaut and the project's white/blue robot Chiwis: sharp dark blue-gray outlines, white/cool gray surfaces, restrained blue accents, flat clustered pixel shading, light from upper left. Keep consistent pixel density relative to a 48-56 pixel tall human. Transparent background, crisp binary alpha, no antialiasing or blur. No text, numbers, logo, characters, scenery, floor tile, background or large structures. No ground shadow separate from object; use a tiny contact shadow only under the base. Full native canvas 64x64, preserve transparent padding. Single centered subject with base around canvas X=32,Y=52; no clipped pixels. A small ground-standing signal marker: compact tripod base, short slender pale mast, tiny blue indicator lamp at top. Clear narrow vertical silhouette about 20-28 pixels wide and 32-40 pixels tall. No radiating waves or glow, no lettering.",
+      "request_record": "assets/pixellab/source/props_pack_b/generation_jobs.json",
+      "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+      "opaque_bounds_px": [
+        18,
+        10,
+        28,
+        47
+      ],
+      "transparent_pixels": 3612,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 13,
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        57
+      ],
+      "ground_anchor_convention": "Integer center of visible bounds in X; lowest opaque row + 1 in Y. Includes any tiny contact shadow. Visually review base center for asymmetric props.",
+      "sprite2d_centered": false,
+      "sprite2d_offset_px": [
+        -32,
+        -57
+      ],
+      "sprite2d_scale": [
+        1,
+        1
+      ],
+      "proposed_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "footprint_status": "Proposed one-cell placement budget only; no collision or walkability change.",
+      "orientation": "Single isometric-compatible view, lit from upper left; not a directional set.",
+      "occlusion_split": "None; compact single-sprite prop. Root uses ground contact in existing Y-sort hierarchy."
+    }
+  ],
+  "gameplay_integration": false,
+  "style_reference": {
+    "path": "assets/pixellab/source/props_pack_b/astronaut_style_reference.png",
+    "source_sheet": "assets/characters/astronaut/walk/se.png",
+    "region_px": [
+      0,
+      0,
+      64,
+      64
+    ],
+    "policy": "Native animation-frame extraction for style guidance only, without rescaling; source unchanged.",
+    "additional_visual_review": "assets/characters/chiwis/walk/se.png",
+    "sha256": "864d9b2ec84cf2646f59243aa01f6bbce17e056cbee86c92699d937bc6888a1e"
+  }
+}

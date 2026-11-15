@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "crop": {
+    "id": "leafy_greens",
+    "name": "Leafy greens",
+    "seed_item": "greens_seed",
+    "yield_item": "fresh_greens",
+    "yield_count": 2,
+    "growth_s": 1800,
+    "water_kg_per_cycle": 0.2,
+    "nutrient_units_per_cycle": 1,
+    "min_temperature_k": 288,
+    "max_temperature_k": 301,
+    "min_pressure_pa": 90000,
+    "max_co2_pa": 500
+  },
+  "tray_count": 2,
+  "initial_seeds": 6,
+  "initial_rations": 6,
+  "initial_nutrients": 12,
+  "development_growth_multiplier": 1,
+  "activities": {
+    "drink": {
+      "duration_s": 2,
+      "water_kg": 0.2,
+      "power": false
+    },
+    "hygiene": {
+      "duration_s": 5,
+      "water_kg": 0.3,
+      "power": false
+    },
+    "sleep": {
+      "duration_s": 10,
+      "water_kg": 0,
+      "power": false
+    },
+    "exercise": {
+      "duration_s": 8,
+      "water_kg": 0,
+      "power": false
+    },
+    "medical": {
+      "duration_s": 4,
+      "water_kg": 0,
+      "power": true
+    },
+    "maintenance": {
+      "duration_s": 5,
+      "water_kg": 0,
+      "power": true
+    },
+    "science": {
+      "duration_s": 5,
+      "water_kg": 0,
+      "power": true
+    }
+  },
+  "cooldown_s": 60
+}

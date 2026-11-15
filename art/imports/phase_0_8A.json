@@ -1,0 +1,169 @@
+{
+  "phase": "0.8A",
+  "source_manifest": "art/imports/props_pack_b.json",
+  "standards_version": "1.0.0",
+  "world_prop_scene": "scenes/world/world_prop.tscn",
+  "gallery_scene": "scenes/development/prop_gallery.tscn",
+  "item_definition_policy": "Existing ItemDefinition resources and inventory icons unchanged; stable IDs resolve world appearances separately.",
+  "source_pixels_modified": false,
+  "terrain_or_collision_changed": false,
+  "assets": [
+    {
+      "asset_id": "props_pack_b_lunar_sample",
+      "appearance_resource": "resources/props/lunar_sample.tres",
+      "texture": "assets/environment/props_pack_b/lunar_sample.png",
+      "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+      "ground_anchor_px": [
+        32,
+        52
+      ],
+      "item_id": "lunar_sample",
+      "production_pickups": [
+        "World/Entities/Props/LunarSampleA",
+        "World/Entities/Props/LunarSampleB"
+      ],
+      "role": "Existing collectible appearance",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_metal_scrap",
+      "appearance_resource": "resources/props/metal_scrap.tres",
+      "texture": "assets/environment/props_pack_b/metal_scrap.png",
+      "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+      "ground_anchor_px": [
+        32,
+        48
+      ],
+      "item_id": "metal_scrap",
+      "production_pickups": [
+        "World/Entities/Props/MetalScrap"
+      ],
+      "role": "Existing collectible appearance",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_supply_pack",
+      "appearance_resource": "resources/props/supply_pack.tres",
+      "texture": "assets/environment/props_pack_b/supply_pack.png",
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+      "ground_anchor_px": [
+        32,
+        49
+      ],
+      "item_id": "supply_pack",
+      "production_pickups": [
+        "World/Entities/Props/SupplyPack"
+      ],
+      "role": "Existing collectible appearance",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_small_equipment_box",
+      "appearance_resource": "resources/props/small_equipment_box.tres",
+      "texture": "assets/environment/props_pack_b/small_equipment_box.png",
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+      "ground_anchor_px": [
+        31,
+        53
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_tool_case",
+      "appearance_resource": "resources/props/tool_case.tres",
+      "texture": "assets/environment/props_pack_b/tool_case.png",
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+      "ground_anchor_px": [
+        32,
+        53
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_small_resource_canister",
+      "appearance_resource": "resources/props/small_resource_canister.tres",
+      "texture": "assets/environment/props_pack_b/small_resource_canister.png",
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+      "ground_anchor_px": [
+        31,
+        54
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_utility_crate",
+      "appearance_resource": "resources/props/utility_crate.tres",
+      "texture": "assets/environment/props_pack_b/utility_crate.png",
+      "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+      "ground_anchor_px": [
+        31,
+        56
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_rock_cluster",
+      "appearance_resource": "resources/props/rock_cluster.tres",
+      "texture": "assets/environment/props_pack_b/rock_cluster.png",
+      "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+      "ground_anchor_px": [
+        32,
+        51
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_broken_machine_part",
+      "appearance_resource": "resources/props/broken_machine_part.tres",
+      "texture": "assets/environment/props_pack_b/broken_machine_part.png",
+      "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+      "ground_anchor_px": [
+        31,
+        52
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    },
+    {
+      "asset_id": "props_pack_b_beacon_marker",
+      "appearance_resource": "resources/props/beacon_marker.tres",
+      "texture": "assets/environment/props_pack_b/beacon_marker.png",
+      "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+      "ground_anchor_px": [
+        32,
+        57
+      ],
+      "item_id": null,
+      "production_pickups": [],
+      "role": "Reusable static world-prop appearance; gallery only until level placement is requested",
+      "collision": "No new collision or interaction shapes",
+      "placement_footprint": "Source one-cell budget remains a proposal; no gameplay occupancy added"
+    }
+  ]
+}

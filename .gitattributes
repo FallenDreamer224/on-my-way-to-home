@@ -1,0 +1,18 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Binary artwork/source packages must not undergo line-ending conversion.
+*.png binary
+*.pxo binary
+*.zip binary
+*.exe binary
+*.pck binary
+*.dll binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Windows tools remain directly readable; Godot/JSON/docs retain LF.
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf

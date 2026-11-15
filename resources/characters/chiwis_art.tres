@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CharacterArtProfile" format=3]
+
+[ext_resource type="SpriteFrames" path="res://resources/characters/chiwis_frames.tres" id="1_cmmbq"]
+[ext_resource type="Script" path="res://scripts/player/character_art_profile.gd" id="2_wootk"]
+
+[resource]
+script = ExtResource("2_wootk")
+frames = ExtResource("1_cmmbq")
+default_anchor = Vector2(32, 53)
+foot_anchors = Dictionary[StringName, PackedVector2Array]({
+&"idle_e": PackedVector2Array(32, 58),
+&"idle_n": PackedVector2Array(32, 60),
+&"idle_ne": PackedVector2Array(32, 59),
+&"idle_nw": PackedVector2Array(32, 57),
+&"idle_s": PackedVector2Array(32, 53),
+&"idle_se": PackedVector2Array(32, 54),
+&"idle_sw": PackedVector2Array(32, 57),
+&"idle_w": PackedVector2Array(32, 51),
+&"run_e": PackedVector2Array(32, 58, 32, 55, 32, 58, 32, 58),
+&"run_n": PackedVector2Array(32, 57, 32, 60, 32, 53, 32, 60),
+&"run_ne": PackedVector2Array(32, 56, 32, 57, 32, 54, 32, 60),
+&"run_nw": PackedVector2Array(32, 53, 32, 54, 32, 49, 32, 56),
+&"run_s": PackedVector2Array(32, 52, 32, 50, 32, 53, 32, 51),
+&"run_se": PackedVector2Array(32, 56, 32, 57, 32, 54, 32, 56),
+&"run_sw": PackedVector2Array(32, 56, 32, 55, 32, 55, 32, 56),
+&"run_w": PackedVector2Array(32, 52, 32, 49, 32, 53, 32, 54),
+&"walk_e": PackedVector2Array(32, 58, 32, 59, 32, 58, 32, 58),
+&"walk_n": PackedVector2Array(32, 60, 32, 59, 32, 60, 32, 60),
+&"walk_ne": PackedVector2Array(32, 59, 32, 58, 32, 59, 32, 58),
+&"walk_nw": PackedVector2Array(32, 57, 32, 57, 32, 55, 32, 57),
+&"walk_s": PackedVector2Array(32, 53, 32, 53, 32, 55, 32, 54),
+&"walk_se": PackedVector2Array(32, 54, 32, 56, 32, 60, 32, 58),
+&"walk_sw": PackedVector2Array(32, 57, 32, 55, 32, 57, 32, 56),
+&"walk_w": PackedVector2Array(32, 51, 32, 53, 32, 53, 32, 52)
+})

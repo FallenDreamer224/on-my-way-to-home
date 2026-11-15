@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/habitat/habitat_room.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/world/terrain_layer.gd" id="2"]
+
+[node name="HabitatRoom" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Floor" type="TileMapLayer" parent="."]
+position = Vector2(-32, -16)
+z_index = -10
+script = ExtResource("2")
+
+[node name="Walls" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 1
+
+[node name="Actors" type="Node2D" parent="."]
+y_sort_enabled = true

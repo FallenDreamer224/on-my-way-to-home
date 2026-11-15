@@ -1,0 +1,42 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/main.gd" id="1_main"]
+[ext_resource type="Resource" path="res://resources/config/development_settings.tres" id="2_settings"]
+[ext_resource type="PackedScene" path="res://scenes/world/world.tscn" id="3_world"]
+[ext_resource type="PackedScene" path="res://scenes/camera/camera_rig.tscn" id="4_camera"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_ui.tscn" id="5_ui"]
+[ext_resource type="PackedScene" path="res://scenes/camera/base_management_camera_rig.tscn" id="7_management"]
+[ext_resource type="Script" path="res://scripts/gameplay/gameplay_mode_coordinator.gd" id="8_modes"]
+[ext_resource type="Script" path="res://scripts/gameplay/player_session.gd" id="9_session"]
+[ext_resource type="Script" path="res://scripts/gameplay/eva_safety_monitor.gd" id="10_safety"]
+[ext_resource type="Script" path="res://scripts/habitat/habitat_director.gd" id="11_habitat"]
+[ext_resource type="Script" path="res://scripts/utilities/utility_service.gd" id="12_utilities"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_main")
+development_settings = ExtResource("2_settings")
+
+[node name="Systems" type="Node" parent="."]
+
+[node name="GameplayModes" type="Node" parent="Systems"]
+script = ExtResource("8_modes")
+
+[node name="PlayerSession" type="Node" parent="Systems"]
+script = ExtResource("9_session")
+
+[node name="World" parent="." instance=ExtResource("3_world")]
+
+[node name="EvaSafety" type="Node" parent="Systems"]
+script = ExtResource("10_safety")
+
+[node name="CameraRig" parent="." instance=ExtResource("4_camera")]
+
+[node name="BaseManagementCameraRig" parent="." instance=ExtResource("7_management")]
+
+[node name="UI" parent="." instance=ExtResource("5_ui")]
+
+[node name="HabitatDirector" type="Node" parent="Systems"]
+script = ExtResource("11_habitat")
+
+[node name="Utilities" type="Node" parent="Systems"]
+script = ExtResource("12_utilities")

@@ -1,0 +1,5953 @@
+{
+  "animation_type": "run",
+  "exporter": "Installed Pixelorama 1.2.4 resource pack through Godot 4.7.2 CLI",
+  "preserved_walk_idle_fingerprints": {
+    "astronaut/idle_e": "a48d1278fae2b38515d352c94797e4e3d64de1c46dc4324f9c4c52c4e833a482",
+    "astronaut/idle_n": "eb5da471702f8308339c52e92ecd1f21ad12a52fea30dc8f01dcf7adf2525c7b",
+    "astronaut/idle_ne": "2a1328e680f3e9e255d481f16026b02764dd0e04b67cb85d5e307b8b0874788e",
+    "astronaut/idle_nw": "17ed9b0bac981ee652adb7718ebdb152e2d3fbfc927c14c9d5d561b84b7b1cdb",
+    "astronaut/idle_s": "83671142d6e1371c27acd4886e9e5226c94e98e8116583276253e0fe94277115",
+    "astronaut/idle_se": "b7c0d4ca19f3fb4b3f2c3dd986d59c44719c09b9733100a816d816260508c74d",
+    "astronaut/idle_sw": "74077600d35d229c63c45a26441604b43fdc3a11f5c2da2a23f08827c4b407a1",
+    "astronaut/idle_w": "b8d7dd6fc466b4c6bcdd8f8e3a7caeea7ccbb3059add72cce8ab387d4e19b0eb",
+    "astronaut/walk_e": "55d316be927891d3158949e81abd6e152fee785c684d7f9f132eac88ee42bbde",
+    "astronaut/walk_n": "69ef23e07a405ff79ee42ec2f399a1b1a660f90741d268497c6b0afbbd18aea1",
+    "astronaut/walk_ne": "af43d134844a27d8a56fd7debec42478515e4485e4d5f2424cf1d71c8dbb6313",
+    "astronaut/walk_nw": "613f2179613b7cc2588a43b81d3d5bd0aa73f6430bcf1605eed7d1faad626261",
+    "astronaut/walk_s": "f331d72e92a526d36115008c2a92c59a8136b727c5afff626d3dce8187c03e72",
+    "astronaut/walk_se": "b1d9b6e59f6fd7f98c7b7807b6099dd7a2c00023a667bdcadcea169f26d41e97",
+    "astronaut/walk_sw": "344fab1a80cd96035ac8ac54c7ac02de1bc8872f6bfaf3b20c30a3251cb56df6",
+    "astronaut/walk_w": "2234306f93edb0463256451da87395ebdb97565d1a2378a43ff96a1461ec7723",
+    "chiwis/idle_e": "4d4624aa8057c942306bcf65388b0200f38b9cc9cfba3cf19b4faefbd82897b1",
+    "chiwis/idle_n": "7220dfa31e441297ec0ef9ea862cc5388d35565f57107f5d5ded66e23100c009",
+    "chiwis/idle_ne": "597d27e3d2b59cf3a189ec71f2363a17a7f2ed01b2381755244cd014548d99af",
+    "chiwis/idle_nw": "2ac17b16b3019a5053a925e30505fd1bad6969712f1157c1b46974299e44dfdc",
+    "chiwis/idle_s": "68117e13a81416797d592fc0bd0726a710ae1f262059afff8b556b967e98df46",
+    "chiwis/idle_se": "1d08b61bc75089a9847e93928a03a5a2b7bf1791b80b2ae138af180373409a9c",
+    "chiwis/idle_sw": "6719c6d9672503426d84311d655a8db48e8f4b7b0ced55b003bd843893d312c7",
+    "chiwis/idle_w": "8fbd1ca3bee3ea7dddee08e06a90a24e0d9a7ac8dead43a7b6b40013f224ba6d",
+    "chiwis/walk_e": "cc760bed1a0521660320585671b53bb77c5de90dacc96f76f1f37a46e7c30179",
+    "chiwis/walk_n": "ff2324bb4cc9b5804d3f283964d05dc00d686c15436094817f29489b960700df",
+    "chiwis/walk_ne": "7dac89a36385ec5023289c6dcaa9c65f641c2d77e5729ccb780933c013283541",
+    "chiwis/walk_nw": "e0dcbfafc96fb6608552c1c829ba6911b89cf8f41d509bfbafdf97812d7b0d07",
+    "chiwis/walk_s": "47b40e3a6aa62f03e659e529ae1f45196ef6cac96ce54318c0fed91f391cae40",
+    "chiwis/walk_se": "91f364a740fd1862cd0b46beb6cce0fa89b8ae43c15af3058e9fe48478ba1c2e",
+    "chiwis/walk_sw": "e9d4ea3d9ddfc16f5b215d5af75ff99f9a41cc5298ec59f18a1105e1c6bf6cf7",
+    "chiwis/walk_w": "d0af6009b9937302456c93dd6be65171e0f9c1bd7a95586a55ea1a344fa13ab2"
+  },
+  "source_root_hint": "Pass -SourceRoot to reproduce",
+  "sources": [
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_e",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "e",
+      "direction_coverage": [
+        "E"
+      ],
+      "direction_order": [
+        "E"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            17,
+            3,
+            31,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "4214a9b124b39f6011ab49d37cd5b7f0f659a5508398191c7803721a15fedd07",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "66c0817fcd86852cfd0c54de2113067c57af91d4f6c1f315803295ced37bbdc8",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            17,
+            3,
+            30,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "b74bad8a5ec6450da1258474be74e5ba1e1b061859d8d8bdafaad0aa21fbd4e1",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            17,
+            3,
+            32,
+            50
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "13c6d3f7b1c2402465cb4dd33e169287e400b0b75abd1fa06df07f1089a525d3",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 50
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "64a7ae7c051a2d2d4d28d04c2e9b3f7ee28206357f479638ae1f33c5e940355f",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            3,
+            31,
+            53
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "f4c4207079339a47b6b9bb6613b0cfc47e7ef901bebb385d7912cf12f42e76bd",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 53
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6a8fcd352ec74862a20bd690a8344b729fdcc9962a35df9635cbbfe206f7dfff",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 56
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/e.png",
+      "png_sha256": "6720056327b0b5f511c3b3c31b0cd17be306a78ac2767e8139adda01b0935a26",
+      "provider_direction_mapping": {
+        "east": "e"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/e.png"
+      ],
+      "separation_px": 0,
+      "sha256": "65231f908ce64d4313473938c2f8a5b915cc05823e226166f32d0cbdddbfe13b",
+      "source": "animations/astronaut_run_east.pxo",
+      "source_files": [
+        "animations/astronaut_run_east.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_ne",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_north_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "ne",
+      "direction_coverage": [
+        "NE"
+      ],
+      "direction_order": [
+        "NE"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "9e6f3f714af258bf05102f24aad3582c868c31f6b75e2a2a2156fba4e2b744af",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            31,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "16acd2a74f8be4cb74952500b283c478f5c836407a0848bf79a6eed96fd2836a",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            31,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "8923331eaf11424a7a361bc048d032db61f28877cdc29fa04225a7a1a030a54a",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            11,
+            4,
+            40,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "81281172890d2be3a25979eb552bf3348aa4f2cdc33deaad28198df08dcbda6b",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            15,
+            4,
+            33,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "5e62c7d4b2d6beec2164a41fe1f9d57d77ba8ad15de0e34b5f2cca1f53bb11d3",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            33,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "7f56fd5f97f1c327235d9fded632a4e5c0cc2bea6c9e02672355c73e83a99657",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            29,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6061ae4e0c596a4f4d765b8cd57ae1cbc266c99d13d344c979b3f505b31f4665",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 55
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/ne.png",
+      "png_sha256": "e4bd8ce695dd872d89fd1223b0f52bd7425432d496bcb129b35ec121a08d5bd7",
+      "provider_direction_mapping": {
+        "north_east": "ne"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/ne.png"
+      ],
+      "separation_px": 0,
+      "sha256": "138a5e31b528ce8050c37d5e12ea024bd9ee3d14701eab965b2ff67b1313769d",
+      "source": "animations/astronaut_run_north_east.pxo",
+      "source_files": [
+        "animations/astronaut_run_north_east.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_nw",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_north_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "nw",
+      "direction_coverage": [
+        "NW"
+      ],
+      "direction_order": [
+        "NW"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            10,
+            4,
+            41,
+            58
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            62.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "fc91325b36331520946c5b10a9d073b233cc0bf79335d5f8c5bec7da678cd554",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 58
+        },
+        {
+          "bounds": [
+            12,
+            4,
+            35,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "463627eec2fac5d7e240583c76647c6169e70d2a21619b98fdc48f439b6883ec",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "293b5a206eacbd2ab1edbdf46b025651ba2c9d5184ce9f211380200a1567a1be",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            13,
+            4,
+            34,
+            53
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            57.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6d5ecf0765ce4d16041bf90fcd29f02cc8e6899942fbb35a2c39e62ad56b6c2f",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 53
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            50
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "62a5e1ea9dc7ad5468051aecd80b817a31c9bd87a60c2cbd4632dc28f50dba18",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 50
+        },
+        {
+          "bounds": [
+            14,
+            4,
+            33,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "01db7f27360fbc43d7da0c96016ac51e5e111c6ca6c1de5eaf4c6e2ec8e0f812",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            13,
+            4,
+            34,
+            54
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6a9bb1f2d532fe1e2af4f2b72e84572247ad081215135079f7b1800620197528",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 54
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/nw.png",
+      "png_sha256": "15a4d3a17812cc391351725f0905af096a9247ee3e2708e764f7e00f70963267",
+      "provider_direction_mapping": {
+        "north_west": "nw"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/nw.png"
+      ],
+      "separation_px": 0,
+      "sha256": "87f8564d586dbaade2e707825426f4a01ffd80cc904423e1270e24d0412e8eee",
+      "source": "animations/astronaut_run_north_west.pxo",
+      "source_files": [
+        "animations/astronaut_run_north_west.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_n",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_north",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "n",
+      "direction_coverage": [
+        "N"
+      ],
+      "direction_order": [
+        "N"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            12,
+            4,
+            39,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "4d6e5c254f306b37b5ede039a6e45fd985c1db3123a7f9cf60cae47153f81263",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            11,
+            4,
+            38,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "79d657c6bf62e511cbc20df496b1df8795ba66dca0aac7fc7eeb18da52fbba96",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            14,
+            4,
+            33,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3121f8cb15a252c59e184813560a84d540e3683325de40b62dd28af1e478c318",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            12,
+            4,
+            41,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "a1384bde4b414c549d2fdd9d5a1857cbeb7f052b02188a1e372baa1b74aceca4",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            15,
+            4,
+            33,
+            54
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "56d008fa93424acafb58efa49f27beb4c33cc375b387c3e7f86c80e4d4fe4a9c",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 54
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "e05613c94330254121a71c9eb4ac38a5913542d062a7c36607d1ff67134eb382",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            59.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "5eac0fefe276197f9e496c229400d803bd26c679b01f3837dfffa05b542bef77",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 55
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/n.png",
+      "png_sha256": "7b19fd8816e1b787c1f3d7e9084b853fc3f6a4b93e93e192bc9766976d7115e0",
+      "provider_direction_mapping": {
+        "north": "n"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/n.png"
+      ],
+      "separation_px": 0,
+      "sha256": "0d887945fa85b875ee48ef5cc57f2c756089e7cf12e14873ba1b7cb474df02f3",
+      "source": "animations/astronaut_run_north.pxo",
+      "source_files": [
+        "animations/astronaut_run_north.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_se",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_south_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "se",
+      "direction_coverage": [
+        "SE"
+      ],
+      "direction_order": [
+        "SE"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            13,
+            3,
+            37,
+            53
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "fd14b47de21478a190c74beb1ea6752bd3ce35afefa0aa4e0931adf6f9446b12",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 53
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            33,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "40ff28ec5c1281ea477ffe8769767e6537b3bf9c8bc77ebfe81a6a149ad43dfb",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "9ee12dd64a46dffbe1e08b814803a8d0146dfe038b4218a4bea5ba87d7c9e0cf",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "2cf42240d6f70d3968cfbc633fe99678420624a95a336390596ebb91d24a9d4f",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            16,
+            3,
+            32,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "149547e8d906d5e883f6437f6a2486c000af245ea2e59211459a5f603a193c8d",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            16,
+            3,
+            33,
+            57
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "7e7fea5882f6dab19172c2fb265deddb61fb09721fb4880cc432e6a7e8c63cc2",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 57
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            57
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            61.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3a34f8c0bc65351481f4638d67a77232d6b8d35d429b8ecf232ebaf72ebdad35",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 57
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/se.png",
+      "png_sha256": "12f985b7d0cb5fd9e560046b3d12f4e593ebc2bed664492f68519becde7c52fc",
+      "provider_direction_mapping": {
+        "south_east": "se"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/se.png"
+      ],
+      "separation_px": 0,
+      "sha256": "678af3897514bc2a468e793ceab7492aeef1fd2bb80bdc5c44dcca716f6a5213",
+      "source": "animations/astronaut_run_south_east.pxo",
+      "source_files": [
+        "animations/astronaut_run_south_east.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_sw",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_south_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "sw",
+      "direction_coverage": [
+        "SW"
+      ],
+      "direction_order": [
+        "SW"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 3.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            2,
+            32,
+            58
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "54856713ed94bffd9375d2c19a69f7f315de31d2bb8935f919068d56b4d7b3ce",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 58
+        },
+        {
+          "bounds": [
+            14,
+            1,
+            33,
+            59
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "67a57ddc73e3aa59074920d9933e874231b85f70b42a13d249b9c04c67faff94",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 59
+        },
+        {
+          "bounds": [
+            14,
+            2,
+            34,
+            56
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "1992861442ace84d7ef3fb76a3d848572988f91f687b2b542cb4b77d8e5422a7",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 56
+        },
+        {
+          "bounds": [
+            15,
+            2,
+            33,
+            58
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "86dfc83efa22b007b7f067f0def6d45e6041cad2e4cd319eee25e35bd24161f5",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 58
+        },
+        {
+          "bounds": [
+            16,
+            2,
+            32,
+            60
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            62.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3eed54df2a42ed8e3a683e1073f7b9c48721396874387c06f5487f05ba4cf69d",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 60
+        },
+        {
+          "bounds": [
+            16,
+            3,
+            32,
+            58
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            61.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "1fce733f808cf8c990f0d4355ca9af77e4517e9046f248a0bca52c72a976a855",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 58
+        },
+        {
+          "bounds": [
+            15,
+            3,
+            33,
+            59
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            62.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "627323b577a7f1a4bb281215b05adb805230ba043cbbdba8cf290a12f224915b",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 59
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/sw.png",
+      "png_sha256": "29998d91945a36b2ad11744e305aeaf212f37e663b3ea76505a04c217b30194c",
+      "provider_direction_mapping": {
+        "south_west": "sw"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/sw.png"
+      ],
+      "separation_px": 0,
+      "sha256": "b6c14e4fa1ddd9fd8fdddf2d27910ddbc3695434f4c2a000989557f940cb8fcb",
+      "source": "animations/astronaut_run_south_west.pxo",
+      "source_files": [
+        "animations/astronaut_run_south_west.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_s",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_south",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "s",
+      "direction_coverage": [
+        "S"
+      ],
+      "direction_order": [
+        "S"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            3,
+            32,
+            53
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "ac0ebac7c1f10b89ffe083b7804a7d2aff8b586b40544b92a2df13bcf9b02e50",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 53
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            54
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "82ba2ef11ae8875a587d5e3b6192b980b68477136fd99343e4c157d02d2ed1da",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 54
+        },
+        {
+          "bounds": [
+            17,
+            3,
+            30,
+            57
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "19c216fffb9345042bc4c01c5b762168a8f9e7344b709039fd75bdb53978f4a8",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 57
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            32,
+            50
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "f623c3e7e7746e677612be8e9c52d35fcf2be283cc152551d488784def1de54a",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 50
+        },
+        {
+          "bounds": [
+            17,
+            3,
+            30,
+            58
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            61.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "19aa87f131a30de6a95bb99570d027edfc3eba2bbaef65092e7b096d964f2e34",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 58
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            57
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            61.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3e9d1ebd889cfe8045fad0c57a7d1325a667691f3f58bf2883a135bdca95a717",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 57
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            57
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            61.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "e6ee515c73d2672a54b6148e13e8598a663f6a657a5214e58eca42601f984956",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 57
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/s.png",
+      "png_sha256": "5b0ba22e99c946ab91b7b6725b1fa6ec8e2e9f0cb0ff491738ebc60f178fa28e",
+      "provider_direction_mapping": {
+        "south": "s"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/s.png"
+      ],
+      "separation_px": 0,
+      "sha256": "36bb2b163ca331807606ee3b8a7619d810b2adc1dde770563b9b492b85d42cd0",
+      "source": "animations/astronaut_run_south.pxo",
+      "source_files": [
+        "animations/astronaut_run_south.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_w",
+      "animation_type": "run",
+      "asset_id": "animations_astronaut_run_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "astronaut",
+      "columns": 7,
+      "direction": "w",
+      "direction_coverage": [
+        "W"
+      ],
+      "direction_order": [
+        "W"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 3.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            30,
+            52
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "06b552820e0f4323dbc9a200540eb46d6fbcb9ca221d42e18a7fe7e528af9ea6",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            30,
+            54
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "d6094cd384b528fdd0644b60ddb0163447fec33e6bb10d70072c1fb0fd4ba90f",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 54
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            30,
+            52
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "84653c73a9cb0fb5250b3985400b7f58f09ea91a42b82a720c20ecd2097db98f",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            11,
+            3,
+            35,
+            49
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            52.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "b5e8aa5c8c999dfe6ac21fb4023c2f6944f2f20f45a00cba18f55ae9de724ef5",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            53
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            57.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "18898c75919ec3cd8c0b313fcae85e3b8d2af3edca3db72d2b80293ff0b3081f",
+          "source_frame": 5,
+          "transparency": 1,
+          "visible_height_px": 53
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            30,
+            52
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "627ea5364244fe9def18fb2e302fb8c1a479cc101c106f0fd2e58f86713b1dac",
+          "source_frame": 6,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            29,
+            56
+          ],
+          "duration_seconds": 0.333333333333333,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "5bc1a5f84b26f069ce5cc7dc87ea459acec8f49f64a3892b310692fe53f61d37",
+          "source_frame": 7,
+          "transparency": 1,
+          "visible_height_px": 56
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/astronaut/run/w.png",
+      "png_sha256": "782a471e7a6d9edaab86b1f2fefd8cb62dc9a6df3411f5922775ca0ad741ee3f",
+      "provider_direction_mapping": {
+        "west": "w"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 7,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/astronaut/run/w.png"
+      ],
+      "separation_px": 0,
+      "sha256": "5f85210425104e814b889e5de552dc0c623b222668bc6b6a7e1bdf7f23039d44",
+      "source": "animations/astronaut_run_west.pxo",
+      "source_files": [
+        "animations/astronaut_run_west.pxo"
+      ],
+      "source_frame_count": 7.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_e",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "e",
+      "direction_coverage": [
+        "E"
+      ],
+      "direction_order": [
+        "E"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            0,
+            7,
+            60,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "2fe61fd51bb4c945db79e1c0497cd7044e27a55d84584d7d0c72b2e6dec6482b",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            0,
+            7,
+            60,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3ee0110be686f28d33f359591dcc18cb147ad03af165b414d014ade580c0879a",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            0,
+            7,
+            60,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "87ab4c8813b4d9273ea41a9192b12b8c06d62eed38b58b62fe9cc172865aa24c",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            0,
+            7,
+            60,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            58.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "242934e320aabec4b9a597ab84825283776b73b6e9f1cc4a085854c3baaa318c",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 51
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/e.png",
+      "png_sha256": "fe7f32437e73bff6e5599ca1fde4b9a4334ca90febbd701b99d2655423d554aa",
+      "provider_direction_mapping": {
+        "east": "e"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/e.png"
+      ],
+      "separation_px": 0,
+      "sha256": "643d8864e0a9ce515c49eb917c64445df23527c7414b3db4e3edfe3c24006b95",
+      "source": "animations/chiwis_run_east.pxo",
+      "source_files": [
+        "animations/chiwis_run_east.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_ne",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_north_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "ne",
+      "direction_coverage": [
+        "NE"
+      ],
+      "direction_order": [
+        "NE"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            7,
+            5,
+            49,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "736c6a62f261d7d7f7d9f955b9faf41b37f450915c1afccfb621dce3537f17eb",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 51
+        },
+        {
+          "bounds": [
+            7,
+            5,
+            51,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            57.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3cecd99bb4f329a7b6e434795826337f8ae037f125bcca9ab0ba8014a64328ca",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            5,
+            5,
+            51,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "d42b3670713d3c9e0dcaf374e7dc0924afd2881ba742fefeb64e987d13635372",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            6,
+            5,
+            50,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "a353a83e5fea7b6a2c5fd2be9369fb57ea5b060028de979cc4226e4bad2addac",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 55
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/ne.png",
+      "png_sha256": "bd3332f85bac4cf25eb570d6fc17650cad6ad9d5d6d682d344a28f0f6c1d1c5c",
+      "provider_direction_mapping": {
+        "north_east": "ne"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/ne.png"
+      ],
+      "separation_px": 0,
+      "sha256": "4afa327e96f982130b975117e2ea2cb7f470230c9b5476518a751a0b51db4cba",
+      "source": "animations/chiwis_run_north_east.pxo",
+      "source_files": [
+        "animations/chiwis_run_north_east.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_nw",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_north_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "nw",
+      "direction_coverage": [
+        "NW"
+      ],
+      "direction_order": [
+        "NW"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            12,
+            5,
+            41,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "dd85e22740e25196780d0e607c96b80ae8888d8b649568f64f746620b2e8b1d9",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            8,
+            5,
+            46,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "d8461bc6d517d75d113888401bee53cf0d3d34bd54b06ab8e872c7ff7c7b6017",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            12,
+            5,
+            41,
+            44
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            49.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "b398f616979116fa72119f75770a9dec87016d5a2496247f334217cc3a3a8656",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 44
+        },
+        {
+          "bounds": [
+            12,
+            5,
+            41,
+            51
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3b536bda5350c9041556377a1589e1a8656a02f50052310a1ec01afaf64708ee",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 51
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Capa 1",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/nw.png",
+      "png_sha256": "c7823b8c4408ce96cd50552949e997d62fbfc3856484bfb374e0f62f77c7646f",
+      "provider_direction_mapping": {
+        "north_west": "nw"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/nw.png"
+      ],
+      "separation_px": 0,
+      "sha256": "c34e7ca147949777d198b48b7175d4e055056cc7b522e74df6583f3a2437102b",
+      "source": "animations/chiwis_run_north_west.pxo",
+      "source_files": [
+        "animations/chiwis_run_north_west.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_n",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_north",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "n",
+      "direction_coverage": [
+        "N"
+      ],
+      "direction_order": [
+        "N"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            20,
+            5,
+            27,
+            52
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            57.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "ca69562d3f1de6bc5ef30d382d1232d2a37a5a779d758de8b76989b800664b16",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 52
+        },
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6f3635c9d546f0b465a58e4312b9c7672fe929e6ed024e2ee648f00a77f9ab91",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 55
+        },
+        {
+          "bounds": [
+            18,
+            5,
+            29,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "4e020492f361200ae464151d5290f72abbe133f7b44ffe3b4ea5e7e4678f26ec",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            55
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            60.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "be17b992207581f07ca7bcc817c69f4e88019b44873447ef4a8ee11ddabaa20f",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 55
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/n.png",
+      "png_sha256": "0c4137fc4de499f05b42d6b74252fc4f4539ceb2d4449c15423ef9789288ac11",
+      "provider_direction_mapping": {
+        "north": "n"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/n.png"
+      ],
+      "separation_px": 0,
+      "sha256": "e2ca2747d8f3639b999c664b8c01b1b4f82461d31a2c26745fcba7739d68cf4a",
+      "source": "animations/chiwis_run_north.pxo",
+      "source_files": [
+        "animations/chiwis_run_north.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_se",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_south_east",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "se",
+      "direction_coverage": [
+        "SE"
+      ],
+      "direction_order": [
+        "SE"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            9,
+            7,
+            47,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "bd549c1e6b4abe63070b3de4d2c339acbc54d6bcea023081754ec07b905a2b1d",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            8,
+            7,
+            50,
+            50
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            57.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "0288faa4db37f0d17d99a6b0e47be87289120c475e1ae601dd850b8b318fb638",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 50
+        },
+        {
+          "bounds": [
+            10,
+            7,
+            46,
+            47
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "9916207f4f648e9c4b0fe2179ff91f49a713b9438a2ce40087b4172be8e711eb",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 47
+        },
+        {
+          "bounds": [
+            9,
+            7,
+            47,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "4aea2eef4ef42865b94640191675bf9f49b4586bb3f7c00d3257866e66a44485",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 49
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/se.png",
+      "png_sha256": "fc2ca31ca450e6d9c7ac4ccca14483446fd92846c37a05c17be1c308d1715c8b",
+      "provider_direction_mapping": {
+        "south_east": "se"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/se.png"
+      ],
+      "separation_px": 0,
+      "sha256": "8afa4d690a5389ad8e841d4c74541de130dfdf4d3c0ae30da6ba3a8e4cefe158",
+      "source": "animations/chiwis_run_south_east.pxo",
+      "source_files": [
+        "animations/chiwis_run_south_east.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_sw",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_south_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "sw",
+      "direction_coverage": [
+        "SW"
+      ],
+      "direction_order": [
+        "SW"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            7,
+            7,
+            53,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "c14e6bb8c0633b364646fbfb767b058fbf0f12b25ffc93c885479d3deed8b728",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 49
+        },
+        {
+          "bounds": [
+            7,
+            7,
+            55,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "f1005cb037b1c98150a9d1d5ed70ac47f172aa02c1ee442745425c644f04830e",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            7,
+            7,
+            53,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            55.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "6c377f4933ac2b29b9c6ab69e255e1ed1b86e6cc27df785e32ac3242a12d9114",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            7,
+            7,
+            47,
+            49
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            56.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "953c55cccab2699c5fc9ca38b47732aa6baba7111b6f4e7354404325ff706571",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 49
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Capa 1",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/sw.png",
+      "png_sha256": "2a9905d8f05e8d16df7ae763853ac28f868545709ff5e2d873d42391a04635bf",
+      "provider_direction_mapping": {
+        "south_west": "sw"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/sw.png"
+      ],
+      "separation_px": 0,
+      "sha256": "0ee52c8a25d0870d3236d618c93589356248dfcc96bf2d5a7927943592200810",
+      "source": "animations/chiwis_run_south_west.pxo",
+      "source_files": [
+        "animations/chiwis_run_south_west.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_s",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_south",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "s",
+      "direction_coverage": [
+        "S"
+      ],
+      "direction_order": [
+        "S"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            13,
+            6,
+            35,
+            46
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            52.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "376b54e971963bb3d0ea90785c63430aa84016db21e40817b2d499fc1696842b",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 46
+        },
+        {
+          "bounds": [
+            14,
+            6,
+            31,
+            44
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            50.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "8d127b65088a9eacebdab16ec64a274bdf34bc432e332a5abd7587cf8b1c2a9e",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 44
+        },
+        {
+          "bounds": [
+            13,
+            5,
+            34,
+            48
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "18288522a8ba8957d058faa084a4d02670fa5f02a2079fb9bef844160143089e",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 48
+        },
+        {
+          "bounds": [
+            14,
+            6,
+            31,
+            45
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            51.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "d18771d00f102e7df7de9ce762c3862f0518adbdb5738769138abdbc999ac86f",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 45
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/s.png",
+      "png_sha256": "3cfeb9cb7c89ce62d85eae2fccd0b3b07c838351ae8701f1bc58ab8f7150e79f",
+      "provider_direction_mapping": {
+        "south": "s"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/s.png"
+      ],
+      "separation_px": 0,
+      "sha256": "151ff2de22bdf404e902b00aeb99dac2d2110a86719dad618b1fd6fe4e59ffb5",
+      "source": "animations/chiwis_run_south.pxo",
+      "source_files": [
+        "animations/chiwis_run_south.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    },
+    {
+      "anchor_policy": "Source canvas X=32; measured lowest opaque foot row+1 per frame, applied only as visual offset",
+      "animation_name": "run_w",
+      "animation_type": "run",
+      "asset_id": "animations_chiwis_run_west",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "category": "directional_character_animation",
+      "character": "chiwis",
+      "columns": 4,
+      "direction": "w",
+      "direction_coverage": [
+        "W"
+      ],
+      "direction_order": [
+        "W"
+      ],
+      "direction_space": "screen_facing",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exception": null,
+      "excluded_layers": [
+        "Skeleton"
+      ],
+      "export_tool_diagnostics": {
+        "classification": "Pixelorama shader/signal and shutdown-resource diagnostics; exact PNG verification still required",
+        "errors": 6.0,
+        "messages": [
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Condition \"!actions.custom_samplers.has(function->arguments[j].tex_builtin)\" is true. Continuing.",
+          "ERROR: Signal 'keyframe_set' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object.",
+          "ERROR: Signal 'keyframe_unset' is already connected to given callable 'Panel(AnimationTimeline.gd)::_on_layer_keyframe_changed' in that object."
+        ],
+        "warnings": 0.0
+      },
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            5,
+            7,
+            53,
+            45
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            52.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "0614d442857a6badbe53a2c55f4e4e63da504c280b0de48f00173fb05986d156",
+          "source_frame": 1,
+          "transparency": 1,
+          "visible_height_px": 45
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            53,
+            42
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            49.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "14eebea3f01b48e37a563f837c46b632066b2e2819c5f3124fdff5340a24b146",
+          "source_frame": 2,
+          "transparency": 1,
+          "visible_height_px": 42
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            55,
+            46
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            53.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "75b7e096f806e14f751552fa8266d1f46c091d3b7ee56ce8d7560a2f215f2ede",
+          "source_frame": 3,
+          "transparency": 1,
+          "visible_height_px": 46
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            53,
+            47
+          ],
+          "duration_seconds": 0.166666666666667,
+          "duration_units": 1.0,
+          "empty": false,
+          "foot_anchor_px": [
+            32.0,
+            54.0
+          ],
+          "has_generation_provenance": true,
+          "rgba_sha256": "3c8e8f1e2a77ce2370e0ae9431bad412dcbb040204bb810f2027c764e1f198a8",
+          "source_frame": 4,
+          "transparency": 1,
+          "visible_height_px": 47
+        }
+      ],
+      "frame_order": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "loop": true,
+      "margin_px": 0,
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Capa 1",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "physical_scale_intent": "Native pixel density, unit sprite scale; canvas padding does not determine physical size",
+      "png": "assets/characters/chiwis/run/w.png",
+      "png_sha256": "5703f526b5857fb9b8580a78c52a033fa6274415fa026621677ef5380ff56183",
+      "provider_direction_mapping": {
+        "west": "w"
+      },
+      "reference_frame_policy": "Character sheets excluded; all animation frames reviewed as completed nonguide art",
+      "reference_only": false,
+      "rendered_frame_count": 4,
+      "review_status": "Inspected source layers, frame content, direction and exact exported pixels",
+      "rows": 1,
+      "runtime_files": [
+        "assets/characters/chiwis/run/w.png"
+      ],
+      "separation_px": 0,
+      "sha256": "4101473c7cea0b56a12b22987aab1498346126c1cd486f040a4441626028d34e",
+      "source": "animations/chiwis_run_west.pxo",
+      "source_files": [
+        "animations/chiwis_run_west.pxo"
+      ],
+      "source_frame_count": 4.0,
+      "source_frame_indices": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "source_generation_requests": "Not created in this phase; original provenance metadata remains in source PXO",
+      "source_provider": "User-supplied Pixelorama project; existing cel provenance retained in external original",
+      "source_reference_images_count": 0,
+      "standards_version": "1.0.0",
+      "status": "verified_exact_native_pixels",
+      "usage_terms": "User-supplied for integration into On My Way to Home; no third-party redistribution license inferred"
+    }
+  ],
+  "standards_version": "1.0.0",
+  "verification": "All listed originals hash-checked; 16 CLI sheets match original nonguide RGBA pixels and ordering exactly; no resizing/recoloring; resources merged additively",
+  "walk_source_inventory": [
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "e",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/e.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            17,
+            4,
+            32,
+            55
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            55
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            32,
+            55
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "0724ea06768a5f3778b15a68a3d460eac68d40eb7f516a7fa3bb6c40734c5bb4",
+      "source": "animations/astronaut_walk_east.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "ne",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/ne.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            17,
+            4,
+            31,
+            52
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            29,
+            54
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            14,
+            4,
+            33,
+            54
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            13,
+            4,
+            36,
+            54
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            29,
+            54
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            31,
+            52
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            29,
+            56
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "b04da6e34e5c7d52cae146b3a0ffcf1c0abf860973468e9e482ad9b59ef14010",
+      "source": "animations/astronaut_walk_north_east.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "nw",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/nw.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            53
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            55
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "3049bb70c6a57cb8bd518f5113def9bde951c54cb19c18ec44e95a58402e56e1",
+      "source": "animations/astronaut_walk_north_west.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "n",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/n.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            15,
+            4,
+            32,
+            55
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            55
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            52
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            31,
+            52
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            32,
+            52
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            51
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            15,
+            4,
+            32,
+            53
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "3250fdc4ea8400df6e3d48ff1fe9e39cf0b7523dbaf6535ad3742a36c6500660",
+      "source": "animations/astronaut_walk_north.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "se",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/se.png",
+      "fps": 3.4,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            33,
+            56
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            33,
+            56
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            54
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "b80f18a5a5fa8c43e57ffdc4774406b3acf254788b3d35f6c7c645ffcfcd6753",
+      "source": "animations/astronaut_walk_south_east.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "sw",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/sw.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            57
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            14,
+            4,
+            34,
+            56
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            12,
+            4,
+            37,
+            55
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            15,
+            4,
+            33,
+            57
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            32,
+            56
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            15,
+            4,
+            33,
+            55
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "1c4ec9517b8ec237c6bb72e9e3e35b1ac49ad5265b3a7c1f42cd8763f18caaca",
+      "source": "animations/astronaut_walk_south_west.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "s",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/s.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            57
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            55
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            53
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            57
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            53
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            57
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "005a478a0a8823f818034f1f6ceee6e8261c97510fa4c45d6cb15b75a40f6330",
+      "source": "animations/astronaut_walk_south.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "astronaut",
+      "direction": "w",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/astronaut/walk/w.png",
+      "fps": 3.9,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            4,
+            31,
+            54
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            15,
+            3,
+            32,
+            54
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            56
+          ],
+          "empty": false,
+          "source_frame": 5,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 6,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            30,
+            54
+          ],
+          "empty": false,
+          "source_frame": 7,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "8f1e0d7e45014c156cc9c58d3185611679bafa649fa2c5dd11126d0c9b284d2f",
+      "source": "animations/astronaut_walk_west.pxo",
+      "source_frame_count": 7.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "e",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/e.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            4,
+            7,
+            56,
+            51
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            2,
+            7,
+            58,
+            52
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            2,
+            7,
+            58,
+            51
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            3,
+            7,
+            57,
+            51
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "453beb0d29601be729187e8af35debae0ae182375904f64254f01459ab3012b3",
+      "source": "animations/chiwis_walk_east.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "ne",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/ne.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            6,
+            5,
+            50,
+            54
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            4,
+            5,
+            52,
+            53
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            4,
+            5,
+            52,
+            54
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            4,
+            5,
+            52,
+            53
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "895da5ff5648ab2347f77da397f147acfd41c5b7182c4815e713470043a3e222",
+      "source": "animations/chiwis_walk_north_east.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "nw",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/nw.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            12,
+            5,
+            40,
+            52
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            11,
+            5,
+            41,
+            52
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            12,
+            5,
+            40,
+            50
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            12,
+            5,
+            42,
+            52
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "b5a4ef302a8e72eba001707d8e42af6893e73334f33a4cf88484f7da3128a17c",
+      "source": "animations/chiwis_walk_north_west.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "n",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/n.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            55
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            54
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            55
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            21,
+            5,
+            26,
+            55
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "6e5e69e67f91ba72a5cb160cb085840df13c5ee02ef06f3ed3305f078fa066fa",
+      "source": "animations/chiwis_walk_north.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "se",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/se.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            10,
+            6,
+            46,
+            48
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            9,
+            7,
+            47,
+            49
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            51,
+            53
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            7,
+            7,
+            49,
+            51
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {
+            "pixellab_skeleton_mode": "standard"
+          },
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "b19a6f50995d5e5da487d077e61ad424eef21be76505f154e2467a585fca7b3c",
+      "source": "animations/chiwis_walk_south_east.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "sw",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/sw.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            7,
+            7,
+            51,
+            50
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            7,
+            5,
+            49,
+            50
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            7,
+            4,
+            53,
+            53
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            7,
+            5,
+            48,
+            51
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "14ca48eea116f5e4d20733ead3335c0dcf755ae679239bfef4a3a73896dd12f7",
+      "source": "animations/chiwis_walk_south_west.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "s",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/s.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            16,
+            6,
+            29,
+            47
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            16,
+            6,
+            29,
+            47
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            17,
+            4,
+            28,
+            51
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            15,
+            6,
+            30,
+            48
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "3438d86c727ee5f029e8980a34e4cc1f21ff8163e13b68b731408a4bf81149c4",
+      "source": "animations/chiwis_walk_south.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    },
+    {
+      "animation_type": "walk",
+      "canvas": [
+        64.0,
+        64.0
+      ],
+      "character": "chiwis",
+      "direction": "w",
+      "durations": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "existing_png": "assets/characters/chiwis/walk/w.png",
+      "fps": 6.0,
+      "frame_audit": [
+        {
+          "bounds": [
+            5,
+            7,
+            57,
+            44
+          ],
+          "empty": false,
+          "source_frame": 1,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            57,
+            46
+          ],
+          "empty": false,
+          "source_frame": 2,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            57,
+            46
+          ],
+          "empty": false,
+          "source_frame": 3,
+          "transparency": 1
+        },
+        {
+          "bounds": [
+            5,
+            7,
+            57,
+            45
+          ],
+          "empty": false,
+          "source_frame": 4,
+          "transparency": 1
+        }
+      ],
+      "native_pixels_match_existing_walk": true,
+      "original_layers": [
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "PixelLab - Generation",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": true
+        },
+        {
+          "animated_params": "Dictionary[String, Dictionary]({\n\"opacity\": {}\n})",
+          "blend_mode": 0.0,
+          "clipping_mask": false,
+          "effects": [],
+          "locked": false,
+          "metadata": {},
+          "name": "Skeleton",
+          "new_cels_linked": false,
+          "opacity": 1.0,
+          "parent": -1.0,
+          "type": 0.0,
+          "ui_color": "(0.0, 0.0, 0.0, 0.0)",
+          "use_cel_image_for_effects": false,
+          "visible": false
+        }
+      ],
+      "reference_only": false,
+      "sha256": "202eb508d8d3e3ebcd7831b0ddb7a9ecd5dd034091b8c777d90932e4980840a6",
+      "source": "animations/chiwis_walk_west.pxo",
+      "source_frame_count": 4.0,
+      "status": "inspected_only_preserve_existing_walk"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "standards_version": "1.0.0",
+  "project": "On My Way to Home",
+  "engine": "Godot 4.7.2",
+  "art_bible": "docs/ART_BIBLE.md",
+  "world": {
+    "rendering_dimension": "2D",
+    "projection": "2:1 diamond isometric",
+    "ground_tile_size_px": [64, 32],
+    "grid_coordinate_order": ["column", "row"],
+    "column_world_step_px": [32, 16],
+    "row_world_step_px": [-32, 16],
+    "cell_zero_world_center_px": [0, 0],
+    "godot_tile_layout": "diamond_down",
+    "godot_tile_offset_axis": "horizontal",
+    "planned_tilemap_layer_position_px": [-32, -16],
+    "coordinate_reference": "docs/isometric_standards.md",
+    "larger_objects_align_to_ground_grid": true,
+    "multi_tile_footprint_separate_from_canvas": true
+  },
+  "characters": {
+    "standard_human_frame_size_px": [64, 64],
+    "recommended_visible_height_px": {"min": 48, "max": 56, "excludes_transparent_padding": true},
+    "required_direction_count": 8,
+    "directions": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"],
+    "direction_space": "screen_facing",
+    "direction_aliases": {"N": "north", "NE": "north_east", "E": "east", "SE": "south_east", "S": "south", "SW": "south_west", "W": "west", "NW": "north_west"},
+    "direction_list_implies_sheet_order": false,
+    "initial_walk_frames_per_direction_target": {"min": 4, "max": 8, "is_hard_requirement": false, "deviations_require_review": true},
+    "consistent_canvas_across_animation_set": true,
+    "consistent_foot_anchor_required": true,
+    "consistent_baseline_required": true,
+    "transparent_padding_allowed": true,
+    "allowed_larger_frame_sizes_px": [[96, 96], [128, 128]],
+    "larger_frames_require_documented_use_and_rationale": true
+  },
+  "environment": {
+    "terrain_tile_size_px": [64, 32],
+    "buildings": {"canvas_size": "variable", "explicit_ground_footprint_required": true},
+    "vegetation": {"canvas_size": "variable", "ground_footprint_required_when_applicable": true},
+    "props": {"canvas_size": "variable_by_physical_and_gameplay_scale", "ground_footprint_required_when_applicable": true},
+    "consistent_pixel_density_required": true,
+    "canvas_size_determines_physical_size": false
+  },
+  "items": {
+    "inventory_icon_size_px": [32, 32],
+    "preserve_transparency_where_applicable": true,
+    "avoid_unnecessary_antialiasing": true,
+    "inventory_icon_size_applies_to_world_sprites": false,
+    "other_ui_icons": "documented_native_dimensions"
+  },
+  "rendering": {
+    "texture_filter": "nearest",
+    "compression": "lossless",
+    "mipmaps": false,
+    "import_rescaling": false,
+    "texture_repeat_default": false,
+    "gameplay_sprite_scale": [1, 1],
+    "viewport_scale_policy": "integer",
+    "camera_zoom_policy": "integer_only_after_presentation_check",
+    "preserve_pixel_proportions": true,
+    "avoid_blurry_or_interpolated_edges": true,
+    "avoid_fractional_texture_scaling": true,
+    "silent_resize_stretch_crop_or_distortion_allowed": false
+  },
+  "animation": {
+    "consistent_origins_required": true,
+    "consistent_character_foot_positions_required": true,
+    "equal_direction_frame_counts_may_be_assumed": false,
+    "individual_frame_stretching_allowed": false,
+    "individual_frame_auto_trimming_allowed": false,
+    "validate_each_clip_against_actual_sheet": true
+  },
+  "metadata_requirements": {
+    "size_unit": "pixels",
+    "anchor_space": "frame_or_image_top_left_pixels",
+    "footprint_unit": "grid_cells",
+    "all_assets": ["asset_id", "standards_version", "category", "source_provider", "source_files", "runtime_files", "usage_terms", "native_canvas_size_px", "physical_scale_intent", "review_status", "exception"],
+    "pixellab_assets": ["generation_id", "prompt"],
+    "world_sprites": ["ground_anchor_px_from_image_top_left", "footprint_grid_cells_when_applicable"],
+    "buildings_and_multi_tile_structures": ["explicit_footprint_grid_cells", "occupied_cells_if_nonrectangular"],
+    "characters": ["visible_height_px", "foot_anchor_px_from_frame_top_left"],
+    "directional_assets": ["direction_coverage", "direction_order", "provider_direction_mapping_when_applicable"],
+    "animation_sheets": ["frame_size_px", "rows", "columns", "margin_px", "separation_px", "frame_order"],
+    "each_animation_clip": ["animation_type", "direction", "frame_count", "frame_indices_or_regions", "fps", "loop"],
+    "terrain_atlases": ["tile_regions", "center_anchors", "margin_px", "separation_px"],
+    "validate_frame_bounds_dimensions_counts_and_anchors": true,
+    "unresolved_placeholders_allowed_at_integration": false,
+    "existing_manifest_is_template_not_schema": true,
+    "credentials_and_personal_paths_allowed": false
+  },
+  "exception_policy": {
+    "documented_exceptions_allowed": true,
+    "examples": ["bosses", "oversized_props", "buildings", "effects", "special_animations"],
+    "required_fields": ["asset_id", "affected_rule", "actual_dimensions_px", "intended_use", "reason", "footprint_and_anchor_implications_when_applicable", "approval_status", "user_decision_or_approval_reference"],
+    "nonconforming_assets_require_user_decision_before_modification_or_integration": true,
+    "allowed_decisions": ["approved_documented_exception", "authorized_modification", "replacement"],
+    "preserve_original_sources": true,
+    "report_conflicts_without_silent_rule_replacement": true
+  },
+  "workflow": {
+    "read_art_bible_before_asset_work": true,
+    "validate_before_godot_integration": true,
+    "pixellab_generation_requires_explicit_authorization": true,
+    "credit_consumption_requires_explicit_authorization": true,
+    "documentation_comments_and_asset_names_language": "English",
+    "asset_naming_convention": "lowercase_snake_case",
+    "keep_gameplay_independent_of_final_art_where_practical": true,
+    "revise_art_bible_and_json_together": true
+  }
+}

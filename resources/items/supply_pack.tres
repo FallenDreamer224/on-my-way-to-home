@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = &"supply_pack"
+display_name = "Supply Pack"
+description = "A sealed development supply pack. Contents and item use are not implemented."
+stackable = false
+maximum_stack = 1
+tags = PackedStringArray("development", "supply")
+placeholder_color = Color(0.48, 0.83, 0.65, 1)

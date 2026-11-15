@@ -1,0 +1,35 @@
+{
+  "template_only": true,
+  "asset_id": "replace_with_asset_id",
+  "provider": "PixelLab.ai",
+  "generation_id": null,
+  "prompt": null,
+  "usage_terms": null,
+  "source_files": [],
+  "runtime_files": [],
+  "category": "characters",
+  "projection": "2:1 diamond isometric",
+  "tile_size_px": [64, 32],
+  "native_canvas_size_px": null,
+  "ground_anchor_px_from_image_top_left": null,
+  "footprint_grid_cells": null,
+  "directions": ["south", "south_east", "east", "north_east", "north", "north_west", "west", "south_west"],
+  "provider_direction_mapping": {},
+  "sheet": {
+    "frame_size_px": null,
+    "columns": null,
+    "rows": null,
+    "margin_px": 0,
+    "separation_px": 0,
+    "frame_order": [],
+    "animations": []
+  },
+  "import": {
+    "compression": "lossless",
+    "mipmaps": false,
+    "filter": "nearest",
+    "repeat": false,
+    "scale": 1
+  },
+  "review_status": "not_generated"
+}

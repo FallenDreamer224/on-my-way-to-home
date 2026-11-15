@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="LunarTutorialRegion" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/lunar_tutorial_region.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/config/lunar_eva_safety.tres" id="2_safety"]
+
+[resource]
+script = ExtResource("1")
+origin = Vector2i(-20, -20)
+size = Vector2i(40, 40)
+eva_limits = ExtResource("2_safety")

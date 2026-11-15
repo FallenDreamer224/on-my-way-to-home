@@ -1,0 +1,423 @@
+{
+  "job": {
+    "canvas": [
+      128,
+      128
+    ],
+    "frame_count": 1,
+    "views": [
+      {
+        "id": "ramp",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "source_bookends_exact": false,
+    "require_clear_border": true
+  },
+  "scene": {
+    "palette": {
+      "ink": "#263144",
+      "deck": "#acb6c3",
+      "side": "#667285",
+      "seam": "#768699",
+      "light": "#dce2e8",
+      "blue": "#4d6f9f"
+    },
+    "layers": [
+      {
+        "id": "ramp",
+        "name": "Ramp body"
+      }
+    ],
+    "views": {
+      "ramp": {
+        "nodes": {
+          "ramp": {
+            "layer": "ramp",
+            "at": [
+              0,
+              0
+            ],
+            "draw": [
+              {
+                "op": "polygon",
+                "points": [
+                  [
+                    22,
+                    30
+                  ],
+                  [
+                    46,
+                    18
+                  ],
+                  [
+                    110,
+                    90
+                  ],
+                  [
+                    86,
+                    102
+                  ]
+                ],
+                "color": "deck",
+                "outline": "ink",
+                "stroke_width": 1
+              },
+              {
+                "op": "polygon",
+                "points": [
+                  [
+                    22,
+                    30
+                  ],
+                  [
+                    86,
+                    102
+                  ],
+                  [
+                    86,
+                    106
+                  ],
+                  [
+                    22,
+                    34
+                  ]
+                ],
+                "color": "side",
+                "outline": "ink",
+                "stroke_width": 1
+              },
+              {
+                "op": "polygon",
+                "points": [
+                  [
+                    86,
+                    102
+                  ],
+                  [
+                    110,
+                    90
+                  ],
+                  [
+                    110,
+                    94
+                  ],
+                  [
+                    86,
+                    106
+                  ]
+                ],
+                "color": "side",
+                "outline": "ink",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    30,
+                    39
+                  ],
+                  [
+                    54,
+                    27
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    31,
+                    39
+                  ],
+                  [
+                    53,
+                    28
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    38,
+                    48
+                  ],
+                  [
+                    62,
+                    36
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    39,
+                    48
+                  ],
+                  [
+                    61,
+                    37
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    46,
+                    57
+                  ],
+                  [
+                    70,
+                    45
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    47,
+                    57
+                  ],
+                  [
+                    69,
+                    46
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    54,
+                    66
+                  ],
+                  [
+                    78,
+                    54
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    55,
+                    66
+                  ],
+                  [
+                    77,
+                    55
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    62,
+                    75
+                  ],
+                  [
+                    86,
+                    63
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    63,
+                    75
+                  ],
+                  [
+                    85,
+                    64
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    70,
+                    84
+                  ],
+                  [
+                    94,
+                    72
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    71,
+                    84
+                  ],
+                  [
+                    93,
+                    73
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    78,
+                    93
+                  ],
+                  [
+                    102,
+                    81
+                  ]
+                ],
+                "color": "seam",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    79,
+                    93
+                  ],
+                  [
+                    101,
+                    82
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    22,
+                    30
+                  ],
+                  [
+                    86,
+                    102
+                  ]
+                ],
+                "color": "ink",
+                "stroke_width": 4
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    46,
+                    18
+                  ],
+                  [
+                    110,
+                    90
+                  ]
+                ],
+                "color": "ink",
+                "stroke_width": 4
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    22,
+                    29
+                  ],
+                  [
+                    86,
+                    101
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    46,
+                    17
+                  ],
+                  [
+                    110,
+                    89
+                  ]
+                ],
+                "color": "light",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    22,
+                    30
+                  ],
+                  [
+                    29,
+                    38
+                  ]
+                ],
+                "color": "blue",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    103,
+                    82
+                  ],
+                  [
+                    110,
+                    90
+                  ]
+                ],
+                "color": "blue",
+                "stroke_width": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "asset_id": "habitat_interior_placeholders",
+  "standards_version": "1.0.0",
+  "category": "development_placeholder_geometry",
+  "source_provider": "project_native_code",
+  "source_files": ["scripts/habitat/habitat_room.gd", "scripts/habitat/habitat_action.gd"],
+  "runtime_files": ["scenes/habitat/habitat_room.tscn"],
+  "usage_terms": "Project placeholder implementation; no external artwork",
+  "native_canvas_size_px": [64, 32],
+  "physical_scale_intent": "One native 64x32 isometric diamond per logical floor cell; variable room footprints are in habitat_layout.json. No metric scale or certified capacity implied.",
+  "review_status": "Development-only native-resolution placeholders, tested in Godot",
+  "exception": null,
+  "terrain_atlas": {"tile_regions": [[0,0,64,32]], "center_anchor_px": [32,16], "margin_px": 0, "separation_px": 0},
+  "rendering": {"filter": "nearest", "mipmaps": false, "rescaling": false, "scale": [1,1]},
+  "notes": "Floors use transient ImageTextures; walls/fixtures use unscaled 2D polygons and native Labels. No generated PNG, new character art or PixelLab jobs. Physical wall contact is the ground diamond, separate from cutaway height."
+}

@@ -1,0 +1,290 @@
+{
+  "pack_id": "lander_pack_d",
+  "standards_version": "1.0.0",
+  "status": "generated",
+  "style_reference": {
+    "path": "assets/buildings/base_pack_c/small_habitat_module.png",
+    "provider_job_id": "72d6a198-ff2b-4b8c-abaf-abb98e8fabe3",
+    "policy": "Match the Moon base white/light-gray/blue materials, outlines, pixel density and upper-left lighting.",
+    "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba"
+  },
+  "assets": [
+    {
+      "asset_id": "lander_pack_d_moon_lander",
+      "file_name": "moon_lander.png",
+      "native_canvas_size_px": [
+        320,
+        320
+      ],
+      "explicit_footprint_grid_cells": [
+        4,
+        4
+      ],
+      "physical_scale_intent": "Major player arrival vehicle: broad four-legged transport lander with human-sized entry hatch, matching a 48-56-pixel astronaut. Four-tile footprint is separate from tall canvas and overhang.",
+      "ground_anchor_override_px": [
+        160,
+        284
+      ],
+      "entry_hatch_threshold_px": [
+        205,
+        207
+      ],
+      "image_footprint_vertices_px": [
+        [
+          160,
+          156
+        ],
+        [
+          288,
+          220
+        ],
+        [
+          160,
+          284
+        ],
+        [
+          32,
+          220
+        ]
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "lander_pack_d_deployed_ramp",
+      "file_name": "deployed_ramp.png",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "explicit_footprint_grid_cells": [
+        2,
+        1
+      ],
+      "ground_anchor_override_px": [
+        86,
+        106
+      ],
+      "attachment_anchor_px": [
+        34,
+        24
+      ],
+      "physical_scale_intent": "Separate segmented boarding ramp, about one human wide, descending screen down-right from its upper connection. Static presentation only.",
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "lander_pack_d_landing_marker_decal",
+      "file_name": "landing_marker_decal.png",
+      "native_canvas_size_px": [
+        288,
+        160
+      ],
+      "explicit_footprint_grid_cells": [
+        4,
+        4
+      ],
+      "ground_anchor_override_px": [
+        144,
+        144
+      ],
+      "image_footprint_vertices_px": [
+        [
+          144,
+          16
+        ],
+        [
+          272,
+          80
+        ],
+        [
+          144,
+          144
+        ],
+        [
+          16,
+          80
+        ]
+      ],
+      "physical_scale_intent": "Flat dashed 256x128 ground diamond, four 64x32 grid cells on each side, transparent empty center, muted paint/cyan corners. No solid pad geometry.",
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "animation": false
+    },
+    {
+      "asset_id": "lander_pack_d_support_cargo_container",
+      "file_name": "support_cargo_container.png",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "physical_scale_intent": "Small nonblocking visual cargo pod to stage near the lander; no inventory or storage behavior.",
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "animation": false
+    }
+  ],
+  "assembly_preview": {
+    "lander_front_contact_px": [
+      350,
+      420
+    ],
+    "ramp_upper_attach_at_lander_image_px": [
+      205,
+      207
+    ],
+    "cargo_front_contact_px": [
+      510,
+      435
+    ],
+    "policy": "Preview composition only; connections, hatch clearance, collision and walkability need scene review before gameplay integration."
+  },
+  "footprint_policy": "4x4 lander and marker budgets, 2x1 ramp, 1x1 cargo. Keep explicit occupied cells separate from sprite canvas and overhang; no collision or gameplay occupancy is implemented.",
+  "anchor_policy": "Craft: visually measured front-footpad contact center. Ramp/decal: exact design coordinates from PixelLab draw recipes. Cargo: measured lowest base row + 1."
+}

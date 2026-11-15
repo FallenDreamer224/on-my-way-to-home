@@ -1,0 +1,22 @@
+[
+  {
+    "path": "assets/terrain/moon/moon_regolith_atlas_4x3.png",
+    "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0"
+  },
+  {
+    "path": "resources/terrain/moon_terrain.tres",
+    "sha256": "260bf2aac91b93d9db21d080f3cdfdf1fc2b4a536e300e01b87fca635b829056"
+  },
+  {
+    "path": "scenes/world/terrain_layer.tscn",
+    "sha256": "99768512a9230fb01872ebcb2e7d9fcc8a18edbe1c4d96a0d303857648e8c323"
+  },
+  {
+    "path": "scripts/world/terrain_layer.gd",
+    "sha256": "a134848e76260edda2f80e60ba6be6e362f0f218f5a9076cfb0928202ea5c53c"
+  },
+  {
+    "path": "resources/data/lunar_test_region.tres",
+    "sha256": "48b1f0c49d78ce7229acdea0132460a031f616ad6e33aed36c3abf559a7b3005"
+  }
+]

@@ -1,0 +1,581 @@
+{
+  "asset_id": "moon_regolith",
+  "category": "terrain_atlas",
+  "center_anchor_px": [
+    32,
+    16
+  ],
+  "chosen_sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0",
+  "chosen_source": "optional_seam_fixed/moon_regolith_atlas_4x3.png",
+  "columns": 4,
+  "exception": null,
+  "ground_footprint_grid_cells": [
+    1,
+    1
+  ],
+  "margin_px": 0,
+  "native_canvas_size_px": [
+    256,
+    96
+  ],
+  "physical_scale_intent": "Native unit scale; each diamond occupies one existing ground cell",
+  "rendering": {
+    "compression": "lossless",
+    "filter": "nearest",
+    "fix_alpha_border": false,
+    "mipmaps": false,
+    "rescale": false
+  },
+  "review_status": "Verified all individual tiles against both atlases; fixed masks tessellate exactly; shared opaque pixels unchanged",
+  "rows": 3,
+  "runtime_files": [
+    "assets/terrain/moon/moon_regolith_atlas_4x3.png",
+    "resources/terrain/moon_terrain.tres"
+  ],
+  "separation_px": 0,
+  "source_files": [
+    {
+      "path": "README.txt",
+      "sha256": "dd4fd298157b9c831d33277ce0d9155d773cbad08d2eeafe352e81d00da9181b"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "c0aa8a8d191aef7ac6e505544edd0f84b161d930d67820e946d6e9fedf168faf"
+    },
+    {
+      "path": "moon_regolith_atlas_4x3.png",
+      "sha256": "19854902107df46a091f0ff8c62914acb46bcec6579bd7fcc76c1c6832e3909d"
+    },
+    {
+      "path": "preview_12_tiles.png",
+      "sha256": "49a5b44d883abc5c1c63377e83b5aadaf6bc80a6995013e74c54668a576298af"
+    },
+    {
+      "path": "optional_seam_fixed/moon_regolith_atlas_4x3.png",
+      "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_01.png",
+      "sha256": "79c8eab0c48d62173af59b65fad1a4ac12609351c54f0b74f1b60c54476d45cd"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_02.png",
+      "sha256": "66ac136f22f08fd5789c6a2741f10dacb00d244ee388e1a2cddc64820d753ba9"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_03.png",
+      "sha256": "0eb9b821b40eab44055da65a5432ac8a6367202828dfdaf56574f2dac84bf1f0"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_04.png",
+      "sha256": "422c854e9ba65b3bfc549547135721e087b1dac4260e299594f4f0127910b792"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_05.png",
+      "sha256": "8675903f418f31a1cebeb56a93b4af6b4d516ee5b79fd26e33f1cd8453de48c3"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_06.png",
+      "sha256": "96766f30042ffc5f26ab48f2110f6b6b223265db9d64dda6c7991f38f28986a4"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_07.png",
+      "sha256": "9c551c75c00f54d35ecd58c1181846a770d3cf76ed7b04b00171ff0c0a5e25b5"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_08.png",
+      "sha256": "505da64f6fb814c218c94b10560ccfdc627bf26ea1154166993b6b07599ae706"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_09.png",
+      "sha256": "428fa7808584accd3fe89ba39ea54cfe10d92135d7427b5e1a9a9b737564edb1"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_10.png",
+      "sha256": "b508e8d054acdf3af6aba37c77f5ef744a0d698d7a7f88669a2c3831a7ef4dab"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_11.png",
+      "sha256": "62686036d2d29440c859efe92cd617d0bc19d551866b79b09657cdbfec5962ec"
+    },
+    {
+      "path": "optional_seam_fixed/tiles/moon_regolith_12.png",
+      "sha256": "40d3f75f8dcdcf7a14c86db104b93674ce46c2f31911f9c04403d382d1bbc429"
+    },
+    {
+      "path": "tiles/moon_regolith_01.png",
+      "sha256": "20a120e9e3a23b958d8306723ff1f308868438d5c93e53b6204af19c3f79e59d"
+    },
+    {
+      "path": "tiles/moon_regolith_02.png",
+      "sha256": "09ae46b70ee80932c5ae41810e7d623de79e03a2106138ebd90d70d707798328"
+    },
+    {
+      "path": "tiles/moon_regolith_03.png",
+      "sha256": "6fef19260ff66c84466b4f884709a8e374196c48c6e138798b20797cd0476dab"
+    },
+    {
+      "path": "tiles/moon_regolith_04.png",
+      "sha256": "ffba22b3698cfe0d64b4f888e09537189223b917a10d9e57f5c254c179ca160c"
+    },
+    {
+      "path": "tiles/moon_regolith_05.png",
+      "sha256": "691b4dd333e2b54fc8073137e7bc292914adcad0202f4b7991e129007ad362a0"
+    },
+    {
+      "path": "tiles/moon_regolith_06.png",
+      "sha256": "98f35d7338446194394af3c77e906dc8917ee85b1ac0ec54f5da0919152e6e0a"
+    },
+    {
+      "path": "tiles/moon_regolith_07.png",
+      "sha256": "92439e4c00d859fc3ba9543a3036377c18ef661701e2a0b66ca9aa6c3ea5b9b9"
+    },
+    {
+      "path": "tiles/moon_regolith_08.png",
+      "sha256": "b062dd906a626bf513ee63c4a9ab96ff5fe817e04208b613aa7b1b66edc6f637"
+    },
+    {
+      "path": "tiles/moon_regolith_09.png",
+      "sha256": "d11b54337f13e29cec2cd69f52160419cb30fd3ceaff6eb6218213a40a4b18bd"
+    },
+    {
+      "path": "tiles/moon_regolith_10.png",
+      "sha256": "24745d7d84f87677ba791df63eddc57df221d1600d0bd8f104b805291dc8e251"
+    },
+    {
+      "path": "tiles/moon_regolith_11.png",
+      "sha256": "a02783c324f58c54a7c6be00ecd846dd4d432edadc2fa993ee72ca0fbf505e96"
+    },
+    {
+      "path": "tiles/moon_regolith_12.png",
+      "sha256": "a4447cf1ef996a68b1958bc23e8724f7cd5aaea42167d9b8cfbc51dc73a9978d"
+    }
+  ],
+  "source_kind_order": [
+    "regolith",
+    "light_regolith",
+    "dark_regolith",
+    "dust_patch"
+  ],
+  "source_provider": "User-supplied Pixelorama Moon terrain pack",
+  "standards_version": "1.0.0",
+  "supplied_pack_manifest": {
+    "atlas_columns": 4.0,
+    "atlas_dimensions": [
+      256.0,
+      96.0
+    ],
+    "atlas_rows": 3.0,
+    "crop_box_xyxy": [
+      0.0,
+      16.0,
+      64.0,
+      48.0
+    ],
+    "number_of_variations": 12.0,
+    "source_canvas": [
+      64.0,
+      64.0
+    ],
+    "source_filename": "moon_terrain_2.pxo",
+    "source_sha256": "b15b89d848ab4a90b76b590ddf0d06504441903f086744621144e39d8ce5d2fd",
+    "tile_dimensions": [
+      64.0,
+      32.0
+    ],
+    "tiles": [
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 8.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 30.0,
+        "tile": 1.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 6.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x32",
+        "removed_outside_mask": 30.0,
+        "tile": 2.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 6.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 31.0,
+        "tile": 3.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 7.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x32",
+        "removed_outside_mask": 30.0,
+        "tile": 4.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 4.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 30.0,
+        "tile": 5.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 4.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x32",
+        "removed_outside_mask": 30.0,
+        "tile": 6.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 5.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 30.0,
+        "tile": 7.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 5.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 31.0,
+        "tile": 8.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 4.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 31.0,
+        "tile": 9.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 3.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 30.0,
+        "tile": 10.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 2.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x32",
+        "removed_outside_mask": 31.0,
+        "tile": 11.0
+      },
+      {
+        "crop": "64x32",
+        "new_edge_pixels": 7.0,
+        "offset": [
+          0.0,
+          16.0
+        ],
+        "original_cel": "64x31",
+        "removed_outside_mask": 31.0,
+        "tile": 12.0
+      }
+    ]
+  },
+  "tile_regions": [
+    {
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        0,
+        0,
+        64,
+        32
+      ],
+      "source_id": 0,
+      "supplied_added_edge_pixels": 8,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 1
+    },
+    {
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        64,
+        0,
+        64,
+        32
+      ],
+      "source_id": 1,
+      "supplied_added_edge_pixels": 6,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 2
+    },
+    {
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        128,
+        0,
+        64,
+        32
+      ],
+      "source_id": 2,
+      "supplied_added_edge_pixels": 6,
+      "supplied_removed_outside_pixels": 31,
+      "variant": 3
+    },
+    {
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        192,
+        0,
+        64,
+        32
+      ],
+      "source_id": 3,
+      "supplied_added_edge_pixels": 7,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 4
+    },
+    {
+      "atlas_coords": [
+        0,
+        1
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "source_id": 0,
+      "supplied_added_edge_pixels": 4,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 5
+    },
+    {
+      "atlas_coords": [
+        1,
+        1
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        64,
+        32,
+        64,
+        32
+      ],
+      "source_id": 1,
+      "supplied_added_edge_pixels": 4,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 6
+    },
+    {
+      "atlas_coords": [
+        2,
+        1
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        128,
+        32,
+        64,
+        32
+      ],
+      "source_id": 2,
+      "supplied_added_edge_pixels": 5,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 7
+    },
+    {
+      "atlas_coords": [
+        3,
+        1
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        192,
+        32,
+        64,
+        32
+      ],
+      "source_id": 3,
+      "supplied_added_edge_pixels": 5,
+      "supplied_removed_outside_pixels": 31,
+      "variant": 8
+    },
+    {
+      "atlas_coords": [
+        0,
+        2
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        0,
+        64,
+        64,
+        32
+      ],
+      "source_id": 0,
+      "supplied_added_edge_pixels": 4,
+      "supplied_removed_outside_pixels": 31,
+      "variant": 9
+    },
+    {
+      "atlas_coords": [
+        1,
+        2
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        64,
+        64,
+        64,
+        32
+      ],
+      "source_id": 1,
+      "supplied_added_edge_pixels": 3,
+      "supplied_removed_outside_pixels": 30,
+      "variant": 10
+    },
+    {
+      "atlas_coords": [
+        2,
+        2
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        128,
+        64,
+        64,
+        32
+      ],
+      "source_id": 2,
+      "supplied_added_edge_pixels": 2,
+      "supplied_removed_outside_pixels": 31,
+      "variant": 11
+    },
+    {
+      "atlas_coords": [
+        3,
+        2
+      ],
+      "center_anchor_px": [
+        32,
+        16
+      ],
+      "opaque_pixels": 1024,
+      "region_px": [
+        192,
+        64,
+        64,
+        32
+      ],
+      "source_id": 3,
+      "supplied_added_edge_pixels": 7,
+      "supplied_removed_outside_pixels": 31,
+      "variant": 12
+    }
+  ],
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "usage_terms": "Supplied and authorized for this project; no separate redistribution license inferred",
+  "variation_policy": "Keep source ID equal to logical kind; select one of three atlas rows by stable cell hash, without RNG or logical map edits"
+}

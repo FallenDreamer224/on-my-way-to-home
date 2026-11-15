@@ -1,0 +1,66 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/world/world_prop.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/world/terrain_layer.tscn" id="2"]
+[ext_resource type="Resource" path="res://resources/props/lunar_sample.tres" id="3"]
+[ext_resource type="Resource" path="res://resources/props/metal_scrap.tres" id="4"]
+[ext_resource type="Resource" path="res://resources/props/supply_pack.tres" id="5"]
+[ext_resource type="Resource" path="res://resources/props/small_equipment_box.tres" id="6"]
+[ext_resource type="Resource" path="res://resources/props/tool_case.tres" id="7"]
+[ext_resource type="Resource" path="res://resources/props/small_resource_canister.tres" id="8"]
+[ext_resource type="Resource" path="res://resources/props/utility_crate.tres" id="9"]
+[ext_resource type="Resource" path="res://resources/props/rock_cluster.tres" id="10"]
+[ext_resource type="Resource" path="res://resources/props/broken_machine_part.tres" id="11"]
+[ext_resource type="Resource" path="res://resources/props/beacon_marker.tres" id="12"]
+
+[node name="PropGallery" type="Node2D"]
+
+[node name="Ground" parent="." instance=ExtResource("2")]
+
+[node name="Props" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="lunar_sample" parent="Props" instance=ExtResource("1")]
+position = Vector2(-160, -40)
+appearance = ExtResource("3")
+
+[node name="metal_scrap" parent="Props" instance=ExtResource("1")]
+position = Vector2(-80, -40)
+appearance = ExtResource("4")
+
+[node name="supply_pack" parent="Props" instance=ExtResource("1")]
+position = Vector2(0, -40)
+appearance = ExtResource("5")
+
+[node name="small_equipment_box" parent="Props" instance=ExtResource("1")]
+position = Vector2(80, -40)
+appearance = ExtResource("6")
+
+[node name="tool_case" parent="Props" instance=ExtResource("1")]
+position = Vector2(160, -40)
+appearance = ExtResource("7")
+
+[node name="small_resource_canister" parent="Props" instance=ExtResource("1")]
+position = Vector2(-160, 72)
+appearance = ExtResource("8")
+
+[node name="utility_crate" parent="Props" instance=ExtResource("1")]
+position = Vector2(-80, 72)
+appearance = ExtResource("9")
+
+[node name="rock_cluster" parent="Props" instance=ExtResource("1")]
+position = Vector2(0, 72)
+appearance = ExtResource("10")
+
+[node name="broken_machine_part" parent="Props" instance=ExtResource("1")]
+position = Vector2(80, 72)
+appearance = ExtResource("11")
+
+[node name="beacon_marker" parent="Props" instance=ExtResource("1")]
+position = Vector2(160, 72)
+appearance = ExtResource("12")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 8)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = false

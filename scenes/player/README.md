@@ -1,0 +1,9 @@
+# Player scene contract
+
+Phase 0.7 adds `Inventory` (RuntimeInventory; default 20 slots) and `InteractionDetector` (native Area2D; 48-pixel range, mask 8) as child components. Main injects actor/inventory references and wires PlayerSession/UI. Movement and animation controller code is preserved. See `docs/phase_0_7_report.md` for item, partial-collection and modal input contracts.
+
+`astronaut.tscn` is the reusable CharacterBody2D scene under `Main/World/Entities/Players`. The Phase 0.5 controller remains in `scripts/player/`. Its root is the feet, collision is a centered 10 x 6 rectangle, and real Pixelorama frames remain 64 x 64 at unit scale. Main assigns terrain/control policy and spawns through the native grid adapter. The actor is safely idle until configured/enabled by a composition root.
+
+Phase 0.6 assigns `resources/characters/astronaut_art.tres` to the visual. CharacterArtProfile references SpriteFrames plus measured per-frame foot anchors. The adapter preserves the common world baseline using visual offsets; movement/collision never use sprite dimensions. Replace the profile after verifying sixteen idle/walk clips and actual per-direction metadata, with no assumed sheet ordering. Its default south idle anchor is `(32, 61)`; `(32, 56)` belongs only to the retained procedural fallback. See `docs/phase_0_6_report.md` and `assets/characters/README.md` for the export/replacement workflow.
+
+Phase 0.7B extends the real profile to 24 clips by adding eight `run_*` clips/anchor arrays. The existing generic `select_state(&"run", facing)` API already supports them; no movement/animation controller was rewritten. Validate all 24 clips for current profile replacements. The procedural fallback remains the original 16-clip idle/walk fixture. Run previews are test-only; production movement still chooses idle/walk at the same speed. See `docs/phase_0_7B_report.md`.

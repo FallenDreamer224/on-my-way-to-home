@@ -1,0 +1,587 @@
+{
+  "job": {
+    "canvas": [
+      288,
+      160
+    ],
+    "frame_count": 1,
+    "views": [
+      {
+        "id": "decal",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "source_bookends_exact": false,
+    "require_clear_border": true
+  },
+  "scene": {
+    "palette": {
+      "paint": "#acb7c2",
+      "cyan": "#679db9"
+    },
+    "layers": [
+      {
+        "id": "markings",
+        "name": "Ground markings"
+      }
+    ],
+    "views": {
+      "decal": {
+        "nodes": {
+          "markings": {
+            "layer": "markings",
+            "at": [
+              0,
+              0
+            ],
+            "draw": [
+              {
+                "op": "path",
+                "points": [
+                  [
+                    160,
+                    24
+                  ],
+                  [
+                    168,
+                    28
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    176,
+                    32
+                  ],
+                  [
+                    184,
+                    36
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    192,
+                    40
+                  ],
+                  [
+                    200,
+                    44
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    208,
+                    48
+                  ],
+                  [
+                    216,
+                    52
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    224,
+                    56
+                  ],
+                  [
+                    232,
+                    60
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    240,
+                    64
+                  ],
+                  [
+                    248,
+                    68
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    256,
+                    72
+                  ],
+                  [
+                    264,
+                    76
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    256,
+                    88
+                  ],
+                  [
+                    248,
+                    92
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    240,
+                    96
+                  ],
+                  [
+                    232,
+                    100
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    224,
+                    104
+                  ],
+                  [
+                    216,
+                    108
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    208,
+                    112
+                  ],
+                  [
+                    200,
+                    116
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    192,
+                    120
+                  ],
+                  [
+                    184,
+                    124
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    176,
+                    128
+                  ],
+                  [
+                    168,
+                    132
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    160,
+                    136
+                  ],
+                  [
+                    152,
+                    140
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    128,
+                    136
+                  ],
+                  [
+                    120,
+                    132
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    112,
+                    128
+                  ],
+                  [
+                    104,
+                    124
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    96,
+                    120
+                  ],
+                  [
+                    88,
+                    116
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    80,
+                    112
+                  ],
+                  [
+                    72,
+                    108
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    64,
+                    104
+                  ],
+                  [
+                    56,
+                    100
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    48,
+                    96
+                  ],
+                  [
+                    40,
+                    92
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    32,
+                    88
+                  ],
+                  [
+                    24,
+                    84
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    32,
+                    72
+                  ],
+                  [
+                    40,
+                    68
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    48,
+                    64
+                  ],
+                  [
+                    56,
+                    60
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    64,
+                    56
+                  ],
+                  [
+                    72,
+                    52
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    80,
+                    48
+                  ],
+                  [
+                    88,
+                    44
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    96,
+                    40
+                  ],
+                  [
+                    104,
+                    36
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    112,
+                    32
+                  ],
+                  [
+                    120,
+                    28
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    128,
+                    24
+                  ],
+                  [
+                    136,
+                    20
+                  ]
+                ],
+                "color": "paint",
+                "stroke_width": 1
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    120,
+                    28
+                  ],
+                  [
+                    144,
+                    16
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    168,
+                    28
+                  ],
+                  [
+                    144,
+                    16
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    248,
+                    68
+                  ],
+                  [
+                    272,
+                    80
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    248,
+                    92
+                  ],
+                  [
+                    272,
+                    80
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    168,
+                    132
+                  ],
+                  [
+                    144,
+                    144
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    120,
+                    132
+                  ],
+                  [
+                    144,
+                    144
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    40,
+                    92
+                  ],
+                  [
+                    16,
+                    80
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              },
+              {
+                "op": "path",
+                "points": [
+                  [
+                    40,
+                    68
+                  ],
+                  [
+                    16,
+                    80
+                  ]
+                ],
+                "color": "cyan",
+                "stroke_width": 2
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

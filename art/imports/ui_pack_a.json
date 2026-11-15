@@ -1,0 +1,859 @@
+{
+  "pack_id": "ui_pack_a",
+  "standards_version": "1.0.0",
+  "provider": "PixelLab.ai MCP",
+  "assets": [
+    {
+      "asset_id": "ui_pack_a_panel_large",
+      "standards_version": "1.0.0",
+      "category": "ui_frames",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/panel_large_v2.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/panel_large.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        256,
+        192
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "0d5a398c-365c-436e-8e1e-066b08661885",
+      "provider_image_id": "c37cd14c-1d3a-5f6a-ac7f-23cdb7e2d498",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One EMPTY rectangular inventory menu panel frame. Full continuous visible border on ALL FOUR sides within a 256x192 transparent canvas. Fill the interior uniformly dark slate. Thin muted white/cool gray metal edges with minimal cyan corners. Front-on flat 2D UI. NO icons, objects, text, symbols or content. Leave 2 pixels of transparent padding around the panel.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "7c2bb0d870f8d86d965ad50230a551ae4aa21e117bbc379e3920d02fe0f11ebb",
+      "opaque_bounds_px": [
+        20,
+        30,
+        216,
+        115
+      ],
+      "transparent_pixels": 45395,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_panel_small",
+      "standards_version": "1.0.0",
+      "category": "ui_frames",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/panel_small.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/panel_small.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        64
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "f6e9e136-44f3-4b1e-8913-09936b9ae2f7",
+      "provider_image_id": "bf9a750d-d8fc-59d6-94f5-5f10100f0698",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Small status/tooltip panel frame matching the large panel, restrained border and empty uniform dark slate interior. Exact native canvas 128x64 pixels. Use single-pixel border strokes and a flat uniform fill. Keep decoration confined to corners; straight edges must remain modular. ",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "ede7ec2eb8463bbe5faa30b59ccf6cef41759ed774df02d21ab682b01fc1a400",
+      "opaque_bounds_px": [
+        9,
+        5,
+        110,
+        54
+      ],
+      "transparent_pixels": 2252,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 5,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_inventory_slot_normal",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/inventory_slot_normal.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/inventory_slot_normal.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        48,
+        48
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "0e977c88-7866-4ec1-8aaa-3fc51d23c60d",
+      "provider_image_id": "7a8e92b0-453e-50a3-b046-5a907829b25c",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Square empty inventory slot frame, normal state, subdued cool gray border and uniform dark interior; room for a separate 32x32 icon. Exact native canvas 48x48 pixels. Use single-pixel border strokes and a flat uniform fill. Keep decoration confined to corners; straight edges must remain modular. ",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "c92eef71f70ac7d2af82ca9ac7780944fb3ea917e744a37c90769143142d15fd",
+      "opaque_bounds_px": [
+        10,
+        11,
+        27,
+        26
+      ],
+      "transparent_pixels": 1626,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_inventory_slot_selected",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/inventory_slot_selected_v3.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/inventory_slot_selected.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        48,
+        48
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "40905d6b-82d5-4fd1-afab-9a0c12787c6f",
+      "provider_image_id": "2e9595cd-9a89-5cc6-bcea-7ddbc9507072",
+      "prompt": "Preserve this exact empty square inventory frame silhouette, canvas, position and corner shape. Change only the border to clear muted cyan selected highlight. Keep the center empty, no items, icons or text, no glow. Do not resize or move any shapes.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "2fe36e0c2c6b085cde2e7e509bad54b489a9f6f185963393c19ff5364a23fcdd",
+      "opaque_bounds_px": [
+        11,
+        11,
+        26,
+        26
+      ],
+      "transparent_pixels": 1630,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 11,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_button_normal",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/button_normal.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/button_normal.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "fa6504de-b3db-4a8b-92a7-38d248e05fc3",
+      "provider_image_id": "1294d1af-bdd5-53ef-95b8-4318ef424f32",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Empty horizontal button, normal state; cool gray beveled rim, uniform dark slate face, subtle muted white upper edge. Exact native canvas 96x32 pixels. Use single-pixel border strokes and a flat uniform fill. Keep decoration confined to corners; straight edges must remain modular. ",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "5ac0cf76600480f72f27a3ee5cbae5a257fc643b9362fe8e948b4c7d52451f07",
+      "opaque_bounds_px": [
+        1,
+        0,
+        95,
+        30
+      ],
+      "transparent_pixels": 374,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_button_hover",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/button_hover_v3.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/button_hover.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "f81cb446-a37e-45ec-b989-0d159dd0eb48",
+      "provider_image_id": "93bcf8f4-f4c7-5638-8d74-4a596139bf32",
+      "prompt": "Preserve this exact empty horizontal button frame silhouette, position, canvas, corners and border pixels. Change only the border colors to brighter muted cyan and muted white for a hover state. Keep the interior empty. No new shapes, symbols, glow or text.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "2944712cf0e1d5058e5ff6a5361c5db34c0ebe1f38353f7a000346377483f5da",
+      "opaque_bounds_px": [
+        0,
+        0,
+        96,
+        32
+      ],
+      "transparent_pixels": 318,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 28,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_button_pressed",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/button_pressed_v3.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/button_pressed.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "80bb56fc-4b17-4fb8-a165-0562071dedcd",
+      "provider_image_id": "72096f26-f558-59de-9c81-fa1cc0bc81fc",
+      "prompt": "Preserve this exact empty horizontal button frame silhouette, position, canvas, corners and border pixels. Change only shading: darker cool gray rim and dark slate face for a pressed/recessed state. Do not shift, enlarge or shrink anything. No symbols, objects or text.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "98ba0860dfb44b5493bc037012649c79515513bbbea539d86f1c121b2d577c8b",
+      "opaque_bounds_px": [
+        1,
+        0,
+        95,
+        30
+      ],
+      "transparent_pixels": 392,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 23,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_tab_marker",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/tab_marker.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/tab_marker.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        16
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "b5e3c937-1521-406b-8de6-3a622c7c335f",
+      "provider_image_id": "67b45385-882f-51a8-b5e1-2d5c6a4a7868",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Minimal slim tab/button marker, a short muted cyan horizontal plate with stepped corners, no text or pictogram. Exact native canvas 32x16 pixels. Use single-pixel border strokes and a flat uniform fill. Keep decoration confined to corners; straight edges must remain modular. ",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "b510ceac1ad24ae20d7b119755b00e3df56b8692871eb9278ec2bd21eb5344ae",
+      "opaque_bounds_px": [
+        4,
+        4,
+        24,
+        8
+      ],
+      "transparent_pixels": 364,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_interaction_prompt",
+      "standards_version": "1.0.0",
+      "category": "ui_frames",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/interaction_prompt.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/interaction_prompt.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        160,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "da4c12a6-e58e-4da9-a255-6991cd8d8888",
+      "provider_image_id": "267eb61a-6c07-5d55-ba21-c50f3fa53573",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. Slim horizontal interaction prompt frame with empty uniform dark interior for runtime key hint and action text; no baked-in key or letters. Exact native canvas 160x32 pixels. Use single-pixel border strokes and a flat uniform fill. Keep decoration confined to corners; straight edges must remain modular. ",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "1d921a1e52d0523446f9bde6d6210ff84094fa96cb53af682ca74f3075e242b2",
+      "opaque_bounds_px": [
+        12,
+        2,
+        136,
+        27
+      ],
+      "transparent_pixels": 1450,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_notification_panel",
+      "standards_version": "1.0.0",
+      "category": "ui_frames",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/notification_panel_v2.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/notification_panel.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        192,
+        64
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "f74f99e8-a68c-4567-ba8b-74d8c8559ec7",
+      "provider_image_id": "5aba8661-fda2-5b3c-86ed-4f5eec6389d2",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One EMPTY RECTANGULAR 188x60 notification message UI PANEL on transparent 192x64 canvas. A COMPLETE CONTINUOUS border around all four sides. Dark flat slate uniform empty center, thin white/cool gray border, tiny cyan left corner accent. No breaks in the border, no content, icons or text.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "abd8d7c7ff9df6f4477838126f814f8529ac42bb78febdc08562a83086b5966d",
+      "opaque_bounds_px": [
+        19,
+        9,
+        155,
+        44
+      ],
+      "transparent_pixels": 5479,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 5,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_frame",
+      "standards_version": "1.0.0",
+      "category": "ui_frames",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_frame_v2.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_frame.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        40,
+        40
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "d5f4dc4f-0ebb-4ed1-8606-390a4098cbe3",
+      "provider_image_id": "7af4a10a-b828-5ee2-97b8-23ed7a736913",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. An EMPTY SQUARE UI SLOT BACKGROUND: a 36x36 dark slate square with a continuous thin cool gray metal rim, centered on transparent 40x40 canvas. The middle is EMPTY with no objects. Simple flat front view. NO crystal, rock, resource, icon, pictogram or text. Make the central 32x32 area usable for a separate icon.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "8563f9c90c3c9d67b1c7e4af555388e61f54a9ac0fb3a7a979591ec4b8fb806a",
+      "opaque_bounds_px": [
+        4,
+        5,
+        32,
+        30
+      ],
+      "transparent_pixels": 682,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_cursor_selector",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/cursor_selector.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/cursor_selector.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        16,
+        16
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "8b200bd2-5d9d-4395-8479-605c62a7fb10",
+      "provider_image_id": "30829073-c603-52af-b7f3-1090a684b83e",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. A single compact sci-fi pointer arrow with muted white pixels, cool gray outline and tiny cyan accent, pointing toward the top left. This is a selector artwork, not a text glyph. Exact native canvas 16x16 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "70ab1788d1451887c6406f1882ffc7f7053b735e0b8e2ba058d75c963bac0556",
+      "opaque_bounds_px": [
+        3,
+        2,
+        11,
+        13
+      ],
+      "transparent_pixels": 162,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 5,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_divider",
+      "standards_version": "1.0.0",
+      "category": "ui_controls",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/divider_v2.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/divider.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        16
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "42489f2b-adde-4746-a84a-12d913055ed9",
+      "provider_image_id": "0a7d2b59-4e45-5c6b-85b5-c839a32385f7",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. A single simple THIN HORIZONTAL SEPARATOR LINE, 120 pixels long and ONE pixel thick centered vertically on a transparent 128x16 canvas. A tiny cyan pixel at each end. Absolutely NO bar, meter, gauge, machinery, buttons, symbols or text. Just one flat thin line.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "3cebb688298573398fca87061e5c99b2ced53d735fba04bbfbffad6586c2763a",
+      "opaque_bounds_px": [
+        6,
+        7,
+        116,
+        2
+      ],
+      "transparent_pixels": 1902,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 4,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_health",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_health.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_health.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "1a51631b-d0f1-40e3-8675-9ec19122717f",
+      "provider_image_id": "ea50d8cb-1f0e-515b-96a8-12830a27bac5",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One simple recognizable physical-condition icon: a small medical cross, muted white with tiny cyan inset; no panel, lettering or glow. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "84f1ec006e157f35cc23d4cbdc2690e20fe913678356381b7c1e4d6c0e68b5f8",
+      "opaque_bounds_px": [
+        10,
+        10,
+        13,
+        12
+      ],
+      "transparent_pixels": 915,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 5,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_sleep",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_sleep.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_sleep.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "12d11b5b-742b-41ec-a1f2-83ae5affd6f9",
+      "provider_image_id": "299bf863-016f-521b-9445-303cbd7acd20",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One simple recognizable sleep icon: crescent moon with a single small star, muted white/cool gray and tiny cyan accent; no letters or panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "7e43747132cae2bf09bd9c0a02dfa190938fae9c810e847cd4f5ed3661913871",
+      "opaque_bounds_px": [
+        8,
+        7,
+        17,
+        18
+      ],
+      "transparent_pixels": 839,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_radiation",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_radiation.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_radiation.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "023c3773-a32c-4a65-87c9-f06ce1ad0de2",
+      "provider_image_id": "31a50795-ddd9-5290-b24d-082d92f57a04",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One clear radiation trefoil warning pictogram in muted white/cyan against transparency, clean centered silhouette; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "733af1fa1160d94d93550e6cba65e46148922e355f3420463e1ac055d025dbc4",
+      "opaque_bounds_px": [
+        6,
+        6,
+        20,
+        20
+      ],
+      "transparent_pixels": 822,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_emotion",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_emotion.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_emotion.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "7925579f-caad-4e24-a728-8cb30b010545",
+      "provider_image_id": "3873602f-f91c-5695-a366-a62d4b48ad92",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One restrained emotional-state pictogram: a simple round face with two pixel eyes and a neutral small mouth, muted white/cyan; no panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "9e9f3ba25dd00dd4d293d85bd40fd5e97d34ad6f16ea1eedae95659dbb62e81e",
+      "opaque_bounds_px": [
+        10,
+        10,
+        12,
+        13
+      ],
+      "transparent_pixels": 898,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_cardiac",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_cardiac.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_cardiac.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "7d18be6e-ad98-4e31-9701-06226ee0154c",
+      "provider_image_id": "5551cd74-fa0f-56ca-ad30-bde3c0059d74",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One cardiac-state pictogram: recognizable heart with a short crisp pulse notch, muted white/cyan; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "6c0c741b65e2b850693f1966e98a9cce905f3e93f531208379bb7ad5172de828",
+      "opaque_bounds_px": [
+        8,
+        9,
+        16,
+        15
+      ],
+      "transparent_pixels": 852,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_defense",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_defense.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_defense.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "a52b94a3-44bf-4083-80a5-918b56c6b863",
+      "provider_image_id": "0655c2d5-07af-51be-b27c-043bc7c2973c",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One defense/body-condition pictogram: compact shield with a small central plate, muted white/cool gray and cyan accent; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "ced05af4dd8a91deb5d1b24a80bd5de9b7304f3b4e744f2be8a16220fc9e64c6",
+      "opaque_bounds_px": [
+        9,
+        7,
+        14,
+        18
+      ],
+      "transparent_pixels": 840,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_inventory",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_inventory.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_inventory.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "98bae6fa-1bce-4e2f-afcf-b9804da65c2c",
+      "provider_image_id": "b6e854c2-6c09-56c6-81c0-7b93defcba35",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One inventory pictogram: compact utility backpack with distinct flap and two pockets, cool gray/muted white with tiny cyan accent; no lettering or panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "a3b9a2be15a6747ad290d002eee956bd105b90fe420a472ae6cbb8129cf25bff",
+      "opaque_bounds_px": [
+        8,
+        7,
+        17,
+        19
+      ],
+      "transparent_pixels": 775,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_lunar_sample",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_lunar_sample.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_lunar_sample.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "58dc4aef-0117-4440-b701-af4ba1c15fa1",
+      "provider_image_id": "7e53d2b0-af7d-5dbc-b7fa-6ddd5961cc68",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One lunar sample/resource inventory icon: a small angular Moon rock with readable facets, cool gray/muted white and restrained cyan identification detail; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "26673bf9ddd9e50f328af4fe2c637f18b4d371546bc6634e4021b298b0c5a350",
+      "opaque_bounds_px": [
+        9,
+        10,
+        14,
+        14
+      ],
+      "transparent_pixels": 886,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_metal_scrap",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_metal_scrap.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_metal_scrap.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "130ab2fd-c08d-468f-9d73-5b616dfc897b",
+      "provider_image_id": "156bdffc-1be1-5cdb-9946-829fd5eeee1a",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One scrap/material inventory icon: two small irregular metal offcuts with a bolt hole, cool gray/muted white and tiny cyan detail; no panel or lettering. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "dde92d8537b39531590ac0aa9518f793470ef8a1fe245fba878b6ac55b401ee3",
+      "opaque_bounds_px": [
+        7,
+        8,
+        18,
+        18
+      ],
+      "transparent_pixels": 798,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 7,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    },
+    {
+      "asset_id": "ui_pack_a_icon_supply_tool",
+      "standards_version": "1.0.0",
+      "category": "ui_icons",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_a/icon_supply_tool.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_a/icon_supply_tool.png"
+      ],
+      "usage_terms": "https://pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space UI artwork at native pixel density; canvas dimensions do not imply world size.",
+      "review_status": "reviewed_native_asset_not_gameplay_integrated",
+      "exception": null,
+      "generation_id": "21665501-2e3e-413b-93f5-c0f94fc7a54d",
+      "provider_image_id": "09d095e9-1d0f-5d8e-9e84-ed8335baf10a",
+      "prompt": "Native 2D pixel art for On My Way to Home, a Moon survival and resource-management game at 960x540. Clean practical modular sci-fi interface. Cool gray, muted white, restrained blue/cyan accents. Crisp square pixels, limited palette, no antialiasing, blur, gradients, excessive glow, perspective, lettering, numbers, logos or watermarks. Transparent PNG background outside the artwork. Preserve the full requested canvas and transparent padding. One supply/tool inventory icon: compact closed utility supply case with handle and latch, cool gray/muted white with tiny cyan clasp; no lettering, logo or panel. Exact native canvas 32x32 pixels.",
+      "request_record": "assets/pixellab/source/ui_pack_a/generation_jobs.json",
+      "sha256": "b8079ecbf33c4201520c4259a78c51516ea163130d15fc281b2c6455b985e66b",
+      "opaque_bounds_px": [
+        8,
+        9,
+        18,
+        15
+      ],
+      "transparent_pixels": 785,
+      "partially_transparent_pixels": 0,
+      "visible_color_count": 6,
+      "nine_slice": null,
+      "nine_slice_status": "Not configured; proposed brief margins are not verified against generated border geometry.",
+      "draw_policy": "Keep the complete native canvas and padding; nearest filtering. Do not auto-trim, resize or stretch."
+    }
+  ],
+  "gameplay_integration": false
+}

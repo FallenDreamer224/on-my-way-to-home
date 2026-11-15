@@ -1,0 +1,494 @@
+{
+  "provider": "PixelLab.ai MCP",
+  "jobs": [
+    {
+      "asset_id": "base_pack_c_small_habitat_module",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. A small practical sealed lunar HABITAT MODULE, a low horizontally elongated rounded rectangular white pressure cabin with ribbed light gray shell, sturdy short landing feet, one human-sized door, two small dark blue windows, subtle exterior utility conduits. Its ground base projects to approximately 160 pixels wide and 80 pixels deep in 2:1 isometric; cabin height about 60 pixels above its base. Door about 42 pixels tall relative to a 55-pixel human. One standalone module, no attached equipment scenery. Native canvas exactly 192x192 pixels; complete subject fully inside with transparent margins.",
+        "width": 192,
+        "height": 192,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2100,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "122474aa-1d79-475a-ab13-3f027b363ac1",
+        "image_id": "275ca767-d257-59eb-9895-60337afc5b01",
+        "source_image_id": "275ca767-d257-59eb-9895-60337afc5b01",
+        "job_id": "122474aa-1d79-475a-ab13-3f027b363ac1",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. A small practical sealed lunar HABITAT MODULE, a low horizontally elongated rounded rectangular white pressure cabin with ribbed light gray shell, sturdy short landing feet, one human-sized door, two small dark blue windows, subtle exterior utility conduits. Its ground base projects to approximately 160 pixels wide and 80 pixels deep in 2:1 isometric; cabin height about 60 pixels above its base. Door about 42 pixels tall relative to a 55-pixel human. One standalone module, no attached equipment scenery. Native canvas exactly 192x192 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2100,
+        "image_size": {
+          "width": 192,
+          "height": 192
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/122474aa-1d79-475a-ab13-3f027b363ac1/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/small_habitat_module.png",
+      "sha256": "c908983e67f2c71f7100cb71478ce4062f0365014ac871481835eb898daff20e"
+    },
+    {
+      "asset_id": "base_pack_c_airlock_module",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. A compact square lunar AIRLOCK MODULE, short pressure chamber with round sealed hatch on its near-facing side, thick light gray hatch rim, white faceted exterior, restrained dark blue seals, four short stable feet. Base designed for 2x2 ground cells, approximately 128 by 64 projected ground pixels, cabin height about 45 pixels above base. Hatch sized for a human. Only this one airlock. Native canvas exactly 160x160 pixels; complete subject fully inside with transparent margins.",
+        "width": 160,
+        "height": 160,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2101,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "e4e00e4c-4028-47cd-b529-95b5bac96711",
+        "image_id": "20cb61f2-baa5-574d-8526-489eaf820eea",
+        "source_image_id": "20cb61f2-baa5-574d-8526-489eaf820eea",
+        "job_id": "e4e00e4c-4028-47cd-b529-95b5bac96711",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. A compact square lunar AIRLOCK MODULE, short pressure chamber with round sealed hatch on its near-facing side, thick light gray hatch rim, white faceted exterior, restrained dark blue seals, four short stable feet. Base designed for 2x2 ground cells, approximately 128 by 64 projected ground pixels, cabin height about 45 pixels above base. Hatch sized for a human. Only this one airlock. Native canvas exactly 160x160 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2101,
+        "image_size": {
+          "width": 160,
+          "height": 160
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/e4e00e4c-4028-47cd-b529-95b5bac96711/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/airlock_module.png",
+      "sha256": "83ab5c306ab3a5a56b48d7f59660098df91c9da86d3626b66c532dbc560e9800"
+    },
+    {
+      "asset_id": "base_pack_c_solar_panel_array",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One compact SOLAR PANEL ARRAY: two adjoining flat dark navy-blue photovoltaic panels with crisp pale blue cell lines, silver-white frames, supported at a modest tilt on two short connected gray legs. Broad low silhouette. Ground allocation 2x2 cells, about 128 by 64 projected ground pixels. Recognizable as panels on a support, not a building. All wiring remains attached to the unit. Native canvas exactly 160x128 pixels; complete subject fully inside with transparent margins.",
+        "width": 160,
+        "height": 128,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2102,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "ee2618fc-3b6c-417d-a1c0-1b0a7bc1ba3a",
+        "image_id": "d095427d-97b8-5d4f-9ae3-0c39eaba756d",
+        "source_image_id": "d095427d-97b8-5d4f-9ae3-0c39eaba756d",
+        "job_id": "ee2618fc-3b6c-417d-a1c0-1b0a7bc1ba3a",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One compact SOLAR PANEL ARRAY: two adjoining flat dark navy-blue photovoltaic panels with crisp pale blue cell lines, silver-white frames, supported at a modest tilt on two short connected gray legs. Broad low silhouette. Ground allocation 2x2 cells, about 128 by 64 projected ground pixels. Recognizable as panels on a support, not a building. All wiring remains attached to the unit. Native canvas exactly 160x128 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2102,
+        "image_size": {
+          "width": 160,
+          "height": 128
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/ee2618fc-3b6c-417d-a1c0-1b0a7bc1ba3a/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/solar_panel_array.png",
+      "sha256": "10a4a8d792b1f0ddca75fe034afc4944c4e11978c913cd5f27765647f1fd58d1"
+    },
+    {
+      "asset_id": "base_pack_c_battery_power_unit",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One compact standing BATTERY / POWER UNIT cabinet, sturdy white/light gray cuboid housing, dark blue recessed front panel, chunky base feet, small connected side cable socket. Squat square silhouette, about 44 pixels wide and 40 pixels high. Single 1x1 ground-cell unit. Native canvas exactly 96x96 pixels; complete subject fully inside with transparent margins.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2103,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "19c0935a-5f64-434d-adab-96143a9d9226",
+        "image_id": "53483321-a998-579a-8e03-c549403908da",
+        "source_image_id": "53483321-a998-579a-8e03-c549403908da",
+        "job_id": "19c0935a-5f64-434d-adab-96143a9d9226",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One compact standing BATTERY / POWER UNIT cabinet, sturdy white/light gray cuboid housing, dark blue recessed front panel, chunky base feet, small connected side cable socket. Squat square silhouette, about 44 pixels wide and 40 pixels high. Single 1x1 ground-cell unit. Native canvas exactly 96x96 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2103,
+        "image_size": {
+          "width": 96,
+          "height": 96
+        },
+        "output_count": 1,
+        "estimated_generations": 5,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/19c0935a-5f64-434d-adab-96143a9d9226/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/battery_power_unit.png",
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f"
+    },
+    {
+      "asset_id": "base_pack_c_storage_crate_large",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One LARGE STORAGE CRATE, broad white/light gray reinforced rectangular cargo chest with dark blue inset side panels, locking clasps and thick corner guards. Low wide box silhouette, about 80 pixels wide and 54 pixels tall. Ground allocation 2x1 cells, about 96 by 48 projected ground pixels. Not a building or stack of boxes. Native canvas exactly 128x128 pixels; complete subject fully inside with transparent margins.",
+        "width": 128,
+        "height": 128,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2104,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "2f50354e-488d-489c-8bac-c49345308b49",
+        "image_id": "aabccd8c-0c09-542e-909d-6f28d137f48e",
+        "source_image_id": "aabccd8c-0c09-542e-909d-6f28d137f48e",
+        "job_id": "2f50354e-488d-489c-8bac-c49345308b49",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One LARGE STORAGE CRATE, broad white/light gray reinforced rectangular cargo chest with dark blue inset side panels, locking clasps and thick corner guards. Low wide box silhouette, about 80 pixels wide and 54 pixels tall. Ground allocation 2x1 cells, about 96 by 48 projected ground pixels. Not a building or stack of boxes. Native canvas exactly 128x128 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2104,
+        "image_size": {
+          "width": 128,
+          "height": 128
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/2f50354e-488d-489c-8bac-c49345308b49/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/storage_crate_large.png",
+      "sha256": "c8ee0811109a03549f2d28bd056e52f70219b857c83c543d99898c76c359934c"
+    },
+    {
+      "asset_id": "base_pack_c_utility_oxygen_tank",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One upright UTILITY OXYGEN TANK: tall white pressure cylinder with a dark blue band, protective pale gray cap and valve guard, attached short pipe on side, sturdy base cradle. Cylindrical silhouette, about 32 pixels wide and 66 pixels tall. Fits one ground cell. Every hose and fitting is attached. Native canvas exactly 96x128 pixels; complete subject fully inside with transparent margins.",
+        "width": 96,
+        "height": 128,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2105,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "f2689136-b5c7-477e-ab81-3ed06b81688f",
+        "image_id": "08ecb8f9-b2b8-51f6-9ae8-a84e89df7d4f",
+        "source_image_id": "08ecb8f9-b2b8-51f6-9ae8-a84e89df7d4f",
+        "job_id": "f2689136-b5c7-477e-ab81-3ed06b81688f",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One upright UTILITY OXYGEN TANK: tall white pressure cylinder with a dark blue band, protective pale gray cap and valve guard, attached short pipe on side, sturdy base cradle. Cylindrical silhouette, about 32 pixels wide and 66 pixels tall. Fits one ground cell. Every hose and fitting is attached. Native canvas exactly 96x128 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2105,
+        "image_size": {
+          "width": 96,
+          "height": 128
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/f2689136-b5c7-477e-ab81-3ed06b81688f/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png",
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091"
+    },
+    {
+      "asset_id": "base_pack_c_communications_antenna",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One small ground-standing COMMUNICATIONS ANTENNA, white and light gray parabolic dish tilted slightly upward on a narrow mast and compact anchored tripod base, restrained blue receiver detail. Tall slender silhouette about 48 pixels wide and 90 pixels tall; base fits one ground cell. No signal waves or separate objects. Native canvas exactly 96x160 pixels; complete subject fully inside with transparent margins.",
+        "width": 96,
+        "height": 160,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2106,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "7d3c07ed-a636-4dbc-a5ce-a9085fea8af9",
+        "image_id": "5d51e05e-56c8-5d03-b715-669093ce7ebe",
+        "source_image_id": "5d51e05e-56c8-5d03-b715-669093ce7ebe",
+        "job_id": "7d3c07ed-a636-4dbc-a5ce-a9085fea8af9",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One small ground-standing COMMUNICATIONS ANTENNA, white and light gray parabolic dish tilted slightly upward on a narrow mast and compact anchored tripod base, restrained blue receiver detail. Tall slender silhouette about 48 pixels wide and 90 pixels tall; base fits one ground cell. No signal waves or separate objects. Native canvas exactly 96x160 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2106,
+        "image_size": {
+          "width": 96,
+          "height": 160
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/7d3c07ed-a636-4dbc-a5ce-a9085fea8af9/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/communications_antenna.png",
+      "sha256": "73b0e88a6c91dc26fcce92dab4f19a9c99fb8fea4539634bcfc66107e03672a1"
+    },
+    {
+      "asset_id": "base_pack_c_work_control_console",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One freestanding WORK TERMINAL / CONTROL CONSOLE, slanted dark navy-blue blank display in a white/light gray housing on a short pedestal and sturdy compact foot base. Practical waist-high terminal, about 36 pixels wide and 42 pixels tall. Display is one uniform dark blue pane with no glyphs, labels, writing, numbers or diagrams. Single one-cell prop. Native canvas exactly 96x96 pixels; complete subject fully inside with transparent margins.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2107,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "0cda22a8-c4bf-42ee-918b-659c51541366",
+        "image_id": "3e7970cd-6d1d-5bff-b3d1-79d656d76f27",
+        "source_image_id": "3e7970cd-6d1d-5bff-b3d1-79d656d76f27",
+        "job_id": "0cda22a8-c4bf-42ee-918b-659c51541366",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One freestanding WORK TERMINAL / CONTROL CONSOLE, slanted dark navy-blue blank display in a white/light gray housing on a short pedestal and sturdy compact foot base. Practical waist-high terminal, about 36 pixels wide and 42 pixels tall. Display is one uniform dark blue pane with no glyphs, labels, writing, numbers or diagrams. Single one-cell prop. Native canvas exactly 96x96 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2107,
+        "image_size": {
+          "width": 96,
+          "height": 96
+        },
+        "output_count": 1,
+        "estimated_generations": 5,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/0cda22a8-c4bf-42ee-918b-659c51541366/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/work_control_console.png",
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2"
+    },
+    {
+      "asset_id": "base_pack_c_light_beacon_pole",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One narrow LIGHT BEACON / POLE LIGHT: slim white/light gray vertical pole, small rectangular pale white lamp head with a blue casing accent, short stable three-foot base. Around 22 pixels wide and 75 pixels tall. Lamp surface is pale white flat pixels with no emitted glow, lighting effect or halo. Base fits one ground cell. Native canvas exactly 64x128 pixels; complete subject fully inside with transparent margins.",
+        "width": 64,
+        "height": 128,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2108,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "609f2da8-17d0-4e7c-bd90-d04c557e3b1a",
+        "image_id": "04a35bcf-434e-5e3a-87d0-81b6d44ac758",
+        "source_image_id": "04a35bcf-434e-5e3a-87d0-81b6d44ac758",
+        "job_id": "609f2da8-17d0-4e7c-bd90-d04c557e3b1a",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One narrow LIGHT BEACON / POLE LIGHT: slim white/light gray vertical pole, small rectangular pale white lamp head with a blue casing accent, short stable three-foot base. Around 22 pixels wide and 75 pixels tall. Lamp surface is pale white flat pixels with no emitted glow, lighting effect or halo. Base fits one ground cell. Native canvas exactly 64x128 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2108,
+        "image_size": {
+          "width": 64,
+          "height": 128
+        },
+        "output_count": 1,
+        "estimated_generations": 6,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/609f2da8-17d0-4e7c-bd90-d04c557e3b1a/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/light_beacon_pole.png",
+      "sha256": "538882bc3b019c98658c43529cebfd48c267a1df5ebb7b20146e6a8f6ac5cffc"
+    },
+    {
+      "asset_id": "base_pack_c_small_connector_utility_box",
+      "tool": "create_image_pro_flash",
+      "request": {
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One small CONNECTOR / UTILITY BOX, a short squat white junction box with a dark blue seam, two small attached side connector sockets and a pale gray latch. About 30 pixels wide and 24 pixels high. Low 1x1-ground-cell hardware prop, not a portable case, no handles. Native canvas exactly 64x64 pixels; complete subject fully inside with transparent margins.",
+        "width": 64,
+        "height": 64,
+        "no_background": true,
+        "max_colors": 24,
+        "seed": 2109,
+        "style_image": {
+          "reference_file": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+          "usage_description": "STYLE ONLY, not content: match pixel scale, sharp outlines, white/gray shell materials, navy-blue accents and upper-left lighting. Draw only the requested inanimate base structure."
+        },
+        "style_options": {
+          "color_palette": true,
+          "outline": true,
+          "detail": true,
+          "shading": true
+        }
+      },
+      "response": {
+        "background_job_id": "61e6607a-0ea3-48e1-ac90-299914753356",
+        "image_id": "f7c63dc5-85b0-5e09-9631-68a2b0e95353",
+        "source_image_id": "f7c63dc5-85b0-5e09-9631-68a2b0e95353",
+        "job_id": "61e6607a-0ea3-48e1-ac90-299914753356",
+        "description": "Standalone clean native 2D isometric pixel-art asset for the Moon survival game On My Way to Home. Orthographic 2:1 diamond isometric, top and two sides visible, ground axes have slopes plus/minus one half. Practical NASA-inspired lunar survival hardware WITHOUT NASA logos or any branding. Match the reference astronaut/Chiwis materials: muted white and light gray shell, dark blue-gray crisp outlines, restrained navy/blue accents, upper-left light and clustered pixel shading. Consistent native pixel density relative to a 48-56 pixel tall human. Fully transparent empty background and padding. Sharp square pixels, binary alpha, no antialiasing, blur or glow. One complete connected structure or unit only. All visible pixels belong to the object, clean empty margins. No people, animals, robots, text, letters, numbers, labels, scenery, ground tile, floor, cast shadow or floating particles. One small CONNECTOR / UTILITY BOX, a short squat white junction box with a dark blue seam, two small attached side connector sockets and a pale gray latch. About 30 pixels wide and 24 pixels high. Low 1x1-ground-cell hardware prop, not a portable case, no handles. Native canvas exactly 64x64 pixels; complete subject fully inside with transparent margins.",
+        "seed": 2109,
+        "image_size": {
+          "width": 64,
+          "height": 64
+        },
+        "output_count": 1,
+        "estimated_generations": 5,
+        "pricing_provisional": true,
+        "poll_tool": "get_image",
+        "download_path": "/mcp/images/61e6607a-0ea3-48e1-ac90-299914753356/download",
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/small_connector_utility_box.png",
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1"
+    },
+    {
+      "asset_id": "base_pack_c_small_habitat_module",
+      "attempt": 2,
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "A single large small-habitat lunar pressure cabin, elongated rounded rectangular WHITE module with three ribbed shell sections, blue-gray undersides, two small dark blue windows, short attached landing feet and a HUMAN-SIZED DOOR about 45 pixels high. Habitat occupies about 160 pixels wide by 112 pixels tall within the native 192x192 canvas. View from above at an isometric 2:1 angle, with top and two sides visible. Practical scientific Moon base, restrained blue accents, light from upper left, dark blue-gray crisp one-pixel outline and flat clustered pixel shading. Complete unified object with clean transparent empty margins. Native pixel density matching a 55-pixel-tall astronaut. Plain unmarked surfaces.",
+        "width": 192,
+        "height": 192,
+        "no_background": true,
+        "outline": "single color outline",
+        "detail": "medium detail",
+        "view": "low top-down",
+        "seed": 2230
+      },
+      "response": {
+        "job_id": "72d6a198-ff2b-4b8c-abaf-abb98e8fabe3",
+        "source_image_id": "bc802463-39be-5eb1-97bd-3c598a934f92",
+        "estimated_generations": 1,
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/small_habitat_module_v2.png",
+      "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba"
+    },
+    {
+      "asset_id": "base_pack_c_airlock_module",
+      "attempt": 2,
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "A single lunar airlock chamber, compact square white/light gray pressure cabin with a large round sealed hatch and dark navy-blue seals, four attached short feet, top and two sides visible in 2:1 isometric view. Object approximately 120 pixels wide by 100 pixels tall inside native 160x160 canvas. Human-sized hatch about 42 pixels high. Upper-left lighting, dark blue-gray crisp one-pixel outlines, restrained blue mechanical accents, flat clustered pixel-art shading matching a white-suited 55-pixel astronaut. Complete unified silhouette with empty transparent margins, plain unmarked surfaces.",
+        "width": 160,
+        "height": 160,
+        "no_background": true,
+        "outline": "single color outline",
+        "detail": "medium detail",
+        "view": "low top-down",
+        "seed": 2231
+      },
+      "response": {
+        "job_id": "aacc0109-e8a8-4e1f-bd14-393826a473d5",
+        "source_image_id": "2987baa6-e621-5b00-b57f-9a2010881abb",
+        "estimated_generations": 1,
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/airlock_module_v2.png",
+      "sha256": "4be341ccd449848ddae346fb7b92fc352cca507720e961307c9c6c4a066637bf"
+    },
+    {
+      "asset_id": "base_pack_c_solar_panel_array",
+      "attempt": 2,
+      "tool": "create_image_pixen",
+      "request": {
+        "description": "A single lunar solar panel array made of two adjoining dark navy-blue photovoltaic panels with thin pale blue rectangular cell lines and white/silver frames, tilted on two connected short metal supports. Low broad silhouette about 120 pixels wide by 70 pixels tall, centered inside native 160x128 canvas. 2:1 isometric view from above, upper-left lighting, crisp dark blue-gray pixel outlines, clean white/light gray supports with restrained blue details. Unified complete panel assembly, clean empty transparent margins, simple flat clustered pixel shading, practical Moon base hardware.",
+        "width": 160,
+        "height": 128,
+        "no_background": true,
+        "outline": "single color outline",
+        "detail": "medium detail",
+        "view": "low top-down",
+        "seed": 2232
+      },
+      "response": {
+        "job_id": "2f4664e6-beb4-4789-8dbb-a22dd0824480",
+        "source_image_id": "3612f196-c0dc-5feb-9a64-4123216cafbf",
+        "estimated_generations": 1,
+        "status": "completed"
+      },
+      "downloaded_source": "assets/pixellab/source/base_pack_c/solar_panel_array_v2.png",
+      "sha256": "f9873debcdd2ae6145842250dd9c7b4921dba430b11b0c63119b38e923a3a80e"
+    }
+  ]
+}

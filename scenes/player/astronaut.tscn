@@ -1,0 +1,50 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/astronaut.gd" id="1_actor"]
+[ext_resource type="Script" path="res://scripts/player/astronaut_animation.gd" id="2_visual"]
+[ext_resource type="Resource" path="res://resources/characters/astronaut_art.tres" id="3_art"]
+[ext_resource type="Script" path="res://scripts/inventory/runtime_inventory.gd" id="4_inventory"]
+[ext_resource type="Resource" path="res://resources/items/lunar_sample.tres" id="5_sample"]
+[ext_resource type="Resource" path="res://resources/items/metal_scrap.tres" id="6_scrap"]
+[ext_resource type="Resource" path="res://resources/items/supply_pack.tres" id="7_pack"]
+[ext_resource type="Script" path="res://scripts/interaction/interaction_detector.gd" id="8_interaction"]
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="9_definition"]
+
+[sub_resource type="RectangleShape2D" id="Shape_feet"]
+size = Vector2(10, 6)
+
+[sub_resource type="CircleShape2D" id="Shape_range"]
+resource_local_to_scene = true
+radius = 48.0
+
+[node name="Astronaut" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 1
+collision_mask = 2
+safe_margin = 0.01
+script = ExtResource("1_actor")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+process_priority = 200
+texture_filter = 1
+position = Vector2(-32, -56)
+centered = false
+script = ExtResource("2_visual")
+art_profile = ExtResource("3_art")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Shape_feet")
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("4_inventory")
+definitions = Array[ExtResource("9_definition")]([ExtResource("5_sample"), ExtResource("6_scrap"), ExtResource("7_pack")])
+
+[node name="InteractionDetector" type="Area2D" parent="."]
+process_physics_priority = 10
+collision_layer = 0
+collision_mask = 8
+monitorable = false
+script = ExtResource("8_interaction")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionDetector"]
+shape = SubResource("Shape_range")

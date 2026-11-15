@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/terrain_layer.gd" id="1_layer"]
+[ext_resource type="Resource" path="res://resources/data/lunar_test_region.tres" id="2_region"]
+[ext_resource type="TileSet" path="res://resources/terrain/moon_terrain.tres" id="3_art"]
+
+[node name="Ground" type="TileMapLayer"]
+position = Vector2(-32, -16)
+texture_filter = 1
+texture_repeat = 1
+script = ExtResource("1_layer")
+region = ExtResource("2_region")
+terrain_art = ExtResource("3_art")

@@ -1,0 +1,48 @@
+# Godot 4.7.2 generated imports, shader/editor caches and export secrets.
+/.godot/
+/android/
+export_credentials.cfg
+
+# Local editor/tool configuration can contain personal paths or credentials.
+/.vscode/
+/.idea/
+/.codex/
+/.agents/
+/.aws/
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.cfg
+*.pem
+*.key
+*.pfx
+*.p12
+mcp.json
+.mcp.json
+
+# Reproducible validation profiles, screenshots, logs and private checkpoints.
+/tests/output/
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+/logs/
+
+# Generated art contact sheets and source-asset ZIP handoffs; inputs are retained.
+/art/exports/
+
+# Windows downloads belong in release attachments, never in source history.
+/builds/
+/dist/
+/releases/
+/exports/
+
+# OS metadata.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep project.godot, export_presets.cfg (without secrets), .uid and .import sidecars.
+# Deliberately do not blanket-ignore PNG/PXO/ZIP assets or source provenance.

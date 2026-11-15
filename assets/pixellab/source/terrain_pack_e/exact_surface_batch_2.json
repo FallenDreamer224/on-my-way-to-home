@@ -1,0 +1,116 @@
+{
+  "job": {
+    "canvas": [
+      64,
+      32
+    ],
+    "frame_count": 1,
+    "views": [
+      {
+        "id": "hazard-stripe-floor-tile",
+        "offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "source_bookends_exact": false,
+    "require_clear_border": false
+  },
+  "scene": {
+    "palette": {
+      "g": "#989897",
+      "h": "#9C9C9B",
+      "l": "#A5A5A5",
+      "n": "#949593",
+      "d": "#868685",
+      "k": "#6d6f70",
+      "a": "#78838c",
+      "b": "#828e98",
+      "c": "#65717c",
+      "e": "#48535f",
+      "f": "#aab5bd",
+      "i": "#547b90",
+      "j": "#b39a59",
+      "m": "#323a44"
+    },
+    "layers": [
+      {
+        "id": "surface",
+        "name": "Surface art"
+      }
+    ],
+    "views": {
+      "hazard-stripe-floor-tile": {
+        "nodes": {
+          "surface": {
+            "layer": "surface",
+            "at": [
+              0,
+              0
+            ],
+            "draw": [
+              {
+                "op": "grid",
+                "at": [
+                  0,
+                  0
+                ],
+                "legend": {
+                  "g": "g",
+                  "h": "h",
+                  "l": "l",
+                  "n": "n",
+                  "d": "d",
+                  "k": "k",
+                  "a": "a",
+                  "b": "b",
+                  "c": "c",
+                  "e": "e",
+                  "f": "f",
+                  "i": "i",
+                  "j": "j",
+                  "m": "m"
+                },
+                "rows": [
+                  "...............................ee...............................",
+                  ".............................eeccee.............................",
+                  "...........................eeccccccee...........................",
+                  ".........................eeccccffccccee.........................",
+                  ".......................eecccceeeeeeccccee.......................",
+                  ".....................eecccceeeaaaaeeeccccee.....................",
+                  "...................eecccceeeaaaaaaaaeeeccccee...................",
+                  ".................eecccceeeaaaaabaaaaaaeeeccccee.................",
+                  "...............eecccceeeaaaabaaaaaaaaaabeeeccccee...............",
+                  ".............eecccceeeaaaaabaaaaaabaaaaaaaeeeccccee.............",
+                  "...........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee...........",
+                  ".........eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaeeeccccee.........",
+                  ".......eecccceeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeeeccccee.......",
+                  ".....eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaeeecccjjj.....",
+                  "...eecccceeeaaaaaaaaaabaaaaaaaaaaaaaaaaabaaaaaaaaaaaeemmjjjjj...",
+                  ".eeccccffeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaammmmffjjjje.",
+                  ".eecccceeeaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaajjjjmmemmmcee.",
+                  "...eecccceeebaaaaaaaaaaaaaaabaaaaaaaaaaaaaaabaaammmjjjjjmmcee...",
+                  ".....eecccceeeaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaajjmmmmmjjjcee.....",
+                  ".......eecccceeeaaaaabaaaaaaabaaaaaaaaaaaaaajjjjjjmmmmcee.......",
+                  ".........eecccceeeaaaaaaaaaaaaaaaaaaaaaaaammmmjjjjjjcee.........",
+                  "...........eecccceeeaaaaaaaaaaabaaaaaaaajjjmmmmmjjcee...........",
+                  ".............eecccceeebaaaaaaaaaaaaaaammjjjjjmmmcee.............",
+                  "...............eecccceeeaaaaaaaaaaaammmmmmjjjjcee...............",
+                  ".................eecccceeeaaaaaaabjjjjmmmmmmcee.................",
+                  "...................eecccceeeaaaammmjjjjjmmcee...................",
+                  ".....................eecccceeejjmmmmmjjjcee.....................",
+                  ".......................eecccjjjffjmmmmcee.......................",
+                  ".........................emmmmjejjjjcee.........................",
+                  "...........................mmmmmjjcee...........................",
+                  ".............................mmmcee.............................",
+                  "...............................ee..............................."
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

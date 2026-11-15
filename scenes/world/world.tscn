@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/world/terrain_layer.tscn" id="1_ground"]
+[ext_resource type="PackedScene" path="res://scenes/player/astronaut.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/companions/chiwis.tscn" id="3_chiwis"]
+[ext_resource type="PackedScene" path="res://scenes/world/world_pickup.tscn" id="4_pickup"]
+[ext_resource type="Resource" path="res://resources/items/lunar_sample.tres" id="5_sample"]
+[ext_resource type="Resource" path="res://resources/items/metal_scrap.tres" id="6_scrap"]
+[ext_resource type="Resource" path="res://resources/items/supply_pack.tres" id="7_pack"]
+[ext_resource type="Resource" path="res://resources/data/lunar_tutorial_region.tres" id="8_region"]
+[ext_resource type="Script" path="res://scripts/world/lunar_site_layout.gd" id="9_layout"]
+
+[node name="World" type="Node2D"]
+
+[node name="Terrain" type="Node2D" parent="."]
+z_index = -10
+
+[node name="Ground" parent="Terrain" instance=ExtResource("1_ground")]
+region = ExtResource("8_region")
+
+[node name="Entities" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="SiteLayout" type="Node2D" parent="."]
+z_index = -9
+script = ExtResource("9_layout")
+
+[node name="Players" type="Node2D" parent="Entities"]
+y_sort_enabled = true
+
+[node name="Astronaut" parent="Entities/Players" instance=ExtResource("2_player")]
+
+[node name="NPCs" type="Node2D" parent="Entities"]
+y_sort_enabled = true
+
+[node name="Chiwis" parent="Entities/NPCs" instance=ExtResource("3_chiwis")]
+
+[node name="Buildings" type="Node2D" parent="Entities"]
+y_sort_enabled = true
+
+[node name="Props" type="Node2D" parent="Entities"]
+y_sort_enabled = true
+
+[node name="LunarSampleA" parent="Entities/Props" instance=ExtResource("4_pickup")]
+position = Vector2(32, 16)
+item = ExtResource("5_sample")
+quantity = 6
+pickup_id = "lunar_sample_a"
+
+[node name="LunarSampleB" parent="Entities/Props" instance=ExtResource("4_pickup")]
+position = Vector2(64, 32)
+item = ExtResource("5_sample")
+quantity = 8
+pickup_id = "lunar_sample_b"
+
+[node name="MetalScrap" parent="Entities/Props" instance=ExtResource("4_pickup")]
+position = Vector2(-32, 48)
+item = ExtResource("6_scrap")
+quantity = 3
+pickup_id = "metal_scrap_a"
+
+[node name="SupplyPack" parent="Entities/Props" instance=ExtResource("4_pickup")]
+position = Vector2(-64, -32)
+item = ExtResource("7_pack")
+quantity = 1
+pickup_id = "supply_pack_a"

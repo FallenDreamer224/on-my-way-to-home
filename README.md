@@ -94,5 +94,12 @@ See [CREDITS.md](CREDITS.md), [third-party/licensing review](docs/THIRD_PARTY_RE
 
 No project license has been selected, and no LICENSE file is supplied. Do not infer that the project's artwork or source is licensed under Godot's MIT license. Source/art redistribution clearance and final public author names remain publisher decisions.
 
-NASA publications inform the research documentation. **This independent game is not sponsored, approved or endorsed by NASA.** No NASA affiliation or hardware qualification is claimed.
+NASA publications inform the research documentation.
+**This independent game is not sponsored, approved or endorsed by NASA.**
+No NASA affiliation or hardware qualification is claimed.
+No NASA information was added to AI.
+This game is part of **NASA APP CHALLENGE 2026***
+
+## Clarificaton
+This game was made with help of AI, being used as a tool, as total, 30% of the game was made with AI, while 70% was handmade, including animations.
 

@@ -69,12 +69,6 @@ node tools/release/public_manifest.mjs
 
 Outputs and isolated profiles go under ignored `tests/output/`. Local `.vscode/` settings are ignored; public users should use `GODOT_BIN` or the validator's `-GodotPath` argument. Recreating character exports additionally requires the separately supplied original PXO files and an installed Pixelorama resource pack; see [asset workflow](docs/phase_0_6_report.md).
 
-## Tested environment and limitations
-
-Validation has run on Windows with Godot 4.7.2's Compatibility renderer and an NVIDIA GeForce RTX 3050 Laptop GPU at the 960×540 logical resolution. This is a **tested development environment**, not a minimum hardware requirement or exported-build compatibility claim.
-
-There is no exported Windows build, clean-machine installation test, packaged demo menu, disk save/load or campaign progression yet. Interiors and much UI remain placeholders. Exterior base/lander asset packs are preserved but not assembled into the production map. Detailed medicine/survival, Mars, multiplayer and audio are outside the frozen demo scope. Development utility fault/scenario controls require release gating.
-
 ## Repository map
 
 | Path | Contents |

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bn08vljdcm64n"
+
+[deps]
+
+files=["res://docs/project_file_inventory.bytes.translation", "res://docs/project_file_inventory.category.translation", "res://docs/project_file_inventory.extension.translation"]
+
+source_file="res://docs/project_file_inventory.csv"
+dest_files=["res://docs/project_file_inventory.bytes.translation", "res://docs/project_file_inventory.category.translation", "res://docs/project_file_inventory.extension.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

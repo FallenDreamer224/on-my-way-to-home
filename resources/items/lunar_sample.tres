@@ -6,7 +6,7 @@
 script = ExtResource("1")
 item_id = &"lunar_sample"
 display_name = "Lunar Sample"
-description = "A development sample of lunar regolith. Used to test collection and stacking."
+description = "A sealed sample of lunar regolith and rock fragments. The Science station in the outpost can examine it."
 maximum_stack = 10
 tags = PackedStringArray("development", "sample")
 placeholder_color = Color(0.68, 0.78, 0.88, 1)

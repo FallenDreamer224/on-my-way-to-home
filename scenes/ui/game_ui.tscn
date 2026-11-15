@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" path="res://scenes/ui/game_hud.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/ui/interaction_prompt.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://scenes/ui/inventory_window.tscn" id="4"]
-[ext_resource type="Theme" path="res://resources/ui/development_theme.tres" id="5"]
+[ext_resource type="Theme" path="res://resources/ui/mission_os_theme.tres" id="5"]
 
 [node name="UI" type="CanvasLayer"]
 layer = 10

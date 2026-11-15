@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="MissionDefinition" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/mission_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/gameplay/objective_definition.gd" id="2"]
+
+[sub_resource type="Resource" id="collect_sample"]
+script = ExtResource("2")
+objective_id = &"collect_sample"
+title = "Collect a Lunar Sample"
+guidance = "A sample marker is close to the landing point. Walk to it and collect it."
+condition = &"has_item"
+subject = &"lunar_sample"
+
+[sub_resource type="Resource" id="enter_habitat"]
+script = ExtResource("2")
+objective_id = &"enter_habitat"
+title = "Enter the outpost through the crew airlock"
+guidance = "The habitat entry is north-west of the landing point. Seal the outer hatch, inspect the suit and dust seals, then match habitat pressure."
+condition = &"inside_habitat"
+
+[sub_resource type="Resource" id="examine_sample"]
+script = ExtResource("2")
+objective_id = &"examine_sample"
+title = "Examine the sample at the Science station"
+guidance = "Cross the Equipment lock and Central corridor to Health / science. Start the examination and keep the panel open until it completes."
+condition = &"activity_completed"
+subject = &"science"
+
+[sub_resource type="Resource" id="review_inventory"]
+script = ExtResource("2")
+objective_id = &"review_inventory"
+title = "Review your inventory"
+guidance = "Open the inventory to inspect what you carry."
+optional = true
+condition = &"event"
+subject = &"inventory_opened"
+
+[sub_resource type="Resource" id="survey_site"]
+script = ExtResource("2")
+objective_id = &"survey_site"
+title = "Survey the site in Base Management view"
+guidance = "Switch view, then pan and zoom across the site."
+optional = true
+condition = &"event"
+subject = &"management_visited"
+
+[sub_resource type="Resource" id="inspect_utilities"]
+script = ExtResource("2")
+objective_id = &"inspect_utilities"
+title = "Inspect a habitat utility terminal"
+guidance = "Engineering holds the life-support, water and power terminals."
+optional = true
+condition = &"event"
+subject = &"utility_terminal_opened"
+
+[resource]
+script = ExtResource("1")
+mission_id = &"moon_first_sample"
+title = "First Sample Return"
+summary = "Bring a lunar sample into the outpost and record a science examination."
+objectives = Array[ExtResource("2")]([SubResource("collect_sample"), SubResource("enter_habitat"), SubResource("examine_sample")])
+optional_tasks = Array[ExtResource("2")]([SubResource("review_inventory"), SubResource("survey_site"), SubResource("inspect_utilities")])

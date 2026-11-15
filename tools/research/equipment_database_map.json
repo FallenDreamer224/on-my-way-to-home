@@ -1,0 +1,31 @@
+{
+  "description": "Curated subset of the research registry shown in the in-game equipment database. Only entries tied to systems the Moon tutorial currently represents are listed. Factual fields are copied from resources/research/nasa_technology_catalog.json by build_equipment_database.gd; game_usage is the only authored text and describes the game abstraction, never a real specification.",
+  "entries": [
+    {"id": "NASA-HAB-MOONBASE", "game_system": "habitat", "game_usage": "The tutorial outpost is a fictional starter habitat with nine compartments. It is explicit near-future fiction, not a reconstruction of a planned base."},
+    {"id": "NASA-AIRLOCK-QUEST", "game_system": "habitat", "game_usage": "The crew airlock uses a two-hatch interlock with a short pressure-matching step. It is a presentation abstraction: no gas mass, pumping energy or real procedure time is simulated."},
+    {"id": "NASA-GAS-CONTROL", "game_system": "life_support", "game_usage": "Cabin pressure and gas partial pressures come from one well-mixed cabin model with finite stores. Rates, setpoints and alarm limits are tutorial assumptions."},
+    {"id": "NASA-O2-OGA", "game_system": "life_support", "game_usage": "Reference only. The tutorial habitat releases stored oxygen through a supply valve; electrolysis is not simulated and no oxygen is produced."},
+    {"id": "NASA-AIR-CDRA", "game_system": "life_support", "game_usage": "The CO2 removal device moves cabin CO2 into a finite captured store at a tutorial rate while powered and ventilated."},
+    {"id": "NASA-WATER-WPA", "game_system": "water", "game_usage": "The water treatment device returns a configured fraction of wastewater to the potable store and sends the rest to reject. Purity and contaminant chemistry are not modelled."},
+    {"id": "NASA-WASTE-WHC", "game_system": "water", "game_usage": "The hygiene compartment records a wash routine and sealed-waste counter. Water used is moved to the wastewater store."},
+    {"id": "NASA-FOOD-PACKAGED", "game_system": "food", "game_usage": "Delivered dry rations are a finite cargo reserve. Preparing a meal is a logged routine with a small water transfer; nutrition is not simulated."},
+    {"id": "NASA-PLANT-VEGGIE", "game_system": "food", "game_usage": "Two growing trays need light, power, water, nutrients and cabin conditions. The growth time is deliberately compressed and portions are supplemental."},
+    {"id": "NASA-PLANT-APH", "game_system": "food", "game_usage": "Inspiration for controlled-environment growth conditions. The game credits no oxygen from plants and does not model plant chemistry."},
+    {"id": "NASA-POWER-SOLAR", "game_system": "power", "game_usage": "Solar generation is a configured available power multiplied by a sunlight fraction. No array geometry, dust or day-night cycle drives it."},
+    {"id": "NASA-POWER-BATTERY", "game_system": "power", "game_usage": "The habitat battery stores energy in watt-hours with charge and discharge efficiencies and a reserve alarm. Values are tutorial assumptions."},
+    {"id": "NASA-THERMAL-LOOPS", "game_system": "power", "game_usage": "A thermal loop and radiator device removes heat from the cabin heat ledger when powered. Its rating is a tutorial assumption."},
+    {"id": "NASA-THERMAL-PASSIVE", "game_system": "power", "game_usage": "A constant passive rejection term represents losses to the environment in the cabin heat ledger."},
+    {"id": "NASA-EVA-EMU", "game_system": "eva", "game_usage": "Flight-heritage reference for the astronaut's suit. Suit oxygen, power and cooling are not simulated in this build."},
+    {"id": "NASA-EVA-AXEMU", "game_system": "eva", "game_usage": "Lunar surface suit reference. The in-game suit is original artwork; no suit consumables or mobility limits are modelled."},
+    {"id": "NASA-EVA-TOOLS", "game_system": "science", "game_usage": "Collecting a Lunar Sample is a single interaction near a sample marker. Tools and sampling procedure are not simulated."},
+    {"id": "NASA-DUST-EDS", "game_system": "hazards", "game_usage": "The Equipment lock has a dust-removal station as an inspection point. Dust accumulation and removal are not simulated."},
+    {"id": "NASA-RADIATION-SHELTER", "game_system": "hazards", "game_usage": "The outpost includes a protected shelter compartment. Radiation exposure and shielding performance are not simulated."},
+    {"id": "NASA-EXERCISE-ARED", "game_system": "health", "game_usage": "The exercise station records a timed routine in the activity log. No physiological effect is calculated."},
+    {"id": "NASA-EXERCISE-T2", "game_system": "health", "game_usage": "Reference for the exercise routine. The game logs the activity only."},
+    {"id": "NASA-HEALTH-SLEEP", "game_system": "health", "game_usage": "The sleeping quarters record a rest routine. Fatigue and sleep debt are not simulated."},
+    {"id": "NASA-MED-MONITOR", "game_system": "health", "game_usage": "The medical station records a powered inspection routine. No diagnosis or health value is produced."},
+    {"id": "NASA-SCIENCE-LOG", "game_system": "science", "game_usage": "The Science station runs a short powered examination of a carried Lunar Sample and records it in the activity log."},
+    {"id": "NASA-SAMPLE-PROVENANCE", "game_system": "science", "game_usage": "The examination preserves the sample in the inventory, reflecting curation rather than consumption."},
+    {"id": "NASA-ENV-MOON", "game_system": "environment", "game_usage": "The tutorial site is a fictional 40 x 40 cell lunar region. The mission perimeter is authored, not a computed suit range."}
+  ]
+}

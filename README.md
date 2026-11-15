@@ -2,9 +2,9 @@
 
 A fully **2D isometric pixel-art** exploration and resource-management prototype built with **Godot 4.7.2** and GDScript.
 
-One astronaut arrives on the Moon with **Chiwis**, a robotic companion. Explore a small lunar region, bring a sample into the research outpost, and record a powered science examination. Player Mode follows the astronaut; Base Management Mode provides a separate planning camera.
+One astronaut arrives on the Moon with **Chiwis**, a robotic companion, you a small lunar region, bring a sample into the research outpost, and record a powered science examination, you as the player have to find and unlock the data of the nasa to discover new things that will help you in your research.
 
-**Development status:** implementation through Phase 0.8E2, a tested D0 demo route, startup stabilization, and a local Windows x64 **0.1.0-rc.1** candidate. See [D3 release report](docs/DEMO_D3_RELEASE_REPORT.md) and [release notes](docs/DEMO_D3_RELEASE_NOTES.md). The ZIP is under `builds/windows/`; it has not been published and art redistribution clearance remains pending. There is no main menu. The main roadmap is paused for demo preparation.
+**Development status:** implementation through Phase 0.8E2, a tested  demo route, startup stabilization, and a local Windows x64 candidate.
 
 ## Prototype screenshots
 
@@ -26,25 +26,6 @@ Existing 960×540 gameplay captures; development UI and placeholder interiors ar
 - Prototype utilities with finite resource stores, battery/power accounting and alarms.
 - Two resource-dependent growing trays and lightweight daily activities.
 
-Imported run animations exist, but sprint gameplay is not enabled. The greenhouse and utility foundations use documented gameplay abstractions, not certified spacecraft or biological simulations. See the [readiness audit](docs/DEMO_READINESS_REPORT.md) for the complete feature classification.
-
-## Playable download versus source
-
-When the publisher creates an approved GitHub Release, open this repository's **Releases** section and download **On-My-Way-to-Home-Demo-Windows-x64.zip** from its release assets. Extract it completely before launching the executable.
-
-No release was published during this preparation phase. GitHub's automatically generated **Source code** archives are the project source, not a playable Windows build; they require Godot. No repository URL or release tag has been invented.
-
-## Open the source
-
-1. Install Godot **4.7.2** with GDScript support.
-2. Obtain this source tree after the publisher approves its licensing/publication.
-3. Import `project.godot` and let the initial resource/class scan finish.
-4. Press **F5** to run the configured `scenes/main.tscn`.
-
-If Godot was open while files changed externally, accept **Reload from disk** and wait for the scan. Do not replace valid classes with stubs to silence stale editor errors. See [startup recovery](docs/emergency_gdscript_repair_report.md).
-
-Normal play needs no PixelLab account, API key, MCP connection, Pixelorama installation or cloud service. Asset-generation tools are optional development tools and must not run without authorization.
-
 ## Controls
 
 | Input | Action |
@@ -55,8 +36,6 @@ Normal play needs no PixelLab account, API key, MCP connection, Pixelorama insta
 | E / left click | Interact with the nearest valid object |
 | I | Open/close inventory in Player Mode |
 | Esc | Close the current modal panel; interrupt an unfinished routine |
-
-Release held movement keys after mode/modal transitions before walking again. Inventory and station panels intentionally block astronaut input. No sprint, in-game fullscreen toggle or general pause menu is implemented. Godot's `--fullscreen` launch option is covered by validation.
 
 ## Try the existing demo route
 

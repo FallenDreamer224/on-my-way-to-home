@@ -102,6 +102,11 @@ Invoke-ValidationStep 'interaction_inventory' @('--headless', '--script', 'res:/
 Invoke-ValidationStep 'props_pack_b' @('--headless', '--script', 'res://tests/props_pack_b_test.gd')
 Invoke-ValidationStep 'prop_integration' @('--headless', '--script', 'res://tests/prop_integration_test.gd')
 Invoke-ValidationStep 'ui_foundation' @('--headless', '--script', 'res://tests/ui_foundation_test.gd')
+Invoke-ValidationStep 'phase_0_8f' @('--headless', '--fixed-fps', '60', '--script', 'res://tests/phase_0_8f_test.gd')
+Invoke-ValidationStep 'ui_pack_f' @('--headless', '--script', 'res://tools/ui/validate_pack_f.gd')
+Invoke-ValidationStep 'lunar_exterior_library' @('--headless', '--script', 'res://tests/lunar_exterior_library_test.gd')
+Invoke-ValidationStep 'lunar_interior_library' @('--headless', '--fixed-fps', '60', '--script', 'res://tests/lunar_interior_library_test.gd')
+Invoke-ValidationStep 'equipment_database' @('--headless', '--script', 'res://tools/research/build_equipment_database.gd', '--', '--check')
 Invoke-ValidationStep 'main_headless' @('--headless', '--quit-after', '10')
 Invoke-ValidationStep 'lunar_tutorial' @('--headless', '--script', 'res://tests/lunar_tutorial_test.gd')
 Invoke-ValidationStep 'eva_safety' @('--headless', '--script', 'res://tests/eva_safety_test.gd')
@@ -117,6 +122,10 @@ $legacyMatches = $productionFiles | Select-String -Pattern 'Node3D|Camera3D|Mesh
 if ($legacyMatches) { throw "Obsolete architecture references found: $legacyMatches" }
 
 if ($IncludeRendering) {
+    Invoke-ValidationStep 'lunar_interior_library_rendered' @('--fixed-fps', '60', '--script', 'res://tests/lunar_interior_library_test.gd', '--', '--capture')
+    Invoke-ValidationStep 'lunar_exterior_library_rendered' @('--script', 'res://tests/lunar_exterior_library_test.gd', '--', '--capture')
+    Invoke-ValidationStep 'phase_0_8f_capture' @('--script', 'res://tests/phase_0_8f_capture.gd')
+    Invoke-ValidationStep 'phase_0_8f_rendered' @('--script', 'res://tests/phase_0_8f_test.gd')
     Invoke-ValidationStep 'demo_d0_rendered' @('--fixed-fps', '60', '--script', 'res://tests/demo_d0_test.gd', '--', '--capture')
     Invoke-ValidationStep 'daily_life_rendered' @('--script', 'res://tests/daily_life_test.gd', '--', '--capture')
     Invoke-ValidationStep 'utility_integration_rendered' @('--script', 'res://tests/utility_integration_test.gd', '--', '--capture')

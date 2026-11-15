@@ -1,0 +1,1547 @@
+{
+  "schema_version": 1,
+  "phase": "0.8G2",
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "production_layout_changed": false,
+  "simulation_owner": "Existing HabitatDirector, UtilityService and DailyLife only",
+  "rooms": [
+    {
+      "id": "crew_airlock",
+      "title": "Crew airlock",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        7
+      ],
+      "size_cells": [
+        8,
+        7
+      ],
+      "scene_path": "scenes/interiors/rooms/crew_airlock.tscn",
+      "layout": {
+        "id": "crew_airlock",
+        "title": "Crew airlock",
+        "size": [
+          8,
+          7
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "airlock",
+        "facilities": [
+          {
+            "id": "airlock",
+            "title": "Crew airlock",
+            "point": [
+              3,
+              2
+            ],
+            "fixture": [
+              3,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "outer",
+            "title": "Outer hatch",
+            "destination": "outside",
+            "point": [
+              1,
+              3
+            ]
+          },
+          {
+            "id": "inner",
+            "title": "Inner hatch",
+            "destination": "equipment_lock",
+            "point": [
+              6,
+              3
+            ]
+          },
+          {
+            "id": "inspection",
+            "title": "Inspect suit / dust seals",
+            "destination": "inspect",
+            "point": [
+              2,
+              5
+            ]
+          },
+          {
+            "id": "cycle",
+            "title": "Cycle pressure",
+            "destination": "cycle",
+            "point": [
+              5,
+              5
+            ]
+          },
+          {
+            "id": "seal_outer",
+            "title": "Close outer hatch",
+            "destination": "seal_outer",
+            "point": [
+              2,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "eva_supplies",
+          "asset": "eva_rack",
+          "cell": [
+            3,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "emergency",
+          "asset": "supply_pack",
+          "cell": [
+            5,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "outer",
+          "destination": "outside",
+          "threshold": [
+            0,
+            3
+          ],
+          "approach": [
+            1,
+            3
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "HabitatDirector.airlock"
+        },
+        {
+          "id": "inner",
+          "destination": "equipment_lock",
+          "threshold": [
+            7,
+            3
+          ],
+          "approach": [
+            6,
+            3
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "HabitatDirector.airlock"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "outside",
+        "equipment_lock"
+      ],
+      "floor_treatment": "sealed_service"
+    },
+    {
+      "id": "equipment_lock",
+      "title": "Equipment / suit lock",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        7
+      ],
+      "size_cells": [
+        8,
+        7
+      ],
+      "scene_path": "scenes/interiors/rooms/equipment_lock.tscn",
+      "layout": {
+        "id": "equipment_lock",
+        "title": "Equipment / suit lock",
+        "size": [
+          8,
+          7
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "equipment",
+            "title": "Equipment lock",
+            "point": [
+              2,
+              2
+            ],
+            "fixture": [
+              2,
+              1
+            ]
+          },
+          {
+            "id": "suits",
+            "title": "Suit maintenance",
+            "point": [
+              4,
+              2
+            ],
+            "fixture": [
+              4,
+              1
+            ]
+          },
+          {
+            "id": "dust",
+            "title": "Dust-removal station",
+            "point": [
+              6,
+              2
+            ],
+            "fixture": [
+              6,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "crew",
+            "title": "Crew airlock",
+            "destination": "crew_airlock",
+            "point": [
+              1,
+              4
+            ]
+          },
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              6,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "equipment",
+          "asset": "small_equipment_box",
+          "cell": [
+            1,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "suits",
+          "asset": "eva_rack",
+          "cell": [
+            3,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "dust",
+          "asset": "eclss_service_cabinet",
+          "cell": [
+            6,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "crew",
+          "destination": "crew_airlock",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            7,
+            4
+          ],
+          "approach": [
+            6,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "crew_airlock",
+        "hub"
+      ],
+      "floor_treatment": "sealed_service"
+    },
+    {
+      "id": "hub",
+      "title": "Main habitat / central corridor",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        9
+      ],
+      "size_cells": [
+        8,
+        9
+      ],
+      "scene_path": "scenes/interiors/rooms/hub.tscn",
+      "layout": {
+        "id": "hub",
+        "title": "Main habitat / central corridor",
+        "size": [
+          8,
+          9
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "main",
+            "title": "Main habitat / central corridor",
+            "point": [
+              3,
+              6
+            ],
+            "fixture": [
+              3,
+              5
+            ]
+          },
+          {
+            "id": "operations",
+            "title": "Mission operations / communications",
+            "point": [
+              3,
+              2
+            ],
+            "fixture": [
+              3,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "lock",
+            "title": "Equipment lock",
+            "destination": "equipment_lock",
+            "point": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "living",
+            "title": "Living compartment",
+            "destination": "living",
+            "point": [
+              1,
+              4
+            ]
+          },
+          {
+            "id": "engineering",
+            "title": "Engineering",
+            "destination": "engineering",
+            "point": [
+              1,
+              6
+            ]
+          },
+          {
+            "id": "greenhouse",
+            "title": "Greenhouse",
+            "destination": "greenhouse",
+            "point": [
+              6,
+              2
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Health / science",
+            "destination": "health_lab",
+            "point": [
+              6,
+              4
+            ]
+          },
+          {
+            "id": "cargo",
+            "title": "Cargo",
+            "destination": "cargo",
+            "point": [
+              6,
+              6
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "operations",
+          "asset": "work_control_console",
+          "cell": [
+            3,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "main",
+          "asset": "habitat_table",
+          "cell": [
+            3,
+            5
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "personal_storage",
+          "asset": "small_equipment_box",
+          "cell": [
+            5,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "seat",
+          "asset": "habitat_seat",
+          "cell": [
+            5,
+            6
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "lock",
+          "destination": "equipment_lock",
+          "threshold": [
+            0,
+            2
+          ],
+          "approach": [
+            1,
+            2
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "living",
+          "destination": "living",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "engineering",
+          "destination": "engineering",
+          "threshold": [
+            0,
+            6
+          ],
+          "approach": [
+            1,
+            6
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "greenhouse",
+          "destination": "greenhouse",
+          "threshold": [
+            7,
+            2
+          ],
+          "approach": [
+            6,
+            2
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "health",
+          "destination": "health_lab",
+          "threshold": [
+            7,
+            4
+          ],
+          "approach": [
+            6,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "cargo",
+          "destination": "cargo",
+          "threshold": [
+            7,
+            6
+          ],
+          "approach": [
+            6,
+            6
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "equipment_lock",
+        "living",
+        "engineering",
+        "greenhouse",
+        "health_lab",
+        "cargo"
+      ],
+      "floor_treatment": "general_habitat"
+    },
+    {
+      "id": "living",
+      "title": "Living compartment",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        8
+      ],
+      "size_cells": [
+        8,
+        8
+      ],
+      "scene_path": "scenes/interiors/rooms/living.tscn",
+      "layout": {
+        "id": "living",
+        "title": "Living compartment",
+        "size": [
+          8,
+          8
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "sleep",
+            "title": "Sleeping quarters",
+            "point": [
+              2,
+              2
+            ],
+            "fixture": [
+              2,
+              1
+            ]
+          },
+          {
+            "id": "galley",
+            "title": "Galley / food storage",
+            "point": [
+              4,
+              2
+            ],
+            "fixture": [
+              4,
+              1
+            ]
+          },
+          {
+            "id": "hygiene",
+            "title": "Hygiene / waste compartment",
+            "point": [
+              6,
+              2
+            ],
+            "fixture": [
+              6,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              1,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": [
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      "props": [
+        {
+          "id": "sleep",
+          "asset": "sleep_bunk",
+          "cell": [
+            1,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "galley",
+          "asset": "galley_station",
+          "cell": [
+            3,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "hygiene",
+          "asset": "sanitation_station",
+          "cell": [
+            6,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "drink",
+          "asset": "water_dispenser",
+          "cell": [
+            3,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "hub"
+      ],
+      "floor_treatment": "general_habitat"
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering compartment",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        8
+      ],
+      "size_cells": [
+        8,
+        8
+      ],
+      "scene_path": "scenes/interiors/rooms/engineering.tscn",
+      "layout": {
+        "id": "engineering",
+        "title": "Engineering compartment",
+        "size": [
+          8,
+          8
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "eclss",
+            "title": "Environmental control / ECLSS",
+            "point": [
+              2,
+              2
+            ],
+            "fixture": [
+              2,
+              1
+            ]
+          },
+          {
+            "id": "water",
+            "title": "Water processing / storage",
+            "point": [
+              4,
+              2
+            ],
+            "fixture": [
+              4,
+              1
+            ]
+          },
+          {
+            "id": "power",
+            "title": "Power distribution / engineering",
+            "point": [
+              6,
+              2
+            ],
+            "fixture": [
+              6,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              1,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "eclss",
+          "asset": "eclss_service_cabinet",
+          "cell": [
+            2,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "water",
+          "asset": "water_dispenser",
+          "cell": [
+            4,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "power",
+          "asset": "battery_power_unit",
+          "cell": [
+            6,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "reserve_tank",
+          "asset": "utility_oxygen_tank",
+          "cell": [
+            4,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "junction",
+          "asset": "small_connector_utility_box",
+          "cell": [
+            6,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "hub"
+      ],
+      "floor_treatment": "sealed_service"
+    },
+    {
+      "id": "health_lab",
+      "title": "Health / science compartment",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        8
+      ],
+      "size_cells": [
+        8,
+        8
+      ],
+      "scene_path": "scenes/interiors/rooms/health_lab.tscn",
+      "layout": {
+        "id": "health_lab",
+        "title": "Health / science compartment",
+        "size": [
+          8,
+          8
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "medical",
+            "title": "Medical / health monitoring",
+            "point": [
+              2,
+              2
+            ],
+            "fixture": [
+              2,
+              1
+            ]
+          },
+          {
+            "id": "exercise",
+            "title": "Exercise / rehabilitation",
+            "point": [
+              4,
+              2
+            ],
+            "fixture": [
+              4,
+              1
+            ]
+          },
+          {
+            "id": "science",
+            "title": "Science lab / sample storage",
+            "point": [
+              6,
+              3
+            ],
+            "fixture": [
+              5,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              1,
+              4
+            ]
+          },
+          {
+            "id": "shelter",
+            "title": "Emergency shelter",
+            "destination": "shelter",
+            "point": [
+              6,
+              5
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "medical",
+          "asset": "medical_station",
+          "cell": [
+            1,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "exercise",
+          "asset": "exercise_station",
+          "cell": [
+            4,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "science",
+          "asset": "sample_bench",
+          "cell": [
+            5,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "sample_case",
+          "asset": "tool_case",
+          "cell": [
+            5,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "shelter",
+          "destination": "shelter",
+          "threshold": [
+            7,
+            5
+          ],
+          "approach": [
+            6,
+            5
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "hub",
+        "shelter"
+      ],
+      "floor_treatment": "general_habitat"
+    },
+    {
+      "id": "greenhouse",
+      "title": "Greenhouse / hydroponics laboratory",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        7
+      ],
+      "size_cells": [
+        8,
+        7
+      ],
+      "scene_path": "scenes/interiors/rooms/greenhouse.tscn",
+      "layout": {
+        "id": "greenhouse",
+        "title": "Greenhouse / hydroponics laboratory",
+        "size": [
+          8,
+          7
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "greenhouse",
+            "title": "Greenhouse / hydroponics lab",
+            "point": [
+              3,
+              2
+            ],
+            "fixture": [
+              3,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              1,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      "props": [
+        {
+          "id": "tray_0",
+          "asset": "growing_tray_empty",
+          "cell": [
+            3,
+            1
+          ],
+          "tray_index": 0,
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "tray_1",
+          "asset": "growing_tray_empty",
+          "cell": [
+            4,
+            4
+          ],
+          "tray_index": 1,
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "monitor",
+          "asset": "work_control_console",
+          "cell": [
+            1,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "nutrients",
+          "asset": "small_resource_canister",
+          "cell": [
+            6,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "water_connection",
+          "asset": "small_connector_utility_box",
+          "cell": [
+            6,
+            3
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "hub"
+      ],
+      "floor_treatment": "sealed_service"
+    },
+    {
+      "id": "cargo",
+      "title": "Cargo / spares compartment",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        8,
+        7
+      ],
+      "size_cells": [
+        8,
+        7
+      ],
+      "scene_path": "scenes/interiors/rooms/cargo.tscn",
+      "layout": {
+        "id": "cargo",
+        "title": "Cargo / spares compartment",
+        "size": [
+          8,
+          7
+        ],
+        "spawn": [
+          2,
+          4
+        ],
+        "companion_spawn": [
+          3,
+          4
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "cargo",
+            "title": "Cargo / spare-parts storage",
+            "point": [
+              3,
+              2
+            ],
+            "fixture": [
+              3,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "hub",
+            "title": "Central corridor",
+            "destination": "hub",
+            "point": [
+              1,
+              4
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "cargo",
+          "asset": "storage_rack_loaded",
+          "cell": [
+            2,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "empty_storage",
+          "asset": "storage_rack_empty",
+          "cell": [
+            4,
+            1
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "maintenance",
+          "asset": "maintenance_bench",
+          "cell": [
+            4,
+            4
+          ],
+          "footprint": [
+            2,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "tools",
+          "asset": "tool_case",
+          "cell": [
+            6,
+            4
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "spares",
+          "asset": "small_equipment_box",
+          "cell": [
+            6,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "hub"
+      ],
+      "floor_treatment": "sealed_service"
+    },
+    {
+      "id": "shelter",
+      "title": "Protected emergency shelter",
+      "source_layout": "resources/data/habitat_layout.json",
+      "original_size_cells": [
+        6,
+        6
+      ],
+      "size_cells": [
+        6,
+        6
+      ],
+      "scene_path": "scenes/interiors/rooms/shelter.tscn",
+      "layout": {
+        "id": "shelter",
+        "title": "Protected emergency shelter",
+        "size": [
+          6,
+          6
+        ],
+        "spawn": [
+          2,
+          3
+        ],
+        "companion_spawn": [
+          3,
+          3
+        ],
+        "pressure_domain": "habitat",
+        "facilities": [
+          {
+            "id": "shelter",
+            "title": "Protected emergency shelter",
+            "point": [
+              3,
+              2
+            ],
+            "fixture": [
+              3,
+              1
+            ]
+          }
+        ],
+        "doors": [
+          {
+            "id": "health",
+            "title": "Health / science",
+            "destination": "health_lab",
+            "point": [
+              1,
+              3
+            ]
+          }
+        ],
+        "extra_blocked_cells": []
+      },
+      "props": [
+        {
+          "id": "shelter",
+          "asset": "supply_pack",
+          "cell": [
+            3,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "monitor",
+          "asset": "work_control_console",
+          "cell": [
+            1,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        },
+        {
+          "id": "seat",
+          "asset": "habitat_seat",
+          "cell": [
+            2,
+            1
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
+        }
+      ],
+      "portals": [
+        {
+          "id": "health",
+          "destination": "health_lab",
+          "threshold": [
+            0,
+            3
+          ],
+          "approach": [
+            1,
+            3
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ],
+      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
+      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "supported_connections": [
+        "health_lab"
+      ],
+      "floor_treatment": "general_habitat"
+    }
+  ]
+}

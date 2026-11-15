@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ExteriorAssetDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/exterior_asset_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/buildings/base_pack_c/battery_power_unit.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+asset_id = &"battery_power_unit"
+display_name = "Battery Power Unit"
+category = &"base"
+texture = ExtResource("2")
+native_size = Vector2i(96, 96)
+opaque_bounds = Rect2i(20, 21, 47, 54)
+ground_anchor = Vector2i(42, 75)
+footprint_size = Vector2i(1, 1)
+occupied_cells = Array[Vector2i]([Vector2i(0, 0)])
+navigation_reserved_cells = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+grid_origin = Vector2i(0, -16)
+footprint_polygon = PackedVector2Array(0, -32, 32, -16, 0, 0, -32, -16)
+collision_polygon = PackedVector2Array(0, -48, 64, -16, 0, 16, -64, -16)
+interaction_anchor = Vector2i(0, 40)
+service_anchor = Vector2i(-40, 40)
+indicator_anchor = Vector2i(0, -12)
+collision_enabled = true
+supports_states = true
+utility_binding_id = &"battery"
+interaction_reference = &"existing_utility_inspection"
+provenance_manifest = "res://art/imports/base_pack_c.json"
+source_files = PackedStringArray("assets/pixellab/source/base_pack_c/battery_power_unit.png")

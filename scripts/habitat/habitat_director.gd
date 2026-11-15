@@ -20,7 +20,6 @@ var _spaces: Node2D
 var _views: Dictionary[StringName, Dictionary] = {}
 var _outside_actor_position: Vector2
 var _outside_dog_position: Vector2
-var _hud_status: Label
 var utilities: UtilityService
 var utility_panel: UtilityPanel
 var daily_panel: DailyLifePanel
@@ -37,18 +36,6 @@ func configure(main: Node) -> void:
 	_spaces = Node2D.new()
 	_spaces.name = "HabitatInteriors"
 	main.add_child(_spaces)
-	_hud_status = Label.new()
-	_hud_status.name = "HabitatStatus"
-	_hud_status.position = Vector2(252, 80)
-	_hud_status.size = Vector2(416, 64)
-	_hud_status.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	_hud_status.add_theme_font_size_override("font_size", 12)
-	_hud_status.add_theme_color_override("font_outline_color", Color("0a1118"))
-	_hud_status.add_theme_constant_override("outline_size", 2)
-	_hud_status.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	_hud_status.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	_hud_status.hide()
-	main.game_ui.hud.add_child(_hud_status)
 	exterior_entry = HabitatRoom.make_action(&"outside", &"enter", "Habitat crew airlock", &"crew_airlock", request_action)
 	exterior_entry.position = IsometricGrid.tile_to_world(HabitatRoom.cell(layout.exterior_entry_cell), outside_terrain())
 	main.get_node("World/Entities/Buildings").add_child(exterior_entry)
@@ -79,16 +66,20 @@ func prepare_room(id: StringName) -> HabitatRoom:
 	return room
 
 
+## Display title of the current space; the HUD location chip presents it.
+func location_title() -> String:
+	return String(definitions[location].title) if definitions.has(location) else "Lunar surface"
+
+
+## One-line interlock state for the HUD while the astronaut is in the crew airlock.
+func airlock_summary() -> String:
+	return "%s | Outer %s | Inner %s | Checks %s" % [
+		["VACUUM", "HABITAT MATCH", "CYCLING"][airlock.pressure],
+		"open" if airlock.outer_open else "sealed", "open" if airlock.inner_open else "sealed",
+		"done" if airlock.suit_checked and airlock.dust_checked else "pending"]
+
+
 func _refresh_airlock() -> void:
-	if _hud_status != null:
-		_hud_status.visible = location != &"outside"
-		if location != &"outside":
-			_hud_status.text = String(definitions[location].title).to_upper()
-			if location == &"crew_airlock":
-				_hud_status.text += "\n%s | Outer %s | Inner %s | Checks %s" % [
-					["VACUUM", "HABITAT MATCH", "CYCLING"][airlock.pressure],
-					"open" if airlock.outer_open else "sealed", "open" if airlock.inner_open else "sealed",
-					"done" if airlock.suit_checked and airlock.dust_checked else "pending"]
 	if not rooms.has(&"crew_airlock"):
 		return
 	var room: HabitatRoom = rooms[&"crew_airlock"]

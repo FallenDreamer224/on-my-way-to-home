@@ -6,7 +6,7 @@
 script = ExtResource("1")
 item_id = &"metal_scrap"
 display_name = "Metal Scrap"
-description = "A small piece of spare metal. A development item with no crafting behavior."
+description = "A small piece of spare metal recovered near the landing site. It has no use yet."
 maximum_stack = 5
 tags = PackedStringArray("development", "material")
 placeholder_color = Color(0.88, 0.66, 0.36, 1)

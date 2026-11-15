@@ -1,0 +1,34 @@
+[gd_resource type="TileSet" load_steps=8 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/base_floor_panel_tile.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/utility_floor_pad_tile.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/hazard_stripe_floor_tile.png" id="3"]
+
+[sub_resource type="TileSetAtlasSource" id="Source_0"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(64, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="Source_1"]
+texture = ExtResource("2")
+texture_region_size = Vector2i(64, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="Source_2"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(64, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="Source_3"]
+texture = ExtResource("3")
+texture_region_size = Vector2i(64, 32)
+0:0/0 = 0
+
+[resource]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(64, 32)
+sources/0 = SubResource("Source_0")
+sources/1 = SubResource("Source_1")
+sources/2 = SubResource("Source_2")
+sources/3 = SubResource("Source_3")

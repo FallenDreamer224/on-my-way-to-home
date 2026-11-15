@@ -1,0 +1,5118 @@
+{
+  "schema_version": 1,
+  "standards_version": "1.0.0",
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "phase": "0.8G1",
+  "production_world_changed": false,
+  "geometry_policy": "Native full canvases. Existing measured pivots retained. Solid envelopes are declared grid-clearance budgets, not traced silhouettes or certified dimensions.",
+  "assets": [
+    {
+      "asset_id": "small_habitat_module",
+      "name": "Small Habitat Module",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/small_habitat_module_v2.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/small_habitat_module.png",
+      "scene_path": "scenes/exterior/small_habitat_module.tscn",
+      "resource_path": "resources/exterior/small_habitat_module.tres",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "visible_bounds_px": [
+        7,
+        26,
+        178,
+        143
+      ],
+      "ground_anchor_px": [
+        93,
+        169
+      ],
+      "footprint_grid_cells": [
+        3,
+        2
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "grid_origin_px": [
+        -32,
+        -64
+      ],
+      "footprint_polygon_px": [
+        [
+          -32,
+          -80
+        ],
+        [
+          64,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -96,
+          -48
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          -32,
+          -96
+        ],
+        [
+          96,
+          -32
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -128,
+          -48
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "airlock_module",
+      "name": "Airlock Module",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/airlock_module_v2.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/airlock_module.png",
+      "scene_path": "scenes/exterior/airlock_module.tscn",
+      "resource_path": "resources/exterior/airlock_module.tres",
+      "native_size_px": [
+        160,
+        160
+      ],
+      "visible_bounds_px": [
+        9,
+        6,
+        142,
+        148
+      ],
+      "ground_anchor_px": [
+        81,
+        154
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -48
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -64
+        ],
+        [
+          64,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -64,
+          -32
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -80
+        ],
+        [
+          96,
+          -32
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -96,
+          -32
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "habitat_airlock_access",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "solar_panel_array",
+      "name": "Solar Panel Array",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/solar_panel_array_v2.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/solar_panel_array.png",
+      "scene_path": "scenes/exterior/solar_panel_array.tscn",
+      "resource_path": "resources/exterior/solar_panel_array.tres",
+      "native_size_px": [
+        160,
+        128
+      ],
+      "visible_bounds_px": [
+        3,
+        7,
+        152,
+        111
+      ],
+      "ground_anchor_px": [
+        67,
+        118
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -48
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -64
+        ],
+        [
+          64,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -64,
+          -32
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -80
+        ],
+        [
+          96,
+          -32
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -96,
+          -32
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "solar",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "battery_power_unit",
+      "name": "Battery Power Unit",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/battery_power_unit.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/battery_power_unit.png",
+      "scene_path": "scenes/exterior/battery_power_unit.tscn",
+      "resource_path": "resources/exterior/battery_power_unit.tres",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        20,
+        21,
+        47,
+        54
+      ],
+      "ground_anchor_px": [
+        42,
+        75
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "battery",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "storage_crate_large",
+      "name": "Storage Crate Large",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/storage_crate_large.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/storage_crate_large.png",
+      "scene_path": "scenes/exterior/storage_crate_large.tscn",
+      "resource_path": "resources/exterior/storage_crate_large.tres",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "visible_bounds_px": [
+        20,
+        29,
+        84,
+        63
+      ],
+      "ground_anchor_px": [
+        46,
+        92
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        -32,
+        -32
+      ],
+      "footprint_polygon_px": [
+        [
+          -32,
+          -48
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -64,
+          -32
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          -32,
+          -64
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -96,
+          -32
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "utility_oxygen_tank",
+      "name": "Utility Oxygen Tank",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/utility_oxygen_tank.png",
+      "scene_path": "scenes/exterior/utility_oxygen_tank.tscn",
+      "resource_path": "resources/exterior/utility_oxygen_tank.tres",
+      "native_size_px": [
+        96,
+        128
+      ],
+      "visible_bounds_px": [
+        27,
+        14,
+        39,
+        92
+      ],
+      "ground_anchor_px": [
+        45,
+        106
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "oxygen_supply",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "communications_antenna",
+      "name": "Communications Antenna",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/communications_antenna.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/communications_antenna.png",
+      "scene_path": "scenes/exterior/communications_antenna.tscn",
+      "resource_path": "resources/exterior/communications_antenna.tres",
+      "native_size_px": [
+        96,
+        160
+      ],
+      "visible_bounds_px": [
+        25,
+        34,
+        39,
+        88
+      ],
+      "ground_anchor_px": [
+        43,
+        122
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "work_control_console",
+      "name": "Work Control Console",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/work_control_console.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/work_control_console.png",
+      "scene_path": "scenes/exterior/work_control_console.tscn",
+      "resource_path": "resources/exterior/work_control_console.tres",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        27,
+        24,
+        31,
+        49
+      ],
+      "ground_anchor_px": [
+        43,
+        73
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "housekeeping",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "light_beacon_pole",
+      "name": "Light Beacon Pole",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/light_beacon_pole.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/light_beacon_pole.png",
+      "scene_path": "scenes/exterior/light_beacon_pole.tscn",
+      "resource_path": "resources/exterior/light_beacon_pole.tres",
+      "native_size_px": [
+        64,
+        128
+      ],
+      "visible_bounds_px": [
+        19,
+        22,
+        26,
+        77
+      ],
+      "ground_anchor_px": [
+        41,
+        99
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "small_connector_utility_box",
+      "name": "Small Connector Utility Box",
+      "category": "base",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/base_pack_c.json",
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/small_connector_utility_box.png"
+      ],
+      "runtime_path": "assets/buildings/base_pack_c/small_connector_utility_box.png",
+      "scene_path": "scenes/exterior/small_connector_utility_box.tscn",
+      "resource_path": "resources/exterior/small_connector_utility_box.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        7,
+        14,
+        50,
+        37
+      ],
+      "ground_anchor_px": [
+        32,
+        51
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "distribution",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "lunar_sample",
+      "name": "Lunar Sample",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/lunar_sample.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/lunar_sample.png",
+      "scene_path": "scenes/exterior/lunar_sample.tscn",
+      "resource_path": "resources/exterior/lunar_sample.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        16,
+        16,
+        32,
+        36
+      ],
+      "ground_anchor_px": [
+        32,
+        52
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "metal_scrap",
+      "name": "Metal Scrap",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/metal_scrap.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/metal_scrap.png",
+      "scene_path": "scenes/exterior/metal_scrap.tscn",
+      "resource_path": "resources/exterior/metal_scrap.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        11,
+        14,
+        43,
+        34
+      ],
+      "ground_anchor_px": [
+        32,
+        48
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "supply_pack",
+      "name": "Supply Pack",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/supply_pack_v2.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/supply_pack.png",
+      "scene_path": "scenes/exterior/supply_pack.tscn",
+      "resource_path": "resources/exterior/supply_pack.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        14,
+        18,
+        37,
+        31
+      ],
+      "ground_anchor_px": [
+        32,
+        49
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "small_equipment_box",
+      "name": "Small Equipment Box",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_equipment_box.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/small_equipment_box.png",
+      "scene_path": "scenes/exterior/small_equipment_box.tscn",
+      "resource_path": "resources/exterior/small_equipment_box.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        13,
+        13,
+        37,
+        40
+      ],
+      "ground_anchor_px": [
+        31,
+        53
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "tool_case",
+      "name": "Tool Case",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/tool_case_v2.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/tool_case.png",
+      "scene_path": "scenes/exterior/tool_case.tscn",
+      "resource_path": "resources/exterior/tool_case.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        7,
+        16,
+        50,
+        37
+      ],
+      "ground_anchor_px": [
+        32,
+        53
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "small_resource_canister",
+      "name": "Small Resource Canister",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_resource_canister.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/small_resource_canister.png",
+      "scene_path": "scenes/exterior/small_resource_canister.tscn",
+      "resource_path": "resources/exterior/small_resource_canister.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        22,
+        10,
+        18,
+        44
+      ],
+      "ground_anchor_px": [
+        31,
+        54
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "utility_crate",
+      "name": "Utility Crate",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/utility_crate.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/utility_crate.png",
+      "scene_path": "scenes/exterior/utility_crate.tscn",
+      "resource_path": "resources/exterior/utility_crate.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        10,
+        10,
+        42,
+        46
+      ],
+      "ground_anchor_px": [
+        31,
+        56
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "rock_cluster",
+      "name": "Rock Cluster",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/rock_cluster_v4.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/rock_cluster.png",
+      "scene_path": "scenes/exterior/rock_cluster.tscn",
+      "resource_path": "resources/exterior/rock_cluster.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        8,
+        11,
+        49,
+        40
+      ],
+      "ground_anchor_px": [
+        32,
+        51
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "broken_machine_part",
+      "name": "Broken Machine Part",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/broken_machine_part_v2.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/broken_machine_part.png",
+      "scene_path": "scenes/exterior/broken_machine_part.tscn",
+      "resource_path": "resources/exterior/broken_machine_part.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        8,
+        14,
+        46,
+        38
+      ],
+      "ground_anchor_px": [
+        31,
+        52
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "beacon_marker",
+      "name": "Beacon Marker",
+      "category": "prop",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/props_pack_b.json",
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/beacon_marker.png"
+      ],
+      "runtime_path": "assets/environment/props_pack_b/beacon_marker.png",
+      "scene_path": "scenes/exterior/beacon_marker.tscn",
+      "resource_path": "resources/exterior/beacon_marker.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        18,
+        10,
+        28,
+        47
+      ],
+      "ground_anchor_px": [
+        32,
+        57
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "moon_lander",
+      "name": "Moon Lander",
+      "category": "lander",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/lander_pack_d.json",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/moon_lander.png"
+      ],
+      "runtime_path": "assets/vehicles/lander_pack_d/moon_lander.png",
+      "scene_path": "scenes/exterior/moon_lander.tscn",
+      "resource_path": "resources/exterior/moon_lander.tres",
+      "native_size_px": [
+        320,
+        320
+      ],
+      "visible_bounds_px": [
+        14,
+        22,
+        292,
+        274
+      ],
+      "ground_anchor_px": [
+        160,
+        284
+      ],
+      "footprint_grid_cells": [
+        4,
+        4
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -112
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -128
+        ],
+        [
+          128,
+          -64
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -128,
+          -64
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -144
+        ],
+        [
+          160,
+          -64
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -160,
+          -64
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "deployed_ramp",
+      "name": "Deployed Ramp",
+      "category": "lander",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/lander_pack_d.json",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/deployed_ramp.png"
+      ],
+      "runtime_path": "assets/vehicles/lander_pack_d/deployed_ramp.png",
+      "scene_path": "scenes/exterior/deployed_ramp.tscn",
+      "resource_path": "resources/exterior/deployed_ramp.tres",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "visible_bounds_px": [
+        21,
+        17,
+        92,
+        90
+      ],
+      "ground_anchor_px": [
+        86,
+        106
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        -32,
+        -32
+      ],
+      "footprint_polygon_px": [
+        [
+          -32,
+          -48
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -64,
+          -32
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "landing_marker_decal",
+      "name": "Landing Marker Decal",
+      "category": "lander",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/lander_pack_d.json",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/landing_marker_decal.png"
+      ],
+      "runtime_path": "assets/vehicles/lander_pack_d/landing_marker_decal.png",
+      "scene_path": "scenes/exterior/landing_marker_decal.tscn",
+      "resource_path": "resources/exterior/landing_marker_decal.tres",
+      "native_size_px": [
+        288,
+        160
+      ],
+      "visible_bounds_px": [
+        16,
+        16,
+        258,
+        130
+      ],
+      "ground_anchor_px": [
+        144,
+        144
+      ],
+      "footprint_grid_cells": [
+        4,
+        4
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -112
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -128
+        ],
+        [
+          128,
+          -64
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -128,
+          -64
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "support_cargo_container",
+      "name": "Support Cargo Container",
+      "category": "lander",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/lander_pack_d.json",
+      "source_files": [
+        "assets/pixellab/source/lander_pack_d/support_cargo_container.png"
+      ],
+      "runtime_path": "assets/vehicles/lander_pack_d/support_cargo_container.png",
+      "scene_path": "scenes/exterior/support_cargo_container.tscn",
+      "resource_path": "resources/exterior/support_cargo_container.tres",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        10,
+        12,
+        45,
+        41
+      ],
+      "ground_anchor_px": [
+        33,
+        53
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "small_crater_overlay",
+      "name": "Small Crater Overlay",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/small_crater_overlay_v2.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/small_crater_overlay.png",
+      "scene_path": "scenes/exterior/small_crater_overlay.tscn",
+      "resource_path": "resources/exterior/small_crater_overlay.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        13,
+        8,
+        37,
+        16
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "rocky_patch_overlay",
+      "name": "Rocky Patch Overlay",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay_v2.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/rocky_patch_overlay.png",
+      "scene_path": "scenes/exterior/rocky_patch_overlay.tscn",
+      "resource_path": "resources/exterior/rocky_patch_overlay.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        13,
+        9,
+        39,
+        14
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "dark_basalt_patch_overlay",
+      "name": "Dark Basalt Patch Overlay",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay_v2.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/dark_basalt_patch_overlay.png",
+      "scene_path": "scenes/exterior/dark_basalt_patch_overlay.tscn",
+      "resource_path": "resources/exterior/dark_basalt_patch_overlay.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        13,
+        9,
+        38,
+        14
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "worn_footpath_tile",
+      "name": "Worn Footpath Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/worn_footpath_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/worn_footpath_tile.png",
+      "scene_path": "scenes/exterior/worn_footpath_tile.tscn",
+      "resource_path": "resources/exterior/worn_footpath_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        13,
+        6,
+        38,
+        20
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "base_floor_panel_tile",
+      "name": "Base Floor Panel Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_panel_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/base_floor_panel_tile.png",
+      "scene_path": "scenes/exterior/base_floor_panel_tile.tscn",
+      "resource_path": "resources/exterior/base_floor_panel_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "base_floor_edge_tile",
+      "name": "Base Floor Edge Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/base_floor_edge_tile.png",
+      "scene_path": "scenes/exterior/base_floor_edge_tile.tscn",
+      "resource_path": "resources/exterior/base_floor_edge_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        26,
+        13,
+        37,
+        19
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "base_floor_edge_tile_sw",
+      "name": "Base Floor Edge Tile Sw",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_sw.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/base_floor_edge_tile_sw.png",
+      "scene_path": "scenes/exterior/base_floor_edge_tile_sw.tscn",
+      "resource_path": "resources/exterior/base_floor_edge_tile_sw.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        13,
+        37,
+        19
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "base_floor_edge_tile_nw",
+      "name": "Base Floor Edge Tile Nw",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_nw.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/base_floor_edge_tile_nw.png",
+      "scene_path": "scenes/exterior/base_floor_edge_tile_nw.tscn",
+      "resource_path": "resources/exterior/base_floor_edge_tile_nw.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        0,
+        37,
+        19
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "base_floor_edge_tile_ne",
+      "name": "Base Floor Edge Tile Ne",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_ne.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/base_floor_edge_tile_ne.png",
+      "scene_path": "scenes/exterior/base_floor_edge_tile_ne.tscn",
+      "resource_path": "resources/exterior/base_floor_edge_tile_ne.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        26,
+        0,
+        37,
+        19
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "utility_floor_pad_tile",
+      "name": "Utility Floor Pad Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/utility_floor_pad_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/utility_floor_pad_tile.png",
+      "scene_path": "scenes/exterior/utility_floor_pad_tile.tscn",
+      "resource_path": "resources/exterior/utility_floor_pad_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "small_dust_debris_overlay",
+      "name": "Small Dust Debris Overlay",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay_v2.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/small_dust_debris_overlay.png",
+      "scene_path": "scenes/exterior/small_dust_debris_overlay.tscn",
+      "resource_path": "resources/exterior/small_dust_debris_overlay.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        14,
+        10,
+        32,
+        12
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "landing_marked_ground_tile",
+      "name": "Landing Marked Ground Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/landing_marked_ground_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/landing_marked_ground_tile.png",
+      "scene_path": "scenes/exterior/landing_marked_ground_tile.tscn",
+      "resource_path": "resources/exterior/landing_marked_ground_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "hazard_stripe_floor_tile",
+      "name": "Hazard Stripe Floor Tile",
+      "category": "ground",
+      "status": "READY",
+      "reused": true,
+      "source_manifest": "art/imports/terrain_pack_e.json",
+      "source_files": [
+        "assets/pixellab/source/terrain_pack_e/hazard_stripe_floor_tile.png"
+      ],
+      "runtime_path": "assets/terrain/expansion_e/hazard_stripe_floor_tile.png",
+      "scene_path": "scenes/exterior/hazard_stripe_floor_tile.tscn",
+      "resource_path": "resources/exterior/hazard_stripe_floor_tile.tres",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "ground_anchor_px": [
+        32,
+        16
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        0
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -16
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -32,
+          0
+        ]
+      ],
+      "collision_polygon_px": [],
+      "navigation_reserved_cells": [],
+      "collision_enabled": false,
+      "interaction_anchor_px": [
+        0,
+        20
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": false,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "No blocking body; graphic is a pickup reference, ground overlay, marker or unimplemented ramp.",
+      "sorting_policy": "Ground decoration below actors",
+      "pivot_policy": "tile_center"
+    },
+    {
+      "asset_id": "radiator_bank",
+      "name": "Radiator Bank",
+      "category": "new_equipment",
+      "status": "READY",
+      "reused": false,
+      "source_manifest": "art/imports/exterior_g1.json",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/radiator_bank.png"
+      ],
+      "runtime_path": "assets/buildings/exterior_g1/radiator_bank.png",
+      "scene_path": "scenes/exterior/radiator_bank.tscn",
+      "resource_path": "resources/exterior/radiator_bank.tres",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "visible_bounds_px": [
+        21,
+        23,
+        85,
+        80
+      ],
+      "ground_anchor_px": [
+        62,
+        103
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        -32,
+        -32
+      ],
+      "footprint_polygon_px": [
+        [
+          -32,
+          -48
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -64,
+          -32
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          -32,
+          -64
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -96,
+          -32
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "thermal_control",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "eclss_service_cabinet",
+      "name": "Eclss Service Cabinet",
+      "category": "new_equipment",
+      "status": "READY",
+      "reused": false,
+      "source_manifest": "art/imports/exterior_g1.json",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png"
+      ],
+      "runtime_path": "assets/buildings/exterior_g1/eclss_service_cabinet.png",
+      "scene_path": "scenes/exterior/eclss_service_cabinet.tscn",
+      "resource_path": "resources/exterior/eclss_service_cabinet.tres",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        13,
+        17,
+        65,
+        62
+      ],
+      "ground_anchor_px": [
+        51,
+        79
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "ventilation",
+      "supports_states": true,
+      "interaction_reference": "existing_utility_inspection",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "field_sensor_tripod",
+      "name": "Field Sensor Tripod",
+      "category": "new_equipment",
+      "status": "READY",
+      "reused": false,
+      "source_manifest": "art/imports/exterior_g1.json",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/field_sensor_tripod.png"
+      ],
+      "runtime_path": "assets/buildings/exterior_g1/field_sensor_tripod.png",
+      "scene_path": "scenes/exterior/field_sensor_tripod.tscn",
+      "resource_path": "resources/exterior/field_sensor_tripod.tres",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        24,
+        20,
+        39,
+        62
+      ],
+      "ground_anchor_px": [
+        43,
+        82
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "footprint_polygon_px": [
+        [
+          0,
+          -32
+        ],
+        [
+          32,
+          -16
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          0,
+          -48
+        ],
+        [
+          64,
+          -16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -64,
+          -16
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    },
+    {
+      "asset_id": "greenhouse_module",
+      "name": "Greenhouse Module",
+      "category": "new_equipment",
+      "status": "READY",
+      "reused": false,
+      "source_manifest": "art/imports/exterior_g1.json",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/greenhouse_module_v2.png"
+      ],
+      "runtime_path": "assets/buildings/exterior_g1/greenhouse_module.png",
+      "scene_path": "scenes/exterior/greenhouse_module.tscn",
+      "resource_path": "resources/exterior/greenhouse_module.tres",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "visible_bounds_px": [
+        16,
+        27,
+        160,
+        141
+      ],
+      "ground_anchor_px": [
+        92,
+        168
+      ],
+      "footprint_grid_cells": [
+        3,
+        2
+      ],
+      "occupied_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "grid_origin_px": [
+        -32,
+        -64
+      ],
+      "footprint_polygon_px": [
+        [
+          -32,
+          -80
+        ],
+        [
+          64,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -96,
+          -48
+        ]
+      ],
+      "collision_polygon_px": [
+        [
+          -32,
+          -96
+        ],
+        [
+          96,
+          -32
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          -128,
+          -48
+        ]
+      ],
+      "navigation_reserved_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "collision_enabled": true,
+      "interaction_anchor_px": [
+        0,
+        40
+      ],
+      "service_anchor_px": [
+        -40,
+        40
+      ],
+      "indicator_anchor_px": [
+        0,
+        -12
+      ],
+      "utility_binding_id": "",
+      "supports_states": true,
+      "interaction_reference": "",
+      "visual_review": "native_canvas_and_assembly_reviewed",
+      "orientation": "Single supplied 2:1-compatible view; no implicit sprite rotation",
+      "collision_policy": "Half-cell ground-hardware clearance around the declared footprint; not a pixel-traced silhouette. Future routing must reserve navigation_reserved_cells, including the intersected outer ring.",
+      "sorting_policy": "Root is frontmost ground contact, child sprite offset only; root shares actor Y-sort canvas/Z",
+      "pivot_policy": "frontmost_measured_ground_contact"
+    }
+  ],
+  "gaps": [
+    {
+      "concept": "main habitat / research / engineering / emergency shelter",
+      "status": "READY",
+      "solution": "Reuse the existing small habitat shell for these shared module roles; rooms remain the existing independent cutaway architecture, not a one-to-one exterior blueprint."
+    },
+    {
+      "concept": "external pressure door",
+      "status": "READY",
+      "solution": "Closed doors are embedded in the supplied habitat/airlock artwork; InteractionAnchor reserves an access point. No new vacuum door logic."
+    },
+    {
+      "concept": "pressurized connecting passage",
+      "status": "MISSING",
+      "solution": "Separate tube/corridor PNG is not available; do not imply utility_box is a pressurized corridor. Reserve a clear linkage area for Phase 0.9."
+    },
+    {
+      "concept": "open/closed hatch animation",
+      "status": "MISSING",
+      "solution": "Only closed supplied texture is prepared; no opening/gas/collision toggling is invented."
+    },
+    {
+      "concept": "exterior cables and cable supports",
+      "status": "MISSING",
+      "solution": "Reuse connector/utility box for junctions; continuous cable runs remain an explicit noncritical art gap."
+    },
+    {
+      "concept": "transport pallet / packaged ground support",
+      "status": "NEEDS_INTEGRATION",
+      "solution": "Existing crates, tool cases, canisters and support cargo provide reusable components; no new pallet artwork is essential."
+    },
+    {
+      "concept": "airlock approach / safety / navigation / service paths",
+      "status": "READY",
+      "solution": "Existing beacon, pole light, hazard stripe pad and footpath overlays; labels are Godot controls."
+    },
+    {
+      "concept": "water / pressure / monitoring / maintenance equipment",
+      "status": "READY",
+      "solution": "Tank, sealed ECLSS cabinet, console, sensor and service markers are fictional near-future presentations; no engineering ratings."
+    }
+  ]
+}

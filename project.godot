@@ -11,8 +11,7 @@ config_version=5
 [application]
 
 config/name="On My Way to Home"
-config/version="0.1.0-rc.1"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/app_root.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 

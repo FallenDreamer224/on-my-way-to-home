@@ -12,7 +12,7 @@ func _ready() -> void:
 		var rect: Rect2i = region.zones[id]
 		var label := Label.new()
 		label.text = String(id).replace("_", " ").to_upper()
-		label.add_theme_font_size_override("font_size", 12)
+		UiKit.style_world_label(label, true)
 		label.modulate = Color("98adb9")
 		label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		label.position = IsometricGrid.tile_to_world(rect.position, ground) + Vector2(-20, -12)

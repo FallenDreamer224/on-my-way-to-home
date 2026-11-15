@@ -1,0 +1,862 @@
+[
+  {
+    "bottom_anchor": [
+      80,
+      154
+    ],
+    "bounds": [
+      9,
+      6,
+      142,
+      148
+    ],
+    "opaque_pixels": 14559,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/airlock_module.png",
+    "sha256": "4be341ccd449848ddae346fb7b92fc352cca507720e961307c9c6c4a066637bf",
+    "size": [
+      160,
+      160
+    ]
+  },
+  {
+    "bottom_anchor": [
+      42,
+      75
+    ],
+    "bounds": [
+      20,
+      21,
+      47,
+      54
+    ],
+    "opaque_pixels": 1848,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/battery_power_unit.png",
+    "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "bottom_anchor": [
+      42,
+      122
+    ],
+    "bounds": [
+      25,
+      34,
+      39,
+      88
+    ],
+    "opaque_pixels": 1672,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/communications_antenna.png",
+    "sha256": "73b0e88a6c91dc26fcce92dab4f19a9c99fb8fea4539634bcfc66107e03672a1",
+    "size": [
+      96,
+      160
+    ]
+  },
+  {
+    "bottom_anchor": [
+      41,
+      99
+    ],
+    "bounds": [
+      19,
+      22,
+      26,
+      77
+    ],
+    "opaque_pixels": 671,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/light_beacon_pole.png",
+    "sha256": "538882bc3b019c98658c43529cebfd48c267a1df5ebb7b20146e6a8f6ac5cffc",
+    "size": [
+      64,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      51
+    ],
+    "bounds": [
+      7,
+      14,
+      50,
+      37
+    ],
+    "opaque_pixels": 1237,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/small_connector_utility_box.png",
+    "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      92,
+      169
+    ],
+    "bounds": [
+      7,
+      26,
+      178,
+      143
+    ],
+    "opaque_pixels": 13284,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/small_habitat_module.png",
+    "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba",
+    "size": [
+      192,
+      192
+    ]
+  },
+  {
+    "bottom_anchor": [
+      67,
+      118
+    ],
+    "bounds": [
+      3,
+      7,
+      152,
+      111
+    ],
+    "opaque_pixels": 7833,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/solar_panel_array.png",
+    "sha256": "f9873debcdd2ae6145842250dd9c7b4921dba430b11b0c63119b38e923a3a80e",
+    "size": [
+      160,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      46,
+      92
+    ],
+    "bounds": [
+      20,
+      29,
+      84,
+      63
+    ],
+    "opaque_pixels": 3801,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/storage_crate_large.png",
+    "sha256": "c8ee0811109a03549f2d28bd056e52f70219b857c83c543d99898c76c359934c",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      44,
+      106
+    ],
+    "bounds": [
+      27,
+      14,
+      39,
+      92
+    ],
+    "opaque_pixels": 2493,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/utility_oxygen_tank.png",
+    "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091",
+    "size": [
+      96,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      43,
+      73
+    ],
+    "bounds": [
+      27,
+      24,
+      31,
+      49
+    ],
+    "opaque_pixels": 995,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/base_pack_c/work_control_console.png",
+    "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "bottom_anchor": [
+      51,
+      79
+    ],
+    "bounds": [
+      13,
+      17,
+      65,
+      62
+    ],
+    "opaque_pixels": 2756,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/exterior_g1/eclss_service_cabinet.png",
+    "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "bottom_anchor": [
+      43,
+      82
+    ],
+    "bounds": [
+      24,
+      20,
+      39,
+      62
+    ],
+    "opaque_pixels": 833,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/exterior_g1/field_sensor_tripod.png",
+    "sha256": "1cdd4919a44b953ceca4faae46b0dc011fd770ce370aacac346e166a8219cb91",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "bottom_anchor": [
+      92,
+      168
+    ],
+    "bounds": [
+      16,
+      27,
+      160,
+      141
+    ],
+    "opaque_pixels": 15531,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/exterior_g1/greenhouse_module.png",
+    "sha256": "be3c08fc4b965daab865a7f4a72f490b9a30965c9e5ba0e204f2e1f27a31009b",
+    "size": [
+      192,
+      192
+    ]
+  },
+  {
+    "bottom_anchor": [
+      62,
+      103
+    ],
+    "bounds": [
+      21,
+      23,
+      85,
+      80
+    ],
+    "opaque_pixels": 4495,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/buildings/exterior_g1/radiator_bank.png",
+    "sha256": "ea210094d40f419ffd42bcadf1b9dd2f5c789ac8a141a78820b0712d8ab3ac00",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      40,
+      57
+    ],
+    "bounds": [
+      18,
+      10,
+      28,
+      47
+    ],
+    "opaque_pixels": 484,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/beacon_marker.png",
+    "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      43,
+      52
+    ],
+    "bounds": [
+      8,
+      14,
+      46,
+      38
+    ],
+    "opaque_pixels": 1015,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/broken_machine_part.png",
+    "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      52
+    ],
+    "bounds": [
+      16,
+      16,
+      32,
+      36
+    ],
+    "opaque_pixels": 710,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/lunar_sample.png",
+    "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      40,
+      48
+    ],
+    "bounds": [
+      11,
+      14,
+      43,
+      34
+    ],
+    "opaque_pixels": 812,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/metal_scrap.png",
+    "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      51
+    ],
+    "bounds": [
+      8,
+      11,
+      49,
+      40
+    ],
+    "opaque_pixels": 1119,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/rock_cluster.png",
+    "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      53
+    ],
+    "bounds": [
+      13,
+      13,
+      37,
+      40
+    ],
+    "opaque_pixels": 1132,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/small_equipment_box.png",
+    "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      54
+    ],
+    "bounds": [
+      22,
+      10,
+      18,
+      44
+    ],
+    "opaque_pixels": 679,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/small_resource_canister.png",
+    "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      34,
+      49
+    ],
+    "bounds": [
+      14,
+      18,
+      37,
+      31
+    ],
+    "opaque_pixels": 831,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/supply_pack.png",
+    "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      23,
+      53
+    ],
+    "bounds": [
+      7,
+      16,
+      50,
+      37
+    ],
+    "opaque_pixels": 1292,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/tool_case.png",
+    "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      56
+    ],
+    "bounds": [
+      10,
+      10,
+      42,
+      46
+    ],
+    "opaque_pixels": 1422,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/environment/props_pack_b/utility_crate.png",
+    "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      86,
+      107
+    ],
+    "bounds": [
+      21,
+      17,
+      92,
+      90
+    ],
+    "opaque_pixels": 3184,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/vehicles/lander_pack_d/deployed_ramp.png",
+    "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      144,
+      146
+    ],
+    "bounds": [
+      16,
+      16,
+      258,
+      130
+    ],
+    "opaque_pixels": 670,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/vehicles/lander_pack_d/landing_marker_decal.png",
+    "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df",
+    "size": [
+      288,
+      160
+    ]
+  },
+  {
+    "bottom_anchor": [
+      159,
+      296
+    ],
+    "bounds": [
+      14,
+      22,
+      292,
+      274
+    ],
+    "opaque_pixels": 29263,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/vehicles/lander_pack_d/moon_lander.png",
+    "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5",
+    "size": [
+      320,
+      320
+    ]
+  },
+  {
+    "bottom_anchor": [
+      32,
+      53
+    ],
+    "bounds": [
+      10,
+      12,
+      45,
+      41
+    ],
+    "opaque_pixels": 1383,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/vehicles/lander_pack_d/support_cargo_container.png",
+    "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "bottom_anchor": [
+      57,
+      19
+    ],
+    "bounds": [
+      26,
+      0,
+      37,
+      19
+    ],
+    "opaque_pixels": 208,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/base_floor_edge_tile_ne.png",
+    "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      6,
+      19
+    ],
+    "bounds": [
+      1,
+      0,
+      37,
+      19
+    ],
+    "opaque_pixels": 208,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/base_floor_edge_tile_nw.png",
+    "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      1,
+      13,
+      37,
+      19
+    ],
+    "opaque_pixels": 208,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/base_floor_edge_tile_sw.png",
+    "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      26,
+      13,
+      37,
+      19
+    ],
+    "opaque_pixels": 208,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/base_floor_edge_tile.png",
+    "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      62,
+      32
+    ],
+    "opaque_pixels": 1024,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/base_floor_panel_tile.png",
+    "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      32,
+      23
+    ],
+    "bounds": [
+      13,
+      9,
+      38,
+      14
+    ],
+    "opaque_pixels": 376,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/dark_basalt_patch_overlay.png",
+    "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      62,
+      32
+    ],
+    "opaque_pixels": 1024,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/hazard_stripe_floor_tile.png",
+    "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      62,
+      32
+    ],
+    "opaque_pixels": 1024,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/landing_marked_ground_tile.png",
+    "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      23
+    ],
+    "bounds": [
+      13,
+      9,
+      39,
+      14
+    ],
+    "opaque_pixels": 132,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/rocky_patch_overlay.png",
+    "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      33,
+      24
+    ],
+    "bounds": [
+      13,
+      8,
+      37,
+      16
+    ],
+    "opaque_pixels": 429,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/small_crater_overlay.png",
+    "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      30,
+      22
+    ],
+    "bounds": [
+      14,
+      10,
+      32,
+      12
+    ],
+    "opaque_pixels": 59,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/small_dust_debris_overlay.png",
+    "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      128
+    ],
+    "bounds": [
+      1,
+      6,
+      254,
+      122
+    ],
+    "opaque_pixels": 6131,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/terrain_expansion_atlas.png",
+    "sha256": "41996a96dde07c0a566d53a437feff95d4917265dd30086a3aeed136ac0b0b5c",
+    "size": [
+      256,
+      128
+    ]
+  },
+  {
+    "bottom_anchor": [
+      31,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      62,
+      32
+    ],
+    "opaque_pixels": 1024,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/utility_floor_pad_tile.png",
+    "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      44,
+      26
+    ],
+    "bounds": [
+      13,
+      6,
+      38,
+      20
+    ],
+    "opaque_pixels": 207,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/expansion_e/worn_footpath_tile.png",
+    "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+    "size": [
+      64,
+      32
+    ]
+  },
+  {
+    "bottom_anchor": [
+      127,
+      96
+    ],
+    "bounds": [
+      1,
+      0,
+      254,
+      96
+    ],
+    "opaque_pixels": 12288,
+    "partial_alpha_pixels": 0,
+    "path": "res://assets/terrain/moon/moon_regolith_atlas_4x3.png",
+    "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0",
+    "size": [
+      256,
+      96
+    ]
+  }
+]

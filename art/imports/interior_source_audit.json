@@ -1,0 +1,607 @@
+{
+  "phase": "0.8G2",
+  "existing_audit": "art/imports/exterior_source_audit.json",
+  "existing_file_count": 162,
+  "files": [
+    {
+      "path": "assets/pixellab/source/interiors_g2/sleep_bunk.png",
+      "status": "READY",
+      "asset_id": "sleep_bunk",
+      "sha256": "b53a2561bf03d9cc1aa61be12733adff08b9d9990c80817a363b910374ae5092"
+    },
+    {
+      "path": "assets/environment/interiors_g2/sleep_bunk.png",
+      "status": "READY",
+      "asset_id": "sleep_bunk",
+      "sha256": "b53a2561bf03d9cc1aa61be12733adff08b9d9990c80817a363b910374ae5092"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/galley_station.png",
+      "status": "READY",
+      "asset_id": "galley_station",
+      "sha256": "ba16b2bdaa67f3ea94a9aa70cf81cfbaa3fdafc091a239987d57e2af904d06a1"
+    },
+    {
+      "path": "assets/environment/interiors_g2/galley_station.png",
+      "status": "READY",
+      "asset_id": "galley_station",
+      "sha256": "ba16b2bdaa67f3ea94a9aa70cf81cfbaa3fdafc091a239987d57e2af904d06a1"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/sanitation_station.png",
+      "status": "READY",
+      "asset_id": "sanitation_station",
+      "sha256": "7bb2c6ea1bda318a1cab71a0bfcebe6b840d1262ff58b9be0336d6fa1eb43753"
+    },
+    {
+      "path": "assets/environment/interiors_g2/sanitation_station.png",
+      "status": "READY",
+      "asset_id": "sanitation_station",
+      "sha256": "7bb2c6ea1bda318a1cab71a0bfcebe6b840d1262ff58b9be0336d6fa1eb43753"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/habitat_table.png",
+      "status": "READY",
+      "asset_id": "habitat_table",
+      "sha256": "85b447430d2b23eaff48fe5b052133a33e61a138fba0c643d8ba2d81387d268d"
+    },
+    {
+      "path": "assets/environment/interiors_g2/habitat_table.png",
+      "status": "READY",
+      "asset_id": "habitat_table",
+      "sha256": "85b447430d2b23eaff48fe5b052133a33e61a138fba0c643d8ba2d81387d268d"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/eva_rack.png",
+      "status": "READY",
+      "asset_id": "eva_rack",
+      "sha256": "71c2e6b8fad264b779c07ae6e329923e66fd772102a8739b6b2144618285763e"
+    },
+    {
+      "path": "assets/environment/interiors_g2/eva_rack.png",
+      "status": "READY",
+      "asset_id": "eva_rack",
+      "sha256": "71c2e6b8fad264b779c07ae6e329923e66fd772102a8739b6b2144618285763e"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/medical_station.png",
+      "status": "READY",
+      "asset_id": "medical_station",
+      "sha256": "5574818ddf659f1522dd913d325d1122cd75925073cd8e4fa7533036bf967de2"
+    },
+    {
+      "path": "assets/environment/interiors_g2/medical_station.png",
+      "status": "READY",
+      "asset_id": "medical_station",
+      "sha256": "5574818ddf659f1522dd913d325d1122cd75925073cd8e4fa7533036bf967de2"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/sample_bench.png",
+      "status": "READY",
+      "asset_id": "sample_bench",
+      "sha256": "083e070732a3eace67820aa796e229baeffc0a2a3cd3fad80ca58724f8111d81"
+    },
+    {
+      "path": "assets/environment/interiors_g2/sample_bench.png",
+      "status": "READY",
+      "asset_id": "sample_bench",
+      "sha256": "083e070732a3eace67820aa796e229baeffc0a2a3cd3fad80ca58724f8111d81"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/maintenance_bench.png",
+      "status": "READY",
+      "asset_id": "maintenance_bench",
+      "sha256": "5b07d9acf742d3c5744804dd271fe5d3e8b8807784a0fe275d0c01ddaae13ba9"
+    },
+    {
+      "path": "assets/environment/interiors_g2/maintenance_bench.png",
+      "status": "READY",
+      "asset_id": "maintenance_bench",
+      "sha256": "5b07d9acf742d3c5744804dd271fe5d3e8b8807784a0fe275d0c01ddaae13ba9"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/storage_rack_empty.png",
+      "status": "READY",
+      "asset_id": "storage_rack_empty",
+      "sha256": "063c3eb4a95cbb2fb47c74b508106e431b4c6250cb1d7d3e24005be57c379cba"
+    },
+    {
+      "path": "assets/environment/interiors_g2/storage_rack_empty.png",
+      "status": "READY",
+      "asset_id": "storage_rack_empty",
+      "sha256": "063c3eb4a95cbb2fb47c74b508106e431b4c6250cb1d7d3e24005be57c379cba"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/storage_rack_loaded.png",
+      "status": "READY",
+      "asset_id": "storage_rack_loaded",
+      "sha256": "fcec0deddeb354c6681f9fc2906621c33245ca837902f42f7938fc778a1e4ce7"
+    },
+    {
+      "path": "assets/environment/interiors_g2/storage_rack_loaded.png",
+      "status": "READY",
+      "asset_id": "storage_rack_loaded",
+      "sha256": "fcec0deddeb354c6681f9fc2906621c33245ca837902f42f7938fc778a1e4ce7"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/exercise_station.png",
+      "status": "READY",
+      "asset_id": "exercise_station",
+      "sha256": "092749d7fbb1d42d26b16ea776a73932807af40289f803c0f96abb3a782e9997"
+    },
+    {
+      "path": "assets/environment/interiors_g2/exercise_station.png",
+      "status": "READY",
+      "asset_id": "exercise_station",
+      "sha256": "092749d7fbb1d42d26b16ea776a73932807af40289f803c0f96abb3a782e9997"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/growing_tray_empty.png",
+      "status": "READY",
+      "asset_id": "growing_tray_empty",
+      "sha256": "448e4d99c18d8462129021df6c71c3fb3c6cb29c44ea17de9cf20a0166404913"
+    },
+    {
+      "path": "assets/environment/interiors_g2/growing_tray_empty.png",
+      "status": "READY",
+      "asset_id": "growing_tray_empty",
+      "sha256": "448e4d99c18d8462129021df6c71c3fb3c6cb29c44ea17de9cf20a0166404913"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/water_dispenser.png",
+      "status": "READY",
+      "asset_id": "water_dispenser",
+      "sha256": "cd04b1e02c7c012b719d7373d27d6cef4df5455b6f0fac0e8194793833719ced"
+    },
+    {
+      "path": "assets/environment/interiors_g2/water_dispenser.png",
+      "status": "READY",
+      "asset_id": "water_dispenser",
+      "sha256": "cd04b1e02c7c012b719d7373d27d6cef4df5455b6f0fac0e8194793833719ced"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_germinating_v2.png",
+      "status": "READY",
+      "asset_id": "greens_germinating",
+      "sha256": "0ab37f8053a47be1ea91c9877ce2c6315c0673496015221888f8ec67c1d5c7a3"
+    },
+    {
+      "path": "assets/environment/interiors_g2/greens_germinating.png",
+      "status": "READY",
+      "asset_id": "greens_germinating",
+      "sha256": "0ab37f8053a47be1ea91c9877ce2c6315c0673496015221888f8ec67c1d5c7a3"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_small_v2.png",
+      "status": "READY",
+      "asset_id": "greens_small",
+      "sha256": "4099698be9521447cbbc8e5e44cfa11c04fb631c6f516ed893614bb179df4b95"
+    },
+    {
+      "path": "assets/environment/interiors_g2/greens_small.png",
+      "status": "READY",
+      "asset_id": "greens_small",
+      "sha256": "4099698be9521447cbbc8e5e44cfa11c04fb631c6f516ed893614bb179df4b95"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_intermediate_v2.png",
+      "status": "READY",
+      "asset_id": "greens_intermediate",
+      "sha256": "8db0b340b0e44b60cab031b34c423d939b85fe2141a94d724b04f1eaf5e47bba"
+    },
+    {
+      "path": "assets/environment/interiors_g2/greens_intermediate.png",
+      "status": "READY",
+      "asset_id": "greens_intermediate",
+      "sha256": "8db0b340b0e44b60cab031b34c423d939b85fe2141a94d724b04f1eaf5e47bba"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_mature_v2.png",
+      "status": "READY",
+      "asset_id": "greens_mature",
+      "sha256": "082ed4b5bac1be91672fc1e1214c6a9aed937cdd3db74cb34e2048070b4698e1"
+    },
+    {
+      "path": "assets/environment/interiors_g2/greens_mature.png",
+      "status": "READY",
+      "asset_id": "greens_mature",
+      "sha256": "082ed4b5bac1be91672fc1e1214c6a9aed937cdd3db74cb34e2048070b4698e1"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/habitat_seat_v2.png",
+      "status": "READY",
+      "asset_id": "habitat_seat",
+      "sha256": "cadcbd509616f1036631f3a20076095c9387de68d52a87d0faaa6ee7d2bf224c"
+    },
+    {
+      "path": "assets/environment/interiors_g2/habitat_seat.png",
+      "status": "READY",
+      "asset_id": "habitat_seat",
+      "sha256": "cadcbd509616f1036631f3a20076095c9387de68d52a87d0faaa6ee7d2bf224c"
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/work_control_console.png",
+      "status": "READY",
+      "asset_id": "work_control_console",
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2"
+    },
+    {
+      "path": "assets/buildings/base_pack_c/work_control_console.png",
+      "status": "READY",
+      "asset_id": "work_control_console",
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2"
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/battery_power_unit.png",
+      "status": "READY",
+      "asset_id": "battery_power_unit",
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f"
+    },
+    {
+      "path": "assets/buildings/base_pack_c/battery_power_unit.png",
+      "status": "READY",
+      "asset_id": "battery_power_unit",
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f"
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png",
+      "status": "READY",
+      "asset_id": "eclss_service_cabinet",
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43"
+    },
+    {
+      "path": "assets/buildings/exterior_g1/eclss_service_cabinet.png",
+      "status": "READY",
+      "asset_id": "eclss_service_cabinet",
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43"
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png",
+      "status": "READY",
+      "asset_id": "utility_oxygen_tank",
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091"
+    },
+    {
+      "path": "assets/buildings/base_pack_c/utility_oxygen_tank.png",
+      "status": "READY",
+      "asset_id": "utility_oxygen_tank",
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091"
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/tool_case_v2.png",
+      "status": "READY",
+      "asset_id": "tool_case",
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289"
+    },
+    {
+      "path": "assets/environment/props_pack_b/tool_case.png",
+      "status": "READY",
+      "asset_id": "tool_case",
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289"
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/supply_pack_v2.png",
+      "status": "READY",
+      "asset_id": "supply_pack",
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360"
+    },
+    {
+      "path": "assets/environment/props_pack_b/supply_pack.png",
+      "status": "READY",
+      "asset_id": "supply_pack",
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360"
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/small_resource_canister.png",
+      "status": "READY",
+      "asset_id": "small_resource_canister",
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8"
+    },
+    {
+      "path": "assets/environment/props_pack_b/small_resource_canister.png",
+      "status": "READY",
+      "asset_id": "small_resource_canister",
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8"
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/small_equipment_box.png",
+      "status": "READY",
+      "asset_id": "small_equipment_box",
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883"
+    },
+    {
+      "path": "assets/environment/props_pack_b/small_equipment_box.png",
+      "status": "READY",
+      "asset_id": "small_equipment_box",
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883"
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/small_connector_utility_box.png",
+      "status": "READY",
+      "asset_id": "small_connector_utility_box",
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1"
+    },
+    {
+      "path": "assets/buildings/base_pack_c/small_connector_utility_box.png",
+      "status": "READY",
+      "asset_id": "small_connector_utility_box",
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/habitat_seat.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Reads as a desk/console rather than seating.",
+      "sha256": "8dac9d0a3430a4bdaed49c18a6d2dbef67ad17b4fa8217b6c0f0b69126322578"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_germinating.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Includes unwanted helmet/complete tray scene, not a plant-only overlay.",
+      "sha256": "e03b1c6bd4d1bf8d7373a9b1fc0443027c7dd28a6bb1745b716c984f96239e18"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_small.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains unwanted astronaut figure and scenery.",
+      "sha256": "5218c9879a067293a237ddf502254793018e2f8519ca27c90510d4c1a4b229fb"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_intermediate.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains a complete apparatus rather than a plant-only overlay.",
+      "sha256": "c164e9a79e9a439cfd50d1572daebbaba94230d459cdad21749ffca2ae61f043"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/greens_mature.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains unwanted astronaut figure and complete growing scene.",
+      "sha256": "a3e4cad813acce7d4accd3ca13d7e0d19e6be87d92f645052321692aab7de18f"
+    },
+    {
+      "path": "assets/pixellab/source/interiors_g2/grow_light_frame.png",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains mature plants and tray; cannot represent a light frame across actual empty/young states.",
+      "sha256": "81b80d0b25bb509983a3e6edb3828890e656dcc165e11e22c054a19b010f32d7"
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/sleep_bunk.png",
+        "assets/environment/interiors_g2/sleep_bunk.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/galley_station.png",
+        "assets/environment/interiors_g2/galley_station.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/sanitation_station.png",
+        "assets/environment/interiors_g2/sanitation_station.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/habitat_table.png",
+        "assets/environment/interiors_g2/habitat_table.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/eva_rack.png",
+        "assets/environment/interiors_g2/eva_rack.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/medical_station.png",
+        "assets/environment/interiors_g2/medical_station.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/sample_bench.png",
+        "assets/environment/interiors_g2/sample_bench.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/maintenance_bench.png",
+        "assets/environment/interiors_g2/maintenance_bench.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/storage_rack_empty.png",
+        "assets/environment/interiors_g2/storage_rack_empty.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/storage_rack_loaded.png",
+        "assets/environment/interiors_g2/storage_rack_loaded.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/exercise_station.png",
+        "assets/environment/interiors_g2/exercise_station.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/growing_tray_empty.png",
+        "assets/environment/interiors_g2/growing_tray_empty.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/water_dispenser.png",
+        "assets/environment/interiors_g2/water_dispenser.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/greens_germinating_v2.png",
+        "assets/environment/interiors_g2/greens_germinating.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/greens_small_v2.png",
+        "assets/environment/interiors_g2/greens_small.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/greens_intermediate_v2.png",
+        "assets/environment/interiors_g2/greens_intermediate.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/greens_mature_v2.png",
+        "assets/environment/interiors_g2/greens_mature.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/interiors_g2/habitat_seat_v2.png",
+        "assets/environment/interiors_g2/habitat_seat.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_pack_c/work_control_console.png",
+        "assets/buildings/base_pack_c/work_control_console.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_pack_c/battery_power_unit.png",
+        "assets/buildings/base_pack_c/battery_power_unit.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png",
+        "assets/buildings/exterior_g1/eclss_service_cabinet.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png",
+        "assets/buildings/base_pack_c/utility_oxygen_tank.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/props_pack_b/tool_case_v2.png",
+        "assets/environment/props_pack_b/tool_case.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/props_pack_b/supply_pack_v2.png",
+        "assets/environment/props_pack_b/supply_pack.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/props_pack_b/small_resource_canister.png",
+        "assets/environment/props_pack_b/small_resource_canister.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/props_pack_b/small_equipment_box.png",
+        "assets/environment/props_pack_b/small_equipment_box.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_pack_c/small_connector_utility_box.png",
+        "assets/buildings/base_pack_c/small_connector_utility_box.png"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "category": "all_13_functional_areas",
+      "status": "READY",
+      "notes": "Nine shared-function room scenes; isolated development integration."
+    },
+    {
+      "category": "final_world_assembly",
+      "status": "NEEDS_INTEGRATION",
+      "notes": "Phase 0.9, not started."
+    },
+    {
+      "category": "crop_failure_art",
+      "status": "UNUSED",
+      "notes": "Existing model pauses; no crop death/health state exists."
+    },
+    {
+      "category": "alternate_furniture_facings",
+      "status": "MISSING",
+      "notes": "Single supplied views retained; no interpolated rotation."
+    }
+  ]
+}

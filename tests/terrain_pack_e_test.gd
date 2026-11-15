@@ -59,6 +59,14 @@ func _run() -> void:
 			# authored walkability. Keep the historical record, but test current code
 			# behavior rather than prohibiting the documented later implementation.
 			await _validate_current_terrain_contract()
+		elif str(before["path"]) == "resources/terrain/moon_terrain.tres":
+			# Godot saved resource UIDs after the original import. Compare all authored
+			# TileSet content, ignoring only those identity annotations.
+			var canonical: String = FileAccess.get_file_as_string("res://" + str(before["path"]))
+			var uid_annotation := RegEx.new()
+			uid_annotation.compile(' uid="uid://[^"]+"')
+			canonical = uid_annotation.sub(canonical, "", true)
+			_check(canonical.sha256_text() == before["sha256"], "Original TileSet content unchanged except saved UIDs")
 		else:
 			_check(FileAccess.get_sha256("res://" + str(before["path"])) == before["sha256"], "Original terrain unchanged " + str(before["path"]))
 	# Shared-edge raster proof: two adjacent full panels exactly fill their expected union.

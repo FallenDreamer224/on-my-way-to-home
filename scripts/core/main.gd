@@ -1,8 +1,15 @@
 extends Node
-## Composition root. Future systems are composed here instead of global singletons.
+## Gameplay session composition root. Systems are composed here instead of global singletons.
+## The application root creates this scene through GameEntry.new_game(); it also runs alone.
+
+const TUTORIAL_MISSION: MissionDefinition = preload("res://resources/data/moon_tutorial_mission.tres")
 
 @export var development_settings: DevelopmentSettings
+## Mission card shown by the objective interface; the Moon tutorial when left unset.
+@export var mission: MissionDefinition
 
+var objectives: ObjectiveTracker
+var companion_dialogue: ChiwisDialogue
 @onready var game_ui: GameUI = $UI
 @onready var camera_rig: PlayerCameraRig = $CameraRig
 @onready var astronaut: Astronaut = $World/Entities/Players/Astronaut
@@ -39,28 +46,56 @@ func _ready() -> void:
 	var safety: EvaSafetyMonitor = $Systems/EvaSafety
 	var tutorial: LunarTutorialRegion = ground.region as LunarTutorialRegion
 	if tutorial != null:
-		safety.notice_requested.connect(func(text: String, duration: float) -> void: game_ui.notify(text, duration))
 		if not safety.configure(astronaut, ground, gameplay_modes, tutorial.eva_limits):
 			push_error("Could not configure lunar EVA safety policy.")
-	$Systems/HabitatDirector.configure(self)
+	var director: HabitatDirector = $Systems/HabitatDirector
+	director.configure(self)
 	var utilities: UtilityService = $Systems/Utilities
 	var utility_panel := UtilityPanel.new()
-	utility_panel.name = "UtilityPanel"
-	game_ui.add_child(utility_panel)
-	utility_panel.configure(utilities, player_session)
-	$Systems/HabitatDirector.utilities = utilities
-	$Systems/HabitatDirector.utility_panel = utility_panel
+	utility_panel.configure(utilities, player_session, development_active)
+	game_ui.register_modal(utility_panel)
+	director.utilities = utilities
+	director.utility_panel = utility_panel
 	var daily := DailyLife.new()
 	daily.name = "DailyLife"
 	utilities.add_child(daily)
 	daily.configure(utilities, inventory)
 	var daily_panel := DailyLifePanel.new()
-	game_ui.add_child(daily_panel)
 	daily_panel.configure(daily, player_session)
-	$Systems/HabitatDirector.daily_panel = daily_panel
-	utilities.critical_notice.connect(func(text: String) -> void: game_ui.notify(text, 6))
+	game_ui.register_modal(daily_panel)
+	director.daily_panel = daily_panel
+	utilities.critical_notice.connect(func(text: String) -> void: game_ui.notify(text, 6, NotificationArea.Level.CRITICAL))
+	_compose_presentation(inventory, detector, director, utilities, safety, daily, utility_panel)
 	if development_active and development_settings.log_startup:
-		print("On My Way to Home | Phase 0.7C UI ready")
+		print("On My Way to Home | Phase 0.8F interface ready")
+
+
+## Objective tracking and companion commentary observe existing systems; neither owns gameplay.
+func _compose_presentation(inventory: RuntimeInventory, detector: InteractionDetector, director: HabitatDirector,
+		utilities: UtilityService, safety: EvaSafetyMonitor, daily: DailyLife, utility_panel: UtilityPanel) -> void:
+	objectives = ObjectiveTracker.new()
+	objectives.name = "Objectives"
+	$Systems.add_child(objectives)
+	companion_dialogue = ChiwisDialogue.new()
+	companion_dialogue.name = "ChiwisDialogue"
+	$Systems.add_child(companion_dialogue)
+	var commentary := ChiwisCommentary.new()
+	commentary.name = "ChiwisCommentary"
+	$Systems.add_child(commentary)
+	if not objectives.configure(mission if mission != null else TUTORIAL_MISSION, inventory, director, daily):
+		push_error("Invalid tutorial mission definition.")
+	commentary.configure(companion_dialogue, inventory, detector, director, safety, utilities, objectives, gameplay_modes)
+	game_ui.bind_systems(player_session, director, utilities, safety, daily, objectives, companion_dialogue, inventory)
+	game_ui.inventory_window.visibility_changed.connect(func() -> void:
+		if game_ui.inventory_window.visible:
+			objectives.note_event(&"inventory_opened"))
+	gameplay_modes.mode_changed.connect(func(mode: GameplayModeCoordinator.Mode) -> void:
+		if mode == GameplayModeCoordinator.Mode.BASE_MANAGEMENT:
+			objectives.note_event(&"management_visited"))
+	utility_panel.visibility_changed.connect(func() -> void:
+		if utility_panel.visible:
+			objectives.note_event(&"utility_terminal_opened")
+			commentary.note_utility_terminal())
 
 
 func _apply_mode(_mode: GameplayModeCoordinator.Mode) -> void:

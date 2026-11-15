@@ -1,42 +1,42 @@
-[gd_scene load_steps=12 format=3]
+[gd_scene format=3 uid="uid://ch4es5dn16r4k"]
 
-[ext_resource type="Script" path="res://scripts/core/main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://bgxsyhypy0xup" path="res://scripts/core/main.gd" id="1_main"]
 [ext_resource type="Resource" path="res://resources/config/development_settings.tres" id="2_settings"]
 [ext_resource type="PackedScene" path="res://scenes/world/world.tscn" id="3_world"]
 [ext_resource type="PackedScene" path="res://scenes/camera/camera_rig.tscn" id="4_camera"]
 [ext_resource type="PackedScene" path="res://scenes/ui/game_ui.tscn" id="5_ui"]
 [ext_resource type="PackedScene" path="res://scenes/camera/base_management_camera_rig.tscn" id="7_management"]
-[ext_resource type="Script" path="res://scripts/gameplay/gameplay_mode_coordinator.gd" id="8_modes"]
-[ext_resource type="Script" path="res://scripts/gameplay/player_session.gd" id="9_session"]
-[ext_resource type="Script" path="res://scripts/gameplay/eva_safety_monitor.gd" id="10_safety"]
-[ext_resource type="Script" path="res://scripts/habitat/habitat_director.gd" id="11_habitat"]
-[ext_resource type="Script" path="res://scripts/utilities/utility_service.gd" id="12_utilities"]
+[ext_resource type="Script" uid="uid://dkgfjqucymoq2" path="res://scripts/gameplay/gameplay_mode_coordinator.gd" id="8_modes"]
+[ext_resource type="Script" uid="uid://b36v0dpge3q08" path="res://scripts/gameplay/player_session.gd" id="9_session"]
+[ext_resource type="Script" uid="uid://byfytvgn8rhj1" path="res://scripts/gameplay/eva_safety_monitor.gd" id="10_safety"]
+[ext_resource type="Script" uid="uid://nc3lvev1dlac" path="res://scripts/habitat/habitat_director.gd" id="11_habitat"]
+[ext_resource type="Script" uid="uid://d3knbtsfegasq" path="res://scripts/utilities/utility_service.gd" id="12_utilities"]
 
-[node name="Main" type="Node"]
+[node name="Main" type="Node" unique_id=320329328]
 script = ExtResource("1_main")
 development_settings = ExtResource("2_settings")
 
-[node name="Systems" type="Node" parent="."]
+[node name="Systems" type="Node" parent="." unique_id=240731982]
 
-[node name="GameplayModes" type="Node" parent="Systems"]
+[node name="GameplayModes" type="Node" parent="Systems" unique_id=544487328]
 script = ExtResource("8_modes")
 
-[node name="PlayerSession" type="Node" parent="Systems"]
+[node name="PlayerSession" type="Node" parent="Systems" unique_id=2093095728]
 script = ExtResource("9_session")
 
-[node name="World" parent="." instance=ExtResource("3_world")]
-
-[node name="EvaSafety" type="Node" parent="Systems"]
+[node name="EvaSafety" type="Node" parent="Systems" unique_id=901644014]
 script = ExtResource("10_safety")
 
-[node name="CameraRig" parent="." instance=ExtResource("4_camera")]
-
-[node name="BaseManagementCameraRig" parent="." instance=ExtResource("7_management")]
-
-[node name="UI" parent="." instance=ExtResource("5_ui")]
-
-[node name="HabitatDirector" type="Node" parent="Systems"]
+[node name="HabitatDirector" type="Node" parent="Systems" unique_id=829299058]
 script = ExtResource("11_habitat")
 
-[node name="Utilities" type="Node" parent="Systems"]
+[node name="Utilities" type="Node" parent="Systems" unique_id=512466777]
 script = ExtResource("12_utilities")
+
+[node name="World" parent="." unique_id=1600842896 instance=ExtResource("3_world")]
+
+[node name="CameraRig" parent="." unique_id=173070001 instance=ExtResource("4_camera")]
+
+[node name="BaseManagementCameraRig" parent="." unique_id=129510948 instance=ExtResource("7_management")]
+
+[node name="UI" parent="." unique_id=1332014437 instance=ExtResource("5_ui")]

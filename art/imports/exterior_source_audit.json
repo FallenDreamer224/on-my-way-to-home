@@ -1,0 +1,2816 @@
+{
+  "schema_version": 1,
+  "phase": "0.8G1",
+  "external_root_policy": "external:// paths refer to the read-only user-supplied assets directory; no personal path is stored",
+  "assets": [
+    {
+      "path": "assets/buildings/base_pack_c/airlock_module.png",
+      "bytes": 12536,
+      "sha256": "4be341ccd449848ddae346fb7b92fc352cca507720e961307c9c6c4a066637bf",
+      "native_size_px": [
+        160,
+        160
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "airlock_module",
+      "measured_bounds_px": [
+        9,
+        6,
+        142,
+        148
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/battery_power_unit.png",
+      "bytes": 3290,
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "battery_power_unit",
+      "measured_bounds_px": [
+        20,
+        21,
+        47,
+        54
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/communications_antenna.png",
+      "bytes": 4208,
+      "sha256": "73b0e88a6c91dc26fcce92dab4f19a9c99fb8fea4539634bcfc66107e03672a1",
+      "native_size_px": [
+        96,
+        160
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "communications_antenna",
+      "measured_bounds_px": [
+        25,
+        34,
+        39,
+        88
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/light_beacon_pole.png",
+      "bytes": 1837,
+      "sha256": "538882bc3b019c98658c43529cebfd48c267a1df5ebb7b20146e6a8f6ac5cffc",
+      "native_size_px": [
+        64,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "light_beacon_pole",
+      "measured_bounds_px": [
+        19,
+        22,
+        26,
+        77
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/small_connector_utility_box.png",
+      "bytes": 2325,
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_connector_utility_box",
+      "measured_bounds_px": [
+        7,
+        14,
+        50,
+        37
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/small_habitat_module.png",
+      "bytes": 17679,
+      "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_habitat_module",
+      "measured_bounds_px": [
+        7,
+        26,
+        178,
+        143
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/solar_panel_array.png",
+      "bytes": 13706,
+      "sha256": "f9873debcdd2ae6145842250dd9c7b4921dba430b11b0c63119b38e923a3a80e",
+      "native_size_px": [
+        160,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "solar_panel_array",
+      "measured_bounds_px": [
+        3,
+        7,
+        152,
+        111
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/storage_crate_large.png",
+      "bytes": 5232,
+      "sha256": "c8ee0811109a03549f2d28bd056e52f70219b857c83c543d99898c76c359934c",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "storage_crate_large",
+      "measured_bounds_px": [
+        20,
+        29,
+        84,
+        63
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/utility_oxygen_tank.png",
+      "bytes": 4098,
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091",
+      "native_size_px": [
+        96,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "utility_oxygen_tank",
+      "measured_bounds_px": [
+        27,
+        14,
+        39,
+        92
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/base_pack_c/work_control_console.png",
+      "bytes": 2189,
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "work_control_console",
+      "measured_bounds_px": [
+        27,
+        24,
+        31,
+        49
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/exterior_g1/eclss_service_cabinet.png",
+      "bytes": 4820,
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "eclss_service_cabinet",
+      "measured_bounds_px": [
+        13,
+        17,
+        65,
+        62
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/exterior_g1/field_sensor_tripod.png",
+      "bytes": 2676,
+      "sha256": "1cdd4919a44b953ceca4faae46b0dc011fd770ce370aacac346e166a8219cb91",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "field_sensor_tripod",
+      "measured_bounds_px": [
+        24,
+        20,
+        39,
+        62
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/exterior_g1/greenhouse_module.png",
+      "bytes": 24688,
+      "sha256": "be3c08fc4b965daab865a7f4a72f490b9a30965c9e5ba0e204f2e1f27a31009b",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "greenhouse_module",
+      "measured_bounds_px": [
+        16,
+        27,
+        160,
+        141
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/buildings/exterior_g1/radiator_bank.png",
+      "bytes": 6112,
+      "sha256": "ea210094d40f419ffd42bcadf1b9dd2f5c789ac8a141a78820b0712d8ab3ac00",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "radiator_bank",
+      "measured_bounds_px": [
+        21,
+        23,
+        85,
+        80
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/beacon_marker.png",
+      "bytes": 1213,
+      "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "beacon_marker",
+      "measured_bounds_px": [
+        18,
+        10,
+        28,
+        47
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/broken_machine_part.png",
+      "bytes": 2501,
+      "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "broken_machine_part",
+      "measured_bounds_px": [
+        8,
+        14,
+        46,
+        38
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/lunar_sample.png",
+      "bytes": 1766,
+      "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "lunar_sample",
+      "measured_bounds_px": [
+        16,
+        16,
+        32,
+        36
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/metal_scrap.png",
+      "bytes": 2006,
+      "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "metal_scrap",
+      "measured_bounds_px": [
+        11,
+        14,
+        43,
+        34
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/rock_cluster.png",
+      "bytes": 2277,
+      "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "rock_cluster",
+      "measured_bounds_px": [
+        8,
+        11,
+        49,
+        40
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/small_equipment_box.png",
+      "bytes": 1862,
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_equipment_box",
+      "measured_bounds_px": [
+        13,
+        13,
+        37,
+        40
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/small_resource_canister.png",
+      "bytes": 1543,
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_resource_canister",
+      "measured_bounds_px": [
+        22,
+        10,
+        18,
+        44
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/supply_pack.png",
+      "bytes": 1999,
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "supply_pack",
+      "measured_bounds_px": [
+        14,
+        18,
+        37,
+        31
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/tool_case.png",
+      "bytes": 2626,
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "tool_case",
+      "measured_bounds_px": [
+        7,
+        16,
+        50,
+        37
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/environment/props_pack_b/utility_crate.png",
+      "bytes": 2308,
+      "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "utility_crate",
+      "measured_bounds_px": [
+        10,
+        10,
+        42,
+        46
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/vehicles/lander_pack_d/deployed_ramp.png",
+      "bytes": 1039,
+      "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "deployed_ramp",
+      "measured_bounds_px": [
+        21,
+        17,
+        92,
+        90
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/vehicles/lander_pack_d/landing_marker_decal.png",
+      "bytes": 1050,
+      "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df",
+      "native_size_px": [
+        288,
+        160
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "landing_marker_decal",
+      "measured_bounds_px": [
+        16,
+        16,
+        258,
+        130
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/vehicles/lander_pack_d/moon_lander.png",
+      "bytes": 33011,
+      "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5",
+      "native_size_px": [
+        320,
+        320
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "moon_lander",
+      "measured_bounds_px": [
+        14,
+        22,
+        292,
+        274
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/vehicles/lander_pack_d/support_cargo_container.png",
+      "bytes": 1518,
+      "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "support_cargo_container",
+      "measured_bounds_px": [
+        10,
+        12,
+        45,
+        41
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/base_floor_edge_tile.png",
+      "bytes": 252,
+      "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "base_floor_edge_tile",
+      "measured_bounds_px": [
+        26,
+        13,
+        37,
+        19
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/base_floor_edge_tile_ne.png",
+      "bytes": 242,
+      "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "base_floor_edge_tile_ne",
+      "measured_bounds_px": [
+        26,
+        0,
+        37,
+        19
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/base_floor_edge_tile_nw.png",
+      "bytes": 218,
+      "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "base_floor_edge_tile_nw",
+      "measured_bounds_px": [
+        1,
+        0,
+        37,
+        19
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/base_floor_edge_tile_sw.png",
+      "bytes": 253,
+      "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "base_floor_edge_tile_sw",
+      "measured_bounds_px": [
+        1,
+        13,
+        37,
+        19
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/base_floor_panel_tile.png",
+      "bytes": 417,
+      "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "base_floor_panel_tile",
+      "measured_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/dark_basalt_patch_overlay.png",
+      "bytes": 434,
+      "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "dark_basalt_patch_overlay",
+      "measured_bounds_px": [
+        13,
+        9,
+        38,
+        14
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/hazard_stripe_floor_tile.png",
+      "bytes": 557,
+      "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "hazard_stripe_floor_tile",
+      "measured_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/landing_marked_ground_tile.png",
+      "bytes": 644,
+      "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "landing_marked_ground_tile",
+      "measured_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/rocky_patch_overlay.png",
+      "bytes": 404,
+      "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "rocky_patch_overlay",
+      "measured_bounds_px": [
+        13,
+        9,
+        39,
+        14
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/small_crater_overlay.png",
+      "bytes": 493,
+      "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_crater_overlay",
+      "measured_bounds_px": [
+        13,
+        8,
+        37,
+        16
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/small_dust_debris_overlay.png",
+      "bytes": 272,
+      "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "small_dust_debris_overlay",
+      "measured_bounds_px": [
+        14,
+        10,
+        32,
+        12
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/terrain_expansion_atlas.png",
+      "bytes": 3371,
+      "sha256": "41996a96dde07c0a566d53a437feff95d4917265dd30086a3aeed136ac0b0b5c",
+      "native_size_px": [
+        256,
+        128
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": [
+        1,
+        6,
+        254,
+        122
+      ],
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/terrain/expansion_e/utility_floor_pad_tile.png",
+      "bytes": 518,
+      "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "utility_floor_pad_tile",
+      "measured_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/expansion_e/worn_footpath_tile.png",
+      "bytes": 370,
+      "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "prepared_runtime",
+      "represented_by": "worn_footpath_tile",
+      "measured_bounds_px": [
+        13,
+        6,
+        38,
+        20
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/terrain/moon/moon_regolith_atlas_4x3.png",
+      "bytes": 15774,
+      "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0",
+      "native_size_px": [
+        256,
+        96
+      ],
+      "status": "READY",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": [
+        1,
+        0,
+        254,
+        96
+      ],
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/airlock_module.png",
+      "bytes": 7362,
+      "sha256": "83ab5c306ab3a5a56b48d7f59660098df91c9da86d3626b66c532dbc560e9800",
+      "native_size_px": [
+        160,
+        160
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/airlock_module_v2.png",
+      "bytes": 12536,
+      "sha256": "4be341ccd449848ddae346fb7b92fc352cca507720e961307c9c6c4a066637bf",
+      "native_size_px": [
+        160,
+        160
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "airlock_module",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+      "bytes": 1492,
+      "sha256": "864d9b2ec84cf2646f59243aa01f6bbce17e056cbee86c92699d937bc6888a1e",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/battery_power_unit.png",
+      "bytes": 3290,
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "battery_power_unit",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/communications_antenna.png",
+      "bytes": 4208,
+      "sha256": "73b0e88a6c91dc26fcce92dab4f19a9c99fb8fea4539634bcfc66107e03672a1",
+      "native_size_px": [
+        96,
+        160
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "communications_antenna",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/light_beacon_pole.png",
+      "bytes": 1837,
+      "sha256": "538882bc3b019c98658c43529cebfd48c267a1df5ebb7b20146e6a8f6ac5cffc",
+      "native_size_px": [
+        64,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "light_beacon_pole",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/small_connector_utility_box.png",
+      "bytes": 2325,
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_connector_utility_box",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/small_habitat_module.png",
+      "bytes": 7587,
+      "sha256": "c908983e67f2c71f7100cb71478ce4062f0365014ac871481835eb898daff20e",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/small_habitat_module_v2.png",
+      "bytes": 17679,
+      "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_habitat_module",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/solar_panel_array.png",
+      "bytes": 4622,
+      "sha256": "10a4a8d792b1f0ddca75fe034afc4944c4e11978c913cd5f27765647f1fd58d1",
+      "native_size_px": [
+        160,
+        128
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/solar_panel_array_v2.png",
+      "bytes": 13706,
+      "sha256": "f9873debcdd2ae6145842250dd9c7b4921dba430b11b0c63119b38e923a3a80e",
+      "native_size_px": [
+        160,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "solar_panel_array",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/storage_crate_large.png",
+      "bytes": 5232,
+      "sha256": "c8ee0811109a03549f2d28bd056e52f70219b857c83c543d99898c76c359934c",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "storage_crate_large",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png",
+      "bytes": 4098,
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091",
+      "native_size_px": [
+        96,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "utility_oxygen_tank",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/base_pack_c/work_control_console.png",
+      "bytes": 2189,
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "work_control_console",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/astronaut_style_reference.png",
+      "bytes": 1492,
+      "sha256": "864d9b2ec84cf2646f59243aa01f6bbce17e056cbee86c92699d937bc6888a1e",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/beacon_marker.png",
+      "bytes": 1213,
+      "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "beacon_marker",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/broken_machine_part.png",
+      "bytes": 2816,
+      "sha256": "95fb6697b0860bdb9cddbf9d97e147d980762776236b520e56c0fa691296af08",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/broken_machine_part_v2.png",
+      "bytes": 2501,
+      "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "broken_machine_part",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/lunar_sample.png",
+      "bytes": 1766,
+      "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "lunar_sample",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/metal_scrap.png",
+      "bytes": 2006,
+      "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "metal_scrap",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/rock_cluster.png",
+      "bytes": 2272,
+      "sha256": "f736bd1d0a1c0cdaadabd7985f2a499cfaab45e6ba55e9b109603a8f6cbfd643",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/rock_cluster_v2.png",
+      "bytes": 2040,
+      "sha256": "28c003a3f5d25b3175361e26f8760e0659aa398b1565d2c0aaef7212e6459e93",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/rock_cluster_v3.png",
+      "bytes": 1494,
+      "sha256": "e11f54b8791eb80edf547d9d8d0e87f805b443772a2005c1467996f090136e08",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/rock_cluster_v4.png",
+      "bytes": 2277,
+      "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "rock_cluster",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/small_equipment_box.png",
+      "bytes": 1862,
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_equipment_box",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/small_resource_canister.png",
+      "bytes": 1543,
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_resource_canister",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/supply_pack.png",
+      "bytes": 1972,
+      "sha256": "234d84d8b145dfa04f8571f3a470733c00fd7ef36d1a140b5066072be61df6c1",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/supply_pack_v2.png",
+      "bytes": 1999,
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "supply_pack",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/tool_case.png",
+      "bytes": 2403,
+      "sha256": "883021df1ebe238d8723d45dc90986f00d7d1f9861413507525f4e0ada009878",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/tool_case_v2.png",
+      "bytes": 2626,
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "tool_case",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/props_pack_b/utility_crate.png",
+      "bytes": 2308,
+      "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "utility_crate",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/lander_pack_d/deployed_ramp.png",
+      "bytes": 1039,
+      "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "deployed_ramp",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/lander_pack_d/landing_marker_decal.png",
+      "bytes": 1050,
+      "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df",
+      "native_size_px": [
+        288,
+        160
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "landing_marker_decal",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/lander_pack_d/moon_lander.png",
+      "bytes": 33011,
+      "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5",
+      "native_size_px": [
+        320,
+        320
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "moon_lander",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/lander_pack_d/support_cargo_container.png",
+      "bytes": 1518,
+      "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337",
+      "native_size_px": [
+        64,
+        64
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "support_cargo_container",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile.png",
+      "bytes": 252,
+      "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "base_floor_edge_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_ne.png",
+      "bytes": 242,
+      "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "base_floor_edge_tile_ne",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_nw.png",
+      "bytes": 218,
+      "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "base_floor_edge_tile_nw",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_sw.png",
+      "bytes": 253,
+      "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "base_floor_edge_tile_sw",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/base_floor_panel_tile.png",
+      "bytes": 417,
+      "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "base_floor_panel_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay.png",
+      "bytes": 2309,
+      "sha256": "a45f98aa191e8cf3ac4abbc61a7e17f59a05e966344fe6f332b0e4564eab01eb",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay_v2.png",
+      "bytes": 434,
+      "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "dark_basalt_patch_overlay",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/hazard_stripe_floor_tile.png",
+      "bytes": 557,
+      "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "hazard_stripe_floor_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/landing_marked_ground_tile.png",
+      "bytes": 644,
+      "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "landing_marked_ground_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay.png",
+      "bytes": 1346,
+      "sha256": "9f4cf5b1be19c1e5a6923b2c761d191083c4e87356787929f46424c80ac37552",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay_v2.png",
+      "bytes": 404,
+      "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "rocky_patch_overlay",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/small_crater_overlay.png",
+      "bytes": 2054,
+      "sha256": "56aad7a8ce8c694ef2fd1c62d7d237459d1a4079de52a669a53ead7510722336",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/small_crater_overlay_v2.png",
+      "bytes": 493,
+      "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_crater_overlay",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay.png",
+      "bytes": 2121,
+      "sha256": "04d13924b52139a2c2e247add5c5c52c9c9022a5f70a5c30a2f1f6ae5e482d4d",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay_v2.png",
+      "bytes": 272,
+      "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "small_dust_debris_overlay",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/utility_floor_pad_tile.png",
+      "bytes": 518,
+      "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "utility_floor_pad_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/terrain_pack_e/worn_footpath_tile.png",
+      "bytes": 370,
+      "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "worn_footpath_tile",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png",
+      "bytes": 4820,
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "eclss_service_cabinet",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/field_sensor_tripod.png",
+      "bytes": 2676,
+      "sha256": "1cdd4919a44b953ceca4faae46b0dc011fd770ce370aacac346e166a8219cb91",
+      "native_size_px": [
+        96,
+        96
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "field_sensor_tripod",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/greenhouse_module.png",
+      "bytes": 8001,
+      "sha256": "bd07cfa95c1b43cd52b6f49e69edfce4852737e1cb38337ac7e7ea7089f16b17",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "NEEDS_REFINEMENT",
+      "role": "retained_candidate_or_technical_copy",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Rejected module-scale candidate. Original retained; never resized or integrated."
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/greenhouse_module_v2.png",
+      "bytes": 24688,
+      "sha256": "be3c08fc4b965daab865a7f4a72f490b9a30965c9e5ba0e204f2e1f27a31009b",
+      "native_size_px": [
+        192,
+        192
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "greenhouse_module",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "assets/pixellab/source/exterior_g1/radiator_bank.png",
+      "bytes": 6112,
+      "sha256": "ea210094d40f419ffd42bcadf1b9dd2f5c789ac8a141a78820b0712d8ab3ac00",
+      "native_size_px": [
+        128,
+        128
+      ],
+      "status": "READY",
+      "role": "selected_source",
+      "represented_by": "radiator_bank",
+      "measured_bounds_px": null,
+      "notes": "See canonical catalog for footprint, ground pivot, collision, access and readiness."
+    },
+    {
+      "path": "external://animations/astronaut_run_east.pxo",
+      "bytes": 18180,
+      "sha256": "65231f908ce64d4313473938c2f8a5b915cc05823e226166f32d0cbdddbfe13b",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_north.pxo",
+      "bytes": 18023,
+      "sha256": "0d887945fa85b875ee48ef5cc57f2c756089e7cf12e14873ba1b7cb474df02f3",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_north_east.pxo",
+      "bytes": 19249,
+      "sha256": "138a5e31b528ce8050c37d5e12ea024bd9ee3d14701eab965b2ff67b1313769d",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_north_west.pxo",
+      "bytes": 19435,
+      "sha256": "87f8564d586dbaade2e707825426f4a01ffd80cc904423e1270e24d0412e8eee",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_south.pxo",
+      "bytes": 20379,
+      "sha256": "36bb2b163ca331807606ee3b8a7619d810b2adc1dde770563b9b492b85d42cd0",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_south_east.pxo",
+      "bytes": 20115,
+      "sha256": "678af3897514bc2a468e793ceab7492aeef1fd2bb80bdc5c44dcca716f6a5213",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_south_west.pxo",
+      "bytes": 20994,
+      "sha256": "b6c14e4fa1ddd9fd8fdddf2d27910ddbc3695434f4c2a000989557f940cb8fcb",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_run_west.pxo",
+      "bytes": 18561,
+      "sha256": "5f85210425104e814b889e5de552dc0c623b222668bc6b6a7e1bdf7f23039d44",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_east.pxo",
+      "bytes": 18912,
+      "sha256": "0724ea06768a5f3778b15a68a3d460eac68d40eb7f516a7fa3bb6c40734c5bb4",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_north.pxo",
+      "bytes": 17573,
+      "sha256": "3250fdc4ea8400df6e3d48ff1fe9e39cf0b7523dbaf6535ad3742a36c6500660",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_north_east.pxo",
+      "bytes": 18756,
+      "sha256": "b04da6e34e5c7d52cae146b3a0ffcf1c0abf860973468e9e482ad9b59ef14010",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_north_west.pxo",
+      "bytes": 18468,
+      "sha256": "3049bb70c6a57cb8bd518f5113def9bde951c54cb19c18ec44e95a58402e56e1",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_south.pxo",
+      "bytes": 20333,
+      "sha256": "005a478a0a8823f818034f1f6ceee6e8261c97510fa4c45d6cb15b75a40f6330",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_south_east.pxo",
+      "bytes": 20534,
+      "sha256": "b80f18a5a5fa8c43e57ffdc4774406b3acf254788b3d35f6c7c645ffcfcd6753",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_south_west.pxo",
+      "bytes": 21416,
+      "sha256": "1c4ec9517b8ec237c6bb72e9e3e35b1ac49ad5265b3a7c1f42cd8763f18caaca",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/astronaut_walk_west.pxo",
+      "bytes": 19131,
+      "sha256": "8f1e0d7e45014c156cc9c58d3185611679bafa649fa2c5dd11126d0c9b284d2f",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_east.pxo",
+      "bytes": 16778,
+      "sha256": "643d8864e0a9ce515c49eb917c64445df23527c7414b3db4e3edfe3c24006b95",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_north.pxo",
+      "bytes": 13106,
+      "sha256": "e2ca2747d8f3639b999c664b8c01b1b4f82461d31a2c26745fcba7739d68cf4a",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_north_east.pxo",
+      "bytes": 16234,
+      "sha256": "4afa327e96f982130b975117e2ea2cb7f470230c9b5476518a751a0b51db4cba",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_north_west.pxo",
+      "bytes": 15706,
+      "sha256": "c34e7ca147949777d198b48b7175d4e055056cc7b522e74df6583f3a2437102b",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_south.pxo",
+      "bytes": 13236,
+      "sha256": "151ff2de22bdf404e902b00aeb99dac2d2110a86719dad618b1fd6fe4e59ffb5",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_south_east.pxo",
+      "bytes": 15824,
+      "sha256": "8afa4d690a5389ad8e841d4c74541de130dfdf4d3c0ae30da6ba3a8e4cefe158",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_south_west.pxo",
+      "bytes": 18261,
+      "sha256": "0ee52c8a25d0870d3236d618c93589356248dfcc96bf2d5a7927943592200810",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_run_west.pxo",
+      "bytes": 16961,
+      "sha256": "4101473c7cea0b56a12b22987aab1498346126c1cd486f040a4441626028d34e",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_east.pxo",
+      "bytes": 17045,
+      "sha256": "453beb0d29601be729187e8af35debae0ae182375904f64254f01459ab3012b3",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_north.pxo",
+      "bytes": 13203,
+      "sha256": "6e5e69e67f91ba72a5cb160cb085840df13c5ee02ef06f3ed3305f078fa066fa",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_north_east.pxo",
+      "bytes": 16507,
+      "sha256": "895da5ff5648ab2347f77da397f147acfd41c5b7182c4815e713470043a3e222",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_north_west.pxo",
+      "bytes": 14371,
+      "sha256": "b5a4ef302a8e72eba001707d8e42af6893e73334f33a4cf88484f7da3128a17c",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_south.pxo",
+      "bytes": 12363,
+      "sha256": "3438d86c727ee5f029e8980a34e4cc1f21ff8163e13b68b731408a4bf81149c4",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_south_east.pxo",
+      "bytes": 16208,
+      "sha256": "b19a6f50995d5e5da487d077e61ad424eef21be76505f154e2467a585fca7b3c",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_south_west.pxo",
+      "bytes": 17815,
+      "sha256": "14ca48eea116f5e4d20733ead3335c0dcf755ae679239bfef4a3a73896dd12f7",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://animations/chiwis_walk_west.pxo",
+      "bytes": 15384,
+      "sha256": "202eb508d8d3e3ebcd7831b0ddb7a9ecd5dd034091b8c777d90932e4980840a6",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://characters/astronaut.pxo",
+      "bytes": 16423,
+      "sha256": "b9701f3fde9de5ce7dd56f81b9dd14b7d5503ce09af8ec2d9046476f88dcc97e",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://characters/chiwis.pxo",
+      "bytes": 19835,
+      "sha256": "c7b1333425c2c9e06c005cc37a77d9652295a36e8b7948ec0b3732c7d390d64e",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    },
+    {
+      "path": "external://tiles/moon_terrain/moon_regolith_atlas_4x3.png",
+      "bytes": 16090,
+      "sha256": "19854902107df46a091f0ff8c62914acb46bcec6579bd7fcc76c1c6832e3909d",
+      "native_size_px": [
+        256,
+        96
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/moon_regolith_atlas_4x3.png",
+      "bytes": 15774,
+      "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0",
+      "native_size_px": [
+        256,
+        96
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_01.png",
+      "bytes": 1721,
+      "sha256": "79c8eab0c48d62173af59b65fad1a4ac12609351c54f0b74f1b60c54476d45cd",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_02.png",
+      "bytes": 1684,
+      "sha256": "66ac136f22f08fd5789c6a2741f10dacb00d244ee388e1a2cddc64820d753ba9",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_03.png",
+      "bytes": 1765,
+      "sha256": "0eb9b821b40eab44055da65a5432ac8a6367202828dfdaf56574f2dac84bf1f0",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_04.png",
+      "bytes": 1935,
+      "sha256": "422c854e9ba65b3bfc549547135721e087b1dac4260e299594f4f0127910b792",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_05.png",
+      "bytes": 1804,
+      "sha256": "8675903f418f31a1cebeb56a93b4af6b4d516ee5b79fd26e33f1cd8453de48c3",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_06.png",
+      "bytes": 1723,
+      "sha256": "96766f30042ffc5f26ab48f2110f6b6b223265db9d64dda6c7991f38f28986a4",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_07.png",
+      "bytes": 1851,
+      "sha256": "9c551c75c00f54d35ecd58c1181846a770d3cf76ed7b04b00171ff0c0a5e25b5",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_08.png",
+      "bytes": 1681,
+      "sha256": "505da64f6fb814c218c94b10560ccfdc627bf26ea1154166993b6b07599ae706",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_09.png",
+      "bytes": 1661,
+      "sha256": "428fa7808584accd3fe89ba39ea54cfe10d92135d7427b5e1a9a9b737564edb1",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_10.png",
+      "bytes": 1956,
+      "sha256": "b508e8d054acdf3af6aba37c77f5ef744a0d698d7a7f88669a2c3831a7ef4dab",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_11.png",
+      "bytes": 1676,
+      "sha256": "62686036d2d29440c859efe92cd617d0bc19d551866b79b09657cdbfec5962ec",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/optional_seam_fixed/tiles/moon_regolith_12.png",
+      "bytes": 1848,
+      "sha256": "40d3f75f8dcdcf7a14c86db104b93674ce46c2f31911f9c04403d382d1bbc429",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/preview_12_tiles.png",
+      "bytes": 27325,
+      "sha256": "49a5b44d883abc5c1c63377e83b5aadaf6bc80a6995013e74c54668a576298af",
+      "native_size_px": [
+        920,
+        470
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_01.png",
+      "bytes": 1907,
+      "sha256": "20a120e9e3a23b958d8306723ff1f308868438d5c93e53b6204af19c3f79e59d",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_02.png",
+      "bytes": 1959,
+      "sha256": "09ae46b70ee80932c5ae41810e7d623de79e03a2106138ebd90d70d707798328",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_03.png",
+      "bytes": 2015,
+      "sha256": "6fef19260ff66c84466b4f884709a8e374196c48c6e138798b20797cd0476dab",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_04.png",
+      "bytes": 2213,
+      "sha256": "ffba22b3698cfe0d64b4f888e09537189223b917a10d9e57f5c254c179ca160c",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_05.png",
+      "bytes": 1997,
+      "sha256": "691b4dd333e2b54fc8073137e7bc292914adcad0202f4b7991e129007ad362a0",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_06.png",
+      "bytes": 1979,
+      "sha256": "98f35d7338446194394af3c77e906dc8917ee85b1ac0ec54f5da0919152e6e0a",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_07.png",
+      "bytes": 2063,
+      "sha256": "92439e4c00d859fc3ba9543a3036377c18ef661701e2a0b66ca9aa6c3ea5b9b9",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_08.png",
+      "bytes": 1934,
+      "sha256": "b062dd906a626bf513ee63c4a9ab96ff5fe817e04208b613aa7b1b66edc6f637",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_09.png",
+      "bytes": 1927,
+      "sha256": "d11b54337f13e29cec2cd69f52160419cb30fd3ceaff6eb6218213a40a4b18bd",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_10.png",
+      "bytes": 2172,
+      "sha256": "24745d7d84f87677ba791df63eddc57df221d1600d0bd8f104b805291dc8e251",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_11.png",
+      "bytes": 1860,
+      "sha256": "a02783c324f58c54a7c6be00ecd846dd4d432edadc2fa993ee72ca0fbf505e96",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain/tiles/moon_regolith_12.png",
+      "bytes": 2081,
+      "sha256": "a4447cf1ef996a68b1958bc23e8724f7cd5aaea42167d9b8cfbc51dc73a9978d",
+      "native_size_px": [
+        64,
+        32
+      ],
+      "status": "UNUSED",
+      "role": "external_original",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Preserved alternate/source format or technical atlas. Presence does not imply integration."
+    },
+    {
+      "path": "external://tiles/moon_terrain.pxo",
+      "bytes": 15049,
+      "sha256": "c50a7d043363a3a40ea244d496c09aa465169a5563ee58344d24975a4db633fa",
+      "native_size_px": null,
+      "status": "READY",
+      "role": "protected_authoring_source",
+      "represented_by": null,
+      "measured_bounds_px": null,
+      "notes": "Source available; not rewritten or re-exported in this phase."
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "sha256": "4be341ccd449848ddae346fb7b92fc352cca507720e961307c9c6c4a066637bf",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/airlock_module.png",
+        "assets/pixellab/source/base_pack_c/airlock_module_v2.png"
+      ]
+    },
+    {
+      "sha256": "008c6cd28e7418024e198d0456d6cc71384242261cdb99df1b4568c77e8b336f",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/battery_power_unit.png",
+        "assets/pixellab/source/base_pack_c/battery_power_unit.png"
+      ]
+    },
+    {
+      "sha256": "73b0e88a6c91dc26fcce92dab4f19a9c99fb8fea4539634bcfc66107e03672a1",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/communications_antenna.png",
+        "assets/pixellab/source/base_pack_c/communications_antenna.png"
+      ]
+    },
+    {
+      "sha256": "538882bc3b019c98658c43529cebfd48c267a1df5ebb7b20146e6a8f6ac5cffc",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/light_beacon_pole.png",
+        "assets/pixellab/source/base_pack_c/light_beacon_pole.png"
+      ]
+    },
+    {
+      "sha256": "679a2893b75411f060e08c7fd22fa4dfb08ce016946f70d10a6fb5c1dbca50a1",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/small_connector_utility_box.png",
+        "assets/pixellab/source/base_pack_c/small_connector_utility_box.png"
+      ]
+    },
+    {
+      "sha256": "4702109d21d36d4b851d4a5f9610cbb3315d0612a0e16d7a532eff35003f08ba",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/small_habitat_module.png",
+        "assets/pixellab/source/base_pack_c/small_habitat_module_v2.png"
+      ]
+    },
+    {
+      "sha256": "f9873debcdd2ae6145842250dd9c7b4921dba430b11b0c63119b38e923a3a80e",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/solar_panel_array.png",
+        "assets/pixellab/source/base_pack_c/solar_panel_array_v2.png"
+      ]
+    },
+    {
+      "sha256": "c8ee0811109a03549f2d28bd056e52f70219b857c83c543d99898c76c359934c",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/storage_crate_large.png",
+        "assets/pixellab/source/base_pack_c/storage_crate_large.png"
+      ]
+    },
+    {
+      "sha256": "a66f2f126a1dcca3afdf1883f9d9e65152cd886aed2a49a55312141eb683e091",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/utility_oxygen_tank.png",
+        "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png"
+      ]
+    },
+    {
+      "sha256": "1dfd64bc8e0e3f9d51d5737bec91dad413ab23be0d08f1a87f454f25d636a5e2",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/base_pack_c/work_control_console.png",
+        "assets/pixellab/source/base_pack_c/work_control_console.png"
+      ]
+    },
+    {
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/exterior_g1/eclss_service_cabinet.png",
+        "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png"
+      ]
+    },
+    {
+      "sha256": "1cdd4919a44b953ceca4faae46b0dc011fd770ce370aacac346e166a8219cb91",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/exterior_g1/field_sensor_tripod.png",
+        "assets/pixellab/source/exterior_g1/field_sensor_tripod.png"
+      ]
+    },
+    {
+      "sha256": "be3c08fc4b965daab865a7f4a72f490b9a30965c9e5ba0e204f2e1f27a31009b",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/exterior_g1/greenhouse_module.png",
+        "assets/pixellab/source/exterior_g1/greenhouse_module_v2.png"
+      ]
+    },
+    {
+      "sha256": "ea210094d40f419ffd42bcadf1b9dd2f5c789ac8a141a78820b0712d8ab3ac00",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/buildings/exterior_g1/radiator_bank.png",
+        "assets/pixellab/source/exterior_g1/radiator_bank.png"
+      ]
+    },
+    {
+      "sha256": "eaf89f6714510b853949251c20501c8141ec7f234442f1bd65cf7da7dc026d11",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/beacon_marker.png",
+        "assets/pixellab/source/props_pack_b/beacon_marker.png"
+      ]
+    },
+    {
+      "sha256": "916519b74235cb6071d82579f8cc00454fd14b498857526915bf4d760a19325f",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/broken_machine_part.png",
+        "assets/pixellab/source/props_pack_b/broken_machine_part_v2.png"
+      ]
+    },
+    {
+      "sha256": "f64d114f31f62b5bb77b5ab42c223345c15d9643d992a4f1ca453d2c03bb7061",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/lunar_sample.png",
+        "assets/pixellab/source/props_pack_b/lunar_sample.png"
+      ]
+    },
+    {
+      "sha256": "9ae4cde06815f9d1de588f80908c164b8030cf759b0db1357cdaa24b98875202",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/metal_scrap.png",
+        "assets/pixellab/source/props_pack_b/metal_scrap.png"
+      ]
+    },
+    {
+      "sha256": "8cce6cd0dd47ce6efc0aa9e13e534a2b7129ca94e0f4867f1fa760f28be9e510",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/rock_cluster.png",
+        "assets/pixellab/source/props_pack_b/rock_cluster_v4.png"
+      ]
+    },
+    {
+      "sha256": "836c70f7cdbb13ff6b45541a837056ea8a2ccc8a2d9c5b2f07434f015b6db883",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/small_equipment_box.png",
+        "assets/pixellab/source/props_pack_b/small_equipment_box.png"
+      ]
+    },
+    {
+      "sha256": "0f39d3cad03a32cd56887c62c3c340c2f6a641fe04157766ded02c1b62eb31e8",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/small_resource_canister.png",
+        "assets/pixellab/source/props_pack_b/small_resource_canister.png"
+      ]
+    },
+    {
+      "sha256": "ec60a08b29616f490a5f483a3101095c22213dc5038071ce18169ebc1a08b360",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/supply_pack.png",
+        "assets/pixellab/source/props_pack_b/supply_pack_v2.png"
+      ]
+    },
+    {
+      "sha256": "836cd89e4110a004491e9d805dcba39a0c55ac66f0d2696d57eedd2d545af289",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/tool_case.png",
+        "assets/pixellab/source/props_pack_b/tool_case_v2.png"
+      ]
+    },
+    {
+      "sha256": "ea8cefaa9c649f7b9fef34116c2a5ddda76633fded327395876adee2e7fbb4e7",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/environment/props_pack_b/utility_crate.png",
+        "assets/pixellab/source/props_pack_b/utility_crate.png"
+      ]
+    },
+    {
+      "sha256": "699da41f17f606ba3a5d5a8cacc4814190e0ba825a11b342669d88934f8aa59e",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/vehicles/lander_pack_d/deployed_ramp.png",
+        "assets/pixellab/source/lander_pack_d/deployed_ramp.png"
+      ]
+    },
+    {
+      "sha256": "0009f113b7326d726a0ae763977201adceaeab17eb1bd110abd9d5d34bfb72df",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/vehicles/lander_pack_d/landing_marker_decal.png",
+        "assets/pixellab/source/lander_pack_d/landing_marker_decal.png"
+      ]
+    },
+    {
+      "sha256": "4d9baf268804bee739de4fe66098f6d2265fe2e46ede0769afb7c2629748baf5",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/vehicles/lander_pack_d/moon_lander.png",
+        "assets/pixellab/source/lander_pack_d/moon_lander.png"
+      ]
+    },
+    {
+      "sha256": "5cbc43d4b4748908fe37675d99570bd427443b543cff7a79c5695443639c4337",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/vehicles/lander_pack_d/support_cargo_container.png",
+        "assets/pixellab/source/lander_pack_d/support_cargo_container.png"
+      ]
+    },
+    {
+      "sha256": "7bb058375c384883ee689a24c452eac4eea7dd7479d1f5ce074e20943b5e3141",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/base_floor_edge_tile.png",
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile.png"
+      ]
+    },
+    {
+      "sha256": "9c9e5120c19c9f11468d02a6776f990448926d18eee33c5523eb1c5ebbbb4c5d",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_ne.png",
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_ne.png"
+      ]
+    },
+    {
+      "sha256": "9ed2c262590cce1f2cf5bd2d1d930f367c03263363663a9742a4b1b065d6891c",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_nw.png",
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_nw.png"
+      ]
+    },
+    {
+      "sha256": "0cfa32dd05d8c55264cc07a8aa8dc829cbd687041880369b826ea83bc219c8af",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/base_floor_edge_tile_sw.png",
+        "assets/pixellab/source/terrain_pack_e/base_floor_edge_tile_sw.png"
+      ]
+    },
+    {
+      "sha256": "1fa92573d184f6b5f039c894ebb483a0bc665695bdb78ea1cb714e3d76ad0acb",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/base_floor_panel_tile.png",
+        "assets/pixellab/source/terrain_pack_e/base_floor_panel_tile.png"
+      ]
+    },
+    {
+      "sha256": "a17256fbab9575b730e25c5ecf6cfe626a17a3e986b7f67aa4787d3ec9c70d39",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/dark_basalt_patch_overlay.png",
+        "assets/pixellab/source/terrain_pack_e/dark_basalt_patch_overlay_v2.png"
+      ]
+    },
+    {
+      "sha256": "7428effb25932255ee3d03750c9a27528410ca822d0e8e36dd46bbd455d14b33",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/hazard_stripe_floor_tile.png",
+        "assets/pixellab/source/terrain_pack_e/hazard_stripe_floor_tile.png"
+      ]
+    },
+    {
+      "sha256": "c4382dc8373caa5cd3c3d65be5b4e9b02f1f41b92f0b7c8196d7d9d03385f5df",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/landing_marked_ground_tile.png",
+        "assets/pixellab/source/terrain_pack_e/landing_marked_ground_tile.png"
+      ]
+    },
+    {
+      "sha256": "9ec0db89e997ec00a5e80e5d9b8e844c342c2afe2a3e72d344c06e6dcd39aa43",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/rocky_patch_overlay.png",
+        "assets/pixellab/source/terrain_pack_e/rocky_patch_overlay_v2.png"
+      ]
+    },
+    {
+      "sha256": "fa6f9182e634b7c9181fc0ff0113d54682d948a6475c1cc04254e008e0f765b8",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/small_crater_overlay.png",
+        "assets/pixellab/source/terrain_pack_e/small_crater_overlay_v2.png"
+      ]
+    },
+    {
+      "sha256": "0bc229d673ebcdd03169bfa2581c1b8c1077cfd7fd05430d213e7094f61ed1ab",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/small_dust_debris_overlay.png",
+        "assets/pixellab/source/terrain_pack_e/small_dust_debris_overlay_v2.png"
+      ]
+    },
+    {
+      "sha256": "12267279cca6a0117b29192945d6947e137c590b67f616839136bee3a4ca27df",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/utility_floor_pad_tile.png",
+        "assets/pixellab/source/terrain_pack_e/utility_floor_pad_tile.png"
+      ]
+    },
+    {
+      "sha256": "fcb31e67ad3f27a38e096879b40bb50c989cb45d3b604df7069a0ac458cecfcd",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/expansion_e/worn_footpath_tile.png",
+        "assets/pixellab/source/terrain_pack_e/worn_footpath_tile.png"
+      ]
+    },
+    {
+      "sha256": "5514871e1cec7e27ab07b53ab947fd133fcd6c12ce8b517d9bdd49bd84c039b0",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/terrain/moon/moon_regolith_atlas_4x3.png",
+        "external://tiles/moon_terrain/optional_seam_fixed/moon_regolith_atlas_4x3.png"
+      ]
+    },
+    {
+      "sha256": "864d9b2ec84cf2646f59243aa01f6bbce17e056cbee86c92699d937bc6888a1e",
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Selected source/runtime mirrors remain intentional; no file is deleted.",
+      "paths": [
+        "assets/pixellab/source/base_pack_c/astronaut_style_reference.png",
+        "assets/pixellab/source/props_pack_b/astronaut_style_reference.png"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "concept": "main habitat / research / engineering / emergency shelter",
+      "status": "READY",
+      "solution": "Reuse the existing small habitat shell for these shared module roles; rooms remain the existing independent cutaway architecture, not a one-to-one exterior blueprint."
+    },
+    {
+      "concept": "external pressure door",
+      "status": "READY",
+      "solution": "Closed doors are embedded in the supplied habitat/airlock artwork; InteractionAnchor reserves an access point. No new vacuum door logic."
+    },
+    {
+      "concept": "pressurized connecting passage",
+      "status": "MISSING",
+      "solution": "Separate tube/corridor PNG is not available; do not imply utility_box is a pressurized corridor. Reserve a clear linkage area for Phase 0.9."
+    },
+    {
+      "concept": "open/closed hatch animation",
+      "status": "MISSING",
+      "solution": "Only closed supplied texture is prepared; no opening/gas/collision toggling is invented."
+    },
+    {
+      "concept": "exterior cables and cable supports",
+      "status": "MISSING",
+      "solution": "Reuse connector/utility box for junctions; continuous cable runs remain an explicit noncritical art gap."
+    },
+    {
+      "concept": "transport pallet / packaged ground support",
+      "status": "NEEDS_INTEGRATION",
+      "solution": "Existing crates, tool cases, canisters and support cargo provide reusable components; no new pallet artwork is essential."
+    },
+    {
+      "concept": "airlock approach / safety / navigation / service paths",
+      "status": "READY",
+      "solution": "Existing beacon, pole light, hazard stripe pad and footpath overlays; labels are Godot controls."
+    },
+    {
+      "concept": "water / pressure / monitoring / maintenance equipment",
+      "status": "READY",
+      "solution": "Tank, sealed ECLSS cabinet, console, sensor and service markers are fictional near-future presentations; no engineering ratings."
+    }
+  ]
+}

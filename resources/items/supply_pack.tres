@@ -6,7 +6,7 @@
 script = ExtResource("1")
 item_id = &"supply_pack"
 display_name = "Supply Pack"
-description = "A sealed development supply pack. Contents and item use are not implemented."
+description = "A sealed supply pack from the landing delivery. It cannot be opened or used yet."
 stackable = false
 maximum_stack = 1
 tags = PackedStringArray("development", "supply")

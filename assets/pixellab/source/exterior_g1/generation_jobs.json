@@ -1,0 +1,99 @@
+{
+  "pack_id": "exterior_g1",
+  "provider": "PixelLab.ai MCP",
+  "authorization": "User Phase 0.8G1 explicitly authorizes genuinely missing exterior assets; four single-candidate jobs proposed at 22 generations total.",
+  "balance_before": 3786.15,
+  "new_jobs": [
+    {
+      "asset_id": "greenhouse_module",
+      "description": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A small CLOSED PRESSURIZED GROWTH-RESEARCH MODULE on four short landing feet. Rounded white ribbed pressure shell similar in scale to the existing small habitat, with two modest sealed dark windows showing muted green plant trays behind glazing and a small closed service hatch. Insulated enclosure, NOT an open glass garden. Main ground base about 150 pixels wide and 74 pixels deep; hull rises about 70 pixels above it. Native 192x192 canvas, object about 170 pixels wide, centered with frontmost landing feet near y=174. Fictional compact supplemental plant lab, no claims of food self-sufficiency.",
+      "width": 192,
+      "height": 192,
+      "no_background": true,
+      "style_image": {
+        "source_image_id": "53483321-a998-579a-8e03-c549403908da"
+      },
+      "max_colors": 24,
+      "seed": 88101,
+      "receipt": "{\n  \"background_job_id\": \"bd4f0583-4511-4a51-a8cc-af2bd4bdc009\",\n  \"image_id\": \"3ccdc173-1cda-5d12-8fc9-7f0ab7905078\",\n  \"status\": \"processing\",\n  \"source_image_id\": \"3ccdc173-1cda-5d12-8fc9-7f0ab7905078\",\n  \"job_id\": \"bd4f0583-4511-4a51-a8cc-af2bd4bdc009\",\n  \"description\": \"Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A small CLOSED PRESSURIZED GROWTH-RESEARCH MODULE on four short landing feet. Rounded white ribbed pressure shell similar in scale to the existing small habitat, with two modest sealed dark windows showing muted green plant trays behind glazing and a small closed service hatch. Insulated enclosure, NOT an open glass garden. Main ground base about 150 pixels wide and 74 pixels deep; hull rises about 70 pixels above it. Native 192x192 canvas, object about 170 pixels wide, centered with frontmost landing feet near y=174. Fictional compact supplemental plant lab, no claims of food self-sufficiency.\",\n  \"seed\": 88101,\n  \"image_size\": {\n    \"width\": 192,\n    \"height\": 192\n  },\n  \"output_count\": 1,\n  \"estimated_generations\": 6,\n  \"pricing_provisional\": true,\n  \"poll_tool\": \"get_image\",\n  \"download_path\": \"/mcp/images/bd4f0583-4511-4a51-a8cc-af2bd4bdc009/download\"\n}\nPoll get_image(job_id=\"bd4f0583-4511-4a51-a8cc-af2bd4bdc009\"). The source_image_id is usable after completion; it is an image ID, not a character/object ID. Actual usage is reported on completion. cancel_job(job_id=...) cancels unfinished work.",
+      "job_id": "bd4f0583-4511-4a51-a8cc-af2bd4bdc009",
+      "cost_generations": 6,
+      "review_status": "NEEDS_REFINEMENT",
+      "rejection_reason": "Undersized crew hatch/module at native scale; preserved unused. No resizing or exception.",
+      "selected_candidate": null
+    },
+    {
+      "asset_id": "radiator_bank",
+      "description": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A freestanding HEAT-REJECTION RADIATOR BANK: two broad pale gray rectangular finned panels in a shallow V on a low white support frame and short landing feet, thin dark coolant header pipes at their base. Surfaces are matte light gray with straight parallel cooling fins, NOT blue photovoltaic cells, no fans, no dish. Ground base about 90 pixels wide, 44 pixels deep; panel rises about 45 pixels above it. Native 128x128 canvas, complete object centered with base near y=110. Fictional external thermal hardware, no performance specifications.",
+      "width": 128,
+      "height": 128,
+      "no_background": true,
+      "style_image": {
+        "source_image_id": "53483321-a998-579a-8e03-c549403908da"
+      },
+      "max_colors": 24,
+      "seed": 88102,
+      "receipt": "{\n  \"background_job_id\": \"cffd7e7e-8901-4ac6-98bc-2262637f6798\",\n  \"image_id\": \"4838df2b-339d-5a4d-8a62-e4dde4823c81\",\n  \"status\": \"processing\",\n  \"source_image_id\": \"4838df2b-339d-5a4d-8a62-e4dde4823c81\",\n  \"job_id\": \"cffd7e7e-8901-4ac6-98bc-2262637f6798\",\n  \"description\": \"Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A freestanding HEAT-REJECTION RADIATOR BANK: two broad pale gray rectangular finned panels in a shallow V on a low white support frame and short landing feet, thin dark coolant header pipes at their base. Surfaces are matte light gray with straight parallel cooling fins, NOT blue photovoltaic cells, no fans, no dish. Ground base about 90 pixels wide, 44 pixels deep; panel rises about 45 pixels above it. Native 128x128 canvas, complete object centered with base near y=110. Fictional external thermal hardware, no performance specifications.\",\n  \"seed\": 88102,\n  \"image_size\": {\n    \"width\": 128,\n    \"height\": 128\n  },\n  \"output_count\": 1,\n  \"estimated_generations\": 6,\n  \"pricing_provisional\": true,\n  \"poll_tool\": \"get_image\",\n  \"download_path\": \"/mcp/images/cffd7e7e-8901-4ac6-98bc-2262637f6798/download\"\n}\nPoll get_image(job_id=\"cffd7e7e-8901-4ac6-98bc-2262637f6798\"). The source_image_id is usable after completion; it is an image ID, not a character/object ID. Actual usage is reported on completion. cancel_job(job_id=...) cancels unfinished work.",
+      "job_id": "cffd7e7e-8901-4ac6-98bc-2262637f6798",
+      "cost_generations": 6,
+      "review_status": "accepted_native",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "eclss_service_cabinet",
+      "description": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A compact exterior ENVIRONMENTAL-CONTROL SERVICE CABINET: broad rectangular white metal equipment enclosure on a four-foot plinth, three dark rectangular maintenance covers on front, modest short insulated pipes and capped service ports at the side, blue-gray upper cover. Sealed astronaut-serviceable hardware, not an open fan or oxygen factory. Ground base about 52 pixels wide and 26 pixels deep, cabinet height about 40 pixels, narrower than a human's height. Native 96x96 canvas; complete object about 58 pixels wide and 60 pixels tall with ground near y=80. No performance claims.",
+      "width": 96,
+      "height": 96,
+      "no_background": true,
+      "style_image": {
+        "source_image_id": "53483321-a998-579a-8e03-c549403908da"
+      },
+      "max_colors": 24,
+      "seed": 88103,
+      "receipt": "{\n  \"background_job_id\": \"753c9d04-f64d-4bca-99ce-f67d4a54772f\",\n  \"image_id\": \"63bc905e-46a8-593c-8633-7711e72b6c2f\",\n  \"status\": \"processing\",\n  \"source_image_id\": \"63bc905e-46a8-593c-8633-7711e72b6c2f\",\n  \"job_id\": \"753c9d04-f64d-4bca-99ce-f67d4a54772f\",\n  \"description\": \"Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A compact exterior ENVIRONMENTAL-CONTROL SERVICE CABINET: broad rectangular white metal equipment enclosure on a four-foot plinth, three dark rectangular maintenance covers on front, modest short insulated pipes and capped service ports at the side, blue-gray upper cover. Sealed astronaut-serviceable hardware, not an open fan or oxygen factory. Ground base about 52 pixels wide and 26 pixels deep, cabinet height about 40 pixels, narrower than a human's height. Native 96x96 canvas; complete object about 58 pixels wide and 60 pixels tall with ground near y=80. No performance claims.\",\n  \"seed\": 88103,\n  \"image_size\": {\n    \"width\": 96,\n    \"height\": 96\n  },\n  \"output_count\": 1,\n  \"estimated_generations\": 5,\n  \"pricing_provisional\": true,\n  \"poll_tool\": \"get_image\",\n  \"download_path\": \"/mcp/images/753c9d04-f64d-4bca-99ce-f67d4a54772f/download\"\n}\nPoll get_image(job_id=\"753c9d04-f64d-4bca-99ce-f67d4a54772f\"). The source_image_id is usable after completion; it is an image ID, not a character/object ID. Actual usage is reported on completion. cancel_job(job_id=...) cancels unfinished work.",
+      "job_id": "753c9d04-f64d-4bca-99ce-f67d4a54772f",
+      "cost_generations": 5,
+      "review_status": "accepted_native",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "field_sensor_tripod",
+      "description": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A portable GEOLOGY / ENVIRONMENTAL MEASUREMENT INSTRUMENT: a small rectangular pale gray optical instrument head with a single dark square sensor aperture, a tiny capped side port and an angular protective hood, on three thin splayed tripod legs. No antenna dish, no solar cells, no screen text. Height about 42 pixels from feet to head, leg span about 34 pixels, relative to a 55-pixel astronaut. Native 96x96 canvas with generous transparent margins and all three feet ending near y=76. One compact research instrument, not a weapon.",
+      "width": 96,
+      "height": 96,
+      "no_background": true,
+      "style_image": {
+        "source_image_id": "53483321-a998-579a-8e03-c549403908da"
+      },
+      "max_colors": 24,
+      "seed": 88104,
+      "receipt": "{\n  \"background_job_id\": \"ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126\",\n  \"image_id\": \"49e7a048-13a8-5f44-b1aa-172597209c22\",\n  \"status\": \"processing\",\n  \"source_image_id\": \"49e7a048-13a8-5f44-b1aa-172597209c22\",\n  \"job_id\": \"ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126\",\n  \"description\": \"Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A portable GEOLOGY / ENVIRONMENTAL MEASUREMENT INSTRUMENT: a small rectangular pale gray optical instrument head with a single dark square sensor aperture, a tiny capped side port and an angular protective hood, on three thin splayed tripod legs. No antenna dish, no solar cells, no screen text. Height about 42 pixels from feet to head, leg span about 34 pixels, relative to a 55-pixel astronaut. Native 96x96 canvas with generous transparent margins and all three feet ending near y=76. One compact research instrument, not a weapon.\",\n  \"seed\": 88104,\n  \"image_size\": {\n    \"width\": 96,\n    \"height\": 96\n  },\n  \"output_count\": 1,\n  \"estimated_generations\": 5,\n  \"pricing_provisional\": true,\n  \"poll_tool\": \"get_image\",\n  \"download_path\": \"/mcp/images/ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126/download\"\n}\nPoll get_image(job_id=\"ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126\"). The source_image_id is usable after completion; it is an image ID, not a character/object ID. Actual usage is reported on completion. cancel_job(job_id=...) cancels unfinished work.",
+      "job_id": "ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126",
+      "cost_generations": 5,
+      "review_status": "accepted_native",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "greenhouse_module_v2",
+      "description": "One LARGE closed lunar GREENHOUSE PRESSURE MODULE, native 2D pixel art, 2:1 isometric elevated view showing roof and two sides. Main body is 165 pixels wide and 112 pixels tall within a 192x192 canvas. It MUST fill most of the canvas like a habitat building, NOT a tiny equipment cabinet. Rounded rectangular white insulated ribbed aerospace shell on short broad landing feet; roof about 75 pixels above the ground contact plane. One human-sized sealed crew hatch 46 pixels tall on the front right face, and three small dark green glazed observation windows showing compact plant trays on the left side. Restrained blue-gray hardware; muted green appears only behind windows. Four visible structural feet. Palette cool white, light gray, charcoal navy, restrained slate blue. Hard one-pixel outlines and flat clustered pixel shading, upper-left light, crisp native pixels without blur or gradients. Transparent margins and transparent background. No outside scenery, characters, text, logo, watermark, floating parts or ground tile. Full unit ends around y=177, with a logical 3x2 tile ground base about160px wide80px deep. Fictional sealed supplemental growing lab, never an open glass garden.",
+      "width": 192,
+      "height": 192,
+      "no_background": true,
+      "view": "low top-down",
+      "direction": "south-east",
+      "outline": "single color outline",
+      "detail": "medium detail",
+      "seed": 88105,
+      "receipt": "id: c4d2e0ff-f173-45a6-bba0-b8b70601b8d5\njob_id: c4d2e0ff-f173-45a6-bba0-b8b70601b8d5\nmodel: pixen\ndescription: One LARGE closed lunar GREENHOUSE PRESSURE MODULE, native 2D pixel art, 2:1 isometric elevated view showing roof and two sides. Main body is 165 pixels wide and 112 pixels tall within a 192x192 canvas. It MUST fill most of the canvas like a habitat building, NOT a tiny equipment cabinet. Rounded rectangular white insulated ribbed aerospace shell on short broad landing feet; roof about 75 pixels above the ground contact plane. One human-sized sealed crew hatch 46 pixels tall on the front right face, and three small dark green glazed observation windows showing compact plant trays on the left side. Restrained blue-gray hardware; muted green appears only behind windows. Four visible structural feet. Palette cool white, light gray, charcoal navy, restrained slate blue. Hard one-pixel outlines and flat clustered pixel shading, upper-left light, crisp native pixels without blur or gradients. Transparent margins and transparent background. No outside scenery, characters, text, logo, watermark, floating parts or ground tile. Full unit ends around y=177, with a logical 3x2 tile ground base about160px wide80px deep. Fictional sealed supplemental growing lab, never an open glass garden.\nsize: 192x192px\ntransparent: True\nasset_id: c8356378-9054-5ef5-a282-b919d1dccc1c\nasset_status: pending (saved when generation completes)\nseed: 88105\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"c4d2e0ff-f173-45a6-bba0-b8b70601b8d5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/c4d2e0ff-f173-45a6-bba0-b8b70601b8d5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "reason": "First candidate's 92x82 visible bounds and undersized crew hatch failed module-scale review; no local enlargement allowed.",
+      "job_id": "c4d2e0ff-f173-45a6-bba0-b8b70601b8d5",
+      "cost_generations": 1,
+      "review_status": "accepted_native",
+      "selected_candidate": 0
+    }
+  ],
+  "total_receipted_generations": 23,
+  "selected_assets": 4,
+  "retained_rejected_candidates": 1,
+  "balance_after": 3763.15
+}

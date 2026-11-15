@@ -32,7 +32,7 @@ func configure(source: UtilityService, items: RuntimeInventory) -> void:
 		var item := ItemDefinition.new()
 		item.item_id = StringName(id)
 		item.display_name = {"greens_seed":"Greens Seed", "fresh_greens":"Fresh Greens", "dry_ration":"Dry Ration", "prepared_meal":"Prepared Meal"}[id]
-		item.description = "Tutorial supply."
+		item.description = {"greens_seed":"Leafy-greens seed. One seed plants one growing tray.", "fresh_greens":"A harvested portion of leafy greens. The galley can prepare it.", "dry_ration":"A packaged dry ration from the cargo delivery. The galley can prepare it.", "prepared_meal":"A cold prepared meal. Eating is not simulated yet."}[id]
 		item.maximum_stack = 20
 		if inventory.definition(item.item_id) == null: inventory.register_definition(item)
 	seed_stock = int(settings.initial_seeds)

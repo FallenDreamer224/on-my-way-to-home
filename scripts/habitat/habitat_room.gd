@@ -62,7 +62,7 @@ func _ready() -> void:
 		_make_action(StringName(door.id), String(door.title), StringName(door.destination), cell(door.point))
 	var title := Label.new()
 	title.text = String(definition.title).to_upper()
-	title.add_theme_font_size_override("font_size", 12)
+	UiKit.style_world_label(title)
 	title.position = Vector2(-96, -46)
 	title.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(title)
@@ -95,7 +95,7 @@ static func make_action(room_id: StringName, id: StringName, title: String, targ
 	action.add_child(collider)
 	var label := Label.new()
 	label.text = title
-	label.add_theme_font_size_override("font_size", 10)
+	UiKit.style_world_label(label)
 	label.position = Vector2(8, -12)
 	label.modulate = Color("9bc6ce")
 	label.mouse_filter = Control.MOUSE_FILTER_IGNORE

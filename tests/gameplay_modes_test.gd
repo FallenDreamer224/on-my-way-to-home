@@ -22,8 +22,8 @@ func _run() -> void:
 	var target: Node2D = main.get_node("World/Entities/Players/Astronaut")
 	var ground: TerrainLayer = main.get_node("World/Terrain/Ground")
 	var world: Node2D = main.get_node("World")
-	var footer: Label = main.get_node("UI/GameHUD/TopBar/Content/Mode/ActiveMode")
-	var camera_hint: Label = main.get_node("UI/GameHUD/TopBar/Content/Mode/Controls")
+	var footer: Label = main.game_ui.hud.mode_label
+	var camera_hint: Label = main.game_ui.hud.controls_hint
 	var world_id: int = world.get_instance_id()
 	var ground_id: int = ground.get_instance_id()
 	var terrain: Dictionary[Vector2i, int] = ground.terrain_cells.duplicate()
@@ -231,7 +231,16 @@ func _capture(filename: String) -> void:
 	var image: Image = root.get_texture().get_image()
 	_check(image.save_png("res://tests/output/" + filename + ".png") == OK, "Save " + filename)
 	await RenderingServer.frame_post_draw
-	_check(image.get_data() == root.get_texture().get_image().get_data(), "Stationary mode frames stable")
+	# Interface transitions and live telemetry intentionally change between frames.
+	# Retain the full UI screenshot, then isolate the world for the camera-jitter proof.
+	var interface: CanvasLayer = root.get_node("Main/UI")
+	var was_visible: bool = interface.visible
+	interface.hide()
+	await RenderingServer.frame_post_draw
+	var world_image: Image = root.get_texture().get_image()
+	await RenderingServer.frame_post_draw
+	_check(world_image.get_data() == root.get_texture().get_image().get_data(), "Stationary world frames stable with animated UI excluded")
+	interface.visible = was_visible
 
 
 func _on_mode_changed(_mode: GameplayModeCoordinator.Mode) -> void:

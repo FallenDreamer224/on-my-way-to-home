@@ -1,0 +1,374 @@
+[gd_resource type="Resource" script_class="EquipmentDatabase" format=3]
+
+[ext_resource type="Script" path="res://scripts/research/equipment_record.gd" id="1_0lev7"]
+[ext_resource type="Script" path="res://scripts/research/equipment_database.gd" id="2_momdb"]
+
+[sub_resource type="Resource" id="Resource_58nr2"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-HAB-MOONBASE"
+official_name = "Moon Base habitation systems"
+category = "Habitats, airlocks, pressure control and life support"
+evidence_status = &"in_development"
+actual_function = "Future architecture combines habitation, airlocks, logistics and surface infrastructure."
+testing_environment = "Published lunar architecture and development plans; no complete operational lunar settlement is established."
+limitations = PackedStringArray("An architecture page does not certify an integrated habitat.", "Capacity and mission schedules remain design targets.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/moonbase-systems/"
+game_system = &"habitat"
+game_usage = "The tutorial outpost is a fictional starter habitat with nine compartments. It is explicit near-future fiction, not a reconstruction of a planned base."
+
+[sub_resource type="Resource" id="Resource_rsa1v"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-AIRLOCK-QUEST"
+official_name = "Quest Joint Airlock"
+category = "Habitats, airlocks, pressure control and life support"
+evidence_status = &"operational"
+actual_function = "Provides an isolated transition between a pressurized station and EVA vacuum."
+testing_environment = "International Space Station, low Earth orbit; documented EVA and repressurization use."
+limitations = PackedStringArray("Orbital airlock heritage does not establish lunar dust tolerance.", "Cycling gas recovery, leakage and operating procedures depend on configuration.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/international-space-station/quest-airlock/"
+game_system = &"habitat"
+game_usage = "The crew airlock uses a two-hatch interlock with a short pressure-matching step. It is a presentation abstraction: no gas mass, pumping energy or real procedure time is simulated."
+
+[sub_resource type="Resource" id="Resource_dgl63"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-GAS-CONTROL"
+official_name = "ECLSS atmosphere revitalization and pressure control"
+category = "Habitats, airlocks, pressure control and life support"
+evidence_status = &"operational"
+actual_function = "Maintains a habitable atmosphere through gas management, circulation and contaminant control."
+testing_environment = "ISS life-support operation; JSC also researches future configurations."
+limitations = PackedStringArray("Cabin pressure, oxygen availability and CO2 burden are distinct variables.", "A general subsystem listing mixes mature and developmental equipment.", "Reduced-pressure exploration atmospheres can require material, airflow and qualification changes; ISS heritage is not a drop-in certification.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/"
+game_system = &"life_support"
+game_usage = "Cabin pressure and gas partial pressures come from one well-mixed cabin model with finite stores. Rates, setpoints and alarm limits are tutorial assumptions."
+
+[sub_resource type="Resource" id="Resource_00ysy"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-O2-OGA"
+official_name = "Oxygen Generation Assembly (OGA)"
+category = "Oxygen generation and carbon dioxide removal"
+evidence_status = &"operational"
+actual_function = "Electrolyzes water to produce oxygen and hydrogen."
+testing_environment = "ISS ECLSS, microgravity low Earth orbit."
+limitations = PackedStringArray("Needs water and electricity; hydrogen handling matters.", "ISS operation does not demonstrate a lunar factory or unlimited closed loop.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/"
+game_system = &"life_support"
+game_usage = "Reference only. The tutorial habitat releases stored oxygen through a supply valve; electrolysis is not simulated and no oxygen is produced."
+
+[sub_resource type="Resource" id="Resource_jr57t"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-AIR-CDRA"
+official_name = "Carbon Dioxide Removal Assembly (CDRA)"
+category = "Oxygen generation and carbon dioxide removal"
+evidence_status = &"operational"
+actual_function = "Uses molecular-sieve beds to separate carbon dioxide from cabin air."
+testing_environment = "ISS atmosphere revitalization in low Earth orbit."
+limitations = PackedStringArray("CO2 separation is not oxygen generation.", "Bed cycling, ventilation and maintenance are required.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/"
+game_system = &"life_support"
+game_usage = "The CO2 removal device moves cabin CO2 into a finite captured store at a tutorial rate while powered and ventilated."
+
+[sub_resource type="Resource" id="Resource_t4k8q"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-WATER-WPA"
+official_name = "Water Processor Assembly (WPA)"
+category = "Water recovery, wastewater and sanitation"
+evidence_status = &"operational"
+actual_function = "Purifies recovered water using filtration and catalytic processing with quality checks."
+testing_environment = "ISS Water Recovery System."
+limitations = PackedStringArray("Off-spec water may need reprocessing.", "Filters, energy and makeup water are not eliminated.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/"
+game_system = &"water"
+game_usage = "The water treatment device returns a configured fraction of wastewater to the potable store and sends the rest to reject. Purity and contaminant chemistry are not modelled."
+
+[sub_resource type="Resource" id="Resource_500b3"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-WASTE-WHC"
+official_name = "Waste and Hygiene Compartment (WHC)"
+category = "Water recovery, wastewater and sanitation"
+evidence_status = &"operational"
+actual_function = "Collects crew waste and supports sanitation aboard ISS."
+testing_environment = "ISS Node 3 toilet complement described in the 2026 ECLSS status paper."
+limitations = PackedStringArray("Waste collection is separate from making recovered water safe.", "Waste handling and hygiene still use consumables and crew time.")
+source_organization = "NASA Johnson Space Center / NTRS"
+reference_url = "https://ntrs.nasa.gov/citations/20260003280"
+game_system = &"water"
+game_usage = "The hygiene compartment records a wash routine and sealed-waste counter. Water used is moved to the wastewater store."
+
+[sub_resource type="Resource" id="Resource_c7544"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-FOOD-PACKAGED"
+official_name = "Space Food Systems flight food"
+category = "Food storage, nutrition and plant-growth research"
+evidence_status = &"operational"
+actual_function = "Supplies safe, nutritious, acceptable packaged meals using multiple preservation methods."
+testing_environment = "ISS and crewed-spaceflight food production and use."
+limitations = PackedStringArray("Shelf life depends on food, packaging and storage.", "Five-year exploration acceptability is an R&D goal, not a guarantee for every flight meal.")
+source_organization = "NASA Johnson Space Center"
+reference_url = "https://www.nasa.gov/directorates/esdmd/hhp/space-food-systems/"
+game_system = &"food"
+game_usage = "Delivered dry rations are a finite cargo reserve. Preparing a meal is a logged routine with a small water transfer; nutrition is not simulated."
+
+[sub_resource type="Resource" id="Resource_nh5wt"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-PLANT-VEGGIE"
+official_name = "Vegetable Production System (Veggie)"
+category = "Food storage, nutrition and plant-growth research"
+evidence_status = &"demonstrated"
+actual_function = "Supports plant-growth experiments and fresh crop production using controlled lighting and crop support."
+testing_environment = "ISS microgravity plant research and limited fresh-food use."
+limitations = PackedStringArray("Not a complete calorie supply or a demonstrated closed ecological life-support system.", "Crop performance depends on species and conditions.")
+source_organization = "NASA Biological and Physical Sciences"
+reference_url = "https://science.nasa.gov/biological-physical/focus-areas/plant-biology/hardware/"
+game_system = &"food"
+game_usage = "Two growing trays need light, power, water, nutrients and cabin conditions. The growth time is deliberately compressed and portions are supplemental."
+
+[sub_resource type="Resource" id="Resource_n48qk"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-PLANT-APH"
+official_name = "Advanced Plant Habitat (APH)"
+category = "Food storage, nutrition and plant-growth research"
+evidence_status = &"demonstrated"
+actual_function = "Provides a highly controlled environment for plant research."
+testing_environment = "ISS experiments with controlled light, atmosphere, temperature and water delivery."
+limitations = PackedStringArray("An experimental growth chamber is not a field farm.", "Extrapolation to partial gravity and mission-scale yields needs evidence.")
+source_organization = "NASA Biological and Physical Sciences"
+reference_url = "https://science.nasa.gov/biological-physical/focus-areas/plant-biology/hardware/"
+game_system = &"food"
+game_usage = "Inspiration for controlled-environment growth conditions. The game credits no oxygen from plants and does not model plant chemistry."
+
+[sub_resource type="Resource" id="Resource_hc4vl"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-POWER-SOLAR"
+official_name = "ISS Roll-Out Solar Array (iROSA)"
+category = "Power generation, batteries and thermal control"
+evidence_status = &"operational"
+actual_function = "Converts sunlight into electricity to augment station power."
+testing_environment = "ISS low Earth orbit; ROSA demonstration followed by operational array installations."
+limitations = PackedStringArray("Orbital flight heritage does not establish a dust-proof lunar installation.", "Shadow and illumination geometry constrain generation.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/"
+game_system = &"power"
+game_usage = "Solar generation is a configured available power multiplied by a sunlight fraction. No array geometry, dust or day-night cycle drives it."
+
+[sub_resource type="Resource" id="Resource_dky50"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-POWER-BATTERY"
+official_name = "ISS lithium-ion battery system"
+category = "Power generation, batteries and thermal control"
+evidence_status = &"operational"
+actual_function = "Stores solar-generated energy for later station use."
+testing_environment = "ISS; battery-upgrade campaign completed in February 2021."
+limitations = PackedStringArray("A historical installation milestone is not a live health reading.", "Capacity, cycle aging and thermal safety depend on the pack.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/blogs/spacestation/2021/02/01/spacewalkers-wrap-up-battery-work-and-camera-installations/"
+game_system = &"power"
+game_usage = "The habitat battery stores energy in watt-hours with charge and discharge efficiencies and a reserve alarm. Values are tutorial assumptions."
+
+[sub_resource type="Resource" id="Resource_xo881"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-THERMAL-LOOPS"
+official_name = "Spacecraft active thermal control loops and radiators"
+category = "Power generation, batteries and thermal control"
+evidence_status = &"operational"
+actual_function = "Move equipment heat to radiating surfaces for rejection to the environment."
+testing_environment = "ISS flight architecture; water/internal and ammonia/external loop heritage in NASA engineering references."
+limitations = PackedStringArray("ISS coolant architecture is not a ready lunar plumbing recipe.", "Radiator view, contamination, freezing and leak behavior require local design.")
+source_organization = "NASA Johnson Space Center / NTRS"
+reference_url = "https://ntrs.nasa.gov/citations/20210024855"
+game_system = &"power"
+game_usage = "A thermal loop and radiator device removes heat from the cabin heat ledger when powered. Its rating is a tutorial assumption."
+
+[sub_resource type="Resource" id="Resource_rfpo2"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-THERMAL-PASSIVE"
+official_name = "Spacecraft passive thermal control"
+category = "Power generation, batteries and thermal control"
+evidence_status = &"operational"
+actual_function = "Uses insulation, surface properties and conductive paths to limit unwanted heat transfer."
+testing_environment = "Spacecraft design heritage described in NASA baseline engineering references."
+limitations = PackedStringArray("Insulation is not an inexhaustible cooling source.", "External illumination, orientation and equipment dissipation matter.")
+source_organization = "NASA Johnson Space Center / NTRS"
+reference_url = "https://ntrs.nasa.gov/citations/20210024855"
+game_system = &"power"
+game_usage = "A constant passive rejection term represents losses to the environment in the cabin heat ledger."
+
+[sub_resource type="Resource" id="Resource_0hbko"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-EVA-EMU"
+official_name = "Extravehicular Mobility Unit (EMU)"
+category = "Spacesuits, EVA tools and maintenance"
+evidence_status = &"operational"
+actual_function = "Provides pressure, breathing support, mobility and thermal protection for orbital EVA."
+testing_environment = "ISS and historical Space Shuttle EVA."
+limitations = PackedStringArray("Orbital EVA heritage does not prove lunar walking, dust endurance or indefinite service.", "Suit consumables and maintenance are finite.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/humans-in-space/astronauts/spacesuits/"
+game_system = &"eva"
+game_usage = "Flight-heritage reference for the astronaut's suit. Suit oxygen, power and cooling are not simulated in this build."
+
+[sub_resource type="Resource" id="Resource_mfmyt"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-EVA-AXEMU"
+official_name = "Axiom Extravehicular Mobility Unit (AxEMU)"
+category = "Spacesuits, EVA tools and maintenance"
+evidence_status = &"in_development"
+actual_function = "Develops a lunar EVA suit for pressure, mobility and surface exploration support."
+testing_environment = "Earth pressurized testing, neutral buoyancy and reduced-gravity simulation; contractor internal review reported February 2026."
+limitations = PackedStringArray("Internal review and simulated gravity do not establish lunar deployment or completed NASA qualification.", "Do not reuse old mission-number schedules as proof of readiness.")
+source_organization = "NASA Johnson Space Center / Axiom Space"
+reference_url = "https://www.nasa.gov/humans-in-space/nasa-moon-mission-spacesuit-nears-milestone/"
+game_system = &"eva"
+game_usage = "Lunar surface suit reference. The in-game suit is original artwork; no suit consumables or mobility limits are modelled."
+
+[sub_resource type="Resource" id="Resource_kgk5w"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-EVA-TOOLS"
+official_name = "Apollo lunar geology sampling tools"
+category = "Spacesuits, EVA tools and maintenance"
+evidence_status = &"operational"
+actual_function = "Hand tools collect and handle lunar soil and rock samples."
+testing_environment = "Historical Apollo lunar surface use; newer Artemis tool designs remain developmental."
+limitations = PackedStringArray("Apollo heritage does not qualify every modern tool variant.", "Reach, gloves and tool mass affect usability.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/suits-and-rovers/spacewalking-tools/"
+game_system = &"science"
+game_usage = "Collecting a Lunar Sample is a single interaction near a sample marker. Tools and sampling procedure are not simulated."
+
+[sub_resource type="Resource" id="Resource_ta0hk"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-DUST-EDS"
+official_name = "Electrodynamic Dust Shield (EDS)"
+category = "Lunar dust, radiation and environmental hazards"
+evidence_status = &"demonstrated"
+actual_function = "Uses electric fields to remove dust from protected surfaces."
+testing_environment = "Blue Ghost Mission 1 on the Moon in March 2025; dust removal demonstrated on glass and radiator surfaces."
+limitations = PackedStringArray("Bounded lunar demonstration; not whole-base or whole-suit immunity.", "Performance depends on surface/electrode design and dust conditions.")
+source_organization = "NASA Kennedy Space Center / CLPS"
+reference_url = "https://www.nasa.gov/blogs/missions/2025/03/04/blue-ghost-begins-surface-operations-captures-descent-video-sunrise/"
+game_system = &"hazards"
+game_usage = "The Equipment lock has a dust-removal station as an inspection point. Dust accumulation and removal are not simulated."
+
+[sub_resource type="Resource" id="Resource_6gek7"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-RADIATION-SHELTER"
+official_name = "Space Radiation Analysis Group monitoring and shelter guidance"
+category = "Lunar dust, radiation and environmental hazards"
+evidence_status = &"operational"
+actual_function = "Combines monitoring, mission context and shielding information to support exposure mitigation."
+testing_environment = "NASA crewed-mission radiation operations and spacecraft shelter planning."
+limitations = PackedStringArray("Solar-particle events and galactic cosmic rays have different mitigation constraints.", "Shelter reduces exposure; it is not absolute immunity or guaranteed medical prevention.")
+source_organization = "NASA Johnson Space Center Space Radiation Analysis Group"
+reference_url = "https://srag.jsc.nasa.gov/spaceradiation/how/how.cfm"
+game_system = &"hazards"
+game_usage = "The outpost includes a protected shelter compartment. Radiation exposure and shielding performance are not simulated."
+
+[sub_resource type="Resource" id="Resource_emhdc"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-EXERCISE-ARED"
+official_name = "Advanced Resistive Exercise Device (ARED)"
+category = "Exercise, sleep, cardiovascular and muscle health"
+evidence_status = &"operational"
+actual_function = "Provides resistance exercise loading for astronauts."
+testing_environment = "ISS microgravity exercise and associated human research."
+limitations = PackedStringArray("Countermeasure performance is not perfect prevention.", "ISS results cannot define a universal lunar muscle-loss rate.")
+source_organization = "NASA Office of the Chief Health and Medical Officer"
+reference_url = "https://www.nasa.gov/ochmo-tb-031-exercise-overview-2/"
+game_system = &"health"
+game_usage = "The exercise station records a timed routine in the activity log. No physiological effect is calculated."
+
+[sub_resource type="Resource" id="Resource_nimim"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-EXERCISE-T2"
+official_name = "T2 treadmill"
+category = "Exercise, sleep, cardiovascular and muscle health"
+evidence_status = &"operational"
+actual_function = "Supports treadmill aerobic exercise with astronaut restraint/loading."
+testing_environment = "ISS microgravity operations and research."
+limitations = PackedStringArray("Exercise needs appropriate loading and monitoring.", "A game schedule is not a real medical prescription.")
+source_organization = "NASA Office of the Chief Health and Medical Officer"
+reference_url = "https://www.nasa.gov/ochmo-tb-031-exercise-overview-2/"
+game_system = &"health"
+game_usage = "Reference for the exercise routine. The game logs the activity only."
+
+[sub_resource type="Resource" id="Resource_evcul"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-HEALTH-SLEEP"
+official_name = "Sleep Loss, Circadian Desynchronization, and Work Overload Risk"
+category = "Exercise, sleep, cardiovascular and muscle health"
+evidence_status = &"research"
+actual_function = "Examines sleep, environmental disruption and fatigue-related performance risks."
+testing_environment = "Short- and long-duration spaceflight and relevant Earth environments."
+limitations = PackedStringArray("No universal deterministic error, injury or psychiatric outcome follows a single missed sleep period.", "Sleep duration alone does not capture quality.")
+source_organization = "NASA Human Health and Performance"
+reference_url = "https://www.nasa.gov/directorates/esdmd/hhp/risk-of-performance-decrements-and-adverse-health-outcomes-resulting-from-sleep-loss-circadian-desynchronization-and-work-overload/"
+game_system = &"health"
+game_usage = "The sleeping quarters record a rest routine. Fatigue and sleep debt are not simulated."
+
+[sub_resource type="Resource" id="Resource_7n7pl"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-MED-MONITOR"
+official_name = "ISS astronaut health monitoring and flight-surgeon support"
+category = "Medical equipment, diagnostics and emergency procedures"
+evidence_status = &"operational"
+actual_function = "Tracks crew health through monitoring, examinations and medical support."
+testing_environment = "Crewed low Earth orbit with extensive ground medical teams and return options."
+limitations = PackedStringArray("Earth-supported ISS care cannot be assumed available in real time on Mars.", "Symptoms and sensor readings are not diagnoses.")
+source_organization = "NASA"
+reference_url = "https://www.nasa.gov/missions/station/faq-the-real-story-about-astronaut-health-care-in-space/"
+game_system = &"health"
+game_usage = "The medical station records a powered inspection routine. No diagnosis or health value is produced."
+
+[sub_resource type="Resource" id="Resource_40a5k"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-SCIENCE-LOG"
+official_name = "Apollo lunar sample field documentation"
+category = "Scientific experiments, geology and sampling"
+evidence_status = &"operational"
+actual_function = "Records samples with photographs, descriptions and collection context."
+testing_environment = "Historical Apollo lunar sampling and subsequent documentation."
+limitations = PackedStringArray("Some historical sample locations were approximate or reconstructed.", "An observation is not automatically a verified resource deposit.")
+source_organization = "NASA / USGS / NTRS"
+reference_url = "https://ntrs.nasa.gov/citations/19720021173"
+game_system = &"science"
+game_usage = "The Science station runs a short powered examination of a carried Lunar Sample and records it in the activity log."
+
+[sub_resource type="Resource" id="Resource_gf004"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-SAMPLE-PROVENANCE"
+official_name = "Apollo sample preliminary examination and curation"
+category = "Scientific experiments, geology and sampling"
+evidence_status = &"operational"
+actual_function = "Catalogs returned material using identifiers, mass, photographs and physical descriptions."
+testing_environment = "NASA terrestrial lunar-sample curation and examination."
+limitations = PackedStringArray("Earth laboratories and contamination controls are not automatically portable to a starter habitat.", "Cataloging a rock does not identify every constituent.")
+source_organization = "NASA Johnson Space Center Astromaterials Acquisition and Curation / NTRS"
+reference_url = "https://ntrs.nasa.gov/citations/20240009312"
+game_system = &"science"
+game_usage = "The examination preserves the sample in the inventory, reflecting curation rather than consumption."
+
+[sub_resource type="Resource" id="Resource_45u7o"]
+script = ExtResource("1_0lev7")
+research_id = &"NASA-ENV-MOON"
+official_name = "Moon surface environment"
+category = "Moon and Mars environmental differences"
+evidence_status = &"research"
+actual_function = "Provides the planetary context for lunar surface engineering."
+testing_environment = "Lunar observations, missions and NASA planetary reference synthesis."
+limitations = PackedStringArray("Near-vacuum/exosphere is not breathable air; there is no ordinary atmospheric wind.", "Temperature and sunlight depend on location, terrain and time; polar shadow is a distinct case.")
+source_organization = "NASA Science"
+reference_url = "https://science.nasa.gov/moon/facts/"
+game_system = &"environment"
+game_usage = "The tutorial site is a fictional 40 x 40 cell lunar region. The mission perimeter is authored, not a computed suit range."
+
+[resource]
+script = ExtResource("2_momdb")
+catalog_version = "1.0.0"
+reviewed_through = "2026-11-15"
+records = Array[ExtResource("1_0lev7")]([SubResource("Resource_58nr2"), SubResource("Resource_rsa1v"), SubResource("Resource_dgl63"), SubResource("Resource_00ysy"), SubResource("Resource_jr57t"), SubResource("Resource_t4k8q"), SubResource("Resource_500b3"), SubResource("Resource_c7544"), SubResource("Resource_nh5wt"), SubResource("Resource_n48qk"), SubResource("Resource_hc4vl"), SubResource("Resource_dky50"), SubResource("Resource_xo881"), SubResource("Resource_rfpo2"), SubResource("Resource_0hbko"), SubResource("Resource_mfmyt"), SubResource("Resource_kgk5w"), SubResource("Resource_ta0hk"), SubResource("Resource_6gek7"), SubResource("Resource_emhdc"), SubResource("Resource_nimim"), SubResource("Resource_evcul"), SubResource("Resource_7n7pl"), SubResource("Resource_40a5k"), SubResource("Resource_gf004"), SubResource("Resource_45u7o")])

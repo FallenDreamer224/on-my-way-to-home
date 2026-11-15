@@ -53,6 +53,8 @@ func say(topic: StringName, text: String, priority: Priority = Priority.REMARK, 
 	if priority > int(current.priority):
 		# A more urgent line interrupts; guidance returns afterwards, small talk is dropped.
 		if int(current.priority) >= Priority.TUTORIAL:
+			if _queue.size() >= MAX_QUEUE:
+				_queue.remove_at(_weakest_index())
 			current.remaining = current.duration
 			current.resumed = true
 			_queue.push_front(current)

@@ -63,6 +63,8 @@ func _init() -> void:
 	offset_top = GameHUD.EDGE
 	offset_bottom = -36
 	mouse_filter = Control.MOUSE_FILTER_STOP
+	# Keep unconsumed scrolls inside the dock, including when its page cannot scroll.
+	mouse_force_pass_scroll_events = false
 	hide()
 	var row := UiKit.hbox(6)
 	add_child(row)
@@ -391,6 +393,8 @@ func _build_pages() -> void:
 		entry.focus_mode = Control.FOCUS_NONE
 		entry.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		entry.clip_text = true
+		entry.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
+		entry.tooltip_text = entry.text
 		entry.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		line.add_child(entry)
 		device_buttons[id] = entry

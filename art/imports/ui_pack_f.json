@@ -1,0 +1,729 @@
+{
+  "pack_id": "ui_pack_f",
+  "standards_version": "1.0.0",
+  "provider": "PixelLab.ai MCP",
+  "recovery_date": "2026-11-15",
+  "new_generation_jobs_submitted": 0,
+  "icon_count": 24,
+  "menu_illustration_count": 2,
+  "assets": [
+    {
+      "asset_id": "ui_pack_f_icon_oxygen",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_oxygen_candidate_23.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_oxygen.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "d0ce6c3c-ad34-413c-af8e-663c1514e4e7",
+      "provider_asset_id": "d2f6b9ce-28a3-5592-b311-efccb5e3f423",
+      "selected_candidate": 23,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: an upright pressurized oxygen gas cylinder with a valve and regulator on top and one cyan band around the tank.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "d032395d1e5876267c6de48e0057489fc4a4791c49380a1fc50d73fbb578c4ac"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_carbon_dioxide",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_carbon_dioxide_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_carbon_dioxide.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "ac53bea7-5ebf-4a72-b57d-157b9bcf0b8e",
+      "provider_asset_id": "cb37e03a-bdab-5292-9d3a-b220cafb1f43",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small rounded puffy exhaust gas cloud with a short downward arrow beneath it, representing carbon dioxide.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "943a64382f9e96ff5f67ee42b071bc5fd03daa012bf12145bf7de07199c4abec"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_battery",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_battery_candidate_7.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_battery.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "a90bf6ea-0c47-47be-91c4-283b5f7e8e80",
+      "provider_asset_id": "5ddc8b4e-66b0-5ebf-9350-90e0a2c38900",
+      "selected_candidate": 7,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a horizontal battery cell with a terminal nub on the right end and three cyan charge bars inside.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "875e7064b9b9469530f1055b5c3cf7dcb3d9c3184969120af61f04cf57475d37"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_fatigue",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_fatigue_candidate_42.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_fatigue.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "f1ec97d2-9367-44cb-b7fb-fd1595dae3fb",
+      "provider_asset_id": "9e115900-a0c8-5f2d-9301-2e790bfddb7f",
+      "selected_candidate": 42,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: an hourglass with a simple frame, sand mostly in the lower bulb, representing fatigue over time.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "4c46626973c7fe4846ce618aee10046d698b4fca9c1973c0c1f9284d51bba317"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_warning",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_warning_candidate_12.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_warning.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "cc9585ed-2e26-4886-ae99-cc9988bd5452",
+      "provider_asset_id": "dbc7abe9-d4f1-52f1-837b-b887c03d0b40",
+      "selected_candidate": 12,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a hazard warning triangle with a bold vertical bar and dot (exclamation shape) inside.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "5492732101780540375864558a23cef98e35a13c1389077310a6b2592c29f3fc"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_power",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_power_candidate_43.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_power.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "a66f14dd-fedc-4792-8c7b-2769e19f47c7",
+      "provider_asset_id": "628f1161-e2e3-5721-9fff-a3a49d55428d",
+      "selected_candidate": 43,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a bold angular lightning bolt representing electrical power.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "495f94cb71ff03c9c8c45de36dbaeeb5fa7d03257f9ee85d0f4d3ff1c6d49cb9"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_water",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_water_candidate_5.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_water.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "817d6c02-e505-4330-a5ba-6464d6d9d313",
+      "provider_asset_id": "3f6fa919-0d3d-5481-8bee-e89b010f7061",
+      "selected_candidate": 5,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a single water droplet with a small highlight.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "e0028e2190a819521dad2bb6496810c644e5f61c2828bc74a879c0bbc9f7fa4b"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_air",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_air_candidate_16.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_air.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "0eccc928-8a9f-4285-ba95-92355bf14f4a",
+      "provider_asset_id": "a72ca57e-870f-5746-9db2-688a54c45e0b",
+      "selected_candidate": 16,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a three-blade ventilation fan inside a round housing, front view, representing cabin air circulation.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "aaa479bd53e46ea01d1bd99b105fe11876aab168004cac4ec13d991113361c32"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_greenhouse",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_greenhouse_candidate_3.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_greenhouse.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "19c5b878-f19c-4579-aa43-2e627831f8d9",
+      "provider_asset_id": "b683521a-cedb-5998-926d-6f07d9905fbb",
+      "selected_candidate": 3,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small plant sprout with two leaves growing from a shallow hydroponic tray, representing the greenhouse.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "752200e2286fe7ec7c7f82738edc98076d70a4b69d2363f54f9ce7fc5249a4a5"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_gear",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_gear_candidate_9.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_gear.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "8b17e429-010d-4501-ad7e-837bce1c5c04",
+      "provider_asset_id": "2149cb7a-b59b-5bc4-a0c1-5248d0db9e51",
+      "selected_candidate": 9,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a mechanical gear cog with eight square teeth and a round center hole, front view.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "e8ece84f4dc12d5b8e4e7d3c52717e74d306a3ce306c682024e7ba6544fbc527"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_wrench",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_wrench_candidate_8.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_wrench.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "1021f126-ba38-40c5-bd27-b89c227a4e8e",
+      "provider_asset_id": "3ed8c367-7590-5da7-989f-fa191848e399",
+      "selected_candidate": 8,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: an open-end wrench (spanner) tilted diagonally, representing maintenance.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "b2f91dbbdfb9cbb7ed7041df65ebc6129795aff1e391064689d22dbe7d24d051"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_research",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_research_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_research.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "6c0ae4da-0980-4109-a22c-fbd56018ef97",
+      "provider_asset_id": "3e8a8852-c167-5ceb-8d27-ea08996e860a",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a conical laboratory flask (Erlenmeyer) half filled with cyan liquid, representing research.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "cdfeaa1f7ec4c1fe09f3905ad856e447ff6ff1ecb961bcbebef353db05a134d1"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_mission",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_mission_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_mission.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "33b95903-6e54-40ec-bbc5-1a069a6cb7cb",
+      "provider_asset_id": "0de6719c-4984-5cc2-b358-e647aadc5ad9",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small triangular pennant flag on an upright pole, representing a mission objective.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "c6f9985f0b05a67c2d8815a52fb0e6251ae76de619d7c2b401eb2c9a04c276b2"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_location",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_location_candidate_36.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_location.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "24f824cc-2923-4fd7-ad94-db503875a7ba",
+      "provider_asset_id": "12b70143-25f9-525b-a481-14a3ac7d99bc",
+      "selected_candidate": 36,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a map location pin marker, teardrop shape pointing down with a round hole in its head.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "dced0ed5c85df9f4fe6714e142478d0896d7db08cf14e98c62fcb97746cc2181"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_temperature",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_temperature_candidate_1.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_temperature.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "e67b2418-dea4-4076-92c6-77c72ca22294",
+      "provider_asset_id": "cd175f26-f0ff-5d05-a314-711bd2235da6",
+      "selected_candidate": 1,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: an upright thermometer with a round bulb at the bottom and a cyan fluid column.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "1872097109a7ef0ac3637349877391ac192e18880a96e587ffc09870e8c68f5a"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_pressure",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_pressure_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_pressure.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "27dce144-c960-4bcf-ae10-86370a162385",
+      "provider_asset_id": "33ddefc0-2aeb-50ce-9706-18f19372601b",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a round analog pressure gauge dial with tick marks and one needle, front view.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "99b0344e4d1a842c53331f185ff5270dfd1e3bb0bb07575225169b52f38455ff"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_solar",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_solar_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_solar.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "139c093a-81f7-4b31-9e42-09c784d49aa4",
+      "provider_asset_id": "67b0bb75-131d-5fcf-89b4-5f529dfc097a",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small rectangular solar panel with a grid of cells, tilted on a short stand.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "73e1414fc610a6e32f0b52d502028544d05698432b7d7a7ef35da927fcae17c0"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_habitat",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_habitat_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_habitat.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "b68fc131-4937-4082-b345-fd0daad6d457",
+      "provider_asset_id": "37396f38-77a8-5e79-af27-5876a048cc04",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small lunar habitat dome module with a round hatch door and a short antenna on top, front view.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "2c514b79ba648f44d7f1d91d7ac3291b4f449875f21c1b27dde737472bd2edf5"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_greens_seed",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_greens_seed_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_greens_seed.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "e4dd299d-e3fd-4768-b3e2-8de47ea53674",
+      "provider_asset_id": "7747227b-49dd-5f3c-9eb8-583aecedb5cb",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small sealed paper seed packet with a simple sprout emblem on its front, inventory item.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "d4f60fe7c30a0c4d5fec913d5e63b97ac4ad8bfaf8ffd66c3c6cff6b13d19a2c"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_fresh_greens",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_fresh_greens_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_fresh_greens.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "ebf17a9d-2fd9-44b9-afb0-44ac327fe17a",
+      "provider_asset_id": "30dbbcdc-78e0-56ad-8150-eb55214be240",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a small bunch of fresh leafy lettuce greens, three overlapping leaves, inventory item.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "df0e7c111c7e6e93f7f2afa1067c389c9d086485c3c18bac765a25354bc1cf06"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_dry_ration",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_dry_ration_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_dry_ration.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "6765e4c5-ce32-4167-a72e-5bbf9313b375",
+      "provider_asset_id": "b898af6a-d475-51be-8e0e-45011dd12bc0",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a sealed rectangular foil food ration pouch with a crimped top edge and a tear notch, inventory item.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "b0f93a68f7e349102204047eaa63e3c59278a1008c5d98ebd4e6108881560c87"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_check",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_check_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_check.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "76d40813-93f2-4641-9169-895b565e7d57",
+      "provider_asset_id": "6655aa0f-a74d-539d-b9d2-0da7fdef37fa",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a bold check mark tick, representing a completed objective.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "4884e197a74595ff1296b0b0aafc771c6b0392063ad6ad26d845caf8d6ca569c"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_database",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_database_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_database.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "039b3635-ddf1-4645-9b81-c50098110b01",
+      "provider_asset_id": "ce706daa-2637-5135-982d-ce6820a4909e",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a database symbol, a stack of three flat data storage disks forming a short cylinder.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "2b2330303c201557ee5d3da821697a5dd1c5a73fc0aef262b830a23c6701f9db"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_comms",
+      "standards_version": "1.0.0",
+      "category": "ui_icon",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/icon_comms_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/icon_comms.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        32,
+        32
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "451e0e33-2a1b-4648-926c-bea7f50c06bc",
+      "provider_asset_id": "026d7135-f677-5b24-99e2-5be8b04d6112",
+      "selected_candidate": 0,
+      "prompt": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: a rounded speech bubble with a small tail and three dots inside, representing companion communications.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Downloaded existing completed job candidate during Codex recovery.",
+      "sha256": "51aa9e5752f9675637c2f6d693691db29526d5ca695e7dd032a3531a3ea5a5f6"
+    },
+    {
+      "asset_id": "ui_pack_f_menu_earth",
+      "standards_version": "1.0.0",
+      "category": "menu_illustration",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/menu_earth_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/menu_earth.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "a552e068-c1a4-474d-9e5a-20de5b17e707",
+      "provider_asset_id": "82deaaa7-9fc7-54a0-81fc-9be379cd9a3c",
+      "selected_candidate": 0,
+      "prompt": "Pixel art of planet Earth as seen from the surface of the Moon, for a game title screen sky. A single round planet filling most of the canvas, gibbous phase lit from the upper left with the lower right limb falling into black shadow. Deep blue oceans, white swirling cloud bands, small muted green and tan continents, thin pale atmosphere rim on the lit side. Crisp square pixels, clean limited palette, no antialiasing blur, no glow halo, no stars, no moon, no text, no frame. Transparent background around the planet.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "5c9ee0a37a82c63b622be984fe1168b7f86381901b87a851f2b9baaefd975728"
+    },
+    {
+      "asset_id": "ui_pack_f_menu_lunar_ridge",
+      "standards_version": "1.0.0",
+      "category": "menu_illustration",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/ui_pack_f/menu_lunar_ridge_candidate_0.png"
+      ],
+      "runtime_files": [
+        "assets/ui/ui_pack_f/menu_lunar_ridge.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        792,
+        96
+      ],
+      "physical_scale_intent": "Screen-space artwork; native pixels preserved, unrelated to world footprints.",
+      "review_status": "reviewed_native_integrated",
+      "exception": null,
+      "generation_id": "819b9d09-8f30-45d1-941a-53aa6f264e9c",
+      "provider_asset_id": "977cb2e2-9e9f-55f2-95ee-89da6051bd42",
+      "selected_candidate": 0,
+      "prompt": "Wide horizontal pixel art strip for a game title screen: a distant lunar highland ridge seen from the Moon's surface. Low rounded gray hills and worn crater rims span the full width with a gently undulating skyline. Harsh sunlight from the upper left gives pale lit slopes and dark shadowed sides, with a few small craters. The bottom quarter is a flat band of plain gray regolith ground reaching both edges. Everything above the hills is empty and fully transparent. Neutral cool gray palette only, crisp square pixels, no antialiasing blur, no stars, no Earth, no buildings, no astronauts, no text.",
+      "request_record": "assets/pixellab/source/ui_pack_f/generation_jobs.json",
+      "source_recovery": "Byte-identical mirror of inherited runtime selection; provider job/candidate IDs retained.",
+      "sha256": "015a939ca42ea1da2cec04c5315a14db2a2144f3e55e704ee557d6b8464b704b"
+    }
+  ],
+  "fallbacks": [
+    {
+      "asset_id": "ui_pack_f_icon_prepared_meal",
+      "generation_id": "e10b01df-d710-481e-bbf3-4f87255b199a",
+      "provider_status": "failed",
+      "fallback_icon": "supply_tool",
+      "reason": "Original provider job failed; existing approved Pack A texture reused. No retry or generation submitted."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_helmet",
+      "generation_id": "a6345d9c-2298-4e10-a9fd-6a53ac7d71ba",
+      "provider_status": "failed",
+      "fallback_icon": "health",
+      "reason": "Original provider job failed; existing approved Pack A texture reused. No retry or generation submitted."
+    }
+  ]
+}

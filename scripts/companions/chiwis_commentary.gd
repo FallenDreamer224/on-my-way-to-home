@@ -121,7 +121,7 @@ func _safety_notice(text: String, duration: float) -> void:
 	# The monitor prefixes its speaker; the dialogue window shows the name separately.
 	var spoken: String = text.trim_prefix(ChiwisDialogue.SPEAKER + ": ")
 	var boundary: bool = is_instance_valid(_safety) and _safety.current_zone == EvaSafetyLimits.Zone.RESTRICTED_BOUNDARY
-	dialogue.say(&"eva_boundary" if boundary else &"eva_warning", spoken, P.WARNING, maxf(duration, ChiwisDialogue.reading_seconds(spoken)))
+	dialogue.say(&"eva_boundary" if boundary else &"eva_warning", spoken, P.CRITICAL if boundary else P.WARNING, maxf(duration, ChiwisDialogue.reading_seconds(spoken)))
 
 
 func _utility_alarm(_text: String) -> void:

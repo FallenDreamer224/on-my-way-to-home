@@ -229,10 +229,21 @@ func _key_allowed(code: int) -> bool:
 
 func _resolve_duplicates() -> void:
 	var used: Dictionary[int, bool] = {}
+	var pending: Array[StringName] = []
 	for action: StringName in REMAPPABLE:
 		if used.has(bindings[action]):
-			bindings[action] = _defaults[action]
+			pending.append(action)
+			continue
 		used[bindings[action]] = true
+	for action: StringName in pending:
+		var replacement: int = _defaults[action]
+		if used.has(replacement):
+			for candidate: int in _defaults.values():
+				if not used.has(candidate):
+					replacement = candidate
+					break
+		bindings[action] = replacement
+		used[replacement] = true
 
 
 static func _nearest_int(value: int, allowed: Array[int]) -> int:

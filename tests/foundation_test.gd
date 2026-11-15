@@ -14,7 +14,7 @@ func _initialize() -> void:
 
 func _run() -> void:
 	_check(ProjectSettings.get_setting("application/config/name") == "On My Way to Home", "Project name")
-	_check(ProjectSettings.get_setting("application/run/main_scene") == "res://scenes/main.tscn", "Main scene")
+	_check(ProjectSettings.get_setting("application/run/main_scene") == "res://scenes/app_root.tscn", "Application menu entry scene")
 	_check(ProjectSettings.get_setting("display/window/size/viewport_width") == 960, "Viewport width")
 	_check(ProjectSettings.get_setting("display/window/size/viewport_height") == 540, "Viewport height")
 	_validate_inputs()

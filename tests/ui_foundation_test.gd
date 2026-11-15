@@ -258,8 +258,11 @@ func _wheel(position: Vector2, button: MouseButton) -> void:
 
 func _mouse(position: Vector2, button: MouseButton) -> void:
 	var event: InputEventMouseButton = InputEventMouseButton.new()
-	event.position = position
-	event.global_position = position
+	# Native input arrives in window pixels; Godot applies the viewport stretch.
+	# The controls above report logical coordinates, including in 2x fullscreen.
+	var window_position: Vector2 = root.get_final_transform() * position
+	event.position = window_position
+	event.global_position = window_position
 	event.button_index = button
 	event.pressed = true
 	Input.parse_input_event(event)

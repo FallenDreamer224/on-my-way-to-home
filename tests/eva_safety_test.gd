@@ -62,9 +62,9 @@ func _run() -> void:
 	actor.global_position = IsometricGrid.tile_to_world(Vector2i(17, 0), terrain)
 	monitor.advance(0.1)
 	check(notices.size() == 1 and notices[0].begins_with("Chiwis:"), "Chiwis warning on entering band")
-	check(main.game_ui.hud.notifications.message.text == notices[0], "Production notice sink updates existing UI")
+	check(main.game_ui.hud.dialogue.is_showing() and main.game_ui.hud.dialogue.text.text == notices[0].trim_prefix("Chiwis: "), "Production safety notice reaches companion dialogue")
 	await process_frame
-	check(main.game_ui.hud.notifications.message.get_line_count() <= 4, "Default warning fits all four visible notice lines")
+	check(main.game_ui.hud.dialogue.text.get_line_count() <= 5, "Default warning fits companion dialogue")
 	check(monitor.safe_return_direction != Vector2.ZERO, "Safe route direction available")
 	for tick: int in 100:
 		monitor.advance(0.1)
@@ -74,7 +74,7 @@ func _run() -> void:
 	check(notices.size() == 2 and notices[1].contains("mission area ends"), "Boundary notice escalates")
 	check(notices[1].length() <= 180, "Default dialogue fits existing message slot")
 	await process_frame
-	check(main.game_ui.hud.notifications.message.get_line_count() <= 4, "Default boundary explanation and return hint fully readable")
+	check(main.game_ui.hud.dialogue.text.text == notices[1].trim_prefix("Chiwis: ") and main.game_ui.hud.dialogue.text.get_line_count() <= 5, "Default boundary explanation and return hint fully readable in companion dialogue")
 	for tick: int in 100:
 		monitor.advance(0.1)
 	check(notices.size() == 2, "Holding at boundary never spams")

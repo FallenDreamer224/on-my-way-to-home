@@ -8,45 +8,302 @@
     "width": 32,
     "height": 32,
     "no_background": true,
-    "palette": ["#151e26", "#283540", "#465663", "#758692", "#adb9c0", "#dce4e5", "#386c82", "#78b7c4"],
+    "palette": [
+      "#151e26",
+      "#283540",
+      "#465663",
+      "#758692",
+      "#adb9c0",
+      "#dce4e5",
+      "#386c82",
+      "#78b7c4"
+    ],
     "palette_name": "Moon UI cool gray and cyan",
     "max_colors": 8,
     "style_image": "assets/ui/ui_pack_a/icon_inventory.png (base64)",
-    "style_copy": ["outline", "detail", "shading"],
+    "style_copy": [
+      "outline",
+      "detail",
+      "shading"
+    ],
     "candidates_per_job": 64,
     "cost_generations_per_job": 10,
     "description_prefix": "Native 2D pixel art UI icon for On My Way to Home, a Moon survival and resource-management game. Clean practical modular sci-fi interface pictogram. Cool gray, muted white, restrained cyan accents, dark outline. Crisp square pixels, limited palette, no antialiasing, blur, gradients, glow, perspective, lettering, numbers, logos or watermarks. Transparent background. One compact centered pictogram about 18 pixels across with transparent padding: "
   },
   "jobs": [
-    {"asset_id": "ui_pack_f_icon_oxygen", "job_id": "d0ce6c3c-ad34-413c-af8e-663c1514e4e7", "provider_asset_id": "d2f6b9ce-28a3-5592-b311-efccb5e3f423", "seed": 8601, "subject": "an upright pressurized oxygen gas cylinder with a valve and regulator on top and one cyan band around the tank.", "selected_candidate": 23},
-    {"asset_id": "ui_pack_f_icon_carbon_dioxide", "job_id": "ac53bea7-5ebf-4a72-b57d-157b9bcf0b8e", "provider_asset_id": "cb37e03a-bdab-5292-9d3a-b220cafb1f43", "seed": 8602, "subject": "a small rounded puffy exhaust gas cloud with a short downward arrow beneath it, representing carbon dioxide.", "selected_candidate": 0},
-    {"asset_id": "ui_pack_f_icon_battery", "job_id": "a90bf6ea-0c47-47be-91c4-283b5f7e8e80", "provider_asset_id": "5ddc8b4e-66b0-5ebf-9350-90e0a2c38900", "seed": 8603, "subject": "a horizontal battery cell with a terminal nub on the right end and three cyan charge bars inside.", "selected_candidate": 7},
-    {"asset_id": "ui_pack_f_icon_fatigue", "job_id": "f1ec97d2-9367-44cb-b7fb-fd1595dae3fb", "provider_asset_id": "9e115900-a0c8-5f2d-9301-2e790bfddb7f", "seed": 8604, "subject": "an hourglass with a simple frame, sand mostly in the lower bulb, representing fatigue over time.", "selected_candidate": 42},
-    {"asset_id": "ui_pack_f_icon_warning", "job_id": "cc9585ed-2e26-4886-ae99-cc9988bd5452", "provider_asset_id": "dbc7abe9-d4f1-52f1-837b-b887c03d0b40", "seed": 8605, "subject": "a hazard warning triangle with a bold vertical bar and dot (exclamation shape) inside.", "selected_candidate": 12},
-    {"asset_id": "ui_pack_f_icon_power", "job_id": "a66f14dd-fedc-4792-8c7b-2769e19f47c7", "provider_asset_id": "628f1161-e2e3-5721-9fff-a3a49d55428d", "seed": 8606, "subject": "a bold angular lightning bolt representing electrical power.", "selected_candidate": 43},
-    {"asset_id": "ui_pack_f_icon_water", "job_id": "817d6c02-e505-4330-a5ba-6464d6d9d313", "provider_asset_id": "3f6fa919-0d3d-5481-8bee-e89b010f7061", "seed": 8607, "subject": "a single water droplet with a small highlight.", "selected_candidate": 5},
-    {"asset_id": "ui_pack_f_icon_air", "job_id": "0eccc928-8a9f-4285-ba95-92355bf14f4a", "provider_asset_id": "a72ca57e-870f-5746-9db2-688a54c45e0b", "seed": 8608, "subject": "a three-blade ventilation fan inside a round housing, front view, representing cabin air circulation.", "selected_candidate": 16},
-    {"asset_id": "ui_pack_f_icon_greenhouse", "job_id": "19c5b878-f19c-4579-aa43-2e627831f8d9", "provider_asset_id": "b683521a-cedb-5998-926d-6f07d9905fbb", "seed": 8609, "subject": "a small plant sprout with two leaves growing from a shallow hydroponic tray, representing the greenhouse.", "selected_candidate": 3},
-    {"asset_id": "ui_pack_f_icon_gear", "job_id": "8b17e429-010d-4501-ad7e-837bce1c5c04", "provider_asset_id": "2149cb7a-b59b-5bc4-a0c1-5248d0db9e51", "seed": 8610, "subject": "a mechanical gear cog with eight square teeth and a round center hole, front view.", "selected_candidate": 9},
-    {"asset_id": "ui_pack_f_icon_wrench", "job_id": "1021f126-ba38-40c5-bd27-b89c227a4e8e", "provider_asset_id": "3ed8c367-7590-5da7-989f-fa191848e399", "seed": 8611, "subject": "an open-end wrench (spanner) tilted diagonally, representing maintenance.", "selected_candidate": 8},
-    {"asset_id": "ui_pack_f_icon_research", "job_id": "6c0ae4da-0980-4109-a22c-fbd56018ef97", "provider_asset_id": "3e8a8852-c167-5ceb-8d27-ea08996e860a", "seed": 8612, "subject": "a conical laboratory flask (Erlenmeyer) half filled with cyan liquid, representing research.", "selected_candidate": 0},
-    {"asset_id": "ui_pack_f_icon_mission", "job_id": "33b95903-6e54-40ec-bbc5-1a069a6cb7cb", "provider_asset_id": "0de6719c-4984-5cc2-b358-e647aadc5ad9", "seed": 8613, "subject": "a small triangular pennant flag on an upright pole, representing a mission objective.", "selected_candidate": 0},
-    {"asset_id": "ui_pack_f_icon_location", "job_id": "24f824cc-2923-4fd7-ad94-db503875a7ba", "provider_asset_id": "12b70143-25f9-525b-a481-14a3ac7d99bc", "seed": 8614, "subject": "a map location pin marker, teardrop shape pointing down with a round hole in its head.", "selected_candidate": 36},
-    {"asset_id": "ui_pack_f_icon_temperature", "job_id": "e67b2418-dea4-4076-92c6-77c72ca22294", "provider_asset_id": "cd175f26-f0ff-5d05-a314-711bd2235da6", "seed": 8615, "subject": "an upright thermometer with a round bulb at the bottom and a cyan fluid column.", "selected_candidate": 1},
-    {"asset_id": "ui_pack_f_icon_pressure", "job_id": "27dce144-c960-4bcf-ae10-86370a162385", "provider_asset_id": "33ddefc0-2aeb-50ce-9706-18f19372601b", "seed": 8616, "subject": "a round analog pressure gauge dial with tick marks and one needle, front view.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_solar", "job_id": "139c093a-81f7-4b31-9e42-09c784d49aa4", "provider_asset_id": "67b0bb75-131d-5fcf-89b4-5f529dfc097a", "seed": 8617, "subject": "a small rectangular solar panel with a grid of cells, tilted on a short stand.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_habitat", "job_id": "b68fc131-4937-4082-b345-fd0daad6d457", "provider_asset_id": "37396f38-77a8-5e79-af27-5876a048cc04", "seed": 8618, "subject": "a small lunar habitat dome module with a round hatch door and a short antenna on top, front view.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_greens_seed", "job_id": "e4dd299d-e3fd-4768-b3e2-8de47ea53674", "provider_asset_id": "7747227b-49dd-5f3c-9eb8-583aecedb5cb", "seed": 8619, "subject": "a small sealed paper seed packet with a simple sprout emblem on its front, inventory item.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_fresh_greens", "job_id": "ebf17a9d-2fd9-44b9-afb0-44ac327fe17a", "provider_asset_id": "30dbbcdc-78e0-56ad-8150-eb55214be240", "seed": 8620, "subject": "a small bunch of fresh leafy lettuce greens, three overlapping leaves, inventory item.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_dry_ration", "job_id": "6765e4c5-ce32-4167-a72e-5bbf9313b375", "provider_asset_id": "b898af6a-d475-51be-8e0e-45011dd12bc0", "seed": 8621, "subject": "a sealed rectangular foil food ration pouch with a crimped top edge and a tear notch, inventory item.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_prepared_meal", "job_id": "e10b01df-d710-481e-bbf3-4f87255b199a", "provider_asset_id": "f36ded73-b026-5b3b-8ebd-d8329d58971d", "seed": 8622, "subject": "a prepared meal, a shallow food tray with two compartments and a small covered bowl, inventory item.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_check", "job_id": "76d40813-93f2-4641-9169-895b565e7d57", "provider_asset_id": "6655aa0f-a74d-539d-b9d2-0da7fdef37fa", "seed": 8623, "subject": "a bold check mark tick, representing a completed objective.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_helmet", "job_id": "a6345d9c-2298-4e10-a9fd-6a53ac7d71ba", "provider_asset_id": "023c94ff-0190-5111-8771-2a0af27557c1", "seed": 8624, "subject": "an astronaut space helmet with a dark rounded visor and a neck ring, front view.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_database", "job_id": "039b3635-ddf1-4645-9b81-c50098110b01", "provider_asset_id": "ce706daa-2637-5135-982d-ce6820a4909e", "seed": 8625, "subject": "a database symbol, a stack of three flat data storage disks forming a short cylinder.", "selected_candidate": null},
-    {"asset_id": "ui_pack_f_icon_comms", "job_id": "451e0e33-2a1b-4648-926c-bea7f50c06bc", "provider_asset_id": "026d7135-f677-5b24-99e2-5be8b04d6112", "seed": 8626, "subject": "a rounded speech bubble with a small tail and three dots inside, representing companion communications.", "selected_candidate": null}
+    {
+      "asset_id": "ui_pack_f_icon_oxygen",
+      "job_id": "d0ce6c3c-ad34-413c-af8e-663c1514e4e7",
+      "provider_asset_id": "d2f6b9ce-28a3-5592-b311-efccb5e3f423",
+      "seed": 8601,
+      "subject": "an upright pressurized oxygen gas cylinder with a valve and regulator on top and one cyan band around the tank.",
+      "selected_candidate": 23
+    },
+    {
+      "asset_id": "ui_pack_f_icon_carbon_dioxide",
+      "job_id": "ac53bea7-5ebf-4a72-b57d-157b9bcf0b8e",
+      "provider_asset_id": "cb37e03a-bdab-5292-9d3a-b220cafb1f43",
+      "seed": 8602,
+      "subject": "a small rounded puffy exhaust gas cloud with a short downward arrow beneath it, representing carbon dioxide.",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "ui_pack_f_icon_battery",
+      "job_id": "a90bf6ea-0c47-47be-91c4-283b5f7e8e80",
+      "provider_asset_id": "5ddc8b4e-66b0-5ebf-9350-90e0a2c38900",
+      "seed": 8603,
+      "subject": "a horizontal battery cell with a terminal nub on the right end and three cyan charge bars inside.",
+      "selected_candidate": 7
+    },
+    {
+      "asset_id": "ui_pack_f_icon_fatigue",
+      "job_id": "f1ec97d2-9367-44cb-b7fb-fd1595dae3fb",
+      "provider_asset_id": "9e115900-a0c8-5f2d-9301-2e790bfddb7f",
+      "seed": 8604,
+      "subject": "an hourglass with a simple frame, sand mostly in the lower bulb, representing fatigue over time.",
+      "selected_candidate": 42
+    },
+    {
+      "asset_id": "ui_pack_f_icon_warning",
+      "job_id": "cc9585ed-2e26-4886-ae99-cc9988bd5452",
+      "provider_asset_id": "dbc7abe9-d4f1-52f1-837b-b887c03d0b40",
+      "seed": 8605,
+      "subject": "a hazard warning triangle with a bold vertical bar and dot (exclamation shape) inside.",
+      "selected_candidate": 12
+    },
+    {
+      "asset_id": "ui_pack_f_icon_power",
+      "job_id": "a66f14dd-fedc-4792-8c7b-2769e19f47c7",
+      "provider_asset_id": "628f1161-e2e3-5721-9fff-a3a49d55428d",
+      "seed": 8606,
+      "subject": "a bold angular lightning bolt representing electrical power.",
+      "selected_candidate": 43
+    },
+    {
+      "asset_id": "ui_pack_f_icon_water",
+      "job_id": "817d6c02-e505-4330-a5ba-6464d6d9d313",
+      "provider_asset_id": "3f6fa919-0d3d-5481-8bee-e89b010f7061",
+      "seed": 8607,
+      "subject": "a single water droplet with a small highlight.",
+      "selected_candidate": 5
+    },
+    {
+      "asset_id": "ui_pack_f_icon_air",
+      "job_id": "0eccc928-8a9f-4285-ba95-92355bf14f4a",
+      "provider_asset_id": "a72ca57e-870f-5746-9db2-688a54c45e0b",
+      "seed": 8608,
+      "subject": "a three-blade ventilation fan inside a round housing, front view, representing cabin air circulation.",
+      "selected_candidate": 16
+    },
+    {
+      "asset_id": "ui_pack_f_icon_greenhouse",
+      "job_id": "19c5b878-f19c-4579-aa43-2e627831f8d9",
+      "provider_asset_id": "b683521a-cedb-5998-926d-6f07d9905fbb",
+      "seed": 8609,
+      "subject": "a small plant sprout with two leaves growing from a shallow hydroponic tray, representing the greenhouse.",
+      "selected_candidate": 3
+    },
+    {
+      "asset_id": "ui_pack_f_icon_gear",
+      "job_id": "8b17e429-010d-4501-ad7e-837bce1c5c04",
+      "provider_asset_id": "2149cb7a-b59b-5bc4-a0c1-5248d0db9e51",
+      "seed": 8610,
+      "subject": "a mechanical gear cog with eight square teeth and a round center hole, front view.",
+      "selected_candidate": 9
+    },
+    {
+      "asset_id": "ui_pack_f_icon_wrench",
+      "job_id": "1021f126-ba38-40c5-bd27-b89c227a4e8e",
+      "provider_asset_id": "3ed8c367-7590-5da7-989f-fa191848e399",
+      "seed": 8611,
+      "subject": "an open-end wrench (spanner) tilted diagonally, representing maintenance.",
+      "selected_candidate": 8
+    },
+    {
+      "asset_id": "ui_pack_f_icon_research",
+      "job_id": "6c0ae4da-0980-4109-a22c-fbd56018ef97",
+      "provider_asset_id": "3e8a8852-c167-5ceb-8d27-ea08996e860a",
+      "seed": 8612,
+      "subject": "a conical laboratory flask (Erlenmeyer) half filled with cyan liquid, representing research.",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "ui_pack_f_icon_mission",
+      "job_id": "33b95903-6e54-40ec-bbc5-1a069a6cb7cb",
+      "provider_asset_id": "0de6719c-4984-5cc2-b358-e647aadc5ad9",
+      "seed": 8613,
+      "subject": "a small triangular pennant flag on an upright pole, representing a mission objective.",
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "ui_pack_f_icon_location",
+      "job_id": "24f824cc-2923-4fd7-ad94-db503875a7ba",
+      "provider_asset_id": "12b70143-25f9-525b-a481-14a3ac7d99bc",
+      "seed": 8614,
+      "subject": "a map location pin marker, teardrop shape pointing down with a round hole in its head.",
+      "selected_candidate": 36
+    },
+    {
+      "asset_id": "ui_pack_f_icon_temperature",
+      "job_id": "e67b2418-dea4-4076-92c6-77c72ca22294",
+      "provider_asset_id": "cd175f26-f0ff-5d05-a314-711bd2235da6",
+      "seed": 8615,
+      "subject": "an upright thermometer with a round bulb at the bottom and a cyan fluid column.",
+      "selected_candidate": 1
+    },
+    {
+      "asset_id": "ui_pack_f_icon_pressure",
+      "job_id": "27dce144-c960-4bcf-ae10-86370a162385",
+      "provider_asset_id": "33ddefc0-2aeb-50ce-9706-18f19372601b",
+      "seed": 8616,
+      "subject": "a round analog pressure gauge dial with tick marks and one needle, front view.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_solar",
+      "job_id": "139c093a-81f7-4b31-9e42-09c784d49aa4",
+      "provider_asset_id": "67b0bb75-131d-5fcf-89b4-5f529dfc097a",
+      "seed": 8617,
+      "subject": "a small rectangular solar panel with a grid of cells, tilted on a short stand.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_habitat",
+      "job_id": "b68fc131-4937-4082-b345-fd0daad6d457",
+      "provider_asset_id": "37396f38-77a8-5e79-af27-5876a048cc04",
+      "seed": 8618,
+      "subject": "a small lunar habitat dome module with a round hatch door and a short antenna on top, front view.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_greens_seed",
+      "job_id": "e4dd299d-e3fd-4768-b3e2-8de47ea53674",
+      "provider_asset_id": "7747227b-49dd-5f3c-9eb8-583aecedb5cb",
+      "seed": 8619,
+      "subject": "a small sealed paper seed packet with a simple sprout emblem on its front, inventory item.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_fresh_greens",
+      "job_id": "ebf17a9d-2fd9-44b9-afb0-44ac327fe17a",
+      "provider_asset_id": "30dbbcdc-78e0-56ad-8150-eb55214be240",
+      "seed": 8620,
+      "subject": "a small bunch of fresh leafy lettuce greens, three overlapping leaves, inventory item.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_dry_ration",
+      "job_id": "6765e4c5-ce32-4167-a72e-5bbf9313b375",
+      "provider_asset_id": "b898af6a-d475-51be-8e0e-45011dd12bc0",
+      "seed": 8621,
+      "subject": "a sealed rectangular foil food ration pouch with a crimped top edge and a tear notch, inventory item.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_prepared_meal",
+      "job_id": "e10b01df-d710-481e-bbf3-4f87255b199a",
+      "provider_asset_id": "f36ded73-b026-5b3b-8ebd-d8329d58971d",
+      "seed": 8622,
+      "subject": "a prepared meal, a shallow food tray with two compartments and a small covered bowl, inventory item.",
+      "selected_candidate": null,
+      "recovery_status": "provider_failed",
+      "fallback_icon": "supply_tool"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_check",
+      "job_id": "76d40813-93f2-4641-9169-895b565e7d57",
+      "provider_asset_id": "6655aa0f-a74d-539d-b9d2-0da7fdef37fa",
+      "seed": 8623,
+      "subject": "a bold check mark tick, representing a completed objective.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_helmet",
+      "job_id": "a6345d9c-2298-4e10-a9fd-6a53ac7d71ba",
+      "provider_asset_id": "023c94ff-0190-5111-8771-2a0af27557c1",
+      "seed": 8624,
+      "subject": "an astronaut space helmet with a dark rounded visor and a neck ring, front view.",
+      "selected_candidate": null,
+      "recovery_status": "provider_failed",
+      "fallback_icon": "health"
+    },
+    {
+      "asset_id": "ui_pack_f_icon_database",
+      "job_id": "039b3635-ddf1-4645-9b81-c50098110b01",
+      "provider_asset_id": "ce706daa-2637-5135-982d-ce6820a4909e",
+      "seed": 8625,
+      "subject": "a database symbol, a stack of three flat data storage disks forming a short cylinder.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    },
+    {
+      "asset_id": "ui_pack_f_icon_comms",
+      "job_id": "451e0e33-2a1b-4648-926c-bea7f50c06bc",
+      "provider_asset_id": "026d7135-f677-5b24-99e2-5be8b04d6112",
+      "seed": 8626,
+      "subject": "a rounded speech bubble with a small tail and three dots inside, representing companion communications.",
+      "selected_candidate": 0,
+      "recovery_status": "recovered_completed_job",
+      "review": "Native 32x32 transparent candidate reviewed; no pixel modifications."
+    }
   ],
   "menu_jobs": [
-    {"asset_id": "ui_pack_f_menu_earth", "tool": "create_image_pro", "job_id": "a552e068-c1a4-474d-9e5a-20de5b17e707", "provider_asset_id": "82deaaa7-9fc7-54a0-81fc-9be379cd9a3c", "width": 96, "height": 96, "no_background": true, "max_colors": 24, "seed": 8701, "candidates": 4, "cost_generations": 10, "selected_candidate": 0, "description": "Pixel art of planet Earth as seen from the surface of the Moon, for a game title screen sky. A single round planet filling most of the canvas, gibbous phase lit from the upper left with the lower right limb falling into black shadow. Deep blue oceans, white swirling cloud bands, small muted green and tan continents, thin pale atmosphere rim on the lit side. Crisp square pixels, clean limited palette, no antialiasing blur, no glow halo, no stars, no moon, no text, no frame. Transparent background around the planet."},
-    {"asset_id": "ui_pack_f_menu_lunar_ridge", "tool": "create_image_pro", "job_id": "819b9d09-8f30-45d1-941a-53aa6f264e9c", "provider_asset_id": "977cb2e2-9e9f-55f2-95ee-89da6051bd42", "width": 792, "height": 96, "no_background": true, "palette": ["#1c1e22", "#2e3136", "#44474c", "#5c5e62", "#747578", "#898989", "#989897", "#a9a9a7", "#bebebb", "#d6d6d2"], "palette_name": "Lunar regolith grays", "seed": 8702, "candidates": 1, "cost_generations": 25, "selected_candidate": 0, "description": "Wide horizontal pixel art strip for a game title screen: a distant lunar highland ridge seen from the Moon's surface. Low rounded gray hills and worn crater rims span the full width with a gently undulating skyline. Harsh sunlight from the upper left gives pale lit slopes and dark shadowed sides, with a few small craters. The bottom quarter is a flat band of plain gray regolith ground reaching both edges. Everything above the hills is empty and fully transparent. Neutral cool gray palette only, crisp square pixels, no antialiasing blur, no stars, no Earth, no buildings, no astronauts, no text."}
+    {
+      "asset_id": "ui_pack_f_menu_earth",
+      "tool": "create_image_pro",
+      "job_id": "a552e068-c1a4-474d-9e5a-20de5b17e707",
+      "provider_asset_id": "82deaaa7-9fc7-54a0-81fc-9be379cd9a3c",
+      "width": 96,
+      "height": 96,
+      "no_background": true,
+      "max_colors": 24,
+      "seed": 8701,
+      "candidates": 4,
+      "cost_generations": 10,
+      "selected_candidate": 0,
+      "description": "Pixel art of planet Earth as seen from the surface of the Moon, for a game title screen sky. A single round planet filling most of the canvas, gibbous phase lit from the upper left with the lower right limb falling into black shadow. Deep blue oceans, white swirling cloud bands, small muted green and tan continents, thin pale atmosphere rim on the lit side. Crisp square pixels, clean limited palette, no antialiasing blur, no glow halo, no stars, no moon, no text, no frame. Transparent background around the planet."
+    },
+    {
+      "asset_id": "ui_pack_f_menu_lunar_ridge",
+      "tool": "create_image_pro",
+      "job_id": "819b9d09-8f30-45d1-941a-53aa6f264e9c",
+      "provider_asset_id": "977cb2e2-9e9f-55f2-95ee-89da6051bd42",
+      "width": 792,
+      "height": 96,
+      "no_background": true,
+      "palette": [
+        "#1c1e22",
+        "#2e3136",
+        "#44474c",
+        "#5c5e62",
+        "#747578",
+        "#898989",
+        "#989897",
+        "#a9a9a7",
+        "#bebebb",
+        "#d6d6d2"
+      ],
+      "palette_name": "Lunar regolith grays",
+      "seed": 8702,
+      "candidates": 1,
+      "cost_generations": 25,
+      "selected_candidate": 0,
+      "description": "Wide horizontal pixel art strip for a game title screen: a distant lunar highland ridge seen from the Moon's surface. Low rounded gray hills and worn crater rims span the full width with a gently undulating skyline. Harsh sunlight from the upper left gives pale lit slopes and dark shadowed sides, with a few small craters. The bottom quarter is a flat band of plain gray regolith ground reaching both edges. Everything above the hills is empty and fully transparent. Neutral cool gray palette only, crisp square pixels, no antialiasing blur, no stars, no Earth, no buildings, no astronauts, no text."
+    }
   ]
 }

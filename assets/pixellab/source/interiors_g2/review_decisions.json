@@ -1,0 +1,218 @@
+[
+  {
+    "job_id": "a1e51d1a-3d17-495e-bfb8-f5d841e425a0",
+    "provider_image_id": "dc45d4ee-ea2d-5184-a14c-44b564828641",
+    "source_file": "sleep_bunk",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: a1e51d1a-3d17-495e-bfb8-f5d841e425a0\njob_id: a1e51d1a-3d17-495e-bfb8-f5d841e425a0\nframes: 1\ntransparent: yes\nasset_id: dc45d4ee-ea2d-5184-a14c-44b564828641\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/a1e51d1a-3d17-495e-bfb8-f5d841e425a0/download"
+  },
+  {
+    "job_id": "7a5804d6-26a0-4c60-a413-81dc88ec46b7",
+    "provider_image_id": "8ebf2332-09e7-5877-99a6-04c7cf931864",
+    "source_file": "galley_station",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 7a5804d6-26a0-4c60-a413-81dc88ec46b7\njob_id: 7a5804d6-26a0-4c60-a413-81dc88ec46b7\nframes: 1\ntransparent: yes\nasset_id: 8ebf2332-09e7-5877-99a6-04c7cf931864\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/7a5804d6-26a0-4c60-a413-81dc88ec46b7/download"
+  },
+  {
+    "job_id": "77f33590-e316-4011-8003-0bdd529c8034",
+    "provider_image_id": "25f99004-423c-5d1b-8540-260517661f3c",
+    "source_file": "sanitation_station",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 77f33590-e316-4011-8003-0bdd529c8034\njob_id: 77f33590-e316-4011-8003-0bdd529c8034\nframes: 1\ntransparent: yes\nasset_id: 25f99004-423c-5d1b-8540-260517661f3c\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/77f33590-e316-4011-8003-0bdd529c8034/download"
+  },
+  {
+    "job_id": "bd711653-ab87-4f89-8bec-bef56f1d76de",
+    "provider_image_id": "488464f8-174f-5fbf-add2-fb48bb798989",
+    "source_file": "habitat_table",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: bd711653-ab87-4f89-8bec-bef56f1d76de\njob_id: bd711653-ab87-4f89-8bec-bef56f1d76de\nframes: 1\ntransparent: yes\nasset_id: 488464f8-174f-5fbf-add2-fb48bb798989\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/bd711653-ab87-4f89-8bec-bef56f1d76de/download"
+  },
+  {
+    "job_id": "5bbc3dcd-1d98-468f-9fa3-941620ca0495",
+    "provider_image_id": "003b0d89-209d-5477-8cd3-d8bd571e6961",
+    "source_file": "habitat_seat",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Reads as a desk/console rather than seating.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: 5bbc3dcd-1d98-468f-9fa3-941620ca0495\njob_id: 5bbc3dcd-1d98-468f-9fa3-941620ca0495\nframes: 1\ntransparent: yes\nasset_id: 003b0d89-209d-5477-8cd3-d8bd571e6961\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/5bbc3dcd-1d98-468f-9fa3-941620ca0495/download"
+  },
+  {
+    "job_id": "922f919a-09c8-4d40-8ca5-7002e1b84d01",
+    "provider_image_id": "413e39e0-926a-5c5c-a038-7aa758074648",
+    "source_file": "eva_rack",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 922f919a-09c8-4d40-8ca5-7002e1b84d01\njob_id: 922f919a-09c8-4d40-8ca5-7002e1b84d01\nframes: 1\ntransparent: yes\nasset_id: 413e39e0-926a-5c5c-a038-7aa758074648\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/922f919a-09c8-4d40-8ca5-7002e1b84d01/download"
+  },
+  {
+    "job_id": "ffdf35a3-6d26-4614-8862-13847df05f5f",
+    "provider_image_id": "266c6faf-9387-5290-90b2-fbccd31d3d7e",
+    "source_file": "medical_station",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: ffdf35a3-6d26-4614-8862-13847df05f5f\njob_id: ffdf35a3-6d26-4614-8862-13847df05f5f\nframes: 1\ntransparent: yes\nasset_id: 266c6faf-9387-5290-90b2-fbccd31d3d7e\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/ffdf35a3-6d26-4614-8862-13847df05f5f/download"
+  },
+  {
+    "job_id": "57a5dd19-ff55-40f2-9f59-94e00ef114da",
+    "provider_image_id": "ad550b2f-3f6c-54d0-8883-399f2302cdbb",
+    "source_file": "sample_bench",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 57a5dd19-ff55-40f2-9f59-94e00ef114da\njob_id: 57a5dd19-ff55-40f2-9f59-94e00ef114da\nframes: 1\ntransparent: yes\nasset_id: ad550b2f-3f6c-54d0-8883-399f2302cdbb\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/57a5dd19-ff55-40f2-9f59-94e00ef114da/download"
+  },
+  {
+    "job_id": "0fdfa557-6e63-45bd-8742-2bf12d5b4c81",
+    "provider_image_id": "a756dd4e-7917-514a-bfc3-ca00c12a2083",
+    "source_file": "maintenance_bench",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 0fdfa557-6e63-45bd-8742-2bf12d5b4c81\njob_id: 0fdfa557-6e63-45bd-8742-2bf12d5b4c81\nframes: 1\ntransparent: yes\nasset_id: a756dd4e-7917-514a-bfc3-ca00c12a2083\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/0fdfa557-6e63-45bd-8742-2bf12d5b4c81/download"
+  },
+  {
+    "job_id": "644050e5-3e24-4def-8d2c-6a0c7c1fa578",
+    "provider_image_id": "df53e51e-c4b4-5256-9558-b5bdbffb8e15",
+    "source_file": "storage_rack_empty",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 644050e5-3e24-4def-8d2c-6a0c7c1fa578\njob_id: 644050e5-3e24-4def-8d2c-6a0c7c1fa578\nframes: 1\ntransparent: yes\nasset_id: df53e51e-c4b4-5256-9558-b5bdbffb8e15\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/644050e5-3e24-4def-8d2c-6a0c7c1fa578/download"
+  },
+  {
+    "job_id": "110fdf51-be97-4aaa-875b-b9e3d3d48456",
+    "provider_image_id": "3097b269-4601-56e6-a756-bae935f4b27d",
+    "source_file": "storage_rack_loaded",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 110fdf51-be97-4aaa-875b-b9e3d3d48456\njob_id: 110fdf51-be97-4aaa-875b-b9e3d3d48456\nframes: 1\ntransparent: yes\nasset_id: 3097b269-4601-56e6-a756-bae935f4b27d\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/110fdf51-be97-4aaa-875b-b9e3d3d48456/download"
+  },
+  {
+    "job_id": "4e26a374-f138-4ab3-84c6-5101429dcbaf",
+    "provider_image_id": "366b6b68-e132-5294-b3e8-949cbb823c98",
+    "source_file": "exercise_station",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 4e26a374-f138-4ab3-84c6-5101429dcbaf\njob_id: 4e26a374-f138-4ab3-84c6-5101429dcbaf\nframes: 1\ntransparent: yes\nasset_id: 366b6b68-e132-5294-b3e8-949cbb823c98\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/4e26a374-f138-4ab3-84c6-5101429dcbaf/download"
+  },
+  {
+    "job_id": "c522c298-e28c-44cd-a77f-a1960d96aad8",
+    "provider_image_id": "858ddc12-3342-54c1-a8bb-33e00aaa5fea",
+    "source_file": "growing_tray_empty",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: c522c298-e28c-44cd-a77f-a1960d96aad8\njob_id: c522c298-e28c-44cd-a77f-a1960d96aad8\nframes: 1\ntransparent: yes\nasset_id: 858ddc12-3342-54c1-a8bb-33e00aaa5fea\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/c522c298-e28c-44cd-a77f-a1960d96aad8/download"
+  },
+  {
+    "job_id": "342143c3-68ad-47e6-ab96-09b4dc37d863",
+    "provider_image_id": "cea31953-93f9-5c1e-bc5c-4a08eaa4d6cd",
+    "source_file": "greens_germinating",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Includes unwanted helmet/complete tray scene, not a plant-only overlay.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: 342143c3-68ad-47e6-ab96-09b4dc37d863\njob_id: 342143c3-68ad-47e6-ab96-09b4dc37d863\nframes: 1\ntransparent: yes\nasset_id: cea31953-93f9-5c1e-bc5c-4a08eaa4d6cd\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/342143c3-68ad-47e6-ab96-09b4dc37d863/download"
+  },
+  {
+    "job_id": "4cc39b28-f801-4f6a-9fd7-f9c9816a5355",
+    "provider_image_id": "211a1db3-c0be-5ec0-b011-c438ba1a9e6d",
+    "source_file": "greens_small",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Contains unwanted astronaut figure and scenery.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: 4cc39b28-f801-4f6a-9fd7-f9c9816a5355\njob_id: 4cc39b28-f801-4f6a-9fd7-f9c9816a5355\nframes: 1\ntransparent: yes\nasset_id: 211a1db3-c0be-5ec0-b011-c438ba1a9e6d\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/4cc39b28-f801-4f6a-9fd7-f9c9816a5355/download"
+  },
+  {
+    "job_id": "f5354bf6-b8d6-462d-a6ce-b1053053bbdd",
+    "provider_image_id": "877e1601-6175-56a5-bfd6-3b4d79803759",
+    "source_file": "greens_intermediate",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Contains a complete apparatus rather than a plant-only overlay.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: f5354bf6-b8d6-462d-a6ce-b1053053bbdd\njob_id: f5354bf6-b8d6-462d-a6ce-b1053053bbdd\nframes: 1\ntransparent: yes\nasset_id: 877e1601-6175-56a5-bfd6-3b4d79803759\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/f5354bf6-b8d6-462d-a6ce-b1053053bbdd/download"
+  },
+  {
+    "job_id": "462fd75b-2cf6-417a-ada4-c5dcfee94ac8",
+    "provider_image_id": "d589c90d-3dd1-5d60-8e30-f1fe618f28ea",
+    "source_file": "greens_mature",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Contains unwanted astronaut figure and complete growing scene.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: 462fd75b-2cf6-417a-ada4-c5dcfee94ac8\njob_id: 462fd75b-2cf6-417a-ada4-c5dcfee94ac8\nframes: 1\ntransparent: yes\nasset_id: d589c90d-3dd1-5d60-8e30-f1fe618f28ea\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/462fd75b-2cf6-417a-ada4-c5dcfee94ac8/download"
+  },
+  {
+    "job_id": "a79f8bd1-0f1f-40b9-af77-d64e44774c31",
+    "provider_image_id": "ae905afc-642d-5d83-be17-a360f498307a",
+    "source_file": "grow_light_frame",
+    "review_status": "NEEDS_REFINEMENT",
+    "review_notes": "Contains mature plants and tray; cannot represent a light frame across actual empty/young states.",
+    "selected_candidate": null,
+    "completion_receipt": "status: completed\nid: a79f8bd1-0f1f-40b9-af77-d64e44774c31\njob_id: a79f8bd1-0f1f-40b9-af77-d64e44774c31\nframes: 1\ntransparent: yes\nasset_id: ae905afc-642d-5d83-be17-a360f498307a\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/a79f8bd1-0f1f-40b9-af77-d64e44774c31/download"
+  },
+  {
+    "job_id": "7026fd86-803c-4cc3-bfca-37b4796d642e",
+    "provider_image_id": "8d3b4a7a-ee5f-5e5e-82b0-c48936fa1934",
+    "source_file": "water_dispenser",
+    "review_status": "READY",
+    "review_notes": "Reviewed native PNG: usable fictional furnishing with original pixels and transparent padding.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 7026fd86-803c-4cc3-bfca-37b4796d642e\njob_id: 7026fd86-803c-4cc3-bfca-37b4796d642e\nframes: 1\ntransparent: yes\nasset_id: 8d3b4a7a-ee5f-5e5e-82b0-c48936fa1934\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/7026fd86-803c-4cc3-bfca-37b4796d642e/download"
+  },
+  {
+    "job_id": "a3a76cdb-4c5c-4fae-bda1-416f04614b62",
+    "provider_image_id": "3ae07224-92ed-5229-8495-9192c5282e26",
+    "source_file": "greens_germinating_v2",
+    "review_status": "READY",
+    "review_notes": "Three sprouts include a small brown starter-medium plug; preserve the complete sprite inside the controlled tray. No exposed lunar soil or new substrate simulation implied.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: a3a76cdb-4c5c-4fae-bda1-416f04614b62\njob_id: a3a76cdb-4c5c-4fae-bda1-416f04614b62\nframes: 1\ntransparent: yes\nasset_id: 3ae07224-92ed-5229-8495-9192c5282e26\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/a3a76cdb-4c5c-4fae-bda1-416f04614b62/download"
+  },
+  {
+    "job_id": "9e90be70-0884-419b-89a5-10ea20c005f2",
+    "provider_image_id": "3452685f-81d8-51da-a3fe-770aeb1ca9db",
+    "source_file": "greens_small_v2",
+    "review_status": "READY",
+    "review_notes": "Reviewed native standalone foliage/chair, no unwanted character or scenery.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 9e90be70-0884-419b-89a5-10ea20c005f2\njob_id: 9e90be70-0884-419b-89a5-10ea20c005f2\nframes: 1\ntransparent: yes\nasset_id: 3452685f-81d8-51da-a3fe-770aeb1ca9db\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/9e90be70-0884-419b-89a5-10ea20c005f2/download"
+  },
+  {
+    "job_id": "071959d9-cca4-4b08-8159-6cd20aba5775",
+    "provider_image_id": "9aba48f1-54df-5480-b8cf-19b2bdcad9e5",
+    "source_file": "greens_intermediate_v2",
+    "review_status": "READY",
+    "review_notes": "Reviewed native standalone foliage/chair, no unwanted character or scenery.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 071959d9-cca4-4b08-8159-6cd20aba5775\njob_id: 071959d9-cca4-4b08-8159-6cd20aba5775\nframes: 1\ntransparent: yes\nasset_id: 9aba48f1-54df-5480-b8cf-19b2bdcad9e5\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/071959d9-cca4-4b08-8159-6cd20aba5775/download"
+  },
+  {
+    "job_id": "bdeb21dc-3a54-405b-bc3d-c78e5af36242",
+    "provider_image_id": "a43d4892-db8e-5ccf-a2ea-aa101d7dbca3",
+    "source_file": "greens_mature_v2",
+    "review_status": "READY",
+    "review_notes": "Reviewed native standalone foliage/chair, no unwanted character or scenery.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: bdeb21dc-3a54-405b-bc3d-c78e5af36242\njob_id: bdeb21dc-3a54-405b-bc3d-c78e5af36242\nframes: 1\ntransparent: yes\nasset_id: a43d4892-db8e-5ccf-a2ea-aa101d7dbca3\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/bdeb21dc-3a54-405b-bc3d-c78e5af36242/download"
+  },
+  {
+    "job_id": "06ec581a-36a3-4e1b-be60-7f1731f6f1f9",
+    "provider_image_id": "aa200bb9-ddf1-5055-ba6b-926948e66733",
+    "source_file": "habitat_seat_v2",
+    "review_status": "READY",
+    "review_notes": "Reviewed native standalone foliage/chair, no unwanted character or scenery.",
+    "selected_candidate": 0,
+    "completion_receipt": "status: completed\nid: 06ec581a-36a3-4e1b-be60-7f1731f6f1f9\njob_id: 06ec581a-36a3-4e1b-be60-7f1731f6f1f9\nframes: 1\ntransparent: yes\nasset_id: aa200bb9-ddf1-5055-ba6b-926948e66733\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/06ec581a-36a3-4e1b-be60-7f1731f6f1f9/download"
+  }
+]

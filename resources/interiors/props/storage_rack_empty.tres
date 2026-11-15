@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InteriorPropDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/interior_prop_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/environment/interiors_g2/storage_rack_empty.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+asset_id = &"storage_rack_empty"
+texture = ExtResource("2")
+native_size = Vector2i(96, 96)
+opaque_bounds = Rect2i(21, 11, 54, 72)
+ground_anchor = Vector2i(48, 83)
+footprint = Vector2i(2, 1)
+grid_origin = Vector2i(-32, -32)
+provenance = "art/imports/interiors_g2.json"
+source_files = PackedStringArray("assets/pixellab/source/interiors_g2/storage_rack_empty.png")
+reused = false
+attachment_anchor = Vector2i(48, 83)

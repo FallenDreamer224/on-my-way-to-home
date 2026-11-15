@@ -17,11 +17,15 @@ const PACK_F_NAMES: Array[StringName] = [
 ]
 ## Inventory items whose icon name differs from the item identifier.
 const ITEM_ALIASES: Dictionary[StringName, StringName] = {&"supply_pack": &"supply_tool"}
+## These provider jobs failed. Reuse approved status/supply artwork without changing pixels.
+const FALLBACKS: Dictionary[StringName, StringName] = {&"helmet": &"health", &"prepared_meal": &"supply_tool"}
 
 static var _cache: Dictionary[StringName, Texture2D] = {}
 
 
 static func texture(name: StringName) -> Texture2D:
+	if FALLBACKS.has(name):
+		return texture(FALLBACKS[name])
 	if _cache.has(name):
 		return _cache[name]
 	var path: String = ""

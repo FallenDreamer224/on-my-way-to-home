@@ -224,6 +224,9 @@ func _refresh_continue() -> void:
 
 
 func _apply_settings() -> void:
+	# Freeze the existing diorama and its bound patrol/twinkle tweens immediately.
+	# The menu interface is a sibling, so settings remain responsive.
+	backdrop.process_mode = Node.PROCESS_MODE_DISABLED if settings.reduced_motion else Node.PROCESS_MODE_INHERIT
 	layer.scale = Vector2(settings.ui_scale, settings.ui_scale)
 	root.theme = settings.theme()
 	var view: Vector2 = root.get_viewport_rect().size

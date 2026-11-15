@@ -1,0 +1,1578 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_id": "sleep_bunk",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/sleep_bunk.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/sleep_bunk.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "a1e51d1a-3d17-495e-bfb8-f5d841e425a0",
+      "provider_image_id": "dc45d4ee-ea2d-5184-a14c-44b564828641",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact single-occupant sleeping bunk, long white support frame with blue quilted sleeping bag and straps, pillow, enclosed head-end locker. Complete object about 80 pixels wide, ground base about 76x38 pixels. No person.",
+      "selected_candidate": 0,
+      "sha256": "b53a2561bf03d9cc1aa61be12733adff08b9d9990c80817a363b910374ae5092",
+      "ground_anchor_px_from_image_top_left": [
+        28,
+        85
+      ],
+      "visible_bounds_px": [
+        5,
+        11,
+        86,
+        74
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/sleep_bunk.tres",
+      "scene_path": "scenes/interiors/props/sleep_bunk.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "galley_station",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/galley_station.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/galley_station.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "7a5804d6-26a0-4c60-a413-81dc88ec46b7",
+      "provider_image_id": "8ebf2332-09e7-5877-99a6-04c7cf931864",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact packaged-food preparation counter, sealed meal drawers below, small blue-gray water nozzle and closed food compartments above, a clear 25-pixel-high worktop. Complete object about 76 pixels wide, no stove or conventional kitchen.",
+      "selected_candidate": 0,
+      "sha256": "ba16b2bdaa67f3ea94a9aa70cf81cfbaa3fdafc091a239987d57e2af904d06a1",
+      "ground_anchor_px_from_image_top_left": [
+        44,
+        89
+      ],
+      "visible_bounds_px": [
+        8,
+        4,
+        76,
+        85
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/galley_station.tres",
+      "scene_path": "scenes/interiors/props/galley_station.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "sanitation_station",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/sanitation_station.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/sanitation_station.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "77f33590-e316-4011-8003-0bdd529c8034",
+      "provider_image_id": "25f99004-423c-5d1b-8540-260517661f3c",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact water-efficient spacecraft hygiene and waste station: white sealed toilet seat with lid, blue-gray waste compartment, small hand-cleaning dispenser and short side control housing. Complete unit 46 pixels wide and 52 pixels tall. No tiled bathroom or open wastewater.",
+      "selected_candidate": 0,
+      "sha256": "7bb2c6ea1bda318a1cab71a0bfcebe6b840d1262ff58b9be0336d6fa1eb43753",
+      "ground_anchor_px_from_image_top_left": [
+        47,
+        90
+      ],
+      "visible_bounds_px": [
+        10,
+        6,
+        76,
+        84
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/sanitation_station.tres",
+      "scene_path": "scenes/interiors/props/sanitation_station.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "habitat_table",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/habitat_table.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/habitat_table.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "bd711653-ab87-4f89-8bec-bef56f1d76de",
+      "provider_image_id": "488464f8-174f-5fbf-add2-fb48bb798989",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One practical rectangular habitat work/dining table on two sturdy gray pedestals, white metal top about 70 pixels wide, one small sealed meal pouch and mug on top. Tabletop 25 pixels above feet. No seating attached.",
+      "selected_candidate": 0,
+      "sha256": "85b447430d2b23eaff48fe5b052133a33e61a138fba0c643d8ba2d81387d268d",
+      "ground_anchor_px_from_image_top_left": [
+        36,
+        83
+      ],
+      "visible_bounds_px": [
+        10,
+        14,
+        76,
+        69
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/habitat_table.tres",
+      "scene_path": "scenes/interiors/props/habitat_table.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "eva_rack",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/eva_rack.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/eva_rack.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "922f919a-09c8-4d40-8ca5-7002e1b84d01",
+      "provider_image_id": "413e39e0-926a-5c5c-a038-7aa758074648",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One white EVA service rack with EMPTY folded suit cover, separate round helmet on upper shelf, dust cleaning hose, sealed tool drawers and handholds. No humanoid silhouette, no mannequin, no character. Complete rack about 72 pixels wide and 55 pixels tall.",
+      "selected_candidate": 0,
+      "sha256": "71c2e6b8fad264b779c07ae6e329923e66fd772102a8739b6b2144618285763e",
+      "ground_anchor_px_from_image_top_left": [
+        48,
+        89
+      ],
+      "visible_bounds_px": [
+        12,
+        6,
+        72,
+        83
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/eva_rack.tres",
+      "scene_path": "scenes/interiors/props/eva_rack.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "medical_station",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/medical_station.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/medical_station.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "ffdf35a3-6d26-4614-8862-13847df05f5f",
+      "provider_image_id": "266c6faf-9387-5290-90b2-fbccd31d3d7e",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact medical examination couch with blue-gray padded surface, short white supports, attached small diagnostic screen and sealed first-aid drawer with simple cyan cross. Complete object about 78 pixels wide and 48 pixels tall. No patient, no hospital scenery.",
+      "selected_candidate": 0,
+      "sha256": "5574818ddf659f1522dd913d325d1122cd75925073cd8e4fa7533036bf967de2",
+      "ground_anchor_px_from_image_top_left": [
+        41,
+        86
+      ],
+      "visible_bounds_px": [
+        10,
+        4,
+        79,
+        82
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/medical_station.tres",
+      "scene_path": "scenes/interiors/props/medical_station.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "sample_bench",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/sample_bench.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/sample_bench.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "57a5dd19-ff55-40f2-9f59-94e00ef114da",
+      "provider_image_id": "ad550b2f-3f6c-54d0-8883-399f2302cdbb",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One sealed lunar sample preparation bench, pale metal worktop at 25 pixels height, two small closed sample jars, compact instrument hood and dark observation window, lower storage drawers. Complete unit about 76 pixels wide and 52 pixels tall. No magical effects.",
+      "selected_candidate": 0,
+      "sha256": "083e070732a3eace67820aa796e229baeffc0a2a3cd3fad80ca58724f8111d81",
+      "ground_anchor_px_from_image_top_left": [
+        49,
+        86
+      ],
+      "visible_bounds_px": [
+        25,
+        3,
+        44,
+        83
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/sample_bench.tres",
+      "scene_path": "scenes/interiors/props/sample_bench.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "maintenance_bench",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/maintenance_bench.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/maintenance_bench.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "0fdfa557-6e63-45bd-8742-2bf12d5b4c81",
+      "provider_image_id": "a756dd4e-7917-514a-bfc3-ca00c12a2083",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact spacecraft maintenance workbench, white metal tabletop at 25 pixels height, blue tool drawers, small vise and two simple hand tools, sealed parts bins. Complete unit about 76 pixels wide and 46 pixels tall.",
+      "selected_candidate": 0,
+      "sha256": "5b07d9acf742d3c5744804dd271fe5d3e8b8807784a0fe275d0c01ddaae13ba9",
+      "ground_anchor_px_from_image_top_left": [
+        36,
+        77
+      ],
+      "visible_bounds_px": [
+        17,
+        13,
+        61,
+        64
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/maintenance_bench.tres",
+      "scene_path": "scenes/interiors/props/maintenance_bench.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "storage_rack_empty",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/storage_rack_empty.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/storage_rack_empty.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "644050e5-3e24-4def-8d2c-6a0c7c1fa578",
+      "provider_image_id": "df53e51e-c4b4-5256-9558-b5bdbffb8e15",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One empty low aerospace storage rack, two shelves, pale gray frame with restraint rails and blue side braces. Shelves mostly empty, full rack about 72 pixels wide and 48 pixels tall. Keep entire feet and no large platform.",
+      "selected_candidate": 0,
+      "sha256": "063c3eb4a95cbb2fb47c74b508106e431b4c6250cb1d7d3e24005be57c379cba",
+      "ground_anchor_px_from_image_top_left": [
+        48,
+        83
+      ],
+      "visible_bounds_px": [
+        21,
+        11,
+        54,
+        72
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/storage_rack_empty.tres",
+      "scene_path": "scenes/interiors/props/storage_rack_empty.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "storage_rack_loaded",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/storage_rack_loaded.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/storage_rack_loaded.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "110fdf51-be97-4aaa-875b-b9e3d3d48456",
+      "provider_image_id": "3097b269-4601-56e6-a756-bae935f4b27d",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One low aerospace storage rack, two shelves filled with restrained white cargo boxes and small blue sealed containers. Pale gray frame, blue side braces, complete rack about 72 pixels wide and 48 pixels tall. No labels.",
+      "selected_candidate": 0,
+      "sha256": "fcec0deddeb354c6681f9fc2906621c33245ca837902f42f7938fc778a1e4ce7",
+      "ground_anchor_px_from_image_top_left": [
+        37,
+        87
+      ],
+      "visible_bounds_px": [
+        16,
+        9,
+        65,
+        78
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/storage_rack_loaded.tres",
+      "scene_path": "scenes/interiors/props/storage_rack_loaded.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "exercise_station",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/exercise_station.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/exercise_station.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "4e26a374-f138-4ab3-84c6-5101429dcbaf",
+      "provider_image_id": "366b6b68-e132-5294-b3e8-949cbb823c98",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One compact fictional lunar exercise cycle with short white base, blue saddle, pedals, two angled handgrips and small plain monitor. Complete unit about 50 pixels wide and 50 pixels tall. No rider; not a claim of lunar-qualified medical hardware.",
+      "selected_candidate": 0,
+      "sha256": "092749d7fbb1d42d26b16ea776a73932807af40289f803c0f96abb3a782e9997",
+      "ground_anchor_px_from_image_top_left": [
+        47,
+        93
+      ],
+      "visible_bounds_px": [
+        6,
+        2,
+        84,
+        91
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/exercise_station.tres",
+      "scene_path": "scenes/interiors/props/exercise_station.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "growing_tray_empty",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/growing_tray_empty.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/growing_tray_empty.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "c522c298-e28c-44cd-a77f-a1960d96aad8",
+      "provider_image_id": "858ddc12-3342-54c1-a8bb-33e00aaa5fea",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One EMPTY hydroponic research tray at table height, white rectangular rim around a flat DARK growing surface, three recessed planting sites, thin slate-blue legs, small water inlet hose. Top about 72 pixels wide and 30 pixels deep, tabletop 24 pixels above ground. NO PLANTS, no lights above it. Ground footprint 2x1.",
+      "selected_candidate": 0,
+      "sha256": "448e4d99c18d8462129021df6c71c3fb3c6cb29c44ea17de9cf20a0166404913",
+      "ground_anchor_px_from_image_top_left": [
+        62,
+        88
+      ],
+      "visible_bounds_px": [
+        6,
+        7,
+        84,
+        81
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          96,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            96,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/growing_tray_empty.tres",
+      "scene_path": "scenes/interiors/props/growing_tray_empty.tscn",
+      "grid_origin_px": [
+        -32,
+        -32
+      ]
+    },
+    {
+      "asset_id": "water_dispenser",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/water_dispenser.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/water_dispenser.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "7026fd86-803c-4cc3-bfca-37b4796d642e",
+      "provider_image_id": "8d3b4a7a-ee5f-5e5e-82b0-c48936fa1934",
+      "prompt": "One standalone native 2D pixel-art interior furnishing for On My Way to Home, lunar research habitat. Strict 2:1 diamond isometric view, top and two sides visible, ground axes down-right and down-left. Cool white/light gray aerospace casing, charcoal navy one-pixel outlines, muted slate blue, tiny restrained cyan indicators. Match existing NASA-inspired habitat and 55-pixel-tall astronaut: furniture tabletop about 25 pixels above ground, full-height equipment about 48 pixels. Flat clustered pixel shading, upper-left light. Crisp native pixels, binary transparent background, whole object with padding. No floor, room, characters, scenery, text, numbers, logo, glow, gradient, blur or watermark. Fictional lunar adaptation without scientific performance claims. One slim sealed spacecraft drinking-water dispenser and storage cabinet, white insulated rectangular body, dark blue service panel, tiny nozzle and small cup recess, short gray feet. Complete unit about 34 pixels wide and 48 pixels tall. No readable screen text.",
+      "selected_candidate": 0,
+      "sha256": "cd04b1e02c7c012b719d7373d27d6cef4df5455b6f0fac0e8194793833719ced",
+      "ground_anchor_px_from_image_top_left": [
+        30,
+        92
+      ],
+      "visible_bounds_px": [
+        9,
+        7,
+        46,
+        85
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/water_dispenser.tres",
+      "scene_path": "scenes/interiors/props/water_dispenser.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "greens_germinating",
+      "standards_version": "1.0.0",
+      "category": "plant_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/greens_germinating_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/greens_germinating.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "a3a76cdb-4c5c-4fae-bda1-416f04614b62",
+      "provider_image_id": "3ae07224-92ed-5229-8495-9192c5282e26",
+      "prompt": "ONLY three tiny green seed sprouts, each two small cotyledon leaves on a tiny stem. A single isolated group, arrangement diagonal down-right. The group occupies about 30x12 pixels in the center of the transparent 64x64 image. Stems end on the same small planting plane. Draw nothing else. Native pixel art with one-pixel dark navy outlines, flat clustered shading and sharp transparent edges. Muted natural green leaves or cool white and slate blue metal. Transparent background. No person, astronaut, robot, equipment, pots, tray, floor, soil, shadow, scene, table, lettering, gradients or blur.",
+      "selected_candidate": 0,
+      "sha256": "0ab37f8053a47be1ea91c9877ce2c6315c0673496015221888f8ec67c1d5c7a3",
+      "ground_anchor_px_from_image_top_left": [
+        26,
+        48
+      ],
+      "visible_bounds_px": [
+        14,
+        15,
+        33,
+        33
+      ],
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "attachment_anchor_px_from_image_top_left": [
+        30,
+        48
+      ],
+      "attachment_policy": "Whole original image; centered visible foliage base attached to tray surface (-14,-46) relative to ground pivot. No trim or scale.",
+      "resource_path": "resources/interiors/props/greens_germinating.tres",
+      "scene_path": "scenes/interiors/props/greens_germinating.tscn",
+      "grid_origin_px": [
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "greens_small",
+      "standards_version": "1.0.0",
+      "category": "plant_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/greens_small_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/greens_small.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "9e90be70-0884-419b-89a5-10ea20c005f2",
+      "provider_image_id": "3452685f-81d8-51da-a3fe-770aeb1ca9db",
+      "prompt": "ONLY three small leafy lettuce seedlings, four green leaves each with tiny stems. A single isolated group, arrangement diagonal down-right. The group occupies about 38x18 pixels in center of transparent 64x64 image. Stems end on the same small planting plane. Draw nothing else. Native pixel art with one-pixel dark navy outlines, flat clustered shading and sharp transparent edges. Muted natural green leaves or cool white and slate blue metal. Transparent background. No person, astronaut, robot, equipment, pots, tray, floor, soil, shadow, scene, table, lettering, gradients or blur.",
+      "selected_candidate": 0,
+      "sha256": "4099698be9521447cbbc8e5e44cfa11c04fb631c6f516ed893614bb179df4b95",
+      "ground_anchor_px_from_image_top_left": [
+        20,
+        51
+      ],
+      "visible_bounds_px": [
+        10,
+        15,
+        43,
+        36
+      ],
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "attachment_anchor_px_from_image_top_left": [
+        31,
+        51
+      ],
+      "attachment_policy": "Whole original image; centered visible foliage base attached to tray surface (-14,-46) relative to ground pivot. No trim or scale.",
+      "resource_path": "resources/interiors/props/greens_small.tres",
+      "scene_path": "scenes/interiors/props/greens_small.tscn",
+      "grid_origin_px": [
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "greens_intermediate",
+      "standards_version": "1.0.0",
+      "category": "plant_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/greens_intermediate_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/greens_intermediate.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "071959d9-cca4-4b08-8159-6cd20aba5775",
+      "provider_image_id": "9aba48f1-54df-5480-b8cf-19b2bdcad9e5",
+      "prompt": "ONLY three medium green lettuce rosettes with layered leaves and short stems. A single isolated group, arrangement diagonal down-right. The group occupies about 44x24 pixels in center of transparent 64x64 image. Stems end on the same small planting plane. Draw nothing else. Native pixel art with one-pixel dark navy outlines, flat clustered shading and sharp transparent edges. Muted natural green leaves or cool white and slate blue metal. Transparent background. No person, astronaut, robot, equipment, pots, tray, floor, soil, shadow, scene, table, lettering, gradients or blur.",
+      "selected_candidate": 0,
+      "sha256": "8db0b340b0e44b60cab031b34c423d939b85fe2141a94d724b04f1eaf5e47bba",
+      "ground_anchor_px_from_image_top_left": [
+        16,
+        53
+      ],
+      "visible_bounds_px": [
+        5,
+        10,
+        53,
+        43
+      ],
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "attachment_anchor_px_from_image_top_left": [
+        31,
+        53
+      ],
+      "attachment_policy": "Whole original image; centered visible foliage base attached to tray surface (-14,-46) relative to ground pivot. No trim or scale.",
+      "resource_path": "resources/interiors/props/greens_intermediate.tres",
+      "scene_path": "scenes/interiors/props/greens_intermediate.tscn",
+      "grid_origin_px": [
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "greens_mature",
+      "standards_version": "1.0.0",
+      "category": "plant_overlay",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/greens_mature_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/greens_mature.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "bdeb21dc-3a54-405b-bc3d-c78e5af36242",
+      "provider_image_id": "a43d4892-db8e-5ccf-a2ea-aa101d7dbca3",
+      "prompt": "ONLY three harvest-ready mature compact green lettuce rosettes with many layered leaves and short stems. A single isolated group, arrangement diagonal down-right. The group occupies about 50x30 pixels in center of transparent 64x64 image. Stems end on the same small planting plane. Draw nothing else. Native pixel art with one-pixel dark navy outlines, flat clustered shading and sharp transparent edges. Muted natural green leaves or cool white and slate blue metal. Transparent background. No person, astronaut, robot, equipment, pots, tray, floor, soil, shadow, scene, table, lettering, gradients or blur.",
+      "selected_candidate": 0,
+      "sha256": "082ed4b5bac1be91672fc1e1214c6a9aed937cdd3db74cb34e2048070b4698e1",
+      "ground_anchor_px_from_image_top_left": [
+        51,
+        58
+      ],
+      "visible_bounds_px": [
+        2,
+        7,
+        60,
+        51
+      ],
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "attachment_anchor_px_from_image_top_left": [
+        32,
+        58
+      ],
+      "attachment_policy": "Whole original image; centered visible foliage base attached to tray surface (-14,-46) relative to ground pivot. No trim or scale.",
+      "resource_path": "resources/interiors/props/greens_mature.tres",
+      "scene_path": "scenes/interiors/props/greens_mature.tscn",
+      "grid_origin_px": [
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "habitat_seat",
+      "standards_version": "1.0.0",
+      "category": "interior_furnishing",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/interiors_g2/habitat_seat_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/habitat_seat.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native-scale furnishing or tray overlay beside existing 55-pixel human; fictional lunar adaptation, not equipment qualification.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "06ec581a-36a3-4e1b-be60-7f1731f6f1f9",
+      "provider_image_id": "aa200bb9-ddf1-5055-ba6b-926948e66733",
+      "prompt": "ONLY one small fixed chair: white metal frame, blue seat cushion, short blue backrest, four gray feet, no wheels. Isolated chair in 2:1 isometric view facing down-right. Seat height 18 pixels above feet, complete chair about 28 pixels wide and 38 pixels high in a transparent 64x64 canvas. Draw nothing else. Native pixel art with one-pixel dark navy outlines, flat clustered shading and sharp transparent edges. Muted natural green leaves or cool white and slate blue metal. Transparent background. No person, astronaut, robot, equipment, pots, tray, floor, soil, shadow, scene, table, lettering, gradients or blur.",
+      "selected_candidate": 0,
+      "sha256": "cadcbd509616f1036631f3a20076095c9387de68d52a87d0faaa6ee7d2bf224c",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        59
+      ],
+      "visible_bounds_px": [
+        12,
+        3,
+        39,
+        56
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "direction": "single_isometric_view",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/interiors_g2.json",
+      "resource_path": "resources/interiors/props/habitat_seat.tres",
+      "scene_path": "scenes/interiors/props/habitat_seat.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "work_control_console",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        27,
+        24,
+        31,
+        49
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        43,
+        73
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/buildings/base_pack_c/work_control_console.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/work_control_console.png"
+      ],
+      "provenance": "art/imports/base_pack_c.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/work_control_console.tres",
+      "scene_path": "scenes/interiors/props/work_control_console.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "battery_power_unit",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        20,
+        21,
+        47,
+        54
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        42,
+        75
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/buildings/base_pack_c/battery_power_unit.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/battery_power_unit.png"
+      ],
+      "provenance": "art/imports/base_pack_c.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/battery_power_unit.tres",
+      "scene_path": "scenes/interiors/props/battery_power_unit.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "eclss_service_cabinet",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "visible_bounds_px": [
+        13,
+        17,
+        65,
+        62
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        51,
+        79
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/buildings/exterior_g1/eclss_service_cabinet.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png"
+      ],
+      "provenance": "art/imports/exterior_g1.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/eclss_service_cabinet.tres",
+      "scene_path": "scenes/interiors/props/eclss_service_cabinet.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "utility_oxygen_tank",
+      "native_canvas_size_px": [
+        96,
+        128
+      ],
+      "visible_bounds_px": [
+        27,
+        14,
+        39,
+        92
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        45,
+        106
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/buildings/base_pack_c/utility_oxygen_tank.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/utility_oxygen_tank.png"
+      ],
+      "provenance": "art/imports/base_pack_c.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/utility_oxygen_tank.tres",
+      "scene_path": "scenes/interiors/props/utility_oxygen_tank.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "tool_case",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        7,
+        16,
+        50,
+        37
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        53
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/tool_case.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/tool_case_v2.png"
+      ],
+      "provenance": "art/imports/props_pack_b.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/tool_case.tres",
+      "scene_path": "scenes/interiors/props/tool_case.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "supply_pack",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        14,
+        18,
+        37,
+        31
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        49
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/supply_pack.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/supply_pack_v2.png"
+      ],
+      "provenance": "art/imports/props_pack_b.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/supply_pack.tres",
+      "scene_path": "scenes/interiors/props/supply_pack.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "small_resource_canister",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        22,
+        10,
+        18,
+        44
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        54
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/small_resource_canister.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_resource_canister.png"
+      ],
+      "provenance": "art/imports/props_pack_b.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/small_resource_canister.tres",
+      "scene_path": "scenes/interiors/props/small_resource_canister.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "small_equipment_box",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        13,
+        13,
+        37,
+        40
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        53
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/environment/props_pack_b/small_equipment_box.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/props_pack_b/small_equipment_box.png"
+      ],
+      "provenance": "art/imports/props_pack_b.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/small_equipment_box.tres",
+      "scene_path": "scenes/interiors/props/small_equipment_box.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    },
+    {
+      "asset_id": "small_connector_utility_box",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "visible_bounds_px": [
+        7,
+        14,
+        50,
+        37
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        51
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "runtime_files": [
+        "assets/buildings/base_pack_c/small_connector_utility_box.png"
+      ],
+      "source_files": [
+        "assets/pixellab/source/base_pack_c/small_connector_utility_box.png"
+      ],
+      "provenance": "art/imports/base_pack_c.json",
+      "reused": true,
+      "resource_path": "resources/interiors/props/small_connector_utility_box.tres",
+      "scene_path": "scenes/interiors/props/small_connector_utility_box.tscn",
+      "grid_origin_px": [
+        0,
+        -16
+      ]
+    }
+  ],
+  "modules": [
+    "wall",
+    "corner",
+    "window",
+    "service",
+    "support",
+    "door",
+    "cable_straight",
+    "cable_corner",
+    "cable_vertical"
+  ],
+  "source_audit": "G1 162-file audit plus G2 24 retained candidate sources; all 64 external originals rechecked, no interior originals found",
+  "rejected_candidates": [
+    {
+      "asset_id": "habitat_seat",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Reads as a desk/console rather than seating.",
+      "source_file": "assets/pixellab/source/interiors_g2/habitat_seat.png"
+    },
+    {
+      "asset_id": "greens_germinating",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Includes unwanted helmet/complete tray scene, not a plant-only overlay.",
+      "source_file": "assets/pixellab/source/interiors_g2/greens_germinating.png"
+    },
+    {
+      "asset_id": "greens_small",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains unwanted astronaut figure and scenery.",
+      "source_file": "assets/pixellab/source/interiors_g2/greens_small.png"
+    },
+    {
+      "asset_id": "greens_intermediate",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains a complete apparatus rather than a plant-only overlay.",
+      "source_file": "assets/pixellab/source/interiors_g2/greens_intermediate.png"
+    },
+    {
+      "asset_id": "greens_mature",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains unwanted astronaut figure and complete growing scene.",
+      "source_file": "assets/pixellab/source/interiors_g2/greens_mature.png"
+    },
+    {
+      "asset_id": "grow_light_frame",
+      "status": "NEEDS_REFINEMENT",
+      "reason": "Contains mature plants and tray; cannot represent a light frame across actual empty/young states.",
+      "source_file": "assets/pixellab/source/interiors_g2/grow_light_frame.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InteriorPropDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/interior_prop_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/buildings/base_pack_c/small_connector_utility_box.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+asset_id = &"small_connector_utility_box"
+texture = ExtResource("2")
+native_size = Vector2i(64, 64)
+opaque_bounds = Rect2i(7, 14, 50, 37)
+ground_anchor = Vector2i(32, 51)
+footprint = Vector2i(1, 1)
+grid_origin = Vector2i(0, -16)
+provenance = "art/imports/base_pack_c.json"
+source_files = PackedStringArray("assets/pixellab/source/base_pack_c/small_connector_utility_box.png")
+reused = true
+attachment_anchor = Vector2i(32, 51)

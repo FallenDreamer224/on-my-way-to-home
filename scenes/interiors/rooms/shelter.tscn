@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/interior_room.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/world/terrain_layer.gd" id="2"]
+
+[node name="shelter" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+room_id = &"shelter"
+prepared_data = {"id":"shelter","title":"Protected emergency shelter","source_layout":"resources/data/habitat_layout.json","original_size_cells":[6,6],"size_cells":[6,6],"scene_path":"scenes/interiors/rooms/shelter.tscn","layout":{"id":"shelter","title":"Protected emergency shelter","size":[6,6],"spawn":[2,3],"companion_spawn":[3,3],"pressure_domain":"habitat","facilities":[{"id":"shelter","title":"Protected emergency shelter","point":[3,2],"fixture":[3,1]}],"doors":[{"id":"health","title":"Health / science","destination":"health_lab","point":[1,3]}],"extra_blocked_cells":[]},"props":[{"id":"shelter","asset":"supply_pack","cell":[3,1],"footprint":[1,1],"blocks_navigation":true},{"id":"monitor","asset":"work_control_console","cell":[1,1],"footprint":[1,1],"blocks_navigation":true},{"id":"seat","asset":"habitat_seat","cell":[2,1],"footprint":[1,1],"blocks_navigation":true}],"portals":[{"id":"health","destination":"health_lab","threshold":[0,3],"approach":[1,3],"pressure_boundary":false,"closed_state_source":"ordinary interior passage; local preview toggle only"}],"cutaway":"Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.","physical_scale":"Logical cutaway, not an exterior building footprint or certified volume.","supported_connections":["health_lab"],"floor_treatment":"general_habitat"}
+
+[node name="Floor" type="TileMapLayer" parent="."]
+position = Vector2(-32, -16)
+z_index = -10
+script = ExtResource("2")
+
+[node name="Walls" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 1
+
+[node name="Construction" type="Node2D" parent="."]
+z_index = -1
+
+[node name="Actors" type="Node2D" parent="."]
+y_sort_enabled = true

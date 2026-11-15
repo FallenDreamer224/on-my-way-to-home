@@ -1,0 +1,186 @@
+{
+  "pack_id": "exterior_g1",
+  "standards_version": "1.0.0",
+  "assets": [
+    {
+      "asset_id": "exterior_g1_radiator_bank",
+      "standards_version": "1.0.0",
+      "category": "exterior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/radiator_bank.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/exterior_g1/radiator_bank.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native-scale fictional lunar research hardware, visually reviewed beside the existing 55-pixel human. No engineering rating or operational NASA qualification implied.",
+      "review_status": "reviewed_native_for_exterior_prefab",
+      "exception": null,
+      "generation_id": "cffd7e7e-8901-4ac6-98bc-2262637f6798",
+      "provider_image_id": "4838df2b-339d-5a4d-8a62-e4dde4823c81",
+      "prompt": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A freestanding HEAT-REJECTION RADIATOR BANK: two broad pale gray rectangular finned panels in a shallow V on a low white support frame and short landing feet, thin dark coolant header pipes at their base. Surfaces are matte light gray with straight parallel cooling fins, NOT blue photovoltaic cells, no fans, no dish. Ground base about 90 pixels wide, 44 pixels deep; panel rises about 45 pixels above it. Native 128x128 canvas, complete object centered with base near y=110. Fictional external thermal hardware, no performance specifications.",
+      "request_record": "assets/pixellab/source/exterior_g1/generation_jobs.json",
+      "sha256": "ea210094d40f419ffd42bcadf1b9dd2f5c789ac8a141a78820b0712d8ab3ac00",
+      "opaque_bounds_px": [
+        21,
+        23,
+        85,
+        80
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        62,
+        103
+      ],
+      "anchor_policy": "Frontmost opaque ground-contact row plus one, center of contact span, reviewed visually; full padding retained.",
+      "explicit_footprint_grid_cells": [
+        2,
+        1
+      ],
+      "orientation": "Single static native 2:1 isometric view, top and two sides; upper-left lighting",
+      "animation": false,
+      "opaque_pixels": 4495,
+      "partially_transparent_pixels": 0,
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "exterior_g1_eclss_service_cabinet",
+      "standards_version": "1.0.0",
+      "category": "exterior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/eclss_service_cabinet.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/exterior_g1/eclss_service_cabinet.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale fictional lunar research hardware, visually reviewed beside the existing 55-pixel human. No engineering rating or operational NASA qualification implied.",
+      "review_status": "reviewed_native_for_exterior_prefab",
+      "exception": null,
+      "generation_id": "753c9d04-f64d-4bca-99ce-f67d4a54772f",
+      "provider_image_id": "63bc905e-46a8-593c-8633-7711e72b6c2f",
+      "prompt": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A compact exterior ENVIRONMENTAL-CONTROL SERVICE CABINET: broad rectangular white metal equipment enclosure on a four-foot plinth, three dark rectangular maintenance covers on front, modest short insulated pipes and capped service ports at the side, blue-gray upper cover. Sealed astronaut-serviceable hardware, not an open fan or oxygen factory. Ground base about 52 pixels wide and 26 pixels deep, cabinet height about 40 pixels, narrower than a human's height. Native 96x96 canvas; complete object about 58 pixels wide and 60 pixels tall with ground near y=80. No performance claims.",
+      "request_record": "assets/pixellab/source/exterior_g1/generation_jobs.json",
+      "sha256": "f4824fcc70c6f48b94b577603105bc7e71171563ef6b6f2208e96e3fb79ecc43",
+      "opaque_bounds_px": [
+        13,
+        17,
+        65,
+        62
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        51,
+        79
+      ],
+      "anchor_policy": "Frontmost opaque ground-contact row plus one, center of contact span, reviewed visually; full padding retained.",
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "orientation": "Single static native 2:1 isometric view, top and two sides; upper-left lighting",
+      "animation": false,
+      "opaque_pixels": 2756,
+      "partially_transparent_pixels": 0,
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "exterior_g1_field_sensor_tripod",
+      "standards_version": "1.0.0",
+      "category": "exterior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/field_sensor_tripod.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/exterior_g1/field_sensor_tripod.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        96,
+        96
+      ],
+      "physical_scale_intent": "Native-scale fictional lunar research hardware, visually reviewed beside the existing 55-pixel human. No engineering rating or operational NASA qualification implied.",
+      "review_status": "reviewed_native_for_exterior_prefab",
+      "exception": null,
+      "generation_id": "ae1a6a1d-e9d6-4232-bfcf-f0cd3a303126",
+      "provider_image_id": "49e7a048-13a8-5f44-b1aa-172597209c22",
+      "prompt": "Standalone native 2D pixel-art lunar exterior equipment for On My Way to Home. Strict 2:1 diamond isometric ground plane (64x32 grid), elevated view with top and two sides visible. Match the existing white/cool-gray NASA-inspired Moon habitat, astronaut and robotic dog: dark blue-gray one-pixel outlines, flat clustered shading, restrained navy accents, upper-left lighting, native human height about 55 pixels. Preserve whole object and transparent margins. Transparent background, crisp binary alpha, no blur, gradients, glow, text, logo, watermark, characters, terrain tile or scenery. One unified static object; no floating fragments. A portable GEOLOGY / ENVIRONMENTAL MEASUREMENT INSTRUMENT: a small rectangular pale gray optical instrument head with a single dark square sensor aperture, a tiny capped side port and an angular protective hood, on three thin splayed tripod legs. No antenna dish, no solar cells, no screen text. Height about 42 pixels from feet to head, leg span about 34 pixels, relative to a 55-pixel astronaut. Native 96x96 canvas with generous transparent margins and all three feet ending near y=76. One compact research instrument, not a weapon.",
+      "request_record": "assets/pixellab/source/exterior_g1/generation_jobs.json",
+      "sha256": "1cdd4919a44b953ceca4faae46b0dc011fd770ce370aacac346e166a8219cb91",
+      "opaque_bounds_px": [
+        24,
+        20,
+        39,
+        62
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        43,
+        82
+      ],
+      "anchor_policy": "Frontmost opaque ground-contact row plus one, center of contact span, reviewed visually; full padding retained.",
+      "explicit_footprint_grid_cells": [
+        1,
+        1
+      ],
+      "orientation": "Single static native 2:1 isometric view, top and two sides; upper-left lighting",
+      "animation": false,
+      "opaque_pixels": 833,
+      "partially_transparent_pixels": 0,
+      "selected_candidate": 0
+    },
+    {
+      "asset_id": "exterior_g1_greenhouse_module",
+      "standards_version": "1.0.0",
+      "category": "exterior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/exterior_g1/greenhouse_module_v2.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/exterior_g1/greenhouse_module.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        192,
+        192
+      ],
+      "physical_scale_intent": "Native-scale fictional lunar research hardware, visually reviewed beside the existing 55-pixel human. No engineering rating or operational NASA qualification implied.",
+      "review_status": "reviewed_native_for_exterior_prefab",
+      "exception": null,
+      "generation_id": "c4d2e0ff-f173-45a6-bba0-b8b70601b8d5",
+      "provider_image_id": "c8356378-9054-5ef5-a282-b919d1dccc1c",
+      "prompt": "One LARGE closed lunar GREENHOUSE PRESSURE MODULE, native 2D pixel art, 2:1 isometric elevated view showing roof and two sides. Main body is 165 pixels wide and 112 pixels tall within a 192x192 canvas. It MUST fill most of the canvas like a habitat building, NOT a tiny equipment cabinet. Rounded rectangular white insulated ribbed aerospace shell on short broad landing feet; roof about 75 pixels above the ground contact plane. One human-sized sealed crew hatch 46 pixels tall on the front right face, and three small dark green glazed observation windows showing compact plant trays on the left side. Restrained blue-gray hardware; muted green appears only behind windows. Four visible structural feet. Palette cool white, light gray, charcoal navy, restrained slate blue. Hard one-pixel outlines and flat clustered pixel shading, upper-left light, crisp native pixels without blur or gradients. Transparent margins and transparent background. No outside scenery, characters, text, logo, watermark, floating parts or ground tile. Full unit ends around y=177, with a logical 3x2 tile ground base about160px wide80px deep. Fictional sealed supplemental growing lab, never an open glass garden.",
+      "request_record": "assets/pixellab/source/exterior_g1/generation_jobs.json",
+      "sha256": "be3c08fc4b965daab865a7f4a72f490b9a30965c9e5ba0e204f2e1f27a31009b",
+      "opaque_bounds_px": [
+        16,
+        27,
+        160,
+        141
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        92,
+        168
+      ],
+      "anchor_policy": "Frontmost opaque ground-contact row plus one, center of contact span, reviewed visually; full padding retained.",
+      "explicit_footprint_grid_cells": [
+        3,
+        2
+      ],
+      "orientation": "Single static native 2:1 isometric view, top and two sides; upper-left lighting",
+      "animation": false,
+      "opaque_pixels": 15531,
+      "partially_transparent_pixels": 0,
+      "selected_candidate": 0
+    }
+  ]
+}

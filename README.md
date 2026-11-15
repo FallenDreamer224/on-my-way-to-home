@@ -100,6 +100,6 @@ No NASA affiliation or hardware qualification is claimed.
 No NASA information was added to AI.
 This game is part of **NASA APP CHALLENGE 2026***
 
-## Clarificaton
+## Clarification
 This game was made with help of AI, being used as a tool, as total, 30% of the game was made with AI, while 70% was handmade, including animations.
 

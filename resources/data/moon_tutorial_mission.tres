@@ -15,7 +15,7 @@ subject = &"lunar_sample"
 script = ExtResource("2")
 objective_id = &"enter_habitat"
 title = "Enter the outpost through the crew airlock"
-guidance = "The habitat entry is north-west of the landing point. Seal the outer hatch, inspect the suit and dust seals, then match habitat pressure."
+guidance = "Follow the outside of the base to the crew hatch on its north-east side. Seal the outer hatch, inspect suit and dust seals, then match habitat pressure."
 condition = &"inside_habitat"
 
 [sub_resource type="Resource" id="examine_sample"]

@@ -40,6 +40,18 @@ func has_compatible_save() -> bool:
 	return false
 
 
+func _input(event: InputEvent) -> void:
+	if event is InputEventKey and not event.echo and event.is_action_pressed(&"display_fullscreen_toggle", false, true):
+		settings.toggle_fullscreen(get_window())
+		get_viewport().set_input_as_handled()
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_CLOSE_REQUEST and settings != null:
+		settings.remember_window(get_window())
+		settings.save_settings()
+
+
 func start_new_game() -> bool:
 	if busy or is_instance_valid(session):
 		return false
@@ -81,6 +93,8 @@ func return_to_menu() -> bool:
 
 
 func quit_application() -> void:
+	settings.remember_window(get_window())
+	settings.save_settings()
 	get_tree().paused = false
 	get_tree().quit()
 

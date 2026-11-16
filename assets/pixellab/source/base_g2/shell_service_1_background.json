@@ -1,0 +1,10 @@
+{
+  "asset_id": "shell_service_1",
+  "job_id": "4db0e0e1-7ae0-43f9-8682-c94d3a2f2616",
+  "cost_generations": 1,
+  "operation": "remove_background",
+  "source_half": "shell_service_1.png",
+  "source_sha256": "288e9aa7a6ceee2b79d8c39ad7997f83972e5472aa349f8e0579acb01e60bbe5",
+  "receipt": "id: 4db0e0e1-7ae0-43f9-8682-c94d3a2f2616\njob_id: 4db0e0e1-7ae0-43f9-8682-c94d3a2f2616\nsize: 256x368px (unchanged)\ntask: remove_complex_background\nasset_id: 14100c6a-e16f-596d-9b88-4f9bdb7f67d7\nasset_status: pending (saved to your gallery when generation completes)\ncost: 1 generation\nstatus: processing (~10-30s)\n\nhint: get_image(job_id=\"4db0e0e1-7ae0-43f9-8682-c94d3a2f2616\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/4db0e0e1-7ae0-43f9-8682-c94d3a2f2616/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "review_status": "PENDING"
+}

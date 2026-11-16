@@ -1,0 +1,27 @@
+{
+  "asset_id": "shell_greenhouse",
+  "footprint": [
+    8,
+    7
+  ],
+  "size": [
+    512,
+    400
+  ],
+  "request": {
+    "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+    "width": 512,
+    "height": 400,
+    "no_background": false,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "highly detailed",
+    "seed": 88603
+  },
+  "job_id": "3f251583-990f-421d-b03c-5b56024f3aa5",
+  "receipt": "id: 3f251583-990f-421d-b03c-5b56024f3aa5\njob_id: 3f251583-990f-421d-b03c-5b56024f3aa5\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 512x400px\ntransparent: False\nasset_id: 3a427619-9747-5ae8-8fb0-712fa871f478\nasset_status: pending (saved when generation completes)\nseed: 88603\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"3f251583-990f-421d-b03c-5b56024f3aa5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3f251583-990f-421d-b03c-5b56024f3aa5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required."
+}

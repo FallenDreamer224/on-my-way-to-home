@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ExteriorAssetDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/exterior_asset_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/buildings/base_g2/pressure_junction.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+asset_id = &"pressure_junction"
+display_name = "pressure junction"
+category = &"exterior_connection"
+texture = ExtResource("2")
+native_size = Vector2i(128, 128)
+opaque_bounds = Rect2i(16, 26, 95, 70)
+ground_anchor = Vector2i(62, 96)
+footprint_size = Vector2i(2, 2)
+occupied_cells = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+navigation_reserved_cells = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+grid_origin = Vector2i(0, -48)
+footprint_polygon = PackedVector2Array(0, -64, 64, -32, 0, 0, -64, -32)
+collision_polygon = PackedVector2Array()
+interaction_anchor = Vector2i(0, 40)
+service_anchor = Vector2i(-40, 40)
+collision_enabled = false
+provenance_manifest = "res://art/imports/base_g2.json"
+source_files = PackedStringArray("assets/pixellab/source/base_g2/pressure_junction.png")

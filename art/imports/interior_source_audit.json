@@ -220,6 +220,90 @@
       "sha256": "cadcbd509616f1036631f3a20076095c9387de68d52a87d0faaa6ee7d2bf224c"
     },
     {
+      "path": "assets/pixellab/source/base_g2/service_wall_panel.png",
+      "status": "READY",
+      "asset_id": "service_wall_panel",
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d"
+    },
+    {
+      "path": "assets/environment/interiors_g2/service_wall_panel.png",
+      "status": "READY",
+      "asset_id": "service_wall_panel",
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/overhead_lamp.png",
+      "status": "READY",
+      "asset_id": "overhead_lamp",
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70"
+    },
+    {
+      "path": "assets/environment/interiors_g2/overhead_lamp.png",
+      "status": "READY",
+      "asset_id": "overhead_lamp",
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/filter_cartridges.png",
+      "status": "READY",
+      "asset_id": "filter_cartridges",
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd"
+    },
+    {
+      "path": "assets/environment/interiors_g2/filter_cartridges.png",
+      "status": "READY",
+      "asset_id": "filter_cartridges",
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/medical_storage.png",
+      "status": "READY",
+      "asset_id": "medical_storage",
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac"
+    },
+    {
+      "path": "assets/environment/interiors_g2/medical_storage.png",
+      "status": "READY",
+      "asset_id": "medical_storage",
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/nutrient_unit.png",
+      "status": "READY",
+      "asset_id": "nutrient_unit",
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff"
+    },
+    {
+      "path": "assets/environment/interiors_g2/nutrient_unit.png",
+      "status": "READY",
+      "asset_id": "nutrient_unit",
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/irrigation_unit.png",
+      "status": "READY",
+      "asset_id": "irrigation_unit",
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67"
+    },
+    {
+      "path": "assets/environment/interiors_g2/irrigation_unit.png",
+      "status": "READY",
+      "asset_id": "irrigation_unit",
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67"
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/personal_locker_v2.png",
+      "status": "READY",
+      "asset_id": "personal_locker",
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1"
+    },
+    {
+      "path": "assets/environment/interiors_g2/personal_locker.png",
+      "status": "READY",
+      "asset_id": "personal_locker",
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1"
+    },
+    {
       "path": "assets/pixellab/source/base_pack_c/work_control_console.png",
       "status": "READY",
       "asset_id": "work_control_console",
@@ -507,6 +591,62 @@
       "paths": [
         "assets/pixellab/source/interiors_g2/habitat_seat_v2.png",
         "assets/environment/interiors_g2/habitat_seat.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/service_wall_panel.png",
+        "assets/environment/interiors_g2/service_wall_panel.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/overhead_lamp.png",
+        "assets/environment/interiors_g2/overhead_lamp.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/filter_cartridges.png",
+        "assets/environment/interiors_g2/filter_cartridges.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/medical_storage.png",
+        "assets/environment/interiors_g2/medical_storage.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/nutrient_unit.png",
+        "assets/environment/interiors_g2/nutrient_unit.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/irrigation_unit.png",
+        "assets/environment/interiors_g2/irrigation_unit.png"
+      ]
+    },
+    {
+      "status": "DUPLICATE_CANDIDATE",
+      "policy": "Intentional source/runtime mirrors; preserve all originals.",
+      "paths": [
+        "assets/pixellab/source/base_g2/personal_locker_v2.png",
+        "assets/environment/interiors_g2/personal_locker.png"
       ]
     },
     {

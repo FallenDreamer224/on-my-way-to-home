@@ -1,0 +1,169 @@
+{
+  "authorized_maximum_generations": 30,
+  "previous_jobs_generations": 13,
+  "planned_shell_generation": 5,
+  "planned_background_removal": 10,
+  "planned_total": 28,
+  "jobs": [
+    {
+      "asset_id": "shell_core",
+      "footprint": [
+        8,
+        9
+      ],
+      "size": [
+        576,
+        384
+      ],
+      "request": {
+        "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad octagonal central mission habitat, about 540 pixels wide, ground diamond 540x270 pixels, vertical pressure shell about 70 pixels high. Rounded chamfered white pressure vessel with a gently arched insulated roof, six deep structural ribs, two short blue-gray service spines, small dark observation windows, recessed equipment sockets, restraint fasteners and short gray feet. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+        "width": 576,
+        "height": 384,
+        "no_background": false,
+        "view": "low top-down",
+        "direction": "south-east",
+        "outline": "single color outline",
+        "detail": "highly detailed",
+        "seed": 88600
+      },
+      "job_id": "ef99c866-4753-43a3-a6e5-8e63a9bbfd3a",
+      "receipt": "id: ef99c866-4753-43a3-a6e5-8e63a9bbfd3a\njob_id: ef99c866-4753-43a3-a6e5-8e63a9bbfd3a\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad octagonal central mission habitat, about 540 pixels wide, ground diamond 540x270 pixels, vertical pressure shell about 70 pixels high. Rounded chamfered white pressure vessel with a gently arched insulated roof, six deep structural ribs, two short blue-gray service spines, small dark observation windows, recessed equipment sockets, restraint fasteners and short gray feet. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 576x384px\ntransparent: False\nasset_id: f6954831-02fd-5d44-8c65-6f0e35ecff35\nasset_status: pending (saved when generation completes)\nseed: 88600\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"ef99c866-4753-43a3-a6e5-8e63a9bbfd3a\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/ef99c866-4753-43a3-a6e5-8e63a9bbfd3a/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "cost_generations": 1,
+      "review_status": "READY",
+      "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required.",
+      "completion_status": "completed",
+      "review_reason": "Full native shell accepted after deterministic background-only alpha preparation. Original opaque source preserved; no RGB changes in retained pixels.",
+      "raw_path": "assets/pixellab/source/base_g2/shell_raw/shell_core.png",
+      "runtime_path": "assets/buildings/base_g2/shells/shell_core.png",
+      "source_sha256": "1495d19ff1d35c19a8a8291d79c5dbbe7a5d8c40d380d68acf7471b35ee6794b"
+    },
+    {
+      "asset_id": "shell_habitat",
+      "footprint": [
+        8,
+        8
+      ],
+      "size": [
+        544,
+        384
+      ],
+      "request": {
+        "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+        "width": 544,
+        "height": 384,
+        "no_background": false,
+        "view": "low top-down",
+        "direction": "south-east",
+        "outline": "single color outline",
+        "detail": "highly detailed",
+        "seed": 88601
+      },
+      "job_id": "a616a22f-748e-477f-84d7-86c4474893da",
+      "receipt": "id: a616a22f-748e-477f-84d7-86c4474893da\njob_id: a616a22f-748e-477f-84d7-86c4474893da\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 544x384px\ntransparent: False\nasset_id: 4c7c637f-1a76-5f6f-8f1b-38c67a709303\nasset_status: pending (saved when generation completes)\nseed: 88601\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"a616a22f-748e-477f-84d7-86c4474893da\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/a616a22f-748e-477f-84d7-86c4474893da/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "cost_generations": 1,
+      "review_status": "READY",
+      "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required.",
+      "completion_status": "completed",
+      "review_reason": "Full native shell accepted after deterministic background-only alpha preparation. Original opaque source preserved; no RGB changes in retained pixels.",
+      "raw_path": "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+      "runtime_path": "assets/buildings/base_g2/shells/shell_habitat.png",
+      "source_sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74"
+    },
+    {
+      "asset_id": "shell_service",
+      "footprint": [
+        8,
+        7
+      ],
+      "size": [
+        512,
+        368
+      ],
+      "request": {
+        "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+        "width": 512,
+        "height": 368,
+        "no_background": false,
+        "view": "low top-down",
+        "direction": "south-east",
+        "outline": "single color outline",
+        "detail": "highly detailed",
+        "seed": 88602
+      },
+      "job_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+      "receipt": "id: 702a52b5-60c2-4b60-9c02-973505daf360\njob_id: 702a52b5-60c2-4b60-9c02-973505daf360\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 512x368px\ntransparent: False\nasset_id: 8213b451-6b89-5a14-b990-07f66a8d8f75\nasset_status: pending (saved when generation completes)\nseed: 88602\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"702a52b5-60c2-4b60-9c02-973505daf360\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/702a52b5-60c2-4b60-9c02-973505daf360/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "cost_generations": 1,
+      "review_status": "READY",
+      "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required.",
+      "completion_status": "completed",
+      "review_reason": "Full native shell accepted after deterministic background-only alpha preparation. Original opaque source preserved; no RGB changes in retained pixels.",
+      "raw_path": "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+      "runtime_path": "assets/buildings/base_g2/shells/shell_service.png",
+      "source_sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62"
+    },
+    {
+      "asset_id": "shell_greenhouse",
+      "footprint": [
+        8,
+        7
+      ],
+      "size": [
+        512,
+        400
+      ],
+      "request": {
+        "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+        "width": 512,
+        "height": 400,
+        "no_background": false,
+        "view": "low top-down",
+        "direction": "south-east",
+        "outline": "single color outline",
+        "detail": "highly detailed",
+        "seed": 88603
+      },
+      "job_id": "3f251583-990f-421d-b03c-5b56024f3aa5",
+      "receipt": "id: 3f251583-990f-421d-b03c-5b56024f3aa5\njob_id: 3f251583-990f-421d-b03c-5b56024f3aa5\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 512x400px\ntransparent: False\nasset_id: 3a427619-9747-5ae8-8fb0-712fa871f478\nasset_status: pending (saved when generation completes)\nseed: 88603\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"3f251583-990f-421d-b03c-5b56024f3aa5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/3f251583-990f-421d-b03c-5b56024f3aa5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "cost_generations": 1,
+      "review_status": "READY",
+      "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required.",
+      "completion_status": "completed",
+      "review_reason": "Full native shell accepted after deterministic background-only alpha preparation. Original opaque source preserved; no RGB changes in retained pixels.",
+      "raw_path": "assets/pixellab/source/base_g2/shell_raw/shell_greenhouse.png",
+      "runtime_path": "assets/buildings/base_g2/shells/shell_greenhouse.png",
+      "source_sha256": "791e3e6593137921af2848eb93ee06b78e92c7a4cf0e8ca8e28739b3625a2200"
+    },
+    {
+      "asset_id": "shell_shelter",
+      "footprint": [
+        6,
+        6
+      ],
+      "size": [
+        416,
+        320
+      ],
+      "request": {
+        "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+        "width": 416,
+        "height": 320,
+        "no_background": false,
+        "view": "low top-down",
+        "direction": "south-east",
+        "outline": "single color outline",
+        "detail": "highly detailed",
+        "seed": 88604
+      },
+      "job_id": "951d70f2-a2f2-43d3-9f56-0b9b38794510",
+      "receipt": "id: 951d70f2-a2f2-43d3-9f56-0b9b38794510\njob_id: 951d70f2-a2f2-43d3-9f56-0b9b38794510\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 416x320px\ntransparent: False\nasset_id: 18149bde-9747-5c59-97c2-2e00ca075e15\nasset_status: pending (saved when generation completes)\nseed: 88604\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"951d70f2-a2f2-43d3-9f56-0b9b38794510\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/951d70f2-a2f2-43d3-9f56-0b9b38794510/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+      "cost_generations": 1,
+      "review_status": "READY",
+      "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required.",
+      "completion_status": "completed",
+      "review_reason": "Full native shell accepted after deterministic background-only alpha preparation. Original opaque source preserved; no RGB changes in retained pixels.",
+      "raw_path": "assets/pixellab/source/base_g2/shell_raw/shell_shelter.png",
+      "runtime_path": "assets/buildings/base_g2/shells/shell_shelter.png",
+      "source_sha256": "dace50a0cbea48e8d21e448ffce1ba1674978248da20476e8c02a2acbfa66d88"
+    }
+  ]
+}

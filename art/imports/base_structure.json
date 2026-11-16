@@ -1,0 +1,2006 @@
+{
+  "assets": [
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "straight_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/straight_se.png"
+      ],
+      "sha256": "acd1cbd0bbef495f4c1897da4d71c3ae5c0112c3a42cf93cee92b42fd7a18181",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "window_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/window_se.png"
+      ],
+      "sha256": "db1125a9cf9dacba8743335425bc71274a72cdc0af16fe1713d4b4cdcb0f69f6",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "service_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/service_se.png"
+      ],
+      "sha256": "12e7ff2cd0131d932f83e42a6375eace4ee4c9a2c2a15faa6f40fc54989a087c",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "support_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/support_se.png"
+      ],
+      "sha256": "2b33111e47d02a979305c230cd95b0fa55613c0234d3201c709220e391235de5",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            24
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cutaway_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        8
+      ],
+      "native_canvas_size_px": [
+        48,
+        24
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cutaway_se.png"
+      ],
+      "sha256": "a8e0d3922c49d4b79217b968e444d1fa8317dde30aaf611bfe410bb6d68d9fa0",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        0,
+        33,
+        24
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_frame_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_frame_se.png"
+      ],
+      "sha256": "4c2ba04b1454f7b8c2b5abdc5918e81a7cb15339ec767d80dfc63a99c0aabad8",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_closed_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_closed_se.png"
+      ],
+      "sha256": "6ce290f2430cae32731dae42254654d9e72b4114546bb971dbfa2d6cf9670f01",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_open_se",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_open_se.png"
+      ],
+      "sha256": "a681df02443165ae343be9cb47787064bb4265cab007a7daf724423f6af9acf0",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "straight_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/straight_sw.png"
+      ],
+      "sha256": "eddfc53e614bfb119135e7245aaccf6dfb60bcb2331cca66e0f013259f5ab6d6",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "window_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/window_sw.png"
+      ],
+      "sha256": "5ea5c04c0552dd1d4573576c73de531ca7efedfe0444ebf31f33b3a22e690b68",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "service_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/service_sw.png"
+      ],
+      "sha256": "e04b97e53ff179ab1da10e87f05a5ffaaab5824d011ec4fd820eaeb7ac23c9be",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "support_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/support_sw.png"
+      ],
+      "sha256": "b9ca16137537d9cf30b9590c89d6410ce70ad26c56d1d3929ec92246d7aec4ab",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            24
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cutaway_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        8
+      ],
+      "native_canvas_size_px": [
+        48,
+        24
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cutaway_sw.png"
+      ],
+      "sha256": "b288057ecf9ea2e86a1b4763d9ad848a601db76d1831f93cd6015593e7a05da6",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        0,
+        33,
+        24
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_frame_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_frame_sw.png"
+      ],
+      "sha256": "29d2f0f78354c591f6b0a05da0c0fe8ac017e63f2990b3ce6c4f746c127dafc1",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_closed_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_closed_sw.png"
+      ],
+      "sha256": "7201e9ee98bd2f5bcf7f0f78620aa01a17c19e3af58f83c44a0f2c61ef2fc9f8",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "door_open_sw",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        48,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/door_open_sw.png"
+      ],
+      "sha256": "65ca99a4b5e30c5e524d86556dfd91ff5523c413d298581e9ee2b9d83dc4adc7",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "roof_white",
+      "category": "exterior_roof",
+      "exception": null,
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/roof_white.png"
+      ],
+      "sha256": "3463b4e0cc6b3a40927695f132c838cd3f1fb3e878ade233aead612c04d34153",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "roof_glazed",
+      "category": "exterior_roof",
+      "exception": null,
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/roof_glazed.png"
+      ],
+      "sha256": "9e67b4a40092521beac3137841d633efb49026702bcd3b12e3683eae8eeb082e",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "roof_service",
+      "category": "exterior_roof",
+      "exception": null,
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/roof_service.png"
+      ],
+      "sha256": "532072769e4e1a10befc8a7eba94d9bb36609d8d8ae492dbfa879fb234f1ef0c",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        1,
+        0,
+        62,
+        32
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            120
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_wall_80_se",
+      "category": "exterior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        96
+      ],
+      "native_canvas_size_px": [
+        48,
+        120
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/hull_wall_80_se.png"
+      ],
+      "sha256": "50d91c4056aa5942bebab5af62850e8fecbfa5f30abb849fe55e2f9825813898",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        97
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            120
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_wall_80_sw",
+      "category": "exterior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        96
+      ],
+      "native_canvas_size_px": [
+        48,
+        120
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/hull_wall_80_sw.png"
+      ],
+      "sha256": "b054e31eaa36ee6c01219b1b5d8837a5383cb4cb5baab2a955da8eaa1c39e0c3",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        97
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            136
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_wall_96_se",
+      "category": "exterior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        8,
+        112
+      ],
+      "native_canvas_size_px": [
+        48,
+        136
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/hull_wall_96_se.png"
+      ],
+      "sha256": "14506e2769208763d3dcba49f8741ee8958c2c69c2f2ab87d0284c96201ed61e",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        113
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            48,
+            136
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_wall_96_sw",
+      "category": "exterior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        112
+      ],
+      "native_canvas_size_px": [
+        48,
+        136
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "UNUSED",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/hull_wall_96_sw.png"
+      ],
+      "sha256": "1ec0a5f33930e9b21dd8c3dc960b8078483f93fa0c57aef515c7182d838761ad",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        33,
+        113
+      ],
+      "review_notes": "Preserved technical draft support; finished exterior uses the illustrated native shells."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            80,
+            104
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "corner",
+      "category": "interior_structure",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        40,
+        80
+      ],
+      "native_canvas_size_px": [
+        80,
+        104
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/corner.png"
+      ],
+      "sha256": "abf038d9a9e7c2210065ba6e0d13ebb2b1e7634a76807f40cac52dd77c49d6e7",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        8,
+        16,
+        65,
+        81
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_1",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_1.png"
+      ],
+      "sha256": "9a353c8cf5438d537ec62c1a5f0842139c745a3f898df69edf76c652571acfb2",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        21,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_2",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_2.png"
+      ],
+      "sha256": "17a645abfbf9f5045d4a5d26e528c573cb746f622739c93e3330466cd89b75af",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        32,
+        8,
+        21,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_3",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_3.png"
+      ],
+      "sha256": "2410013319b7d51a3e6a3654d8ae0c918593af546d7c201e2b7c0f0753712a80",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_4",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_4.png"
+      ],
+      "sha256": "0527f42735e0ae6999110c68708a555da1eb3a542d21820beb724a46d64f9ad5",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        32,
+        16,
+        21,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_5",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_5.png"
+      ],
+      "sha256": "1c6e519e8989b8b182a26fd96f4d3a5d8b34adb6662ac2d24c0a8a1f1d04cf1d",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_6",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_6.png"
+      ],
+      "sha256": "8faaba6fcb8513b0e51f955d4bc3255433cde76157e18590434abcb2ab981d99",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        32,
+        8,
+        21,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_7",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_7.png"
+      ],
+      "sha256": "8d032f02db636c7f13bc9ba19e66c058214f7bc65e19ed0cd0ee8c539859f9f8",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_8",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_8.png"
+      ],
+      "sha256": "719d727eef707a15b8395046e0b2033aee49ed7079c0d79f7f615acf49fd3612",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        16,
+        21,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_9",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_9.png"
+      ],
+      "sha256": "dfeaa01edf27ba120f341d7b23deafc5509c865ec29274fef06b209bd411b5e2",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        21,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_10",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_10.png"
+      ],
+      "sha256": "a38e59314b04aa1e27953bd390ea5b235cd9c8a5285a22215bb522d9f9b7ea2b",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_11",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_11.png"
+      ],
+      "sha256": "8b2d018f4f6a74cacfdeb953f1b2d693455ad429b5204059ac1541a6a44a8da7",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_12",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_12.png"
+      ],
+      "sha256": "7c53694e2befc548d0c8a98651b11b0b00706776bcaff2c488e017c9f77970e8",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        16,
+        37,
+        13
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_13",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_13.png"
+      ],
+      "sha256": "5a3dac261c6541dc92a51ff10ac27d080cd5f6d148e681632e39a729a918799a",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_14",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_14.png"
+      ],
+      "sha256": "b9f1f0530649d81674a45d75ed4f29832545dc87bbe724400044f90ebf06eeaa",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_15",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        16
+      ],
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_15.png"
+      ],
+      "sha256": "3a891405c2ab2d4bdbeedd116fbb39df3ef007829ac90b5e956a1fbc3f4501bd",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        16,
+        8,
+        37,
+        21
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            80
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "cable_vertical",
+      "category": "utility_connection",
+      "exception": null,
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        80
+      ],
+      "native_canvas_size_px": [
+        64,
+        80
+      ],
+      "physical_scale_intent": "Native 64x32 diamond grid; 64-pixel wall height, explicit ground origin; no metric/pressure certification.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/environment/interiors_g2/structure/cable_vertical.png"
+      ],
+      "sha256": "599e97791d9a3ebd108a4d25859a628127bb1b0fd147bf8f51b53f4ecf16280d",
+      "source_files": [
+        "tools/interiors/paint_structure.gd"
+      ],
+      "source_provider": "Project-original pixel painting",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original technical art; no third-party pixels transformed; project license unchanged.",
+      "visible_bounds_px": [
+        26,
+        5,
+        10,
+        75
+      ],
+      "review_notes": "Reviewed in furnished rooms and native exterior cable close-ups; compatible grid and door origins."
+    }
+  ],
+  "phase": "0.8G2 extended",
+  "standards_version": "1.0.0"
+}

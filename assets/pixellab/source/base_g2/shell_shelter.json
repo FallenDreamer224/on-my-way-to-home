@@ -1,0 +1,27 @@
+{
+  "asset_id": "shell_shelter",
+  "footprint": [
+    6,
+    6
+  ],
+  "size": [
+    416,
+    320
+  ],
+  "request": {
+    "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+    "width": 416,
+    "height": 320,
+    "no_background": false,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "highly detailed",
+    "seed": 88604
+  },
+  "job_id": "951d70f2-a2f2-43d3-9f56-0b9b38794510",
+  "receipt": "id: 951d70f2-a2f2-43d3-9f56-0b9b38794510\njob_id: 951d70f2-a2f2-43d3-9f56-0b9b38794510\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 416x320px\ntransparent: False\nasset_id: 18149bde-9747-5c59-97c2-2e00ca075e15\nasset_status: pending (saved when generation completes)\nseed: 88604\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"951d70f2-a2f2-43d3-9f56-0b9b38794510\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/951d70f2-a2f2-43d3-9f56-0b9b38794510/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required."
+}

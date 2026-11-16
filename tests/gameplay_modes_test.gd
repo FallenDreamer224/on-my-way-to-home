@@ -180,6 +180,8 @@ func _run() -> void:
 	var fallback_modes: GameplayModeCoordinator = fallback_main.get_node("Systems/GameplayModes")
 	var fallback_player: PlayerCameraRig = fallback_main.get_node("CameraRig")
 	var last_view: Vector2 = fallback_player.global_position
+	# Isolate target-loss fallback from viewport-bound clamping at the new landing spawn.
+	fallback_main.management_camera.bounds_enabled = false
 	fallback_main.get_node("World/Entities/Players/Astronaut").queue_free()
 	await process_frame
 	await process_frame

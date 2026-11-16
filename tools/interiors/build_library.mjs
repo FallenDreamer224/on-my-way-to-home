@@ -32,6 +32,7 @@ json('art/imports/interiors_g2.json',{pack_id:'interiors_g2',standards_version:'
 const exterior=read('art/imports/lunar_exterior_library.json');
 const reuse=['work_control_console','battery_power_unit','eclss_service_cabinet','utility_oxygen_tank','tool_case','supply_pack','small_resource_canister','small_equipment_box','small_connector_utility_box'];
 const all=[...assets];
+if(fs.existsSync('art/imports/base_g2.json'))for(const a of read('art/imports/base_g2.json').assets.filter(a=>a.category==='interior_equipment'))all.push(a);
 for(const id of reuse){const a=exterior.assets.find(x=>x.asset_id===id);if(!a)throw Error(id);all.push({asset_id:id,native_canvas_size_px:a.native_size_px,visible_bounds_px:a.visible_bounds_px,ground_anchor_px_from_image_top_left:a.ground_anchor_px,footprint_grid_cells:a.footprint_grid_cells,runtime_files:[a.runtime_path],source_files:a.source_files,provenance:a.source_manifest,reused:true});}
 for(const a of all){
  const [w,d]=a.footprint_grid_cells;
@@ -57,14 +58,27 @@ const furnishings={
  shelter:[place('shelter','supply_pack',3,1),place('monitor','work_control_console',1,1),place('seat','habitat_seat',2,1)]
 };
 const rooms=[];
+const basePlan=fs.existsSync('resources/data/lunar_base_art_layout.json')?read('resources/data/lunar_base_art_layout.json'):null;
+if(basePlan){
+ furnishings.living.find(p=>p.id==='galley').cell=[3,3];
+ furnishings.living.push(place('locker','personal_locker',1,5));
+ furnishings.equipment_lock.find(p=>p.id==='dust').asset='service_wall_panel';
+ furnishings.engineering.push(place('filters','filter_cartridges',2,5));
+ furnishings.health_lab.push(place('medical_storage','medical_storage',3,5));
+ furnishings.greenhouse.find(p=>p.id==='nutrients').asset='nutrient_unit';
+ furnishings.greenhouse.find(p=>p.id==='water_connection').asset='irrigation_unit';
+}
 for(const source of original.rooms){
  const layout=structuredClone(source);
  if(layout.id==='health_lab'){layout.extra_blocked_cells=[];layout.facilities.find(f=>f.id==='science').point=[6,3];layout.facilities.find(f=>f.id==='science').fixture=[5,1];}
+ const overrides=basePlan?.room_port_overrides[layout.id]??{};
+ for(const door of layout.doors)if(overrides[door.id])door.point=overrides[door.id].point;
  const props=furnishings[layout.id];
  for(const prop of props){const a=all.find(a=>a.asset_id===prop.asset);if(!a)throw Error('Missing accepted asset '+prop.asset);prop.footprint=a.footprint_grid_cells;prop.blocks_navigation=true;}
  // The art prototype keeps room dimensions and station IDs. Furniture expands only its own reservations.
  const portals=layout.doors.filter(d=>original.rooms.some(r=>r.id===d.destination)||d.destination==='outside').map(d=>({id:d.id,destination:d.destination,threshold:[d.point[0]<=layout.size[0]/2?0:layout.size[0]-1,d.point[1]],approach:d.point,pressure_boundary:layout.id==='crew_airlock'||d.destination==='crew_airlock',closed_state_source:layout.id==='crew_airlock'?'HabitatDirector.airlock':'ordinary interior passage; local preview toggle only'}));
- const record={id:layout.id,title:layout.title,source_layout:'resources/data/habitat_layout.json',original_size_cells:source.size,size_cells:layout.size,scene_path:`scenes/interiors/rooms/${layout.id}.tscn`,layout,props,portals,cutaway:'Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.',physical_scale:'Logical cutaway, not an exterior building footprint or certified volume.',supported_connections:portals.map(d=>d.destination)};
+ for(const portal of portals)if(overrides[portal.id])portal.threshold=overrides[portal.id].threshold;
+ const record={id:layout.id,title:layout.title,source_layout:'resources/data/habitat_layout.json',original_size_cells:source.size,size_cells:layout.size,scene_path:`scenes/interiors/rooms/${layout.id}.tscn`,layout,props,portals,cutaway:'PNG back walls and low foreground partitions. Unit-scale source pixels retained.',physical_scale:basePlan?'Native hull envelope matches this room; exterior composition is an isolated preview.':'Logical cutaway, not an exterior building footprint or certified volume.',supported_connections:portals.map(d=>d.destination),exterior_module:basePlan?.modules.find(m=>m.id===layout.id)??null};
  record.floor_treatment=['crew_airlock','equipment_lock','engineering','greenhouse','cargo'].includes(layout.id)?'sealed_service':'general_habitat';
  rooms.push(record);
  write(record.scene_path,`[gd_scene load_steps=3 format=3]\n\n[ext_resource type="Script" path="res://scripts/interiors/interior_room.gd" id="1"]\n[ext_resource type="Script" path="res://scripts/world/terrain_layer.gd" id="2"]\n\n[node name="${layout.id}" type="Node2D"]\ntexture_filter = 1\nscript = ExtResource("1")\nroom_id = &${q(layout.id)}\n\n[node name="Floor" type="TileMapLayer" parent="."]\nposition = Vector2(-32, -16)\nz_index = -10\nscript = ExtResource("2")\n\n[node name="Walls" type="StaticBody2D" parent="."]\ncollision_layer = 2\ncollision_mask = 1\n\n[node name="Construction" type="Node2D" parent="."]\nz_index = -1\n\n[node name="Actors" type="Node2D" parent="."]\ny_sort_enabled = true\n`);

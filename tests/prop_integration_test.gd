@@ -38,6 +38,8 @@ func _run() -> void:
 	gallery.queue_free()
 	await process_frame
 	var main: Node = MAIN.instantiate()
+	# Source-scene pickup positions remain the original art-integration fixture.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	await _settle()
 	var props: Node2D = main.get_node("World/Entities/Props")

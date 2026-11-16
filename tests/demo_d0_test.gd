@@ -42,11 +42,18 @@ func release_walk() -> void:
 func walk_to(point: Vector2) -> bool:
 	var planner := TerrainRoutePlanner.new(director.active_terrain(), actor.footprint_half_extent)
 	var route := planner.route(actor.global_position, point)
-	check(not route.is_empty(), "Full-foot route exists")
+	check(not route.is_empty(), "Full-foot route exists in %s from %s to %s" % [director.location, actor.global_position, point])
 	if route.is_empty(): return false
+	var length: float = 0
+	var previous: Vector2 = actor.global_position
+	for waypoint: Vector2 in route:
+		length += previous.distance_to(waypoint)
+		previous = waypoint
+	# Larger production footprints require real detours; retain endpoint/foot assertions.
+	var frame_budget: int = ceili((length / maxf(1, actor.walk_speed) + 2) * Engine.physics_ticks_per_second) + route.size() * 8
 	var frames: int = 0
 	for waypoint: Vector2 in route:
-		while actor.global_position.distance_to(waypoint) > 2 and frames < 1200:
+		while actor.global_position.distance_to(waypoint) > 2 and frames < frame_budget:
 			var offset: Vector2 = waypoint - actor.global_position
 			release_walk()
 			if absf(offset.x) > 0.5 and absf(offset.x) >= absf(offset.y)*0.5:

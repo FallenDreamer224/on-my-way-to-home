@@ -1,0 +1,21 @@
+{
+  "asset_id": "pressure_passage",
+  "request": {
+    "description": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One short enclosed octagonal pressure passage with corrugated white insulation shell, gray structural ribs, sealed circular flanges at both ends, short feet. Long axis down-right. Outer base about 92x46 pixels, clear internal height about 55 pixels, doors not included. No unrelated building.",
+    "width": 128,
+    "height": 128,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88400
+  },
+  "job_id": "c9887641-478e-4ac7-8c57-cdd0b29e7728",
+  "receipt": "id: c9887641-478e-4ac7-8c57-cdd0b29e7728\njob_id: c9887641-478e-4ac7-8c57-cdd0b29e7728\nmodel: pixen\ndescription: Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One short enclosed octagonal pressure passage with corrugated white insulation shell, gray structural ribs, sealed circular flanges at both ends, short feet. Long axis down-right. Outer base about 92x46 pixels, clear internal height about 55 pixels, doors not included. No unrelated building.\nsize: 128x128px\ntransparent: True\nasset_id: 492e4315-86c2-5216-a2c7-6e0c0b70dfc2\nasset_status: pending (saved when generation completes)\nseed: 88400\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"c9887641-478e-4ac7-8c57-cdd0b29e7728\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/c9887641-478e-4ac7-8c57-cdd0b29e7728/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "NEEDS_REFINEMENT",
+  "final_review_reason": "Unrequested cutaway enclosure, unsuitable for modular sealed passage.",
+  "receipt_is_submission_snapshot": true
+}

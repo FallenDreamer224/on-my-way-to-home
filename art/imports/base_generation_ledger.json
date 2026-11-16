@@ -1,0 +1,24 @@
+{
+  "phase": "0.8G2 extended",
+  "authorized_generations": 30,
+  "generations_used": 30,
+  "remaining_phase_budget": 0,
+  "usd_credits_spent": 0,
+  "balance_before": 3739.15,
+  "balance_after": 3709.15,
+  "balance_verified": "PixelLab MCP get_balance after all jobs completed",
+  "small_image_jobs": 15,
+  "shell_creation_jobs": 5,
+  "background_removal_jobs": 10,
+  "accepted_new_creative_assets": 18,
+  "rejected_creative_candidates": 2,
+  "rejected_background_results": 10,
+  "previous_milestone_generations": 24,
+  "previous_milestone_excluded": true,
+  "records": [
+    "assets/pixellab/source/base_g2/generation_jobs.json",
+    "assets/pixellab/source/base_g2/shell_jobs.json",
+    "assets/pixellab/source/base_g2/background_jobs.json"
+  ],
+  "note": "All 30 operations billed one subscription generation each. Ten unusable provider masks are included, not hidden or counted as accepted artwork. No additional paid jobs authorized."
+}

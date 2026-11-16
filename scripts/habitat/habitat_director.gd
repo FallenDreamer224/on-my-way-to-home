@@ -23,6 +23,28 @@ var _outside_dog_position: Vector2
 var utilities: UtilityService
 var utility_panel: UtilityPanel
 var daily_panel: DailyLifePanel
+var daily_model: DailyLife
+var _prepared_scenes: Dictionary[StringName, PackedScene] = {}
+var _prepared_data: Dictionary[StringName, Dictionary] = {}
+
+
+## Register reviewed art with the existing persistent state/transition director.
+func register_prepared_room(id: StringName, scene: PackedScene, overrides: Dictionary) -> bool:
+	if scene == null or not definitions.has(id) or rooms.has(id): return false
+	var template := scene.instantiate() as InteriorArtRoom
+	if template == null: return false
+	var data: Dictionary = template.prepared_data.duplicate(true)
+	template.free()
+	for portal: Dictionary in data.portals:
+		if overrides.has(portal.id):
+			portal.approach = overrides[portal.id].point
+			portal.threshold = overrides[portal.id].threshold
+	for door: Dictionary in data.layout.doors:
+		if overrides.has(door.id): door.point = overrides[door.id].point
+	definitions[id] = data.layout
+	_prepared_scenes[id] = scene
+	_prepared_data[id] = data
+	return true
 
 
 func configure(main: Node) -> void:
@@ -55,13 +77,15 @@ func prepare_room(id: StringName) -> HabitatRoom:
 		return rooms[id]
 	if not definitions.has(id):
 		return null
-	var room: HabitatRoom = ROOM.instantiate()
+	var room: HabitatRoom = (_prepared_scenes[id] if _prepared_scenes.has(id) else ROOM).instantiate()
+	if room is InteriorArtRoom: room.prepared_data = _prepared_data[id].duplicate(true)
 	room.name = String(id)
 	room.setup(definitions[id], states[id], request_action)
 	room.visible = false
 	room.process_mode = Node.PROCESS_MODE_DISABLED
 	_spaces.add_child(room)
 	rooms[id] = room
+	if room is InteriorArtRoom and daily_model != null: room.bind_services(daily_model, self)
 	_refresh_airlock()
 	return room
 

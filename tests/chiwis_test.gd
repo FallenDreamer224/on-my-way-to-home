@@ -25,6 +25,8 @@ func _initialize() -> void:
 
 func _run() -> void:
 	var main: Node = MAIN.instantiate()
+	# This suite authors its own obstacle maps and follow targets.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	var dog: Chiwis = main.get_node("World/Entities/NPCs/Chiwis")
 	var astronaut: Astronaut = main.get_node("World/Entities/Players/Astronaut")

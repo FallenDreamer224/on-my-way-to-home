@@ -1,0 +1,2636 @@
+{
+  "phase": "0.8G2 extended",
+  "assets": [
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          368
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            368
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_crew_airlock",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        176,
+        354
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        512,
+        368
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_service.png"
+      ],
+      "sha256": "4fa6e3d269be75d638acf5f6dc22fdfed33b32b3c1227ad0004ff69354d4cbe3",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        52,
+        16,
+        412,
+        338
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            48,
+            307
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            310
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            327
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            335
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            354
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            337
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            332
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            326
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            326
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            284
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            267
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            260
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            259
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            205
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            368
+          ]
+        }
+      ],
+      "generation_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_crew_airlock.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_crew_airlock.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          368
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            368
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_equipment_lock",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        176,
+        354
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        512,
+        368
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_service.png"
+      ],
+      "sha256": "4fa6e3d269be75d638acf5f6dc22fdfed33b32b3c1227ad0004ff69354d4cbe3",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        52,
+        16,
+        412,
+        338
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            48,
+            307
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            310
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            327
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            335
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            354
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            337
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            332
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            326
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            326
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            284
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            267
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            260
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            259
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            205
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            368
+          ]
+        }
+      ],
+      "generation_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_equipment_lock.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_equipment_lock.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          576,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            576,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_hub",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        9
+      ],
+      "grid_origin_px": [
+        32,
+        -256
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        206,
+        371
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        576,
+        384
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_core.png"
+      ],
+      "sha256": "c34b927acb78d58b25ee565266c3f3572b1edb45d19ac8c9764793a1741a5f64",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_core.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        20,
+        17,
+        482,
+        354
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            272
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            346
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            363
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            367
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            356
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            367
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            371
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            364
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            363
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            363
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            369
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            367
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            350
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            356
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            344
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            329
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "generation_id": "ef99c866-4753-43a3-a6e5-8e63a9bbfd3a",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad octagonal central mission habitat, about 540 pixels wide, ground diamond 540x270 pixels, vertical pressure shell about 70 pixels high. Rounded chamfered white pressure vessel with a gently arched insulated roof, six deep structural ribs, two short blue-gray service spines, small dark observation windows, recessed equipment sockets, restraint fasteners and short gray feet. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "1495d19ff1d35c19a8a8291d79c5dbbe7a5d8c40d380d68acf7471b35ee6794b",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_hub.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_hub.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          544,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            544,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_living",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        340,
+        365
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        544,
+        384
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_habitat.png"
+      ],
+      "sha256": "72425bd040d1a1f30408bf9c5d038b1c7fb85a50dd2d9cddf85072cc275981fb",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        155,
+        36,
+        372,
+        329
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            144,
+            195
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            314
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            319
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            346
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            347
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            355
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            365
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            363
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            347
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            346
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            319
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            319
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            528,
+            202
+          ],
+          "region": [
+            512,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "generation_id": "a616a22f-748e-477f-84d7-86c4474893da",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_living.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_living.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          544,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            544,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_engineering",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        340,
+        365
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        544,
+        384
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_habitat.png"
+      ],
+      "sha256": "72425bd040d1a1f30408bf9c5d038b1c7fb85a50dd2d9cddf85072cc275981fb",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        155,
+        36,
+        372,
+        329
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            144,
+            195
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            314
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            319
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            346
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            347
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            355
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            365
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            363
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            347
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            346
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            319
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            319
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            528,
+            202
+          ],
+          "region": [
+            512,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "generation_id": "a616a22f-748e-477f-84d7-86c4474893da",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_engineering.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_engineering.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          544,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            544,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_health_lab",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        340,
+        365
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        544,
+        384
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_habitat.png"
+      ],
+      "sha256": "72425bd040d1a1f30408bf9c5d038b1c7fb85a50dd2d9cddf85072cc275981fb",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        155,
+        36,
+        372,
+        329
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            144,
+            195
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            314
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            319
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            346
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            347
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            355
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            365
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            363
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            347
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            346
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            319
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            319
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            528,
+            202
+          ],
+          "region": [
+            512,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "generation_id": "a616a22f-748e-477f-84d7-86c4474893da",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_health_lab.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_health_lab.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          400
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            400
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_greenhouse",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        193,
+        372
+      ],
+      "hull_height_px": 96,
+      "native_canvas_size_px": [
+        512,
+        400
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_greenhouse.png"
+      ],
+      "sha256": "b7a36e9e3aab00728944221d75373050e4b3e93b0133c5893f04224f4af1bebc",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_greenhouse.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        24,
+        35,
+        466,
+        337
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            285
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            304
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            322
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            342
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            358
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            372
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            372
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            362
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            348
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            348
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            322
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            297
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            297
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            295
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            249
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            232
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            400
+          ]
+        }
+      ],
+      "generation_id": "3f251583-990f-421d-b03c-5b56024f3aa5",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "791e3e6593137921af2848eb93ee06b78e92c7a4cf0e8ca8e28739b3625a2200",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_greenhouse.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_greenhouse.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          368
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            368
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_cargo",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        176,
+        354
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        512,
+        368
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_service.png"
+      ],
+      "sha256": "4fa6e3d269be75d638acf5f6dc22fdfed33b32b3c1227ad0004ff69354d4cbe3",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        52,
+        16,
+        412,
+        338
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            48,
+            307
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            310
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            327
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            335
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            354
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            337
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            332
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            326
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            326
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            284
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            267
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            260
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            259
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            205
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            368
+          ]
+        }
+      ],
+      "generation_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_cargo.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_cargo.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          416,
+          320
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            416,
+            320
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "asset_id": "hull_shelter",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        6,
+        6
+      ],
+      "grid_origin_px": [
+        0,
+        -176
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        262,
+        297
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        416,
+        320
+      ],
+      "physical_scale_intent": "Native full-size pressure-shell art. Room-sized logical envelope is a conservative placement budget distinct from canvas/overhang; source feet/foreground datum measured, no sprite scaling.",
+      "review_status": "READY",
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_shelter.png"
+      ],
+      "sha256": "b7f41305166c91f8a5134575210e9f6cb1cf0d3993b0e912b341b305827c222e",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_shelter.png",
+        "tools/exterior/key_shell_background.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "PixelLab.ai MCP with nondestructive alpha preparation",
+      "standards_version": "1.0.0",
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "visible_bounds_px": [
+        25,
+        30,
+        365,
+        267
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art.",
+      "native_shell": true,
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            220
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            228
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            275
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            279
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            278
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            279
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            287
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            296
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            297
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            286
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            275
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            258
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            240
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            320
+          ]
+        }
+      ],
+      "generation_id": "951d70f2-a2f2-43d3-9f56-0b9b38794510",
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "processing": {
+        "recipe": "tools/exterior/key_shell_background.gd",
+        "source_sha256": "dace50a0cbea48e8d21e448ffce1ba1674978248da20476e8c02a2acbfa66d88",
+        "rgb_pixels_modified": 0,
+        "resampling": false,
+        "provider_background_masks_used": false
+      },
+      "scene_path": "scenes/exterior/base_g2/hull_shelter.tscn",
+      "resource_path": "resources/exterior/base_g2/hull_shelter.tres",
+      "collision_policy": "Declared envelope reserves the original room grid; native shared-texture depth regions sort with actors. Footprints are conservative game placement budgets, not pixel-traced or certified physical volumes."
+    },
+    {
+      "asset_id": "pressure_junction",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_junction.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_junction.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "dfa14c49-6134-4733-89f5-be8dc36a5da2",
+      "provider_image_id": "4f8b9749-41c8-5dfa-aa39-dc84ea99f13b",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact four-way pressurized connector hub with four short octagonal white insulated sockets, gray sealing collars, central pale metal top and small access hatch. Ground base about 100x50 pixels, overall height about 75 pixels. No antenna, no windows or unrelated equipment.",
+      "selected_candidate": 0,
+      "sha256": "06b3e2147fd003a7821909f9fb3f79856fc5e74c81962588dfea319f3f9d4120",
+      "ground_anchor_px_from_image_top_left": [
+        62,
+        96
+      ],
+      "visible_bounds_px": [
+        16,
+        26,
+        95,
+        70
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_junction.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_junction.tres",
+      "grid_origin_px": [
+        0,
+        -48
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    },
+    {
+      "asset_id": "pressure_hatch_closed",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_hatch_closed.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_hatch_closed.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "f49f4ece-f8d9-440d-a685-0b7401693bcd",
+      "provider_image_id": "c7695d03-257c-5a05-9abc-f26ebf494cc5",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One separate CLOSED pressure hatch and thick octagonal frame, white structural rim, navy gasket, blue-gray central solid door with short wheel handle and hinge details. Door opening about 25 pixels wide and 52 pixels tall. Plane leans down-left in the 2:1 isometric view; vertical sides upright. Small attached threshold, no corridor or building.",
+      "selected_candidate": 0,
+      "sha256": "b3fcbd87e075e36e2e6a1e9f3936ac3be5bf535515655a594b1bc500d8aaaca8",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        79
+      ],
+      "visible_bounds_px": [
+        5,
+        18,
+        54,
+        61
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_hatch_closed.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_hatch_closed.tres",
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    },
+    {
+      "asset_id": "pressure_passage",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_passage_v2.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_passage.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8",
+      "provider_image_id": "40dd99f4-36a7-5b1d-85ca-4a5c287fc63a",
+      "prompt": "ONLY one enclosed white corrugated cylindrical pressure tunnel segment, like a short insulated aerospace corridor tube lying diagonally down-right. An octagonal sealing flange at each end, dark blue gaskets, short gray support feet. Complete tube about 95 pixels long and 55 pixels high within a transparent 128x128 canvas. No cutaway, no open room, no floor platform, no wall enclosure, no people, no text. Strict 2:1 isometric pixel art, white/gray ribbed shell, charcoal navy one-pixel edges, flat shading, restrained blue-gray accents, no glow or blur.",
+      "selected_candidate": 0,
+      "sha256": "e014a472da73b7ffe403dc6e19d7a013b08e460ca2d97255e056061d4dc84341",
+      "ground_anchor_px_from_image_top_left": [
+        85,
+        114
+      ],
+      "visible_bounds_px": [
+        8,
+        16,
+        112,
+        98
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_passage.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_passage.tres",
+      "grid_origin_px": [
+        -32,
+        -32
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    },
+    {
+      "asset_id": "pressure_hatch_open",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_hatch_open.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_hatch_open.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "9e743597-97a1-45c4-bf40-83e02dcf4492",
+      "provider_image_id": "56e2350a-2277-57ff-b718-3255aadbe583",
+      "prompt": "Open the central blue pressure-door leaf while preserving the exact entire white octagonal frame, its position, size, hinge details, camera angle and transparent 64x96 canvas. Leave a dark empty doorway inside the same gasket. No new objects, platform, text or characters. Keep sharp pixel art; preserve all exterior frame pixels wherever possible.",
+      "selected_candidate": 0,
+      "sha256": "d5e02727814e6fb15a1b1c5abb72503b02de25b0c269123ccd16f91970e7cb9f",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        79
+      ],
+      "visible_bounds_px": [
+        5,
+        18,
+        54,
+        61
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_hatch_open.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_hatch_open.tres",
+      "grid_origin_px": [
+        0,
+        -16
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    },
+    {
+      "asset_id": "pressure_passage_sw",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_passage_sw.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_passage_sw.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "54f2b35f-89a0-4384-9ca1-31b6a8f11044",
+      "provider_image_id": "8a16dbeb-04fc-5130-95ab-50f0ae3a1687",
+      "prompt": "ONLY one short enclosed white corrugated cylindrical pressure tunnel segment, long axis diagonal DOWN-LEFT in strict 2:1 isometric view. Far end upper-right, near end lower-left. Octagonal sealing flanges at both ends, navy gaskets, evenly spaced white ribs, four short gray support feet. Whole object about 100 pixels wide and 70 pixels tall inside transparent 128x128 canvas. Same restrained white/light-gray/slate-blue aerospace pixel-art style as lunar habitat. Hard one-pixel outlines, flat shading from upper left, no blur or glow. No floor, room, scenery, characters, text or unrelated object.",
+      "selected_candidate": 0,
+      "sha256": "bf2d1c4d7eebb90b472815165b3b4d76e11bd0cdec6681839d8bc8f29650a269",
+      "ground_anchor_px_from_image_top_left": [
+        28,
+        109
+      ],
+      "visible_bounds_px": [
+        5,
+        15,
+        118,
+        94
+      ],
+      "footprint_grid_cells": [
+        1,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_passage_sw.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_passage_sw.tres",
+      "grid_origin_px": [
+        32,
+        -32
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    },
+    {
+      "asset_id": "pressure_elbow",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_elbow.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_elbow.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "7835400e-cc44-48ca-9fb0-58ea3a06b346",
+      "provider_image_id": "9e8f2ff1-191e-5f4c-bc0f-699a7709b3d6",
+      "prompt": "ONLY one connected L-shaped enclosed white insulated pressure passage elbow for a lunar habitat. Two short corrugated cylindrical arms meet at a smoothly rounded right-angle bend, one arm along down-right and the other along down-left of the 2:1 isometric ground grid. Two octagonal navy-gasket flanges, white reinforcing ribs, short gray support feet. Whole object about 100 pixels wide and 76 pixels tall, transparent 128x128 canvas. Native cool-white/light-gray/slate-blue pixel art, dark navy one-pixel outlines, flat upper-left shading. No floor, scene, people, logos, text, blue glow or unrelated equipment.",
+      "selected_candidate": 0,
+      "sha256": "86b60e87d5b441604dae48a29babb2608025e004244939b912a12831a735db5f",
+      "ground_anchor_px_from_image_top_left": [
+        63,
+        110
+      ],
+      "visible_bounds_px": [
+        10,
+        26,
+        105,
+        84
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json",
+      "scene_path": "scenes/exterior/base_g2/pressure_elbow.tscn",
+      "resource_path": "resources/exterior/base_g2/pressure_elbow.tres",
+      "grid_origin_px": [
+        0,
+        -48
+      ],
+      "collision_policy": "Independent prepared sprite; scene binding owns interaction and collision."
+    }
+  ],
+  "corridor_atlas": {
+    "columns": 4,
+    "frame_count": 16,
+    "frame_size_px": [
+      64,
+      112
+    ],
+    "ground_anchor_px": [
+      32,
+      96
+    ],
+    "native_size_px": [
+      256,
+      448
+    ],
+    "path": "assets/buildings/base_g2/passage_atlas.png",
+    "rows": 4,
+    "source_files": [
+      "tools/exterior/paint_hulls.gd",
+      "assets/environment/interiors_g2/structure/roof_white.png",
+      "assets/environment/interiors_g2/structure/straight_se.png",
+      "assets/environment/interiors_g2/structure/straight_sw.png"
+    ],
+    "texture_origin_px": [
+      0,
+      -40
+    ],
+    "review_status": "UNUSED",
+    "review_notes": "Technical geometry/alignment guide only. Visible pressure connections use full native rounded sprites."
+  }
+}

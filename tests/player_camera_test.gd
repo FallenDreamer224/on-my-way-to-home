@@ -141,7 +141,8 @@ func _run() -> void:
 	var marker: Node2D = main.get_node("World/Entities/Players/Astronaut") as Node2D
 	var ground: TerrainLayer = main.get_node("World/Terrain/Ground") as TerrainLayer
 	var original_cells: Dictionary[Vector2i, int] = ground.terrain_cells.duplicate()
-	_check(marker.global_position == IsometricGrid.tile_to_world(Vector2i.ZERO, ground), "Main marker placed through native grid API")
+	var original_region_cells: Dictionary[Vector2i, int] = ground.region.cells.duplicate()
+	_check(marker.global_position == IsometricGrid.tile_to_world(main.lunar_base.spawn_cell, ground), "Production arrival placed through native grid API")
 	_check(main_rig.follow_target == marker and main_rig.is_active(), "Main target wired and camera active")
 	_check(main_rig.camera.get_screen_center_position().is_equal_approx(marker.global_position), "Main actual native viewport centered")
 	_check(ground.get_used_cells().size() == ground.region.size.x * ground.region.size.y and ground.region.size == Vector2i(40, 40), "Production lunar map dimensions retained")
@@ -150,7 +151,7 @@ func _run() -> void:
 		await process_frame
 		await process_frame
 		_check(main_rig.global_position == marker.global_position, "Follow in original isometric terrain")
-	_check(ground.terrain_cells == original_cells and ground.region.cells.is_empty(), "Camera never mutates terrain/state data")
+	_check(ground.terrain_cells == original_cells and ground.region.cells == original_region_cells and (load("res://resources/data/lunar_tutorial_region.tres") as LunarTutorialRegion).cells.is_empty(), "Camera never mutates runtime or authored terrain/state data")
 	main.queue_free()
 	await process_frame
 	if _failures.is_empty():

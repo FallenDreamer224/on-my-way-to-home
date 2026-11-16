@@ -49,7 +49,10 @@ func _init() -> void:
 
 
 func bind(source: AppSettings) -> void:
+	if settings != null and settings.changed.is_connected(refresh):
+		settings.changed.disconnect(refresh)
 	settings = source
+	settings.changed.connect(refresh)
 	refresh()
 
 
@@ -116,13 +119,13 @@ func _display_page() -> Control:
 	page.name = "Display"
 	var grid: GridContainer = _grid()
 	page.add_child(grid)
-	window_mode = _option(grid, "Window mode", ["Windowed", "Fullscreen"], func(_index: int) -> void: _apply_display())
+	window_mode = _option(grid, "Window mode", ["Windowed", "Fullscreen (borderless)"], func(_index: int) -> void: _apply_display())
 	var sizes: PackedStringArray = []
 	for factor: int in AppSettings.WINDOW_SCALES:
 		sizes.append("%d x %d  (%dx)" % [AppSettings.BASE_SIZE.x * factor, AppSettings.BASE_SIZE.y * factor, factor])
-	window_size = _option(grid, "Window size", sizes, func(_index: int) -> void: _apply_display())
+	window_size = _option(grid, "Window size", sizes, func(_index: int) -> void: _apply_display(true))
 	vsync = _switch(grid, "Vertical sync", func(_pressed: bool) -> void: _apply_display())
-	page.add_child(UiKit.wrapped("The picture always uses whole-number pixel scaling of the 960 x 540 view, so pixel art stays sharp. A window size larger than the desktop is reduced to fit.", &"MutedLabel", 300))
+	page.add_child(UiKit.wrapped("960 x 540 with nearest filtering. Exact multiples use integer pixels; other sizes fit the full view with nearest scaling. Other aspect ratios have bars. F11 or Alt+Enter toggles borderless fullscreen. Window size and position are restored.", &"MutedLabel", 300))
 	return page
 
 
@@ -169,10 +172,10 @@ func _controls_page() -> Control:
 	return page
 
 
-func _apply_display() -> void:
+func _apply_display(resize_window: bool = false) -> void:
 	if _refreshing or settings == null:
 		return
-	settings.set_display(window_mode.selected == 1, AppSettings.WINDOW_SCALES[maxi(0, window_size.selected)], vsync.button_pressed)
+	settings.set_display(window_mode.selected == 1, AppSettings.WINDOW_SCALES[maxi(0, window_size.selected)], vsync.button_pressed, not resize_window)
 	settings.apply_display(get_window())
 	_saved()
 
@@ -212,6 +215,7 @@ func _reset_all() -> void:
 		return
 	_capturing = &""
 	settings.reset_all()
+	settings.set_display(false, 1, true)
 	settings.apply_display(get_window())
 	_saved()
 

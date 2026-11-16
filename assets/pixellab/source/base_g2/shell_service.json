@@ -1,0 +1,27 @@
+{
+  "asset_id": "shell_service",
+  "footprint": [
+    8,
+    7
+  ],
+  "size": [
+    512,
+    368
+  ],
+  "request": {
+    "description": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+    "width": 512,
+    "height": 368,
+    "no_background": false,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "highly detailed",
+    "seed": 88602
+  },
+  "job_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+  "receipt": "id: 702a52b5-60c2-4b60-9c02-973505daf360\njob_id: 702a52b5-60c2-4b60-9c02-973505daf360\nmodel: pixen\ndescription: Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.\nsize: 512x368px\ntransparent: False\nasset_id: 8213b451-6b89-5a14-b990-07f66a8d8f75\nasset_status: pending (saved when generation completes)\nseed: 88602\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"702a52b5-60c2-4b60-9c02-973505daf360\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/702a52b5-60c2-4b60-9c02-973505daf360/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "reason": "First full exterior render failed visual quality: repeated blockout-like roof surfaces. Native full-size shell art required."
+}

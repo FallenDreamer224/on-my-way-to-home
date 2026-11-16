@@ -1,0 +1,778 @@
+{
+  "pack_id": "base_g2",
+  "standards_version": "1.0.0",
+  "authorized_generations": 30,
+  "used_generations": 30,
+  "image_generations": 15,
+  "shell_generations": 5,
+  "rejected_background_generations": 10,
+  "assets": [
+    {
+      "asset_id": "pressure_junction",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_junction.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_junction.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "dfa14c49-6134-4733-89f5-be8dc36a5da2",
+      "provider_image_id": "4f8b9749-41c8-5dfa-aa39-dc84ea99f13b",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact four-way pressurized connector hub with four short octagonal white insulated sockets, gray sealing collars, central pale metal top and small access hatch. Ground base about 100x50 pixels, overall height about 75 pixels. No antenna, no windows or unrelated equipment.",
+      "selected_candidate": 0,
+      "sha256": "06b3e2147fd003a7821909f9fb3f79856fc5e74c81962588dfea319f3f9d4120",
+      "ground_anchor_px_from_image_top_left": [
+        62,
+        96
+      ],
+      "visible_bounds_px": [
+        16,
+        26,
+        95,
+        70
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "pressure_hatch_closed",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_hatch_closed.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_hatch_closed.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "f49f4ece-f8d9-440d-a685-0b7401693bcd",
+      "provider_image_id": "c7695d03-257c-5a05-9abc-f26ebf494cc5",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One separate CLOSED pressure hatch and thick octagonal frame, white structural rim, navy gasket, blue-gray central solid door with short wheel handle and hinge details. Door opening about 25 pixels wide and 52 pixels tall. Plane leans down-left in the 2:1 isometric view; vertical sides upright. Small attached threshold, no corridor or building.",
+      "selected_candidate": 0,
+      "sha256": "b3fcbd87e075e36e2e6a1e9f3936ac3be5bf535515655a594b1bc500d8aaaca8",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        79
+      ],
+      "visible_bounds_px": [
+        5,
+        18,
+        54,
+        61
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "service_wall_panel",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/service_wall_panel.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/service_wall_panel.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "812cdb81-1988-45b5-af3c-51d86158671d",
+      "provider_image_id": "60e010c2-eff6-59c1-839d-7da33f06cce1",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One sealed wall-mounted life-support service panel, pale gray rectangular cabinet with ribbed filter vent, small cyan status squares, visible fasteners, narrow gray coolant connections and dark service hatch. Complete cabinet about 38 pixels wide and 50 pixels tall. No text or scientific measurement values.",
+      "selected_candidate": 0,
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        82
+      ],
+      "visible_bounds_px": [
+        8,
+        13,
+        48,
+        69
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "overhead_lamp",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/overhead_lamp.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/overhead_lamp.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        32
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "ba4ba6e1-a050-4bff-aa58-7f943aa863de",
+      "provider_image_id": "ae9b46ee-6a13-5ffb-a5fa-346ae8c8be60",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One slim rectangular ceiling-mounted LED task-light fixture, white metal housing, straight pale cyan LED strip under dark blue rim, two small mounting brackets. Object about 46 pixels wide and 14 pixels tall. No glow, cable, plants or other equipment.",
+      "selected_candidate": 0,
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70",
+      "ground_anchor_px_from_image_top_left": [
+        32,
+        31
+      ],
+      "visible_bounds_px": [
+        18,
+        1,
+        30,
+        30
+      ],
+      "footprint_grid_cells": [
+        0,
+        0
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          32
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            32
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "filter_cartridges",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/filter_cartridges.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/filter_cartridges.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "da93fb72-9b88-429f-9c3e-74251b170f6e",
+      "provider_image_id": "cc8f73ee-dc05-5a8d-a3f4-ce0d0a746fed",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One small sealed rack holding three replaceable gray cylindrical filter cartridges with white caps and blue restraint bands, complete object about 38 pixels wide and 36 pixels tall. No letters, no waste spill.",
+      "selected_candidate": 0,
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        58
+      ],
+      "visible_bounds_px": [
+        3,
+        6,
+        57,
+        52
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "medical_storage",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/medical_storage.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/medical_storage.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "cc8fe76f-20fc-436a-942e-d2d3988b482e",
+      "provider_image_id": "dfed8da8-7400-5d9d-93e8-8adb38d1d2e6",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact white medical supply cabinet with two navy sealed doors, small cyan cross, restraint latch, two small drawers and gray feet. About 38 pixels wide and 52 pixels tall. No patient or medical readings.",
+      "selected_candidate": 0,
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac",
+      "ground_anchor_px_from_image_top_left": [
+        28,
+        84
+      ],
+      "visible_bounds_px": [
+        6,
+        14,
+        51,
+        70
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "nutrient_unit",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/nutrient_unit.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/nutrient_unit.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "fe4c549a-5e44-4afa-b74a-c8096f284fc4",
+      "provider_image_id": "b80a67c0-7126-5b20-bfe9-2d896361853a",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact sealed hydroponic nutrient reservoir: squat pale tank with dark navy lid, two small capped hose couplings, level inspection slot without numbers, white mounting cradle. About 40 pixels wide and 36 pixels tall. No plants, soil or open liquid.",
+      "selected_candidate": 0,
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff",
+      "ground_anchor_px_from_image_top_left": [
+        28,
+        55
+      ],
+      "visible_bounds_px": [
+        9,
+        5,
+        46,
+        50
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "irrigation_unit",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/irrigation_unit.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/irrigation_unit.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        64
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "81f3adda-3018-4093-8101-7a445bb7c2a4",
+      "provider_image_id": "72c26029-9d4e-5546-8109-280c9086ad89",
+      "prompt": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact research-tray irrigation pump/manifold: white rectangular housing, three blue-gray sealed hose connectors, short U-shaped metal pipes, two simple valves and cyan indicator. About 42 pixels wide and 34 pixels tall. No plants or labels.",
+      "selected_candidate": 0,
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        58
+      ],
+      "visible_bounds_px": [
+        1,
+        8,
+        62,
+        50
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          64
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            64
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "pressure_passage",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_passage_v2.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_passage.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8",
+      "provider_image_id": "40dd99f4-36a7-5b1d-85ca-4a5c287fc63a",
+      "prompt": "ONLY one enclosed white corrugated cylindrical pressure tunnel segment, like a short insulated aerospace corridor tube lying diagonally down-right. An octagonal sealing flange at each end, dark blue gaskets, short gray support feet. Complete tube about 95 pixels long and 55 pixels high within a transparent 128x128 canvas. No cutaway, no open room, no floor platform, no wall enclosure, no people, no text. Strict 2:1 isometric pixel art, white/gray ribbed shell, charcoal navy one-pixel edges, flat shading, restrained blue-gray accents, no glow or blur.",
+      "selected_candidate": 0,
+      "sha256": "e014a472da73b7ffe403dc6e19d7a013b08e460ca2d97255e056061d4dc84341",
+      "ground_anchor_px_from_image_top_left": [
+        85,
+        114
+      ],
+      "visible_bounds_px": [
+        8,
+        16,
+        112,
+        98
+      ],
+      "footprint_grid_cells": [
+        2,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "personal_locker",
+      "standards_version": "1.0.0",
+      "category": "interior_equipment",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/personal_locker_v2.png"
+      ],
+      "runtime_files": [
+        "assets/environment/interiors_g2/personal_locker.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "86645f8e-da7b-4cfb-a134-0df1be465408",
+      "provider_image_id": "7b9c5d59-37e2-5e5c-8b18-579e5766bb7c",
+      "prompt": "ONLY one single upright personal storage locker, one connected narrow rectangular white metal cabinet on four short gray feet. One closed dark blue door, latch, two small drawer faces in the SAME connected body. Complete cabinet 30 pixels wide and 52 pixels tall within transparent 64x96 image. Do not draw a separate box or additional object. 2:1 isometric pixel art, pale white metal and navy outline, muted slate blue, flat pixel shading, no people, no text, no backdrop.",
+      "selected_candidate": 0,
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1",
+      "ground_anchor_px_from_image_top_left": [
+        26,
+        87
+      ],
+      "visible_bounds_px": [
+        18,
+        11,
+        28,
+        76
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "pressure_hatch_open",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_hatch_open.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_hatch_open.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        64,
+        96
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "9e743597-97a1-45c4-bf40-83e02dcf4492",
+      "provider_image_id": "56e2350a-2277-57ff-b718-3255aadbe583",
+      "prompt": "Open the central blue pressure-door leaf while preserving the exact entire white octagonal frame, its position, size, hinge details, camera angle and transparent 64x96 canvas. Leave a dark empty doorway inside the same gasket. No new objects, platform, text or characters. Keep sharp pixel art; preserve all exterior frame pixels wherever possible.",
+      "selected_candidate": 0,
+      "sha256": "d5e02727814e6fb15a1b1c5abb72503b02de25b0c269123ccd16f91970e7cb9f",
+      "ground_anchor_px_from_image_top_left": [
+        31,
+        79
+      ],
+      "visible_bounds_px": [
+        5,
+        18,
+        54,
+        61
+      ],
+      "footprint_grid_cells": [
+        1,
+        1
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          64,
+          96
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            64,
+            96
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "pressure_passage_sw",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_passage_sw.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_passage_sw.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "54f2b35f-89a0-4384-9ca1-31b6a8f11044",
+      "provider_image_id": "8a16dbeb-04fc-5130-95ab-50f0ae3a1687",
+      "prompt": "ONLY one short enclosed white corrugated cylindrical pressure tunnel segment, long axis diagonal DOWN-LEFT in strict 2:1 isometric view. Far end upper-right, near end lower-left. Octagonal sealing flanges at both ends, navy gaskets, evenly spaced white ribs, four short gray support feet. Whole object about 100 pixels wide and 70 pixels tall inside transparent 128x128 canvas. Same restrained white/light-gray/slate-blue aerospace pixel-art style as lunar habitat. Hard one-pixel outlines, flat shading from upper left, no blur or glow. No floor, room, scenery, characters, text or unrelated object.",
+      "selected_candidate": 0,
+      "sha256": "bf2d1c4d7eebb90b472815165b3b4d76e11bd0cdec6681839d8bc8f29650a269",
+      "ground_anchor_px_from_image_top_left": [
+        28,
+        109
+      ],
+      "visible_bounds_px": [
+        5,
+        15,
+        118,
+        94
+      ],
+      "footprint_grid_cells": [
+        1,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    },
+    {
+      "asset_id": "pressure_elbow",
+      "standards_version": "1.0.0",
+      "category": "exterior_connection",
+      "source_provider": "PixelLab.ai MCP",
+      "source_files": [
+        "assets/pixellab/source/base_g2/pressure_elbow.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/pressure_elbow.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        128,
+        128
+      ],
+      "physical_scale_intent": "Native practical lunar base equipment, matching existing cool white/navy art. No engineering ratings implied.",
+      "review_status": "READY",
+      "exception": null,
+      "generation_id": "7835400e-cc44-48ca-9fb0-58ea3a06b346",
+      "provider_image_id": "9e8f2ff1-191e-5f4c-bc0f-699a7709b3d6",
+      "prompt": "ONLY one connected L-shaped enclosed white insulated pressure passage elbow for a lunar habitat. Two short corrugated cylindrical arms meet at a smoothly rounded right-angle bend, one arm along down-right and the other along down-left of the 2:1 isometric ground grid. Two octagonal navy-gasket flanges, white reinforcing ribs, short gray support feet. Whole object about 100 pixels wide and 76 pixels tall, transparent 128x128 canvas. Native cool-white/light-gray/slate-blue pixel art, dark navy one-pixel outlines, flat upper-left shading. No floor, scene, people, logos, text, blue glow or unrelated equipment.",
+      "selected_candidate": 0,
+      "sha256": "86b60e87d5b441604dae48a29babb2608025e004244939b912a12831a735db5f",
+      "ground_anchor_px_from_image_top_left": [
+        63,
+        110
+      ],
+      "visible_bounds_px": [
+        10,
+        26,
+        105,
+        84
+      ],
+      "footprint_grid_cells": [
+        2,
+        2
+      ],
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          128,
+          128
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            128,
+            128
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "reused": false,
+      "provenance": "art/imports/base_g2.json"
+    }
+  ]
+}

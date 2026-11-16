@@ -1,0 +1,10 @@
+{
+  "asset_id": "shell_greenhouse_0",
+  "job_id": "cc3ecddd-64f4-4bc6-8083-17d22db1cda5",
+  "cost_generations": 1,
+  "operation": "remove_background",
+  "source_half": "shell_greenhouse_0.png",
+  "source_sha256": "31e074c9f2b908912d90c9708b6972fd0b6816408f3e7f98882bc78ef5ae90b6",
+  "receipt": "id: cc3ecddd-64f4-4bc6-8083-17d22db1cda5\njob_id: cc3ecddd-64f4-4bc6-8083-17d22db1cda5\nsize: 256x400px (unchanged)\ntask: remove_complex_background\nasset_id: 3d2c2806-6e8a-5418-8b79-1fa136df3861\nasset_status: pending (saved to your gallery when generation completes)\ncost: 1 generation\nstatus: processing (~10-30s)\n\nhint: get_image(job_id=\"cc3ecddd-64f4-4bc6-8083-17d22db1cda5\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/cc3ecddd-64f4-4bc6-8083-17d22db1cda5/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "review_status": "PENDING"
+}

@@ -1,0 +1,1576 @@
+{
+  "phase": "0.8G2 extended",
+  "earlier_audits": [
+    "art/imports/exterior_source_audit.json",
+    "art/imports/interior_source_audit.json"
+  ],
+  "files": [
+    {
+      "path": "assets/buildings/base_g2/compositions/lunar_base_complete.png",
+      "asset_id": null,
+      "status": "READY",
+      "role": "native_presentation_composition",
+      "sha256": "327933b83c2d9ed7bac82d95126c1a64641f1ddeb943cdc6d17cba7cae04ff74",
+      "native_size_px": [
+        2688,
+        1536
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/compositions/lunar_base_showcase.png",
+      "asset_id": null,
+      "status": "READY",
+      "role": "native_presentation_composition",
+      "sha256": "543d472fa724cc2c8589a658cc962680d00635aa9db7b69764e5bbf99fc3db1c",
+      "native_size_px": [
+        2688,
+        1536
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_cargo.png",
+      "asset_id": "hull_cargo",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_cargo_roof.png",
+      "asset_id": "hull_cargo",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "820820b435dba1cfda5f80c413c05aca9d9e68a7cfc5da5c0e7021e91a9a2a21",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_crew_airlock.png",
+      "asset_id": "hull_crew_airlock",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_crew_airlock_roof.png",
+      "asset_id": "hull_crew_airlock",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "820820b435dba1cfda5f80c413c05aca9d9e68a7cfc5da5c0e7021e91a9a2a21",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_engineering.png",
+      "asset_id": "hull_engineering",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_engineering_roof.png",
+      "asset_id": "hull_engineering",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "2d76266b72f4d9b7a2c64167d1d3fbfbc7318627a2d123a513e3ddf40d5e15ca",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_equipment_lock.png",
+      "asset_id": "hull_equipment_lock",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_equipment_lock_roof.png",
+      "asset_id": "hull_equipment_lock",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "820820b435dba1cfda5f80c413c05aca9d9e68a7cfc5da5c0e7021e91a9a2a21",
+      "native_size_px": [
+        496,
+        336
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_greenhouse.png",
+      "asset_id": "hull_greenhouse",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "b9bba5adc52e83a3ca19e3bbd9496141f62d387ee43564ed33e3db8cb7b6d765",
+      "native_size_px": [
+        496,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_greenhouse_roof.png",
+      "asset_id": "hull_greenhouse",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "133a69e591fa65b9a5751f2f4539ec1b2cfc6321d4eec26786322abbd1eae8ae",
+      "native_size_px": [
+        496,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_health_lab.png",
+      "asset_id": "hull_health_lab",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_health_lab_roof.png",
+      "asset_id": "hull_health_lab",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "2d76266b72f4d9b7a2c64167d1d3fbfbc7318627a2d123a513e3ddf40d5e15ca",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_hub.png",
+      "asset_id": "hull_hub",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "b0ff54dd9d7f3a54ea401c9be35dafdd2fa765e5d79c2314550d0bf7d52c6e63",
+      "native_size_px": [
+        560,
+        368
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_hub_roof.png",
+      "asset_id": "hull_hub",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "e70b44b6a4d273e69c46cc312c7748f80bad07f19263bf0e81714c1572df6658",
+      "native_size_px": [
+        560,
+        368
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_living.png",
+      "asset_id": "hull_living",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_living_roof.png",
+      "asset_id": "hull_living",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "2d76266b72f4d9b7a2c64167d1d3fbfbc7318627a2d123a513e3ddf40d5e15ca",
+      "native_size_px": [
+        528,
+        352
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_shelter.png",
+      "asset_id": "hull_shelter",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "414c6f05b7ba83f41551cea852453ae07a2074fcf40988fc6beb87447c5909bf",
+      "native_size_px": [
+        400,
+        288
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/hull_shelter_roof.png",
+      "asset_id": "hull_shelter",
+      "status": "NEEDS_REFINEMENT",
+      "role": "superseded_manual_hull_draft",
+      "sha256": "f296d48ce00aa64b35bb5e1a9d0d2c00ec230fcf06afab39de7873b976c0a084",
+      "native_size_px": [
+        400,
+        288
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_0.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "0ad9f6f8c9ffe2767c52ee22fd8f5149eec9ce50395de063b1b07ff8858f0444",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_1.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "0120141e6bdb2944a68b899a07f0f66921bb8ed16dade278dfc6a54df00e753e",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_10.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "0d8fdb786a26c44733b7c10a18ed885fcfde30a697677882667f027d0fce5b5b",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_11.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "1eacce356a9054a5018ab84261790e5a70340ff41ec790acbf8d450058961cfc",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_12.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "315bdbe5b84911d8bc8dff9d02283a0105a68c319d7720e480d8c51b5d09e1ab",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_13.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "4034bfeb11f76b29c62706093fc86d00d9c49c774c63873b0c345c64808dd0f1",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_14.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "fc4144d889be313f6eacbfe9557e2d45d11ef4f1b745f2661e178abb8ad27861",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_15.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "707134a93edc9fa786659e42aff4f55def49d16c6cf5bab65ba436111b746ec3",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_2.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "e1a30b3f8ddbb38491a15db5f67c7859ff385ebb5ff251c773299cd7fb45ed02",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_3.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "bd2b38a64c322471de73995f079a301251c2f1e35c08dd8585c06dbb36fd2417",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_4.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "da786feb4d23494be2dd96a26dc12839bf660b2ca0b9d43168a58420cb3fafd7",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_5.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "68ed9505c0bd96b438e29666b9cc6806491196bed277c75c40e0ea7e91c5a24a",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_6.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "32be0b2ae22a04a37eb41fd9354beec09452bcccc74e6800930722bbc353fb97",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_7.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "ecac22706b6a54a3f6ea94a47abf5fa5e0c82d9635ec7d71d53eee9ac43e419c",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_8.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "589eb34b79b6f89b2d23523fb90df5a20670e3f1da2e22034c193cab7aeef6af",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_9.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "b530afe29fdff662a2a257cb5ae3b295b0057ada52b9a16cb2fb04bb2a3dbc48",
+      "native_size_px": [
+        64,
+        112
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/passage_atlas.png",
+      "asset_id": null,
+      "status": "UNUSED",
+      "role": "technical_passage_atlas_or_retained_draft",
+      "sha256": "5c09fe4c6f528544f61442f43689c1645279532b87c82c7f05d6d09c745dd164",
+      "native_size_px": [
+        256,
+        448
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_elbow.png",
+      "asset_id": "pressure_elbow",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "86b60e87d5b441604dae48a29babb2608025e004244939b912a12831a735db5f",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_hatch_closed.png",
+      "asset_id": "pressure_hatch_closed",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b3fcbd87e075e36e2e6a1e9f3936ac3be5bf535515655a594b1bc500d8aaaca8",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_hatch_open.png",
+      "asset_id": "pressure_hatch_open",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "d5e02727814e6fb15a1b1c5abb72503b02de25b0c269123ccd16f91970e7cb9f",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_junction.png",
+      "asset_id": "pressure_junction",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "06b3e2147fd003a7821909f9fb3f79856fc5e74c81962588dfea319f3f9d4120",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_passage.png",
+      "asset_id": "pressure_passage",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "e014a472da73b7ffe403dc6e19d7a013b08e460ca2d97255e056061d4dc84341",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/pressure_passage_sw.png",
+      "asset_id": "pressure_passage_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "bf2d1c4d7eebb90b472815165b3b4d76e11bd0cdec6681839d8bc8f29650a269",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/shells/shell_core.png",
+      "asset_id": "shell_core",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "c34b927acb78d58b25ee565266c3f3572b1edb45d19ac8c9764793a1741a5f64",
+      "native_size_px": [
+        576,
+        384
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/shells/shell_greenhouse.png",
+      "asset_id": "shell_greenhouse",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b7a36e9e3aab00728944221d75373050e4b3e93b0133c5893f04224f4af1bebc",
+      "native_size_px": [
+        512,
+        400
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/shells/shell_habitat.png",
+      "asset_id": "shell_habitat",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "72425bd040d1a1f30408bf9c5d038b1c7fb85a50dd2d9cddf85072cc275981fb",
+      "native_size_px": [
+        544,
+        384
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/shells/shell_service.png",
+      "asset_id": "shell_service",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "4fa6e3d269be75d638acf5f6dc22fdfed33b32b3c1227ad0004ff69354d4cbe3",
+      "native_size_px": [
+        512,
+        368
+      ]
+    },
+    {
+      "path": "assets/buildings/base_g2/shells/shell_shelter.png",
+      "asset_id": "shell_shelter",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b7f41305166c91f8a5134575210e9f6cb1cf0d3993b0e912b341b305827c222e",
+      "native_size_px": [
+        416,
+        320
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/filter_cartridges.png",
+      "asset_id": "filter_cartridges",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/irrigation_unit.png",
+      "asset_id": "irrigation_unit",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/medical_storage.png",
+      "asset_id": "medical_storage",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/nutrient_unit.png",
+      "asset_id": "nutrient_unit",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/overhead_lamp.png",
+      "asset_id": "overhead_lamp",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/personal_locker.png",
+      "asset_id": "personal_locker",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/service_wall_panel.png",
+      "asset_id": "service_wall_panel",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_1.png",
+      "asset_id": "cable_1",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "9a353c8cf5438d537ec62c1a5f0842139c745a3f898df69edf76c652571acfb2",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_10.png",
+      "asset_id": "cable_10",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "a38e59314b04aa1e27953bd390ea5b235cd9c8a5285a22215bb522d9f9b7ea2b",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_11.png",
+      "asset_id": "cable_11",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "8b2d018f4f6a74cacfdeb953f1b2d693455ad429b5204059ac1541a6a44a8da7",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_12.png",
+      "asset_id": "cable_12",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "7c53694e2befc548d0c8a98651b11b0b00706776bcaff2c488e017c9f77970e8",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_13.png",
+      "asset_id": "cable_13",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "5a3dac261c6541dc92a51ff10ac27d080cd5f6d148e681632e39a729a918799a",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_14.png",
+      "asset_id": "cable_14",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b9f1f0530649d81674a45d75ed4f29832545dc87bbe724400044f90ebf06eeaa",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_15.png",
+      "asset_id": "cable_15",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "3a891405c2ab2d4bdbeedd116fbb39df3ef007829ac90b5e956a1fbc3f4501bd",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_2.png",
+      "asset_id": "cable_2",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "17a645abfbf9f5045d4a5d26e528c573cb746f622739c93e3330466cd89b75af",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_3.png",
+      "asset_id": "cable_3",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "2410013319b7d51a3e6a3654d8ae0c918593af546d7c201e2b7c0f0753712a80",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_4.png",
+      "asset_id": "cable_4",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "0527f42735e0ae6999110c68708a555da1eb3a542d21820beb724a46d64f9ad5",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_5.png",
+      "asset_id": "cable_5",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "1c6e519e8989b8b182a26fd96f4d3a5d8b34adb6662ac2d24c0a8a1f1d04cf1d",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_6.png",
+      "asset_id": "cable_6",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "8faaba6fcb8513b0e51f955d4bc3255433cde76157e18590434abcb2ab981d99",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_7.png",
+      "asset_id": "cable_7",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "8d032f02db636c7f13bc9ba19e66c058214f7bc65e19ed0cd0ee8c539859f9f8",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_8.png",
+      "asset_id": "cable_8",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "719d727eef707a15b8395046e0b2033aee49ed7079c0d79f7f615acf49fd3612",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_9.png",
+      "asset_id": "cable_9",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "dfeaa01edf27ba120f341d7b23deafc5509c865ec29274fef06b209bd411b5e2",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cable_vertical.png",
+      "asset_id": "cable_vertical",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "599e97791d9a3ebd108a4d25859a628127bb1b0fd147bf8f51b53f4ecf16280d",
+      "native_size_px": [
+        64,
+        80
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/corner.png",
+      "asset_id": "corner",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "abf038d9a9e7c2210065ba6e0d13ebb2b1e7634a76807f40cac52dd77c49d6e7",
+      "native_size_px": [
+        80,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cutaway_se.png",
+      "asset_id": "cutaway_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "a8e0d3922c49d4b79217b968e444d1fa8317dde30aaf611bfe410bb6d68d9fa0",
+      "native_size_px": [
+        48,
+        24
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/cutaway_sw.png",
+      "asset_id": "cutaway_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b288057ecf9ea2e86a1b4763d9ad848a601db76d1831f93cd6015593e7a05da6",
+      "native_size_px": [
+        48,
+        24
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_closed_se.png",
+      "asset_id": "door_closed_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "6ce290f2430cae32731dae42254654d9e72b4114546bb971dbfa2d6cf9670f01",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_closed_sw.png",
+      "asset_id": "door_closed_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "7201e9ee98bd2f5bcf7f0f78620aa01a17c19e3af58f83c44a0f2c61ef2fc9f8",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_frame_se.png",
+      "asset_id": "door_frame_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "4c2ba04b1454f7b8c2b5abdc5918e81a7cb15339ec767d80dfc63a99c0aabad8",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_frame_sw.png",
+      "asset_id": "door_frame_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "29d2f0f78354c591f6b0a05da0c0fe8ac017e63f2990b3ce6c4f746c127dafc1",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_open_se.png",
+      "asset_id": "door_open_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "a681df02443165ae343be9cb47787064bb4265cab007a7daf724423f6af9acf0",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/door_open_sw.png",
+      "asset_id": "door_open_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "65ca99a4b5e30c5e524d86556dfd91ff5523c413d298581e9ee2b9d83dc4adc7",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/hull_wall_80_se.png",
+      "asset_id": "hull_wall_80_se",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "50d91c4056aa5942bebab5af62850e8fecbfa5f30abb849fe55e2f9825813898",
+      "native_size_px": [
+        48,
+        120
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/hull_wall_80_sw.png",
+      "asset_id": "hull_wall_80_sw",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "b054e31eaa36ee6c01219b1b5d8837a5383cb4cb5baab2a955da8eaa1c39e0c3",
+      "native_size_px": [
+        48,
+        120
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/hull_wall_96_se.png",
+      "asset_id": "hull_wall_96_se",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "14506e2769208763d3dcba49f8741ee8958c2c69c2f2ab87d0284c96201ed61e",
+      "native_size_px": [
+        48,
+        136
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/hull_wall_96_sw.png",
+      "asset_id": "hull_wall_96_sw",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "1ec0a5f33930e9b21dd8c3dc960b8078483f93fa0c57aef515c7182d838761ad",
+      "native_size_px": [
+        48,
+        136
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/roof_glazed.png",
+      "asset_id": "roof_glazed",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "9e67b4a40092521beac3137841d633efb49026702bcd3b12e3683eae8eeb082e",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/roof_service.png",
+      "asset_id": "roof_service",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "532072769e4e1a10befc8a7eba94d9bb36609d8d8ae492dbfa879fb234f1ef0c",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/roof_white.png",
+      "asset_id": "roof_white",
+      "status": "UNUSED",
+      "role": "prepared_native_art",
+      "sha256": "3463b4e0cc6b3a40927695f132c838cd3f1fb3e878ade233aead612c04d34153",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/service_se.png",
+      "asset_id": "service_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "12e7ff2cd0131d932f83e42a6375eace4ee4c9a2c2a15faa6f40fc54989a087c",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/service_sw.png",
+      "asset_id": "service_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "e04b97e53ff179ab1da10e87f05a5ffaaab5824d011ec4fd820eaeb7ac23c9be",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/straight_se.png",
+      "asset_id": "straight_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "acd1cbd0bbef495f4c1897da4d71c3ae5c0112c3a42cf93cee92b42fd7a18181",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/straight_sw.png",
+      "asset_id": "straight_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "eddfc53e614bfb119135e7245aaccf6dfb60bcb2331cca66e0f013259f5ab6d6",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/support_se.png",
+      "asset_id": "support_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "2b33111e47d02a979305c230cd95b0fa55613c0234d3201c709220e391235de5",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/support_sw.png",
+      "asset_id": "support_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "b9ca16137537d9cf30b9590c89d6410ce70ad26c56d1d3929ec92246d7aec4ab",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/window_se.png",
+      "asset_id": "window_se",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "db1125a9cf9dacba8743335425bc71274a72cdc0af16fe1713d4b4cdcb0f69f6",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/environment/interiors_g2/structure/window_sw.png",
+      "asset_id": "window_sw",
+      "status": "READY",
+      "role": "prepared_native_art",
+      "sha256": "5ea5c04c0552dd1d4573576c73de531ca7efedfe0444ebf31f33b3a22e690b68",
+      "native_size_px": [
+        48,
+        104
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/filter_cartridges.png",
+      "asset_id": "filter_cartridges",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/irrigation_unit.png",
+      "asset_id": "irrigation_unit",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/medical_storage.png",
+      "asset_id": "medical_storage",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/nutrient_unit.png",
+      "asset_id": "nutrient_unit",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff",
+      "native_size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/overhead_lamp.png",
+      "asset_id": "overhead_lamp",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70",
+      "native_size_px": [
+        64,
+        32
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/personal_locker.png",
+      "asset_id": "personal_locker",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_creative_candidate",
+      "sha256": "dc83a0da64742524aa83b3af53e65afadc1077e38db48223710b5c696e0da180",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/personal_locker_v2.png",
+      "asset_id": "personal_locker",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_elbow.png",
+      "asset_id": "pressure_elbow",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "86b60e87d5b441604dae48a29babb2608025e004244939b912a12831a735db5f",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_hatch_closed.png",
+      "asset_id": "pressure_hatch_closed",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "b3fcbd87e075e36e2e6a1e9f3936ac3be5bf535515655a594b1bc500d8aaaca8",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_hatch_open.png",
+      "asset_id": "pressure_hatch_open",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "d5e02727814e6fb15a1b1c5abb72503b02de25b0c269123ccd16f91970e7cb9f",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_junction.png",
+      "asset_id": "pressure_junction",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "06b3e2147fd003a7821909f9fb3f79856fc5e74c81962588dfea319f3f9d4120",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_passage.png",
+      "asset_id": "pressure_passage",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_creative_candidate",
+      "sha256": "365666e273c86b0e64288a06bfd58bc7dc21301a397a36f472ff047892870c19",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_passage_sw.png",
+      "asset_id": "pressure_passage_sw",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "bf2d1c4d7eebb90b472815165b3b4d76e11bd0cdec6681839d8bc8f29650a269",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/pressure_passage_v2.png",
+      "asset_id": "pressure_passage",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "e014a472da73b7ffe403dc6e19d7a013b08e460ca2d97255e056061d4dc84341",
+      "native_size_px": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/service_wall_panel.png",
+      "asset_id": "service_wall_panel",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d",
+      "native_size_px": [
+        64,
+        96
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_core_0.png",
+      "asset_id": "shell_core_0",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "d3776120a60ee47e9b392ddc14190afd8e991f89f02ffbe41479a0a3d84a6169",
+      "native_size_px": [
+        288,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_core_1.png",
+      "asset_id": "shell_core_1",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "33fb2ba551a565e06778a9a9738d16ac490a32664ed57bcec883e6f71740084e",
+      "native_size_px": [
+        288,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_greenhouse_0.png",
+      "asset_id": "shell_greenhouse_0",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "09446699c872b26bef09caba19b2c10f63c79052313eb24e0fb08597a1a560e1",
+      "native_size_px": [
+        256,
+        400
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_greenhouse_1.png",
+      "asset_id": "shell_greenhouse_1",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "7d0a78c057196cf9c8bbc4f7a60daa5c575ab725401ac5285d9187f618b62170",
+      "native_size_px": [
+        256,
+        400
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_habitat_0.png",
+      "asset_id": "shell_habitat_0",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "519703a3e2a73d4e326bd0a3f239c720cb15f3e6a9a27bc2923c9fa912b3d507",
+      "native_size_px": [
+        272,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_habitat_1.png",
+      "asset_id": "shell_habitat_1",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "75124788c92a62dfed80b89bfb7f30c3009b13510f3037928df966d57dfacdce",
+      "native_size_px": [
+        272,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_service_0.png",
+      "asset_id": "shell_service_0",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "03ec8d11f4ca6cb68df6ad47dab8f8cbd9fa2452169274ea5eb481559d9a28c7",
+      "native_size_px": [
+        256,
+        368
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_service_1.png",
+      "asset_id": "shell_service_1",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "5ed0747d76a79d6a835dc05381d53d23ae912bd27d0da178350207a717f4db87",
+      "native_size_px": [
+        256,
+        368
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_shelter_0.png",
+      "asset_id": "shell_shelter_0",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "a9cd18be89ede9bb22914f6ba9e935843f8455ce8d01bae851ea41aa01166bc6",
+      "native_size_px": [
+        208,
+        320
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_cutouts/shell_shelter_1.png",
+      "asset_id": "shell_shelter_1",
+      "status": "NEEDS_REFINEMENT",
+      "role": "rejected_provider_mask",
+      "sha256": "75baf56c5daf8906fd4e2316128859ed900dbba35e20d37d71980ed19e97f4b1",
+      "native_size_px": [
+        208,
+        320
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_raw/shell_core.png",
+      "asset_id": "shell_core",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "1495d19ff1d35c19a8a8291d79c5dbbe7a5d8c40d380d68acf7471b35ee6794b",
+      "native_size_px": [
+        576,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_raw/shell_greenhouse.png",
+      "asset_id": "shell_greenhouse",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "791e3e6593137921af2848eb93ee06b78e92c7a4cf0e8ca8e28739b3625a2200",
+      "native_size_px": [
+        512,
+        400
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+      "asset_id": "shell_habitat",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74",
+      "native_size_px": [
+        544,
+        384
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+      "asset_id": "shell_service",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62",
+      "native_size_px": [
+        512,
+        368
+      ]
+    },
+    {
+      "path": "assets/pixellab/source/base_g2/shell_raw/shell_shelter.png",
+      "asset_id": "shell_shelter",
+      "status": "READY",
+      "role": "selected_source",
+      "sha256": "dace50a0cbea48e8d21e448ffce1ba1674978248da20476e8c02a2acbfa66d88",
+      "native_size_px": [
+        416,
+        320
+      ]
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/hull_cargo.png",
+        "assets/buildings/base_g2/hull_crew_airlock.png",
+        "assets/buildings/base_g2/hull_equipment_lock.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "820820b435dba1cfda5f80c413c05aca9d9e68a7cfc5da5c0e7021e91a9a2a21",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/hull_cargo_roof.png",
+        "assets/buildings/base_g2/hull_crew_airlock_roof.png",
+        "assets/buildings/base_g2/hull_equipment_lock_roof.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/hull_engineering.png",
+        "assets/buildings/base_g2/hull_health_lab.png",
+        "assets/buildings/base_g2/hull_living.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "2d76266b72f4d9b7a2c64167d1d3fbfbc7318627a2d123a513e3ddf40d5e15ca",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/hull_engineering_roof.png",
+        "assets/buildings/base_g2/hull_health_lab_roof.png",
+        "assets/buildings/base_g2/hull_living_roof.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "86b60e87d5b441604dae48a29babb2608025e004244939b912a12831a735db5f",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_elbow.png",
+        "assets/pixellab/source/base_g2/pressure_elbow.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "b3fcbd87e075e36e2e6a1e9f3936ac3be5bf535515655a594b1bc500d8aaaca8",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_hatch_closed.png",
+        "assets/pixellab/source/base_g2/pressure_hatch_closed.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "d5e02727814e6fb15a1b1c5abb72503b02de25b0c269123ccd16f91970e7cb9f",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_hatch_open.png",
+        "assets/pixellab/source/base_g2/pressure_hatch_open.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "06b3e2147fd003a7821909f9fb3f79856fc5e74c81962588dfea319f3f9d4120",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_junction.png",
+        "assets/pixellab/source/base_g2/pressure_junction.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "e014a472da73b7ffe403dc6e19d7a013b08e460ca2d97255e056061d4dc84341",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_passage.png",
+        "assets/pixellab/source/base_g2/pressure_passage_v2.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "bf2d1c4d7eebb90b472815165b3b4d76e11bd0cdec6681839d8bc8f29650a269",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/buildings/base_g2/pressure_passage_sw.png",
+        "assets/pixellab/source/base_g2/pressure_passage_sw.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "11b5f7ed3186daa7a89762db6f6ae0ca7f40a8b629befd1ba2e11954f62c42bd",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/filter_cartridges.png",
+        "assets/pixellab/source/base_g2/filter_cartridges.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "8f11ae8a680fad105fda8487bf88a269198e028f09e5c94f7fb8c29497687e67",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/irrigation_unit.png",
+        "assets/pixellab/source/base_g2/irrigation_unit.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "7ef5e5818acf0578096fdc2d47b405b74f0e52e1b163e807759894e93f1a0fac",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/medical_storage.png",
+        "assets/pixellab/source/base_g2/medical_storage.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "de4b7a15a6ea411a7d50edbf833724d0bfef8ddc78a2caf690b47952ab7701ff",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/nutrient_unit.png",
+        "assets/pixellab/source/base_g2/nutrient_unit.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "8f3fca1930b866f46965974b334394a09261be033fbe6e0f97f68b3f11d93f70",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/overhead_lamp.png",
+        "assets/pixellab/source/base_g2/overhead_lamp.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "6a417dbfbbc4a67c82775ffba137030db7254069e206431d966292aa86e499a1",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/personal_locker.png",
+        "assets/pixellab/source/base_g2/personal_locker_v2.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    },
+    {
+      "sha256": "0c95bf3444176022b503417812426b0309a32a4b90ca47b0bf742ac052dc176d",
+      "status": "DUPLICATE_CANDIDATE",
+      "paths": [
+        "assets/environment/interiors_g2/service_wall_panel.png",
+        "assets/pixellab/source/base_g2/service_wall_panel.png"
+      ],
+      "policy": "Intentional source/runtime or technical-role copies; retained, not deleted or counted as unique artwork."
+    }
+  ],
+  "counts": {
+    "audited_png_files": 125,
+    "duplicate_groups": 17,
+    "new_creative_images": 18,
+    "ready_original_structural_files": 33,
+    "ready_original_structural_unique_hashes": 33,
+    "finished_new_art_file_roles": 51,
+    "finished_new_art_unique_hashes": 51,
+    "reused_interior_prop_images": 9,
+    "previously_accepted_interior_images": 18,
+    "total_prepared_interior_props": 34,
+    "room_scenes": 9,
+    "exterior_asset_prefabs": 15,
+    "presentation_composites": 2
+  },
+  "coverage": [
+    {
+      "status": "READY",
+      "scope": "Native modular base/interior preview and source-preserving import."
+    },
+    {
+      "status": "NEEDS_INTEGRATION",
+      "scope": "Production-world placement, mission/pickup entrances and finalized exterior service/portal sealing correspondence."
+    },
+    {
+      "status": "MISSING",
+      "scope": "Alternate furniture facings, additional pressure elbow orientations/end-cap variants and optional secondary decorative details."
+    },
+    {
+      "status": "NEEDS_REFINEMENT",
+      "scope": "Superseded full-hull blockouts and ten destructive provider masks; excluded from finished art."
+    }
+  ]
+}

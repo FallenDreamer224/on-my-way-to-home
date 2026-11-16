@@ -4,6 +4,8 @@ extends CharacterBody2D
 
 const MOVEMENT_ACTIONS: Array[StringName] = [&"player_move_left", &"player_move_right", &"player_move_up", &"player_move_down", &"camera_pan_left", &"camera_pan_right", &"camera_pan_up", &"camera_pan_down"]
 @export var walk_speed: float = 80.0
+@export var run_speed: float = 140.0
+var running: bool = false
 var facing: StringName = &"s"
 var control_enabled: bool = false
 var _requires_neutral: bool = true
@@ -30,6 +32,7 @@ func _movement_held() -> bool:
 
 
 func stop_movement() -> void:
+	running = false
 	velocity = Vector2.ZERO
 	if is_node_ready():
 		visual.select_state(&"idle", facing)
@@ -40,9 +43,9 @@ func read_movement_input() -> Vector2:
 		+ Input.get_vector("camera_pan_left", "camera_pan_right", "camera_pan_up", "camera_pan_down")).limit_length(1.0)
 
 
-func movement_velocity(direction: Vector2) -> Vector2:
-	# Future systems can supply/override an explicit walking speed without changing movement.
-	return direction.limit_length(1.0) * walk_speed if direction.is_finite() and is_finite(walk_speed) and walk_speed > 0.0 else Vector2.ZERO
+func movement_velocity(direction: Vector2, use_run: bool = false) -> Vector2:
+	var speed: float = run_speed if use_run else walk_speed
+	return direction.limit_length(1.0) * speed if direction.is_finite() and is_finite(speed) and speed > 0.0 else Vector2.ZERO
 
 
 func _physics_process(delta: float) -> void:
@@ -58,11 +61,14 @@ func _physics_process(delta: float) -> void:
 	var direction: Vector2 = read_movement_input()
 	if direction != Vector2.ZERO:
 		facing = AstronautDirections.from_vector(direction)
-	var desired: Vector2 = movement_velocity(direction)
+	var wants_run: bool = Input.is_action_pressed(&"player_run")
+	var desired: Vector2 = movement_velocity(direction, wants_run)
 	if walkability == null or desired == Vector2.ZERO or delta <= 0.0:
 		stop_movement()
 		return
 	var before: Vector2 = global_position
 	velocity = walkability.constrain_motion(before, desired * delta, footprint_half_extent) / delta
 	move_and_slide()
-	visual.select_state(&"walk" if global_position.distance_squared_to(before) > 0.000001 else &"idle", facing)
+	var moved: bool = global_position.distance_squared_to(before) > 0.000001
+	running = wants_run and moved
+	visual.select_state((&"run" if running else &"walk") if moved else &"idle", facing)

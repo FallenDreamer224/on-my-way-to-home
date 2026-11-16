@@ -7,6 +7,9 @@ const TUTORIAL_MISSION: MissionDefinition = preload("res://resources/data/moon_t
 @export var development_settings: DevelopmentSettings
 ## Mission card shown by the objective interface; the Moon tutorial when left unset.
 @export var mission: MissionDefinition
+## Production is the default. Independent art galleries opt out before attachment.
+@export var integrate_lunar_base: bool = true
+var lunar_base: LunarBaseWorld
 
 var objectives: ObjectiveTracker
 var companion_dialogue: ChiwisDialogue
@@ -21,14 +24,19 @@ var companion_dialogue: ChiwisDialogue
 
 func _ready() -> void:
 	var ground: TerrainLayer = $World/Terrain/Ground
+	if integrate_lunar_base and ground.region is LunarTutorialRegion:
+		lunar_base = LunarBaseWorld.new()
+		lunar_base.name = "LunarBaseWorld"
+		$Systems.add_child(lunar_base)
+		lunar_base.compose(self, ground)
 	var bounds: Rect2 = ground.world_rect()
 	camera_rig.world_bounds = bounds
 	camera_rig.bounds_enabled = true
 	management_camera.world_bounds = bounds
 	management_camera.bounds_enabled = true
-	astronaut.global_position = IsometricGrid.tile_to_world(Vector2i.ZERO, ground)
+	astronaut.global_position = IsometricGrid.tile_to_world(lunar_base.spawn_cell if lunar_base != null else Vector2i.ZERO, ground)
 	astronaut.configure_terrain(ground)
-	chiwis.global_position = IsometricGrid.tile_to_world(Vector2i(0, 1), ground)
+	chiwis.global_position = IsometricGrid.tile_to_world(lunar_base.companion_spawn_cell if lunar_base != null else Vector2i(0, 1), ground)
 	chiwis.configure_terrain(ground)
 	chiwis.set_follow_target(astronaut)
 	camera_rig.set_follow_target(astronaut)
@@ -50,6 +58,7 @@ func _ready() -> void:
 			push_error("Could not configure lunar EVA safety policy.")
 	var director: HabitatDirector = $Systems/HabitatDirector
 	director.configure(self)
+	if lunar_base != null: lunar_base.bind_director(director)
 	var utilities: UtilityService = $Systems/Utilities
 	var utility_panel := UtilityPanel.new()
 	utility_panel.configure(utilities, player_session, development_active)
@@ -60,6 +69,8 @@ func _ready() -> void:
 	daily.name = "DailyLife"
 	utilities.add_child(daily)
 	daily.configure(utilities, inventory)
+	director.daily_model = daily
+	if lunar_base != null: lunar_base.bind_utilities(utilities)
 	var daily_panel := DailyLifePanel.new()
 	daily_panel.configure(daily, player_session)
 	game_ui.register_modal(daily_panel)

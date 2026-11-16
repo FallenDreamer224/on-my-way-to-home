@@ -1,0 +1,22 @@
+{
+  "asset_id": "personal_locker",
+  "source_name": "personal_locker_v2",
+  "request": {
+    "description": "ONLY one single upright personal storage locker, one connected narrow rectangular white metal cabinet on four short gray feet. One closed dark blue door, latch, two small drawer faces in the SAME connected body. Complete cabinet 30 pixels wide and 52 pixels tall within transparent 64x96 image. Do not draw a separate box or additional object. 2:1 isometric pixel art, pale white metal and navy outline, muted slate blue, flat pixel shading, no people, no text, no backdrop.",
+    "width": 64,
+    "height": 96,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88502
+  },
+  "job_id": "86645f8e-da7b-4cfb-a134-0df1be465408",
+  "receipt": "id: 86645f8e-da7b-4cfb-a134-0df1be465408\njob_id: 86645f8e-da7b-4cfb-a134-0df1be465408\nmodel: pixen\ndescription: ONLY one single upright personal storage locker, one connected narrow rectangular white metal cabinet on four short gray feet. One closed dark blue door, latch, two small drawer faces in the SAME connected body. Complete cabinet 30 pixels wide and 52 pixels tall within transparent 64x96 image. Do not draw a separate box or additional object. 2:1 isometric pixel art, pale white metal and navy outline, muted slate blue, flat pixel shading, no people, no text, no backdrop.\nsize: 64x96px\ntransparent: True\nasset_id: 7b9c5d59-37e2-5e5c-8b18-579e5766bb7c\nasset_status: pending (saved when generation completes)\nseed: 88502\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"86645f8e-da7b-4cfb-a134-0df1be465408\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/86645f8e-da7b-4cfb-a134-0df1be465408/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

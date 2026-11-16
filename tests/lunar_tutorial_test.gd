@@ -17,6 +17,8 @@ func check(value: bool, label: String) -> void:
 
 func _run() -> void:
 	var main: Node = load("res://scenes/main.tscn").instantiate()
+	# Reservation centers/crater detours are terrain-fixture contracts, before structures occupy them.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	await process_frame
 	await process_frame

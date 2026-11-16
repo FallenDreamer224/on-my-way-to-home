@@ -1,0 +1,21 @@
+{
+  "asset_id": "pressure_junction",
+  "request": {
+    "description": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact four-way pressurized connector hub with four short octagonal white insulated sockets, gray sealing collars, central pale metal top and small access hatch. Ground base about 100x50 pixels, overall height about 75 pixels. No antenna, no windows or unrelated equipment.",
+    "width": 128,
+    "height": 128,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88401
+  },
+  "job_id": "dfa14c49-6134-4733-89f5-be8dc36a5da2",
+  "receipt": "id: dfa14c49-6134-4733-89f5-be8dc36a5da2\njob_id: dfa14c49-6134-4733-89f5-be8dc36a5da2\nmodel: pixen\ndescription: Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact four-way pressurized connector hub with four short octagonal white insulated sockets, gray sealing collars, central pale metal top and small access hatch. Ground base about 100x50 pixels, overall height about 75 pixels. No antenna, no windows or unrelated equipment.\nsize: 128x128px\ntransparent: True\nasset_id: 4f8b9749-41c8-5dfa-aa39-dc84ea99f13b\nasset_status: pending (saved when generation completes)\nseed: 88401\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"dfa14c49-6134-4733-89f5-be8dc36a5da2\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/dfa14c49-6134-4733-89f5-be8dc36a5da2/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

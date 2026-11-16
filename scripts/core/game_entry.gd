@@ -1,7 +1,6 @@
 class_name GameEntry
 extends RefCounted
-## Future menu boundary: construct one fresh session; caller owns attachment and teardown.
-## Main remains the project's direct startup scene during D0.
+## Construct one fresh production Moon session; AppRoot owns attachment and teardown.
 const MAIN_SCENE_PATH: String = "res://scenes/main.tscn"
 
 

@@ -26,6 +26,8 @@ func _initialize() -> void:
 func _run() -> void:
 	var original_rate: int = Engine.physics_ticks_per_second
 	var main: Node = MAIN.instantiate()
+	# Controlled movement/map fixtures; the default assembled world has separate journey coverage.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	actor = main.get_node("World/Entities/Players/Astronaut") as Astronaut
 	modes = main.get_node("Systems/GameplayModes") as GameplayModeCoordinator

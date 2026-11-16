@@ -1,0 +1,565 @@
+{
+  "assets": [
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            496,
+            336
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_crew_airlock",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        328
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        496,
+        336
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_crew_airlock_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_crew_airlock.png"
+      ],
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        481,
+        321
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            496,
+            336
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_equipment_lock",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        328
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        496,
+        336
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_equipment_lock_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_equipment_lock.png"
+      ],
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        481,
+        321
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            560,
+            368
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_hub",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        9
+      ],
+      "grid_origin_px": [
+        32,
+        -256
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        360
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        560,
+        368
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_hub_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_hub.png"
+      ],
+      "sha256": "b0ff54dd9d7f3a54ea401c9be35dafdd2fa765e5d79c2314550d0bf7d52c6e63",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        545,
+        353
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            528,
+            352
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_living",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        344
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        528,
+        352
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_living_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_living.png"
+      ],
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        513,
+        337
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            528,
+            352
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_engineering",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        344
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        528,
+        352
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_engineering_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_engineering.png"
+      ],
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        513,
+        337
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            528,
+            352
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_health_lab",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "grid_origin_px": [
+        0,
+        -240
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        344
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        528,
+        352
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_health_lab_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_health_lab.png"
+      ],
+      "sha256": "e5713b25cf819621776cb1a4eb39d6ef07170ea23de2ced897dc1db7829f0910",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        513,
+        337
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            496,
+            352
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_greenhouse",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        344
+      ],
+      "hull_height_px": 96,
+      "native_canvas_size_px": [
+        496,
+        352
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_greenhouse_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_greenhouse.png"
+      ],
+      "sha256": "b9bba5adc52e83a3ca19e3bbd9496141f62d387ee43564ed33e3db8cb7b6d765",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        481,
+        337
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            496,
+            336
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_cargo",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "grid_origin_px": [
+        -32,
+        -224
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        264,
+        328
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        496,
+        336
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_cargo_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_cargo.png"
+      ],
+      "sha256": "a6d12cbfcb493e0ec74573bceceef1e451df5f1143a3551a1cc75eeb9f29dceb",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        481,
+        321
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    },
+    {
+      "animation": {
+        "fps": 0,
+        "frame_count": 1,
+        "frame_regions": [
+          [
+            0,
+            0,
+            400,
+            288
+          ]
+        ],
+        "loop": false,
+        "type": "static"
+      },
+      "asset_id": "hull_shelter",
+      "category": "modular_hull_composite",
+      "exception": null,
+      "explicit_footprint_grid_cells": [
+        6,
+        6
+      ],
+      "grid_origin_px": [
+        0,
+        -176
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        200,
+        280
+      ],
+      "hull_height_px": 80,
+      "native_canvas_size_px": [
+        400,
+        288
+      ],
+      "physical_scale_intent": "Envelope exactly accommodates the assigned native room grid; no metric capacity or engineering qualification claimed.",
+      "review_status": "NEEDS_REFINEMENT",
+      "roof_path": "assets/buildings/base_g2/hull_shelter_roof.png",
+      "runtime_files": [
+        "assets/buildings/base_g2/hull_shelter.png"
+      ],
+      "sha256": "414c6f05b7ba83f41551cea852453ae07a2074fcf40988fc6beb87447c5909bf",
+      "source_files": [
+        "tools/exterior/paint_hulls.gd",
+        "tools/interiors/paint_structure.gd",
+        "resources/data/lunar_base_art_layout.json"
+      ],
+      "source_provider": "Project-original pixel painting and lossless composition",
+      "standards_version": "1.0.0",
+      "usage_terms": "Project-original structural artwork; no pre-existing PNG transformed.",
+      "visible_bounds_px": [
+        8,
+        8,
+        385,
+        273
+      ],
+      "superseded_by": "art/imports/lunar_base_art_library.json",
+      "review_notes": "Retained initial hand-painted full-hull draft failed the exterior visual quality gate. Runtime prefab uses illustrated native shell instead; this draft is not counted as finished art."
+    }
+  ],
+  "corridor_atlas": {
+    "columns": 4,
+    "frame_count": 16,
+    "frame_size_px": [
+      64,
+      112
+    ],
+    "ground_anchor_px": [
+      32,
+      96
+    ],
+    "native_size_px": [
+      256,
+      448
+    ],
+    "path": "assets/buildings/base_g2/passage_atlas.png",
+    "rows": 4,
+    "source_files": [
+      "tools/exterior/paint_hulls.gd",
+      "assets/environment/interiors_g2/structure/roof_white.png",
+      "assets/environment/interiors_g2/structure/straight_se.png",
+      "assets/environment/interiors_g2/structure/straight_sw.png"
+    ],
+    "texture_origin_px": [
+      0,
+      -40
+    ],
+    "review_status": "UNUSED",
+    "review_notes": "Technical geometry/alignment guide only. Visible pressure connections use full native rounded sprites."
+  }
+}

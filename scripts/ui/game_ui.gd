@@ -32,6 +32,7 @@ func _ready() -> void:
 	# The mission menu pauses the session; the interface itself keeps responding.
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	settings = AppSettings.shared()
+	settings.configure_window(get_window())
 	scrim = ColorRect.new()
 	scrim.name = "Scrim"
 	scrim.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

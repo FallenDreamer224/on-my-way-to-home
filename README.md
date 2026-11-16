@@ -4,11 +4,11 @@ A fully **2D isometric pixel-art** exploration and resource-management prototype
 
 One astronaut arrives on the Moon with **Chiwis**, a robotic companion, you a small lunar region, bring a sample into the research outpost, and record a powered science examination, you as the player have to find and unlock the data of the nasa to discover new things that will help you in your research.
 
-**Development status:** implementation through Phase 0.8E2, a tested  demo route, startup stabilization, and a local Windows x64 candidate.
+**Development status:** Phase 0.9.1 display and running repairs. Main Menu → New Game loads the modular lunar base and furnished rooms; hold Shift to run. Windowed/fullscreen presentation keeps the 960×540 reference. This phase does not publish a Windows release.
 
 ## Prototype screenshots
 
-Existing 960×540 gameplay captures; development UI and placeholder interiors are visible.
+These are historical 960×540 captures. Current normal-gameplay evidence is listed in the [Phase 0.9 report](docs/phase_0_9_lunar_base_world_integration.md).
 
 ![Astronaut and Chiwis exploring the Moon](docs/images/moon_exploration.png)
 
@@ -17,11 +17,11 @@ Existing 960×540 gameplay captures; development UI and placeholder interiors ar
 ## What currently works
 
 - A 40×40 logical Moon map with finished 64×32 isometric regolith tiles.
-- Eight-direction astronaut walking and autonomous Chiwis following.
+- Eight-direction astronaut walking/running and autonomous Chiwis walking/catch-up running.
 - Player and Base Management cameras with bounded views and mode switching.
 - Nearby interaction, stackable items and a 20-slot runtime inventory.
 - Static EVA perimeter warnings and blocked tutorial boundaries.
-- Nine accessible placeholder interior rooms and an interlocked airlock flow.
+- A visible modular outpost and nine accessible furnished rooms through the existing interlocked airlock.
 - A powered sample-examination routine.
 - Prototype utilities with finite resource stores, battery/power accounting and alarms.
 - Two resource-dependent growing trays and lightweight daily activities.
@@ -31,6 +31,8 @@ Existing 960×540 gameplay captures; development UI and placeholder interiors ar
 | Input | Action |
 | --- | --- |
 | WASD / arrow keys | Walk in Player Mode; pan in Base Management Mode |
+| Hold Shift + movement | Run in Player Mode; configurable in Settings → Controls |
+| F11 / Alt+Enter | Toggle borderless fullscreen and restore the previous window |
 | Tab | Switch camera/gameplay mode |
 | Mouse wheel | Management-camera zoom |
 | E / left click | Interact with the nearest valid object |
@@ -39,14 +41,14 @@ Existing 960×540 gameplay captures; development UI and placeholder interiors ar
 
 ## Try the existing demo route
 
-1. Collect the nearby Lunar Sample with E; inspect it with I.
+1. Run the project normally (F5), choose **New Game**, then collect the nearby Lunar Sample beside the lander with E; inspect it with I.
 2. Try Tab and the management camera, then return to Player Mode.
-3. Walk northwest to the habitat entry at logical cell (-8, 0).
+3. Follow the base exterior to the crew hatch on the north-east side, logical cell (-5, -7).
 4. Seal the outer hatch, inspect suit/dust seals, match habitat pressure, then enter through the inner hatch.
 5. Go Equipment lock → Hub → Health/science.
 6. Use the Science station, choose **Examine sample**, and keep its panel open until completion. The sample remains in inventory.
 
-This route works; an objective tracker/completion screen has not yet been assembled. The airlock is an interlocked presentation abstraction, not a gas-volume solver.
+The existing mission card tracks collection, entry and powered examination. Other furnished rooms include living/galley/hygiene, engineering, cargo, greenhouse and shelter. The airlock remains an interlocked presentation abstraction, not a gas-volume solver.
 
 ## Validation
 
@@ -73,7 +75,7 @@ Outputs and isolated profiles go under ignored `tests/output/`. Local `.vscode/`
 
 Validation has run on Windows with Godot 4.7.2's Compatibility renderer and an NVIDIA GeForce RTX 3050 Laptop GPU at the 960×540 logical resolution. This is a **tested development environment**, not a minimum hardware requirement or exported-build compatibility claim.
 
-There is no exported Windows build, clean-machine installation test, packaged demo menu, disk save/load or campaign progression yet. Interiors and much UI remain placeholders. Exterior base/lander asset packs are preserved but not assembled into the production map. Detailed medicine/survival, Mars, multiplayer and audio are outside the frozen demo scope. Development utility fault/scenario controls require release gating.
+This phase validates the Godot project; a new Windows export and clean-machine release test remain separate work. Disk save/load and campaign progression remain deferred. Base art is now integrated in normal gameplay; some existing socket/end-cap facings remain cosmetic limitations. Detailed medicine/survival, other planetary gameplay, multiplayer and audio remain outside this phase. Development utility fault/scenario controls require release gating.
 
 ## Repository map
 
@@ -86,7 +88,7 @@ There is no exported Windows build, clean-machine installation test, packaged de
 | `tests/`, `tools/` | Regression suites and reproducible development tools |
 | `builds/windows/` | Ignored future executable staging; never source history |
 
-The existing Main scene remains the startup entry. `GameEntry.new_game()` constructs a fresh session for a future menu; the caller owns attachment and teardown.
+The configured entry is `scenes/app_root.tscn`. Its existing New Game button calls `GameEntry.new_game()` to construct the reusable Main session; AppRoot owns attachment and teardown. The base is part of that production session, with no special preview scene required.
 
 ## Credits and publication status
 

@@ -1,0 +1,21 @@
+{
+  "asset_id": "filter_cartridges",
+  "request": {
+    "description": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One small sealed rack holding three replaceable gray cylindrical filter cartridges with white caps and blue restraint bands, complete object about 38 pixels wide and 36 pixels tall. No letters, no waste spill.",
+    "width": 64,
+    "height": 64,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88405
+  },
+  "job_id": "da93fb72-9b88-429f-9c3e-74251b170f6e",
+  "receipt": "id: da93fb72-9b88-429f-9c3e-74251b170f6e\njob_id: da93fb72-9b88-429f-9c3e-74251b170f6e\nmodel: pixen\ndescription: Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One small sealed rack holding three replaceable gray cylindrical filter cartridges with white caps and blue restraint bands, complete object about 38 pixels wide and 36 pixels tall. No letters, no waste spill.\nsize: 64x64px\ntransparent: True\nasset_id: cc8f73ee-dc05-5a8d-a3f4-ce0d0a746fed\nasset_status: pending (saved when generation completes)\nseed: 88405\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"da93fb72-9b88-429f-9c3e-74251b170f6e\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/da93fb72-9b88-429f-9c3e-74251b170f6e/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

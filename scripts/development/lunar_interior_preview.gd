@@ -11,6 +11,7 @@ var ready_for_inspection: bool = false
 
 func _ready() -> void:
 	main = MAIN.instantiate()
+	main.integrate_lunar_base = false
 	add_child(main)
 	director = main.get_node("Systems/HabitatDirector")
 	daily = main.get_node("Systems/Utilities/DailyLife")

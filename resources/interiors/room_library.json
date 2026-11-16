@@ -57,7 +57,7 @@
             "title": "Outer hatch",
             "destination": "outside",
             "point": [
-              1,
+              6,
               3
             ]
           },
@@ -66,8 +66,8 @@
             "title": "Inner hatch",
             "destination": "equipment_lock",
             "point": [
-              6,
-              3
+              4,
+              5
             ]
           },
           {
@@ -133,20 +133,6 @@
           "id": "outer",
           "destination": "outside",
           "threshold": [
-            0,
-            3
-          ],
-          "approach": [
-            1,
-            3
-          ],
-          "pressure_boundary": true,
-          "closed_state_source": "HabitatDirector.airlock"
-        },
-        {
-          "id": "inner",
-          "destination": "equipment_lock",
-          "threshold": [
             7,
             3
           ],
@@ -156,14 +142,80 @@
           ],
           "pressure_boundary": true,
           "closed_state_source": "HabitatDirector.airlock"
+        },
+        {
+          "id": "inner",
+          "destination": "equipment_lock",
+          "threshold": [
+            4,
+            6
+          ],
+          "approach": [
+            4,
+            5
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "HabitatDirector.airlock"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "outside",
         "equipment_lock"
       ],
+      "exterior_module": {
+        "id": "crew_airlock",
+        "room_id": "crew_airlock",
+        "origin": [
+          -13,
+          -10
+        ],
+        "size": [
+          8,
+          7
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/crew_airlock.tscn",
+        "portals": [
+          {
+            "id": "outer",
+            "destination": "outside",
+            "threshold": [
+              7,
+              3
+            ],
+            "approach": [
+              6,
+              3
+            ],
+            "pressure_boundary": true,
+            "closed_state_source": "HabitatDirector.airlock",
+            "point": [
+              6,
+              3
+            ]
+          },
+          {
+            "id": "inner",
+            "destination": "equipment_lock",
+            "threshold": [
+              4,
+              6
+            ],
+            "approach": [
+              4,
+              5
+            ],
+            "pressure_boundary": true,
+            "closed_state_source": "HabitatDirector.airlock",
+            "point": [
+              4,
+              5
+            ]
+          }
+        ]
+      },
       "floor_treatment": "sealed_service"
     },
     {
@@ -239,8 +291,8 @@
             "title": "Crew airlock",
             "destination": "crew_airlock",
             "point": [
-              1,
-              4
+              2,
+              1
             ]
           },
           {
@@ -284,7 +336,7 @@
         },
         {
           "id": "dust",
-          "asset": "eclss_service_cabinet",
+          "asset": "service_wall_panel",
           "cell": [
             6,
             1
@@ -301,12 +353,12 @@
           "id": "crew",
           "destination": "crew_airlock",
           "threshold": [
-            0,
-            4
+            2,
+            0
           ],
           "approach": [
-            1,
-            4
+            2,
+            1
           ],
           "pressure_boundary": true,
           "closed_state_source": "ordinary interior passage; local preview toggle only"
@@ -326,12 +378,60 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "crew_airlock",
         "hub"
       ],
+      "exterior_module": {
+        "id": "equipment_lock",
+        "room_id": "equipment_lock",
+        "origin": [
+          -13,
+          -2
+        ],
+        "size": [
+          8,
+          7
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/equipment_lock.tscn",
+        "portals": [
+          {
+            "id": "crew",
+            "destination": "crew_airlock",
+            "threshold": [
+              2,
+              0
+            ],
+            "approach": [
+              2,
+              1
+            ],
+            "pressure_boundary": true,
+            "closed_state_source": "ordinary interior passage; local preview toggle only",
+            "point": [
+              2,
+              1
+            ]
+          },
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              7,
+              4
+            ],
+            "approach": [
+              6,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "sealed_service"
     },
     {
@@ -396,7 +496,7 @@
             "destination": "equipment_lock",
             "point": [
               1,
-              2
+              4
             ]
           },
           {
@@ -404,8 +504,8 @@
             "title": "Living compartment",
             "destination": "living",
             "point": [
-              1,
-              4
+              3,
+              7
             ]
           },
           {
@@ -507,11 +607,11 @@
           "destination": "equipment_lock",
           "threshold": [
             0,
-            2
+            4
           ],
           "approach": [
             1,
-            2
+            4
           ],
           "pressure_boundary": false,
           "closed_state_source": "ordinary interior passage; local preview toggle only"
@@ -520,12 +620,12 @@
           "id": "living",
           "destination": "living",
           "threshold": [
-            0,
-            4
+            3,
+            8
           ],
           "approach": [
-            1,
-            4
+            3,
+            7
           ],
           "pressure_boundary": false,
           "closed_state_source": "ordinary interior passage; local preview toggle only"
@@ -587,8 +687,8 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "equipment_lock",
         "living",
@@ -597,6 +697,114 @@
         "health_lab",
         "cargo"
       ],
+      "exterior_module": {
+        "id": "hub",
+        "room_id": "hub",
+        "origin": [
+          -4,
+          -2
+        ],
+        "size": [
+          8,
+          9
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/hub.tscn",
+        "portals": [
+          {
+            "id": "lock",
+            "destination": "equipment_lock",
+            "threshold": [
+              0,
+              4
+            ],
+            "approach": [
+              1,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only",
+            "point": [
+              1,
+              4
+            ]
+          },
+          {
+            "id": "living",
+            "destination": "living",
+            "threshold": [
+              3,
+              8
+            ],
+            "approach": [
+              3,
+              7
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only",
+            "point": [
+              3,
+              7
+            ]
+          },
+          {
+            "id": "engineering",
+            "destination": "engineering",
+            "threshold": [
+              0,
+              6
+            ],
+            "approach": [
+              1,
+              6
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          },
+          {
+            "id": "greenhouse",
+            "destination": "greenhouse",
+            "threshold": [
+              7,
+              2
+            ],
+            "approach": [
+              6,
+              2
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          },
+          {
+            "id": "health",
+            "destination": "health_lab",
+            "threshold": [
+              7,
+              4
+            ],
+            "approach": [
+              6,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          },
+          {
+            "id": "cargo",
+            "destination": "cargo",
+            "threshold": [
+              7,
+              6
+            ],
+            "approach": [
+              6,
+              6
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "general_habitat"
     },
     {
@@ -672,8 +880,8 @@
             "title": "Central corridor",
             "destination": "hub",
             "point": [
-              1,
-              4
+              3,
+              1
             ]
           }
         ],
@@ -711,7 +919,7 @@
           "asset": "galley_station",
           "cell": [
             3,
-            1
+            3
           ],
           "footprint": [
             2,
@@ -744,6 +952,19 @@
             1
           ],
           "blocks_navigation": true
+        },
+        {
+          "id": "locker",
+          "asset": "personal_locker",
+          "cell": [
+            1,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
         }
       ],
       "portals": [
@@ -751,22 +972,56 @@
           "id": "hub",
           "destination": "hub",
           "threshold": [
-            0,
-            4
+            3,
+            0
           ],
           "approach": [
-            1,
-            4
+            3,
+            1
           ],
           "pressure_boundary": false,
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "hub"
       ],
+      "exterior_module": {
+        "id": "living",
+        "room_id": "living",
+        "origin": [
+          -4,
+          8
+        ],
+        "size": [
+          8,
+          8
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/living.tscn",
+        "portals": [
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              3,
+              0
+            ],
+            "approach": [
+              3,
+              1
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only",
+            "point": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
       "floor_treatment": "general_habitat"
     },
     {
@@ -842,8 +1097,8 @@
             "title": "Central corridor",
             "destination": "hub",
             "point": [
-              1,
-              4
+              6,
+              2
             ]
           }
         ],
@@ -914,6 +1169,19 @@
             1
           ],
           "blocks_navigation": true
+        },
+        {
+          "id": "filters",
+          "asset": "filter_cartridges",
+          "cell": [
+            2,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
         }
       ],
       "portals": [
@@ -921,22 +1189,56 @@
           "id": "hub",
           "destination": "hub",
           "threshold": [
-            0,
-            4
+            7,
+            2
           ],
           "approach": [
-            1,
-            4
+            6,
+            2
           ],
           "pressure_boundary": false,
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "hub"
       ],
+      "exterior_module": {
+        "id": "engineering",
+        "room_id": "engineering",
+        "origin": [
+          -13,
+          8
+        ],
+        "size": [
+          8,
+          8
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/engineering.tscn",
+        "portals": [
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              7,
+              2
+            ],
+            "approach": [
+              6,
+              2
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only",
+            "point": [
+              6,
+              2
+            ]
+          }
+        ]
+      },
       "floor_treatment": "sealed_service"
     },
     {
@@ -1080,6 +1382,19 @@
             1
           ],
           "blocks_navigation": true
+        },
+        {
+          "id": "medical_storage",
+          "asset": "medical_storage",
+          "cell": [
+            3,
+            5
+          ],
+          "footprint": [
+            1,
+            1
+          ],
+          "blocks_navigation": true
         }
       ],
       "portals": [
@@ -1112,12 +1427,56 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "hub",
         "shelter"
       ],
+      "exterior_module": {
+        "id": "health_lab",
+        "room_id": "health_lab",
+        "origin": [
+          5,
+          -2
+        ],
+        "size": [
+          8,
+          8
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/health_lab.tscn",
+        "portals": [
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              0,
+              4
+            ],
+            "approach": [
+              1,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          },
+          {
+            "id": "shelter",
+            "destination": "shelter",
+            "threshold": [
+              7,
+              5
+            ],
+            "approach": [
+              6,
+              5
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "general_habitat"
     },
     {
@@ -1229,7 +1588,7 @@
         },
         {
           "id": "nutrients",
-          "asset": "small_resource_canister",
+          "asset": "nutrient_unit",
           "cell": [
             6,
             1
@@ -1242,7 +1601,7 @@
         },
         {
           "id": "water_connection",
-          "asset": "small_connector_utility_box",
+          "asset": "irrigation_unit",
           "cell": [
             6,
             3
@@ -1270,11 +1629,41 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "hub"
       ],
+      "exterior_module": {
+        "id": "greenhouse",
+        "room_id": "greenhouse",
+        "origin": [
+          5,
+          -10
+        ],
+        "size": [
+          8,
+          7
+        ],
+        "height_px": 96,
+        "room_scene": "scenes/interiors/rooms/greenhouse.tscn",
+        "portals": [
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              0,
+              4
+            ],
+            "approach": [
+              1,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "sealed_service"
     },
     {
@@ -1416,11 +1805,41 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "hub"
       ],
+      "exterior_module": {
+        "id": "cargo",
+        "room_id": "cargo",
+        "origin": [
+          5,
+          7
+        ],
+        "size": [
+          8,
+          7
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/cargo.tscn",
+        "portals": [
+          {
+            "id": "hub",
+            "destination": "hub",
+            "threshold": [
+              0,
+              4
+            ],
+            "approach": [
+              1,
+              4
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "sealed_service"
     },
     {
@@ -1536,11 +1955,41 @@
           "closed_state_source": "ordinary interior passage; local preview toggle only"
         }
       ],
-      "cutaway": "Full back walls; low foreground/partition sections. No roof or pixel artwork deformation.",
-      "physical_scale": "Logical cutaway, not an exterior building footprint or certified volume.",
+      "cutaway": "PNG back walls and low foreground partitions. Unit-scale source pixels retained.",
+      "physical_scale": "Native hull envelope matches this room; exterior composition is an isolated preview.",
       "supported_connections": [
         "health_lab"
       ],
+      "exterior_module": {
+        "id": "shelter",
+        "room_id": "shelter",
+        "origin": [
+          14,
+          -2
+        ],
+        "size": [
+          6,
+          6
+        ],
+        "height_px": 80,
+        "room_scene": "scenes/interiors/rooms/shelter.tscn",
+        "portals": [
+          {
+            "id": "health",
+            "destination": "health_lab",
+            "threshold": [
+              0,
+              3
+            ],
+            "approach": [
+              1,
+              3
+            ],
+            "pressure_boundary": false,
+            "closed_state_source": "ordinary interior passage; local preview toggle only"
+          }
+        ]
+      },
       "floor_treatment": "general_habitat"
     }
   ]

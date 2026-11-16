@@ -182,8 +182,13 @@ func _run() -> void:
 		var spawn := IsometricGrid.tile_to_world(HabitatRoom.cell(room.definition.spawn), floor)
 		for cell: Vector2i in floor.terrain_cells:
 			var point := IsometricGrid.tile_to_world(cell, floor)
-			check(planner.walkability.is_position_walkable(point, actor.footprint_half_extent), "Complete actor foot in room " + id)
-			check(not planner.route(spawn, point).is_empty(), "All interior floor reachable " + id)
+			if floor.is_cell_walkable(cell):
+				check(planner.walkability.is_position_walkable(point, actor.footprint_half_extent), "Complete actor foot on every traversable room cell " + id)
+				check(not planner.route(spawn, point).is_empty(), "All advertised interior floor reachable " + id)
+			else:
+				# Finished floors also render underneath furniture and closed hatches.
+				check(not planner.walkability.is_position_walkable(point, actor.footprint_half_extent), "Occupied/closed floor blocks actor " + id)
+				check(planner.route(spawn, point).is_empty(), "Occupied/closed floor has no route " + id)
 		for blocked: Vector2i in room.region.blocked_cells:
 			check(not planner.walkability.is_position_walkable(IsometricGrid.tile_to_world(blocked, floor), actor.footprint_half_extent), "Cabinet/privacy partition blocks path " + id)
 		for corner: Vector2 in [Vector2(-2000, -2000), Vector2(2000, -2000), Vector2(2000, 2000), Vector2(-2000, 2000)]:

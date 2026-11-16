@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "phase": "0.8G2 extended",
+  "tile_size_px": [
+    64,
+    32
+  ],
+  "logical_region": {
+    "origin": [
+      -20,
+      -20
+    ],
+    "size": [
+      40,
+      40
+    ]
+  },
+  "production_world_changed": false,
+  "room_port_overrides": {
+    "crew_airlock": {
+      "outer": {
+        "point": [
+          6,
+          3
+        ],
+        "threshold": [
+          7,
+          3
+        ]
+      },
+      "inner": {
+        "point": [
+          4,
+          5
+        ],
+        "threshold": [
+          4,
+          6
+        ]
+      }
+    },
+    "equipment_lock": {
+      "crew": {
+        "point": [
+          2,
+          1
+        ],
+        "threshold": [
+          2,
+          0
+        ]
+      }
+    },
+    "hub": {
+      "lock": {
+        "point": [
+          1,
+          4
+        ],
+        "threshold": [
+          0,
+          4
+        ]
+      },
+      "living": {
+        "point": [
+          3,
+          7
+        ],
+        "threshold": [
+          3,
+          8
+        ]
+      }
+    },
+    "living": {
+      "hub": {
+        "point": [
+          3,
+          1
+        ],
+        "threshold": [
+          3,
+          0
+        ]
+      }
+    },
+    "engineering": {
+      "hub": {
+        "point": [
+          6,
+          2
+        ],
+        "threshold": [
+          7,
+          2
+        ]
+      }
+    }
+  },
+  "modules": [
+    {
+      "id": "crew_airlock",
+      "room_id": "crew_airlock",
+      "origin": [
+        -13,
+        -10
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/crew_airlock.tscn",
+      "portals": [
+        {
+          "id": "outer",
+          "destination": "outside",
+          "threshold": [
+            7,
+            3
+          ],
+          "approach": [
+            6,
+            3
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "HabitatDirector.airlock",
+          "point": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "inner",
+          "destination": "equipment_lock",
+          "threshold": [
+            4,
+            6
+          ],
+          "approach": [
+            4,
+            5
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "HabitatDirector.airlock",
+          "point": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equipment_lock",
+      "room_id": "equipment_lock",
+      "origin": [
+        -13,
+        -2
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/equipment_lock.tscn",
+      "portals": [
+        {
+          "id": "crew",
+          "destination": "crew_airlock",
+          "threshold": [
+            2,
+            0
+          ],
+          "approach": [
+            2,
+            1
+          ],
+          "pressure_boundary": true,
+          "closed_state_source": "ordinary interior passage; local preview toggle only",
+          "point": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            7,
+            4
+          ],
+          "approach": [
+            6,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    },
+    {
+      "id": "hub",
+      "room_id": "hub",
+      "origin": [
+        -4,
+        -2
+      ],
+      "size": [
+        8,
+        9
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/hub.tscn",
+      "portals": [
+        {
+          "id": "lock",
+          "destination": "equipment_lock",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only",
+          "point": [
+            1,
+            4
+          ]
+        },
+        {
+          "id": "living",
+          "destination": "living",
+          "threshold": [
+            3,
+            8
+          ],
+          "approach": [
+            3,
+            7
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only",
+          "point": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "engineering",
+          "destination": "engineering",
+          "threshold": [
+            0,
+            6
+          ],
+          "approach": [
+            1,
+            6
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "greenhouse",
+          "destination": "greenhouse",
+          "threshold": [
+            7,
+            2
+          ],
+          "approach": [
+            6,
+            2
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "health",
+          "destination": "health_lab",
+          "threshold": [
+            7,
+            4
+          ],
+          "approach": [
+            6,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "cargo",
+          "destination": "cargo",
+          "threshold": [
+            7,
+            6
+          ],
+          "approach": [
+            6,
+            6
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "room_id": "living",
+      "origin": [
+        -4,
+        8
+      ],
+      "size": [
+        8,
+        8
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/living.tscn",
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            3,
+            0
+          ],
+          "approach": [
+            3,
+            1
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only",
+          "point": [
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "room_id": "engineering",
+      "origin": [
+        -13,
+        8
+      ],
+      "size": [
+        8,
+        8
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/engineering.tscn",
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            7,
+            2
+          ],
+          "approach": [
+            6,
+            2
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only",
+          "point": [
+            6,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health_lab",
+      "room_id": "health_lab",
+      "origin": [
+        5,
+        -2
+      ],
+      "size": [
+        8,
+        8
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/health_lab.tscn",
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        },
+        {
+          "id": "shelter",
+          "destination": "shelter",
+          "threshold": [
+            7,
+            5
+          ],
+          "approach": [
+            6,
+            5
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "room_id": "greenhouse",
+      "origin": [
+        5,
+        -10
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "height_px": 96,
+      "room_scene": "scenes/interiors/rooms/greenhouse.tscn",
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    },
+    {
+      "id": "cargo",
+      "room_id": "cargo",
+      "origin": [
+        5,
+        7
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/cargo.tscn",
+      "portals": [
+        {
+          "id": "hub",
+          "destination": "hub",
+          "threshold": [
+            0,
+            4
+          ],
+          "approach": [
+            1,
+            4
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "room_id": "shelter",
+      "origin": [
+        14,
+        -2
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "height_px": 80,
+      "room_scene": "scenes/interiors/rooms/shelter.tscn",
+      "portals": [
+        {
+          "id": "health",
+          "destination": "health_lab",
+          "threshold": [
+            0,
+            3
+          ],
+          "approach": [
+            1,
+            3
+          ],
+          "pressure_boundary": false,
+          "closed_state_source": "ordinary interior passage; local preview toggle only"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "crew_airlock/equipment_lock",
+      "from": {
+        "module": "crew_airlock",
+        "door": "inner",
+        "edge": [
+          -9,
+          -4
+        ],
+        "outside": [
+          -9,
+          -3
+        ]
+      },
+      "to": {
+        "module": "equipment_lock",
+        "door": "crew",
+        "edge": [
+          -11,
+          -2
+        ],
+        "outside": [
+          -11,
+          -3
+        ]
+      },
+      "cells": [
+        [
+          -9,
+          -3
+        ],
+        [
+          -10,
+          -3
+        ],
+        [
+          -11,
+          -3
+        ]
+      ]
+    },
+    {
+      "id": "equipment_lock/hub",
+      "from": {
+        "module": "equipment_lock",
+        "door": "hub",
+        "edge": [
+          -6,
+          2
+        ],
+        "outside": [
+          -5,
+          2
+        ]
+      },
+      "to": {
+        "module": "hub",
+        "door": "lock",
+        "edge": [
+          -4,
+          2
+        ],
+        "outside": [
+          -5,
+          2
+        ]
+      },
+      "cells": [
+        [
+          -5,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "hub/living",
+      "from": {
+        "module": "hub",
+        "door": "living",
+        "edge": [
+          -1,
+          6
+        ],
+        "outside": [
+          -1,
+          7
+        ]
+      },
+      "to": {
+        "module": "living",
+        "door": "hub",
+        "edge": [
+          -1,
+          8
+        ],
+        "outside": [
+          -1,
+          7
+        ]
+      },
+      "cells": [
+        [
+          -1,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "engineering/hub",
+      "from": {
+        "module": "hub",
+        "door": "engineering",
+        "edge": [
+          -4,
+          4
+        ],
+        "outside": [
+          -5,
+          4
+        ]
+      },
+      "to": {
+        "module": "engineering",
+        "door": "hub",
+        "edge": [
+          -6,
+          10
+        ],
+        "outside": [
+          -5,
+          10
+        ]
+      },
+      "cells": [
+        [
+          -5,
+          4
+        ],
+        [
+          -5,
+          5
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -5,
+          7
+        ],
+        [
+          -5,
+          8
+        ],
+        [
+          -5,
+          9
+        ],
+        [
+          -5,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "greenhouse/hub",
+      "from": {
+        "module": "hub",
+        "door": "greenhouse",
+        "edge": [
+          3,
+          0
+        ],
+        "outside": [
+          4,
+          0
+        ]
+      },
+      "to": {
+        "module": "greenhouse",
+        "door": "hub",
+        "edge": [
+          5,
+          -6
+        ],
+        "outside": [
+          4,
+          -6
+        ]
+      },
+      "cells": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          4,
+          -4
+        ],
+        [
+          4,
+          -5
+        ],
+        [
+          4,
+          -6
+        ]
+      ]
+    },
+    {
+      "id": "health_lab/hub",
+      "from": {
+        "module": "hub",
+        "door": "health",
+        "edge": [
+          3,
+          2
+        ],
+        "outside": [
+          4,
+          2
+        ]
+      },
+      "to": {
+        "module": "health_lab",
+        "door": "hub",
+        "edge": [
+          5,
+          2
+        ],
+        "outside": [
+          4,
+          2
+        ]
+      },
+      "cells": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "cargo/hub",
+      "from": {
+        "module": "hub",
+        "door": "cargo",
+        "edge": [
+          3,
+          4
+        ],
+        "outside": [
+          4,
+          4
+        ]
+      },
+      "to": {
+        "module": "cargo",
+        "door": "hub",
+        "edge": [
+          5,
+          11
+        ],
+        "outside": [
+          4,
+          11
+        ]
+      },
+      "cells": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "health_lab/shelter",
+      "from": {
+        "module": "health_lab",
+        "door": "shelter",
+        "edge": [
+          12,
+          3
+        ],
+        "outside": [
+          13,
+          3
+        ]
+      },
+      "to": {
+        "module": "shelter",
+        "door": "health",
+        "edge": [
+          14,
+          1
+        ],
+        "outside": [
+          13,
+          1
+        ]
+      },
+      "cells": [
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    }
+  ],
+  "corridor_cells": [
+    [
+      -9,
+      -3
+    ],
+    [
+      -10,
+      -3
+    ],
+    [
+      -11,
+      -3
+    ],
+    [
+      -5,
+      2
+    ],
+    [
+      -1,
+      7
+    ],
+    [
+      -5,
+      4
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      -5,
+      6
+    ],
+    [
+      -5,
+      7
+    ],
+    [
+      -5,
+      8
+    ],
+    [
+      -5,
+      9
+    ],
+    [
+      -5,
+      10
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      -1
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      -3
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      4,
+      -5
+    ],
+    [
+      4,
+      -6
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      13,
+      3
+    ],
+    [
+      13,
+      2
+    ],
+    [
+      13,
+      1
+    ]
+  ],
+  "spawn": [
+    -4,
+    -6
+  ],
+  "companion_spawn": [
+    -3,
+    -6
+  ],
+  "equipment": [
+    {
+      "id": "solar_panel_array",
+      "cell": [
+        -19,
+        1
+      ]
+    },
+    {
+      "id": "battery_power_unit",
+      "cell": [
+        -18,
+        4
+      ]
+    },
+    {
+      "id": "radiator_bank",
+      "cell": [
+        -19,
+        7
+      ]
+    },
+    {
+      "id": "utility_oxygen_tank",
+      "cell": [
+        -16,
+        6
+      ]
+    },
+    {
+      "id": "communications_antenna",
+      "cell": [
+        1,
+        -15
+      ]
+    },
+    {
+      "id": "moon_lander",
+      "cell": [
+        -19,
+        13
+      ]
+    },
+    {
+      "id": "storage_crate_large",
+      "cell": [
+        -14,
+        17
+      ]
+    },
+    {
+      "id": "support_cargo_container",
+      "cell": [
+        -16,
+        17
+      ]
+    },
+    {
+      "id": "tool_case",
+      "cell": [
+        -13,
+        17
+      ]
+    },
+    {
+      "id": "beacon_marker",
+      "cell": [
+        -15,
+        -6
+      ]
+    },
+    {
+      "id": "field_sensor_tripod",
+      "cell": [
+        15,
+        -8
+      ]
+    },
+    {
+      "id": "small_connector_utility_box",
+      "cell": [
+        -16,
+        3
+      ]
+    }
+  ],
+  "facades": [
+    {
+      "id": "small_habitat_module",
+      "module": "living",
+      "cell": [
+        -2,
+        16
+      ]
+    },
+    {
+      "id": "airlock_module",
+      "module": "crew_airlock",
+      "cell": [
+        -5,
+        -10
+      ]
+    },
+    {
+      "id": "greenhouse_module",
+      "module": "greenhouse",
+      "cell": [
+        13,
+        -7
+      ]
+    }
+  ],
+  "notes": [
+    "Native hull envelope contains each full existing cutaway room; legacy small sprites are attached facade/entry bays, not enlarged or claimed to contain those rooms.",
+    "Outdoor corridors are sealed structural art; entry/interior transitions use existing HabitatDirector, not a new gas/door system.",
+    "The isolated preview uses the existing 40x40 terrain cell data with preview-only footprint occupancy. Final production placement remains Phase 0.9."
+  ]
+}

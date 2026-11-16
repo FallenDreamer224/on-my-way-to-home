@@ -1,0 +1,22 @@
+{
+  "asset_id": "pressure_passage",
+  "source_name": "pressure_passage_v2",
+  "request": {
+    "description": "ONLY one enclosed white corrugated cylindrical pressure tunnel segment, like a short insulated aerospace corridor tube lying diagonally down-right. An octagonal sealing flange at each end, dark blue gaskets, short gray support feet. Complete tube about 95 pixels long and 55 pixels high within a transparent 128x128 canvas. No cutaway, no open room, no floor platform, no wall enclosure, no people, no text. Strict 2:1 isometric pixel art, white/gray ribbed shell, charcoal navy one-pixel edges, flat shading, restrained blue-gray accents, no glow or blur.",
+    "width": 128,
+    "height": 128,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88501
+  },
+  "job_id": "9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8",
+  "receipt": "id: 9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8\njob_id: 9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8\nmodel: pixen\ndescription: ONLY one enclosed white corrugated cylindrical pressure tunnel segment, like a short insulated aerospace corridor tube lying diagonally down-right. An octagonal sealing flange at each end, dark blue gaskets, short gray support feet. Complete tube about 95 pixels long and 55 pixels high within a transparent 128x128 canvas. No cutaway, no open room, no floor platform, no wall enclosure, no people, no text. Strict 2:1 isometric pixel art, white/gray ribbed shell, charcoal navy one-pixel edges, flat shading, restrained blue-gray accents, no glow or blur.\nsize: 128x128px\ntransparent: True\nasset_id: 40dd99f4-36a7-5b1d-85ca-4a5c287fc63a\nasset_status: pending (saved when generation completes)\nseed: 88501\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9f9d561d-50c5-4f94-9f0a-11a4e4cd46d8/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

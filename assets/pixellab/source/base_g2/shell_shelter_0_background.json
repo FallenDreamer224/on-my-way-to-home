@@ -1,0 +1,10 @@
+{
+  "asset_id": "shell_shelter_0",
+  "job_id": "e617293c-1d39-4532-8dda-fa455383a99f",
+  "cost_generations": 1,
+  "operation": "remove_background",
+  "source_half": "shell_shelter_0.png",
+  "source_sha256": "4fca994c6730d5fbda5b35674dc8b2cc1bf1edf515c2180ec7fa64bd798c177e",
+  "receipt": "id: e617293c-1d39-4532-8dda-fa455383a99f\njob_id: e617293c-1d39-4532-8dda-fa455383a99f\nsize: 208x320px (unchanged)\ntask: remove_complex_background\nasset_id: 8f9c41e5-6b82-56ce-859c-f0db4661c296\nasset_status: pending (saved to your gallery when generation completes)\ncost: 1 generation\nstatus: processing (~10-30s)\n\nhint: get_image(job_id=\"e617293c-1d39-4532-8dda-fa455383a99f\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/e617293c-1d39-4532-8dda-fa455383a99f/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "review_status": "PENDING"
+}

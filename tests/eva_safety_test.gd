@@ -18,6 +18,8 @@ func check(value: bool, label: String) -> void:
 
 func _run() -> void:
 	var main: Node = load("res://scenes/main.tscn").instantiate()
+	# Exercise the original policy's exact bands/cooldowns on an unoccupied controlled map.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	await process_frame
 	await process_frame

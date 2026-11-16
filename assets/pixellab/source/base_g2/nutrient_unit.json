@@ -1,0 +1,21 @@
+{
+  "asset_id": "nutrient_unit",
+  "request": {
+    "description": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact sealed hydroponic nutrient reservoir: squat pale tank with dark navy lid, two small capped hose couplings, level inspection slot without numbers, white mounting cradle. About 40 pixels wide and 36 pixels tall. No plants, soil or open liquid.",
+    "width": 64,
+    "height": 64,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88407
+  },
+  "job_id": "fe4c549a-5e44-4afa-b74a-c8096f284fc4",
+  "receipt": "id: fe4c549a-5e44-4afa-b74a-c8096f284fc4\njob_id: fe4c549a-5e44-4afa-b74a-c8096f284fc4\nmodel: pixen\ndescription: Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact sealed hydroponic nutrient reservoir: squat pale tank with dark navy lid, two small capped hose couplings, level inspection slot without numbers, white mounting cradle. About 40 pixels wide and 36 pixels tall. No plants, soil or open liquid.\nsize: 64x64px\ntransparent: True\nasset_id: b80a67c0-7126-5b20-bfe9-2d896361853a\nasset_status: pending (saved when generation completes)\nseed: 88407\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"fe4c549a-5e44-4afa-b74a-c8096f284fc4\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/fe4c549a-5e44-4afa-b74a-c8096f284fc4/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

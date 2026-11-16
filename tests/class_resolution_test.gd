@@ -18,7 +18,10 @@ func run() -> void:
 		"res://scripts/utilities/utility_service.gd": "UtilityService",
 		"res://scripts/ui/utility_panel.gd": "UtilityPanel",
 		"res://scripts/habitat/daily_life.gd": "DailyLife",
-		"res://scripts/ui/daily_life_panel.gd": "DailyLifePanel"}
+		"res://scripts/ui/daily_life_panel.gd": "DailyLifePanel",
+		"res://scripts/world/lunar_base_world.gd": "LunarBaseWorld",
+		"res://scripts/world/lunar_base_assembly.gd": "LunarBaseAssembly",
+		"res://scripts/interiors/interior_room.gd": "InteriorArtRoom"}
 	for path: String in classes:
 		var script := load(path) as Script
 		check(script != null and script.can_instantiate(), "Script parses: " + path)
@@ -34,7 +37,11 @@ func run() -> void:
 	check(region != null and region.eva_limits is EvaSafetyLimits, "eva_limits is the authored instance Resource")
 	if region != null:
 		check(safety.limits == region.eva_limits, "Main passes the actual terrain policy to the monitor")
-		check(region.eva_limits == load("res://resources/config/lunar_eva_safety.tres"), "Existing safety configuration retained")
+		var authored: EvaSafetyLimits = load("res://resources/config/lunar_eva_safety.tres")
+		check(authored.allowed_cells == Rect2i(-19,-19,38,38) and authored.return_cell == Vector2i.ZERO, "Existing authored safety configuration retained unchanged")
+		check(region.eva_limits != authored and region.eva_limits.validation_errors().is_empty(), "Production policy is an independently validated instance")
+		check(region.eva_limits.cooldown_seconds == authored.cooldown_seconds and region.eva_limits.warning_message == authored.warning_message and region.eva_limits.warning_enabled, "Production retains authored warning behavior")
+		check(region.eva_limits.return_cell == main.lunar_base.assembly.entry_cell(), "Safe return references the actual production hatch")
 	var utilities: UtilityService = main.get_node("Systems/Utilities")
 	var director: HabitatDirector = main.get_node("Systems/HabitatDirector")
 	check(utilities.model.config != null and utilities.model.alarms.is_empty(), "Utility service initialized safely")

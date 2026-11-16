@@ -17,8 +17,14 @@ extends TerrainRegion
 @export var crater_radii: Array[int] = [3, 2]
 @export var eva_limits: EvaSafetyLimits
 
+## Per-session production placement. Clearance is distinct from physical occupancy.
+var navigation_exclusions: Dictionary[Vector2i, bool] = {}
+var installed_footprints: Dictionary[Vector2i, StringName] = {}
+var prepared_access_cells: Dictionary[Vector2i, bool] = {}
+
 
 func create_cells() -> Dictionary[Vector2i, int]:
+	if not cells.is_empty(): return cells.duplicate()
 	var result: Dictionary[Vector2i, int] = {}
 	for y: int in range(origin.y, origin.y + size.y):
 		for x: int in range(origin.x, origin.x + size.x):
@@ -71,7 +77,9 @@ func _crater_distance(cell: Vector2i) -> int:
 
 
 func is_cell_walkable(cell: Vector2i) -> bool:
-	return _interior().has_point(cell) and (_crater_distance(cell) > 0 or is_safe_route(cell) or not zone_at(cell).is_empty())
+	# Authored access aprons may cross a rim; the actual crater cores stay excluded.
+	if cell in crater_centers: return false
+	return _interior().has_point(cell) and not navigation_exclusions.has(cell) and (prepared_access_cells.has(cell) or _crater_distance(cell) > 0 or is_safe_route(cell) or not zone_at(cell).is_empty())
 
 
 func surface_at(cell: Vector2i, kind: int) -> SurfaceCellData:
@@ -79,6 +87,7 @@ func surface_at(cell: Vector2i, kind: int) -> SurfaceCellData:
 	data.terrain_type = kind as Kind
 	data.walkable = is_cell_walkable(cell)
 	data.reserved_zone = zone_at(cell)
+	data.occupant_id = installed_footprints.get(cell, &"")
 	data.sunlight_exposure = SurfaceCellData.Sunlight.OPEN_SKY_ASSUMED if data.reserved_zone == &"solar_power" else SurfaceCellData.Sunlight.UNSURVEYED
 	if not _interior().has_point(cell):
 		data.hazard_flags |= SurfaceCellData.Hazard.RESTRICTED

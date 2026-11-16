@@ -14,6 +14,8 @@ func _initialize() -> void:
 
 func _run() -> void:
 	var main: Node = MAIN.instantiate()
+	# Keep the authored pickup/capacity microfixture independent of installed-world placement.
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	var actor: Astronaut = main.get_node("World/Entities/Players/Astronaut")
 	var dog: Chiwis = main.get_node("World/Entities/NPCs/Chiwis")
@@ -218,6 +220,7 @@ func _run() -> void:
 	main.queue_free()
 	await process_frame
 	main = MAIN.instantiate()
+	main.integrate_lunar_base = false
 	root.add_child(main)
 	actor = main.get_node("World/Entities/Players/Astronaut")
 	dog = main.get_node("World/Entities/NPCs/Chiwis")
@@ -349,7 +352,7 @@ func _capture(filename: String) -> void:
 func _click(control: Control) -> void:
 	await process_frame
 	var event: InputEventMouseButton = InputEventMouseButton.new()
-	event.position = control.get_global_rect().get_center()
+	event.position = root.get_final_transform() * control.get_global_rect().get_center()
 	event.global_position = event.position
 	event.button_index = MOUSE_BUTTON_LEFT
 	event.pressed = true

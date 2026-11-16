@@ -56,7 +56,7 @@ func _run() -> void:
 	for child: Node in main.get_node("Systems").get_children():
 		system_names.append(child.name)
 	system_names.sort()
-	_check(system_names == PackedStringArray(["ChiwisCommentary", "ChiwisDialogue", "EvaSafety", "GameplayModes", "HabitatDirector", "Objectives", "PlayerSession", "Utilities"]),
+	_check(system_names == PackedStringArray(["ChiwisCommentary", "ChiwisDialogue", "EvaSafety", "GameplayModes", "HabitatDirector", "LunarBaseWorld", "Objectives", "PlayerSession", "Utilities"]),
 		"Only approved orchestration and presentation adapters; no medical manager")
 	_check_layout(ui)
 	var originally_fullscreen: bool = root.mode in [Window.MODE_FULLSCREEN, Window.MODE_EXCLUSIVE_FULLSCREEN]

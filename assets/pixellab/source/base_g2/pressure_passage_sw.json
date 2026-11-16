@@ -1,0 +1,25 @@
+{
+  "asset_id": "pressure_passage_sw",
+  "footprint": [
+    1,
+    2
+  ],
+  "request": {
+    "description": "ONLY one short enclosed white corrugated cylindrical pressure tunnel segment, long axis diagonal DOWN-LEFT in strict 2:1 isometric view. Far end upper-right, near end lower-left. Octagonal sealing flanges at both ends, navy gaskets, evenly spaced white ribs, four short gray support feet. Whole object about 100 pixels wide and 70 pixels tall inside transparent 128x128 canvas. Same restrained white/light-gray/slate-blue aerospace pixel-art style as lunar habitat. Hard one-pixel outlines, flat shading from upper left, no blur or glow. No floor, room, scenery, characters, text or unrelated object.",
+    "width": 128,
+    "height": 128,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-west",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88801
+  },
+  "receipt": "id: 54f2b35f-89a0-4384-9ca1-31b6a8f11044\njob_id: 54f2b35f-89a0-4384-9ca1-31b6a8f11044\nmodel: pixen\ndescription: ONLY one short enclosed white corrugated cylindrical pressure tunnel segment, long axis diagonal DOWN-LEFT in strict 2:1 isometric view. Far end upper-right, near end lower-left. Octagonal sealing flanges at both ends, navy gaskets, evenly spaced white ribs, four short gray support feet. Whole object about 100 pixels wide and 70 pixels tall inside transparent 128x128 canvas. Same restrained white/light-gray/slate-blue aerospace pixel-art style as lunar habitat. Hard one-pixel outlines, flat shading from upper left, no blur or glow. No floor, room, scenery, characters, text or unrelated object.\nsize: 128x128px\ntransparent: True\nasset_id: 8a16dbeb-04fc-5130-95ab-50f0ae3a1687\nasset_status: pending (saved when generation completes)\nseed: 88801\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"54f2b35f-89a0-4384-9ca1-31b6a8f11044\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/54f2b35f-89a0-4384-9ca1-31b6a8f11044/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "job_id": "54f2b35f-89a0-4384-9ca1-31b6a8f11044",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Native counterpart passage/corner reviewed, transparent full object, no rotation or resizing.",
+  "receipt_is_submission_snapshot": true
+}

@@ -1,0 +1,21 @@
+{
+  "asset_id": "irrigation_unit",
+  "request": {
+    "description": "Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact research-tray irrigation pump/manifold: white rectangular housing, three blue-gray sealed hose connectors, short U-shaped metal pipes, two simple valves and cyan indicator. About 42 pixels wide and 34 pixels tall. No plants or labels.",
+    "width": 64,
+    "height": 64,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88408
+  },
+  "job_id": "81f3adda-3018-4093-8101-7a445bb7c2a4",
+  "receipt": "id: 81f3adda-3018-4093-8101-7a445bb7c2a4\njob_id: 81f3adda-3018-4093-8101-7a445bb7c2a4\nmodel: pixen\ndescription: Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. One compact research-tray irrigation pump/manifold: white rectangular housing, three blue-gray sealed hose connectors, short U-shaped metal pipes, two simple valves and cyan indicator. About 42 pixels wide and 34 pixels tall. No plants or labels.\nsize: 64x64px\ntransparent: True\nasset_id: 72c26029-9d4e-5546-8109-280c9086ad89\nasset_status: pending (saved when generation completes)\nseed: 88408\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"81f3adda-3018-4093-8101-7a445bb7c2a4\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/81f3adda-3018-4093-8101-7a445bb7c2a4/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

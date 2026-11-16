@@ -1,0 +1,1260 @@
+{
+  "assets": [
+    {
+      "asset_id": "shell_core",
+      "bounds_px": [
+        20,
+        17,
+        482,
+        354
+      ],
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            272
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            346
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            363
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            367
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            356
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            367
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            371
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            364
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            363
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            363
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            369
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            367
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            350
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            356
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            344
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            329
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "footprint": [
+        8,
+        9
+      ],
+      "generation_id": "ef99c866-4753-43a3-a6e5-8e63a9bbfd3a",
+      "ground_anchor_px": [
+        206,
+        371
+      ],
+      "native_resampling": false,
+      "native_size_px": [
+        576,
+        384
+      ],
+      "processing_recipe": "tools/exterior/key_shell_background.gd",
+      "retained_foreground_pixels": 137270,
+      "review_status": "READY",
+      "rgb_pixels_modified": 0,
+      "runtime_path": "assets/buildings/base_g2/shells/shell_core.png",
+      "sha256": "c34b927acb78d58b25ee565266c3f3572b1edb45d19ac8c9764793a1741a5f64",
+      "source_raw": "assets/pixellab/source/base_g2/shell_raw/shell_core.png",
+      "source_sha256": "1495d19ff1d35c19a8a8291d79c5dbbe7a5d8c40d380d68acf7471b35ee6794b",
+      "standards_version": "1.0.0",
+      "category": "exterior_shell",
+      "source_provider": "PixelLab.ai MCP with documented alpha preparation",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_core.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_core.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        576,
+        384
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        206,
+        371
+      ],
+      "explicit_footprint_grid_cells": [
+        8,
+        9
+      ],
+      "physical_scale_intent": "Native room-sized pressure-vessel artwork; grid envelope is an explicit placement budget, not metric or pressure certification.",
+      "exception": null,
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad octagonal central mission habitat, about 540 pixels wide, ground diamond 540x270 pixels, vertical pressure shell about 70 pixels high. Rounded chamfered white pressure vessel with a gently arched insulated roof, six deep structural ribs, two short blue-gray service spines, small dark observation windows, recessed equipment sockets, restraint fasteners and short gray feet. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          576,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            576,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "processing_authorization": "Extended Phase 0.8G2 sections 24 and 27 authorize least-destructive technical correction and separated background/layer preparation; source images remain intact.",
+      "visual_review_evidence": "tests/output/phase_0_8g2_base/captures/"
+    },
+    {
+      "asset_id": "shell_habitat",
+      "bounds_px": [
+        155,
+        36,
+        372,
+        329
+      ],
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            144,
+            195
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            314
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            319
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            346
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            347
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            355
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            365
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            363
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            347
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            346
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            319
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            319
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            384
+          ]
+        },
+        {
+          "depth_datum_px": [
+            528,
+            202
+          ],
+          "region": [
+            512,
+            0,
+            32,
+            384
+          ]
+        }
+      ],
+      "footprint": [
+        8,
+        8
+      ],
+      "generation_id": "a616a22f-748e-477f-84d7-86c4474893da",
+      "ground_anchor_px": [
+        340,
+        365
+      ],
+      "native_resampling": false,
+      "native_size_px": [
+        544,
+        384
+      ],
+      "processing_recipe": "tools/exterior/key_shell_background.gd",
+      "retained_foreground_pixels": 87789,
+      "review_status": "READY",
+      "rgb_pixels_modified": 0,
+      "runtime_path": "assets/buildings/base_g2/shells/shell_habitat.png",
+      "sha256": "72425bd040d1a1f30408bf9c5d038b1c7fb85a50dd2d9cddf85072cc275981fb",
+      "source_raw": "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png",
+      "source_sha256": "29e258ea3fff6df40e3e2a9a08ea08395bebe7ccb78e9980a4cfd8a848ab6c74",
+      "standards_version": "1.0.0",
+      "category": "exterior_shell",
+      "source_provider": "PixelLab.ai MCP with documented alpha preparation",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_habitat.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_habitat.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        544,
+        384
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        340,
+        365
+      ],
+      "explicit_footprint_grid_cells": [
+        8,
+        8
+      ],
+      "physical_scale_intent": "Native room-sized pressure-vessel artwork; grid envelope is an explicit placement budget, not metric or pressure certification.",
+      "exception": null,
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete broad rounded rectangular habitation pressure vessel, about 510 pixels wide, ground diamond 510x255 pixels, shell about 70 pixels high above the ground. Rounded white insulated roof and corners, broad structural ribs, small dark blue observation windows on two sides, external service ports, maintenance panels, gray base skirt and short support feet. Practical aerospace pressure structure, not a cube. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          544,
+          384
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            544,
+            384
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "processing_authorization": "Extended Phase 0.8G2 sections 24 and 27 authorize least-destructive technical correction and separated background/layer preparation; source images remain intact.",
+      "visual_review_evidence": "tests/output/phase_0_8g2_base/captures/"
+    },
+    {
+      "asset_id": "shell_service",
+      "bounds_px": [
+        52,
+        16,
+        412,
+        338
+      ],
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            48,
+            307
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            310
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            327
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            335
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            354
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            337
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            332
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            326
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            326
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            284
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            267
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            260
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            259
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            368
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            205
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            368
+          ]
+        }
+      ],
+      "footprint": [
+        8,
+        7
+      ],
+      "generation_id": "702a52b5-60c2-4b60-9c02-973505daf360",
+      "ground_anchor_px": [
+        176,
+        354
+      ],
+      "native_resampling": false,
+      "native_size_px": [
+        512,
+        368
+      ],
+      "processing_recipe": "tools/exterior/key_shell_background.gd",
+      "retained_foreground_pixels": 92564,
+      "review_status": "READY",
+      "rgb_pixels_modified": 0,
+      "runtime_path": "assets/buildings/base_g2/shells/shell_service.png",
+      "sha256": "4fa6e3d269be75d638acf5f6dc22fdfed33b32b3c1227ad0004ff69354d4cbe3",
+      "source_raw": "assets/pixellab/source/base_g2/shell_raw/shell_service.png",
+      "source_sha256": "d69e0fb55527c8faad722e573ab75e9c9ed2e501a6eb7b8274af7f6eb72dfb62",
+      "standards_version": "1.0.0",
+      "category": "exterior_shell",
+      "source_provider": "PixelLab.ai MCP with documented alpha preparation",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_service.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_service.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        512,
+        368
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        176,
+        354
+      ],
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "physical_scale_intent": "Native room-sized pressure-vessel artwork; grid envelope is an explicit placement budget, not metric or pressure certification.",
+      "exception": null,
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact wide service pressure vessel, about 480 pixels wide, ground diamond 480x240 pixels, shell about 70 pixels high above ground. Rounded insulated white aerospace enclosure with ribbed vaulted roof, recessed slate-blue filter panels, small dark observation ports, utility coupling covers, cable sockets, short gray landing supports. Clearly one sealed building, not disconnected equipment or a plain box. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          368
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            368
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "processing_authorization": "Extended Phase 0.8G2 sections 24 and 27 authorize least-destructive technical correction and separated background/layer preparation; source images remain intact.",
+      "visual_review_evidence": "tests/output/phase_0_8g2_base/captures/"
+    },
+    {
+      "asset_id": "shell_greenhouse",
+      "bounds_px": [
+        24,
+        35,
+        466,
+        337
+      ],
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            285
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            304
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            322
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            342
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            358
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            372
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            372
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            362
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            348
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            348
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            322
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            297
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            297
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            432,
+            295
+          ],
+          "region": [
+            416,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            464,
+            249
+          ],
+          "region": [
+            448,
+            0,
+            32,
+            400
+          ]
+        },
+        {
+          "depth_datum_px": [
+            496,
+            232
+          ],
+          "region": [
+            480,
+            0,
+            32,
+            400
+          ]
+        }
+      ],
+      "footprint": [
+        8,
+        7
+      ],
+      "generation_id": "3f251583-990f-421d-b03c-5b56024f3aa5",
+      "ground_anchor_px": [
+        193,
+        372
+      ],
+      "native_resampling": false,
+      "native_size_px": [
+        512,
+        400
+      ],
+      "processing_recipe": "tools/exterior/key_shell_background.gd",
+      "retained_foreground_pixels": 97730,
+      "review_status": "READY",
+      "rgb_pixels_modified": 0,
+      "runtime_path": "assets/buildings/base_g2/shells/shell_greenhouse.png",
+      "sha256": "b7a36e9e3aab00728944221d75373050e4b3e93b0133c5893f04224f4af1bebc",
+      "source_raw": "assets/pixellab/source/base_g2/shell_raw/shell_greenhouse.png",
+      "source_sha256": "791e3e6593137921af2848eb93ee06b78e92c7a4cf0e8ca8e28739b3625a2200",
+      "standards_version": "1.0.0",
+      "category": "exterior_shell",
+      "source_provider": "PixelLab.ai MCP with documented alpha preparation",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_greenhouse.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_greenhouse.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        512,
+        400
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        193,
+        372
+      ],
+      "explicit_footprint_grid_cells": [
+        8,
+        7
+      ],
+      "physical_scale_intent": "Native room-sized pressure-vessel artwork; grid envelope is an explicit placement budget, not metric or pressure certification.",
+      "exception": null,
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete sealed lunar greenhouse pressure module about 480 pixels wide, ground diamond 480x240 pixels, shell about 90 pixels high. Rounded white insulated pressure base and ends, broad vaulted roof glazing in dark blue-gray panes, visible restrained green research plant trays under the glazing, thick white ribs and gray service couplings, short support feet. Controlled enclosed lab, not open garden. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          512,
+          400
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            512,
+            400
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "processing_authorization": "Extended Phase 0.8G2 sections 24 and 27 authorize least-destructive technical correction and separated background/layer preparation; source images remain intact.",
+      "visual_review_evidence": "tests/output/phase_0_8g2_base/captures/"
+    },
+    {
+      "asset_id": "shell_shelter",
+      "bounds_px": [
+        25,
+        30,
+        365,
+        267
+      ],
+      "depth_strips": [
+        {
+          "depth_datum_px": [
+            16,
+            220
+          ],
+          "region": [
+            0,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            48,
+            228
+          ],
+          "region": [
+            32,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            80,
+            275
+          ],
+          "region": [
+            64,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            112,
+            279
+          ],
+          "region": [
+            96,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            144,
+            278
+          ],
+          "region": [
+            128,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            176,
+            279
+          ],
+          "region": [
+            160,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            208,
+            287
+          ],
+          "region": [
+            192,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            240,
+            296
+          ],
+          "region": [
+            224,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            272,
+            297
+          ],
+          "region": [
+            256,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            304,
+            286
+          ],
+          "region": [
+            288,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            336,
+            275
+          ],
+          "region": [
+            320,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            368,
+            258
+          ],
+          "region": [
+            352,
+            0,
+            32,
+            320
+          ]
+        },
+        {
+          "depth_datum_px": [
+            400,
+            240
+          ],
+          "region": [
+            384,
+            0,
+            32,
+            320
+          ]
+        }
+      ],
+      "footprint": [
+        6,
+        6
+      ],
+      "generation_id": "951d70f2-a2f2-43d3-9f56-0b9b38794510",
+      "ground_anchor_px": [
+        262,
+        297
+      ],
+      "native_resampling": false,
+      "native_size_px": [
+        416,
+        320
+      ],
+      "processing_recipe": "tools/exterior/key_shell_background.gd",
+      "retained_foreground_pixels": 69806,
+      "review_status": "READY",
+      "rgb_pixels_modified": 0,
+      "runtime_path": "assets/buildings/base_g2/shells/shell_shelter.png",
+      "sha256": "b7f41305166c91f8a5134575210e9f6cb1cf0d3993b0e912b341b305827c222e",
+      "source_raw": "assets/pixellab/source/base_g2/shell_raw/shell_shelter.png",
+      "source_sha256": "dace50a0cbea48e8d21e448ffce1ba1674978248da20476e8c02a2acbfa66d88",
+      "standards_version": "1.0.0",
+      "category": "exterior_shell",
+      "source_provider": "PixelLab.ai MCP with documented alpha preparation",
+      "source_files": [
+        "assets/pixellab/source/base_g2/shell_raw/shell_shelter.png"
+      ],
+      "runtime_files": [
+        "assets/buildings/base_g2/shells/shell_shelter.png"
+      ],
+      "usage_terms": "https://www.pixellab.ai/termsofservice",
+      "native_canvas_size_px": [
+        416,
+        320
+      ],
+      "ground_anchor_px_from_image_top_left": [
+        262,
+        297
+      ],
+      "explicit_footprint_grid_cells": [
+        6,
+        6
+      ],
+      "physical_scale_intent": "Native room-sized pressure-vessel artwork; grid envelope is an explicit placement budget, not metric or pressure certification.",
+      "exception": null,
+      "prompt": "Native 2D isometric PIXEL ART building sprite for On My Way to Home. Strict 2:1 diamond ground plane, elevated view from the south showing roof and two sides. Existing palette: cool white, light gray, charcoal navy outlines, muted slate blue. Flat clustered pixel shading from upper left, crisp one-pixel edges and about 24 colors; no blurry texture or gradients. A complete compact reinforced emergency compartment about 380 pixels wide, ground diamond 380x190 pixels, shell about 70 pixels high. Rounded pale gray pressure hull with layered insulated external panels, white structural bands, blue-gray corner hardware, recessed service fittings and short broad supports. Low practical protected compartment, no weapons. No visible crew door; doors are separate sprites. Draw the whole building with generous clear margins on a SOLID PURE MAGENTA #FF00FF background, which will be removed separately without resizing. No characters, robots, floor, scenery, surface terrain, cast ground shadow, lettering, symbols, logos, glow or watermark. One connected full-scale structure. Do not draw a grid of floor tiles on its roof.",
+      "animation": {
+        "type": "static",
+        "frame_count": 1,
+        "frame_size_px": [
+          416,
+          320
+        ],
+        "frame_regions": [
+          [
+            0,
+            0,
+            416,
+            320
+          ]
+        ],
+        "fps": 0,
+        "loop": false
+      },
+      "processing_authorization": "Extended Phase 0.8G2 sections 24 and 27 authorize least-destructive technical correction and separated background/layer preparation; source images remain intact.",
+      "visual_review_evidence": "tests/output/phase_0_8g2_base/captures/"
+    }
+  ],
+  "phase": "0.8G2 extended",
+  "rejected_provider_masks": "Ten background-removal results discarded subject pixels; preserved in source/shell_cutouts and not integrated."
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": "pressure_elbow",
+  "footprint": [
+    2,
+    2
+  ],
+  "request": {
+    "description": "ONLY one connected L-shaped enclosed white insulated pressure passage elbow for a lunar habitat. Two short corrugated cylindrical arms meet at a smoothly rounded right-angle bend, one arm along down-right and the other along down-left of the 2:1 isometric ground grid. Two octagonal navy-gasket flanges, white reinforcing ribs, short gray support feet. Whole object about 100 pixels wide and 76 pixels tall, transparent 128x128 canvas. Native cool-white/light-gray/slate-blue pixel art, dark navy one-pixel outlines, flat upper-left shading. No floor, scene, people, logos, text, blue glow or unrelated equipment.",
+    "width": 128,
+    "height": 128,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south-east",
+    "outline": "single color outline",
+    "detail": "medium detail",
+    "seed": 88802
+  },
+  "receipt": "id: 7835400e-cc44-48ca-9fb0-58ea3a06b346\njob_id: 7835400e-cc44-48ca-9fb0-58ea3a06b346\nmodel: pixen\ndescription: ONLY one connected L-shaped enclosed white insulated pressure passage elbow for a lunar habitat. Two short corrugated cylindrical arms meet at a smoothly rounded right-angle bend, one arm along down-right and the other along down-left of the 2:1 isometric ground grid. Two octagonal navy-gasket flanges, white reinforcing ribs, short gray support feet. Whole object about 100 pixels wide and 76 pixels tall, transparent 128x128 canvas. Native cool-white/light-gray/slate-blue pixel art, dark navy one-pixel outlines, flat upper-left shading. No floor, scene, people, logos, text, blue glow or unrelated equipment.\nsize: 128x128px\ntransparent: True\nasset_id: 9e8f2ff1-191e-5f4c-bc0f-699a7709b3d6\nasset_status: pending (saved when generation completes)\nseed: 88802\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"7835400e-cc44-48ca-9fb0-58ea3a06b346\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/7835400e-cc44-48ca-9fb0-58ea3a06b346/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "job_id": "7835400e-cc44-48ca-9fb0-58ea3a06b346",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Native counterpart passage/corner reviewed, transparent full object, no rotation or resizing.",
+  "receipt_is_submission_snapshot": true
+}

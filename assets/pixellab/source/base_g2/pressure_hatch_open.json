@@ -1,0 +1,18 @@
+{
+  "asset_id": "pressure_hatch_open",
+  "request": {
+    "description": "Open the central blue pressure-door leaf while preserving the exact entire white octagonal frame, its position, size, hinge details, camera angle and transparent 64x96 canvas. Leave a dark empty doorway inside the same gasket. No new objects, platform, text or characters. Keep sharp pixel art; preserve all exterior frame pixels wherever possible.",
+    "image_url": "https://api.pixellab.ai/mcp/images/f49f4ece-f8d9-440d-a685-0b7401693bcd/download",
+    "no_background": true,
+    "width": 64,
+    "height": 96,
+    "seed": 88503
+  },
+  "job_id": "9e743597-97a1-45c4-bf40-83e02dcf4492",
+  "receipt": "id: 9e743597-97a1-45c4-bf40-83e02dcf4492\njob_id: 9e743597-97a1-45c4-bf40-83e02dcf4492\nmodel: pixen\nedit: Open the central blue pressure-door leaf while preserving the exact entire white octagonal frame, its position, size, hinge details, camera angle and transparent 64x96 canvas. Leave a dark empty doorway inside the same gasket. No new objects, platform, text or characters. Keep sharp pixel art; preserve all exterior frame pixels wherever possible.\nsource: 64x96px\nsize: 64x96px\ntransparent: True\nseed: 88503\nasset_id: 56e2350a-2277-57ff-b718-3255aadbe583\nasset_status: pending (saved when generation completes)\ncost: 1 generation\nstatus: processing (~10-40s)\n\nhint: get_image(job_id=\"9e743597-97a1-45c4-bf40-83e02dcf4492\")\nwithout get_image: GET https://api.pixellab.ai/mcp/images/9e743597-97a1-45c4-bf40-83e02dcf4492/download (423 + Retry-After until ready; ?index=N for the Nth of several images)",
+  "cost_generations": 1,
+  "review_status": "PENDING",
+  "final_review_status": "READY",
+  "final_review_reason": "Reviewed native output; separate complete equipment with transparent padding. State-pair datums require measured validation.",
+  "receipt_is_submission_snapshot": true
+}

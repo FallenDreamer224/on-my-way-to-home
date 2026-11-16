@@ -65,6 +65,11 @@ func _ready() -> void:
 			gantry.default_color = Color("a8bac5")
 			prop.add_child(gantry)
 			gantry.z_index = 2
+			var lamp := Sprite2D.new()
+			lamp.texture=load("res://assets/environment/interiors_g2/overhead_lamp.png")
+			lamp.position=Vector2(-16,-94)
+			prop.add_child(lamp)
+			lamp.z_index=3
 	for facility: Dictionary in definition.facilities:
 		_make_action(StringName(facility.id), String(facility.title), &"facility", cell(facility.point))
 	for door: Dictionary in definition.doors:
@@ -101,7 +106,8 @@ func _build_walls() -> void:
 		var view := InteriorModule.new()
 		view.kind = InteriorModule.Kind.DOOR
 		view.position = IsometricGrid.tile_to_position(cell(door.threshold))
-		view.axis = Vector2i(0, 1)
+		var threshold := cell(door.threshold)
+		view.axis = Vector2i(1,0) if threshold.y in [0,region.size.y-1] else Vector2i(0,1)
 		view.z_index = -1
 		construction.add_child(view)
 		door_views[StringName(door.id)] = view

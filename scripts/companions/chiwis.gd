@@ -6,6 +6,10 @@ enum State { IDLE, FOLLOWING, WAITING }
 @export var preferred_distance: float = 36.0
 @export var activation_distance: float = 56.0
 @export var movement_speed: float = 90.0
+## Nearby cruise matches normal astronaut walking; the original 90 px/s cap is catch-up speed.
+@export var walk_speed: float = 80.0
+var running: bool = false
+var _slow_motion_seconds: float = 0.0
 @export var retry_interval: float = 0.35
 @export var follow_target: Node2D
 var state: State = State.IDLE
@@ -67,6 +71,8 @@ func set_follow_enabled(enabled: bool) -> void:
 
 
 func _stop(next_state: State) -> void:
+	running = false
+	_slow_motion_seconds = 0.0
 	state = next_state
 	velocity = Vector2.ZERO
 	if is_node_ready():
@@ -115,7 +121,10 @@ func _physics_process(delta: float) -> void:
 	if delta <= 0.0 or not is_finite(movement_speed) or movement_speed <= 0.0:
 		_stop(State.WAITING)
 		return
-	var length: float = minf(movement_speed * delta, minf(heading.length(), distance - stop_distance))
+	var speed: float = movement_speed
+	if distance <= start_distance + stop_distance and is_finite(walk_speed) and walk_speed > 0:
+		speed = minf(movement_speed, walk_speed)
+	var length: float = minf(speed * delta, minf(heading.length(), distance - stop_distance))
 	var requested: Vector2 = heading.normalized() * length
 	var motion: Vector2 = planner.walkability.constrain_motion(global_position, requested, footprint_half_extent)
 	if not motion.is_equal_approx(requested) or motion.length_squared() < 0.000001:
@@ -129,6 +138,19 @@ func _physics_process(delta: float) -> void:
 		_route.clear()
 		_stop(State.WAITING)
 		return
-	facing = AstronautDirections.from_vector(motion)
+	var actual_motion: Vector2 = global_position - before
+	facing = AstronautDirections.from_vector(actual_motion)
 	state = State.FOLLOWING
-	visual.select_state(&"walk", facing)
+	select_moving_animation(actual_motion.length() / delta, delta)
+
+
+func select_moving_animation(actual_speed: float, delta: float) -> void:
+	if actual_speed > walk_speed + 0.01:
+		running = true
+		_slow_motion_seconds = 0.0
+	else:
+		_slow_motion_seconds += delta
+		# Short route-waypoint steps must not flash a walk frame between sustained run steps.
+		if _slow_motion_seconds >= 0.1:
+			running = false
+	visual.select_state(&"run" if running else &"walk", facing)

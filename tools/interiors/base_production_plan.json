@@ -1,0 +1,20 @@
+{
+  "phase":"0.8G2 extended base art",
+  "standards_version":"1.0.0",
+  "balance_before":3739.15,
+  "authorized_maximum_generations":30,
+  "initial_jobs":10,
+  "style":"Standalone native pixel-art sprite for a practical lunar research base. Clean 2:1 isometric elevated view, top and two sides visible, axes down-right/down-left. Cool white and light gray metal, dark navy single-pixel outlines, muted slate blue, restrained cyan indicators. Flat clustered shading from upper left. Transparent background and padding. Sharp native pixels, no blurry edges, gradients, glow, letters, numbers, logo, watermark, people, robots, scenery or floor platform. Keep the whole object in frame. ",
+  "assets":[
+    {"id":"pressure_passage","size":[128,128],"footprint":[2,1],"brief":"One short enclosed octagonal pressure passage with corrugated white insulation shell, gray structural ribs, sealed circular flanges at both ends, short feet. Long axis down-right. Outer base about 92x46 pixels, clear internal height about 55 pixels, doors not included. No unrelated building."},
+    {"id":"pressure_junction","size":[128,128],"footprint":[2,2],"brief":"One compact four-way pressurized connector hub with four short octagonal white insulated sockets, gray sealing collars, central pale metal top and small access hatch. Ground base about 100x50 pixels, overall height about 75 pixels. No antenna, no windows or unrelated equipment."},
+    {"id":"pressure_hatch_closed","size":[64,96],"footprint":[1,1],"brief":"One separate CLOSED pressure hatch and thick octagonal frame, white structural rim, navy gasket, blue-gray central solid door with short wheel handle and hinge details. Door opening about 25 pixels wide and 52 pixels tall. Plane leans down-left in the 2:1 isometric view; vertical sides upright. Small attached threshold, no corridor or building."},
+    {"id":"service_wall_panel","size":[64,96],"footprint":[1,1],"brief":"One sealed wall-mounted life-support service panel, pale gray rectangular cabinet with ribbed filter vent, small cyan status squares, visible fasteners, narrow gray coolant connections and dark service hatch. Complete cabinet about 38 pixels wide and 50 pixels tall. No text or scientific measurement values."},
+    {"id":"overhead_lamp","size":[64,32],"footprint":[0,0],"brief":"One slim rectangular ceiling-mounted LED task-light fixture, white metal housing, straight pale cyan LED strip under dark blue rim, two small mounting brackets. Object about 46 pixels wide and 14 pixels tall. No glow, cable, plants or other equipment."},
+    {"id":"filter_cartridges","size":[64,64],"footprint":[1,1],"brief":"One small sealed rack holding three replaceable gray cylindrical filter cartridges with white caps and blue restraint bands, complete object about 38 pixels wide and 36 pixels tall. No letters, no waste spill."},
+    {"id":"medical_storage","size":[64,96],"footprint":[1,1],"brief":"One compact white medical supply cabinet with two navy sealed doors, small cyan cross, restraint latch, two small drawers and gray feet. About 38 pixels wide and 52 pixels tall. No patient or medical readings."},
+    {"id":"nutrient_unit","size":[64,64],"footprint":[1,1],"brief":"One compact sealed hydroponic nutrient reservoir: squat pale tank with dark navy lid, two small capped hose couplings, level inspection slot without numbers, white mounting cradle. About 40 pixels wide and 36 pixels tall. No plants, soil or open liquid."},
+    {"id":"irrigation_unit","size":[64,64],"footprint":[1,1],"brief":"One compact research-tray irrigation pump/manifold: white rectangular housing, three blue-gray sealed hose connectors, short U-shaped metal pipes, two simple valves and cyan indicator. About 42 pixels wide and 34 pixels tall. No plants or labels."},
+    {"id":"personal_locker","size":[64,96],"footprint":[1,1],"brief":"One narrow closed white personal expedition locker with navy recessed door, handle, two small storage drawers, vent and short gray feet. About 32 pixels wide and 54 pixels tall. No person, chair, table or text."}
+  ]
+}

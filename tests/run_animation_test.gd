@@ -1,5 +1,5 @@
 extends SceneTree
-## Runs are previewed only in this test. Production movement/controller code is unchanged.
+## Native import integrity and isolated selector checks; live running is covered separately.
 
 const MAIN: PackedScene = preload("res://scenes/main.tscn")
 const FINGERPRINT = preload("res://tools/pixelorama/animation_fingerprint.gd")
@@ -25,7 +25,7 @@ func _run() -> void:
 	var dog: Chiwis = main.get_node("World/Entities/NPCs/Chiwis")
 	var actors: Dictionary[String, Node2D] = {"astronaut": astronaut, "chiwis": dog}
 	_check(astronaut.walk_speed == 80 and dog.movement_speed == 90, "Normal movement speeds unchanged")
-	_check(not InputMap.has_action("sprint") and not InputMap.has_action("player_sprint"), "No sprint input introduced")
+	_check(InputMap.has_action("player_run") and not InputMap.has_action("sprint") and not InputMap.has_action("player_sprint"), "One authoritative hold-to-run action; no duplicate sprint actions")
 	var original_actor: Vector2 = astronaut.global_position
 	var original_dog: Vector2 = dog.global_position
 	# Freeze body physics only inside the test so controllers cannot replace preview states.
@@ -114,7 +114,7 @@ func _run() -> void:
 	await physics_frame
 	await physics_frame
 	await process_frame
-	_check(astronaut.visual.state == &"idle" and dog.visual.state == &"idle", "Normal controllers resume idle; run gameplay remains deferred")
+	_check(astronaut.visual.state == &"idle" and dog.visual.state == &"idle", "Normal controllers resume idle when stationary after preview")
 	_check(dog.follow_enabled and astronaut.control_enabled, "Player and companion behavior preserved after preview")
 	main.queue_free()
 	await process_frame

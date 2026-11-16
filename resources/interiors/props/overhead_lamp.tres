@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InteriorPropDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/interior_prop_definition.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/environment/interiors_g2/overhead_lamp.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+asset_id = &"overhead_lamp"
+texture = ExtResource("2")
+native_size = Vector2i(64, 32)
+opaque_bounds = Rect2i(18, 1, 30, 30)
+ground_anchor = Vector2i(32, 31)
+footprint = Vector2i(0, 0)
+grid_origin = Vector2i(0, 0)
+provenance = "art/imports/base_g2.json"
+source_files = PackedStringArray("assets/pixellab/source/base_g2/overhead_lamp.png")
+reused = false
+attachment_anchor = Vector2i(32, 31)

@@ -91,7 +91,7 @@ func _init() -> void:
 	content.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	row.add_child(content)
 	content.add_child(UiKit.label("BASE MANAGEMENT", &"CaptionLabel"))
-	title = UiKit.label("", &"SectionLabel")
+	title = UiKit.wrapped("", &"SectionLabel")
 	title.name = "Title"
 	content.add_child(title)
 	content.add_child(UiKit.separator())
@@ -202,10 +202,18 @@ func _note(category: StringName, text: String) -> void:
 	pages[category].add_child(UiKit.wrapped(text, &"CaptionLabel", 200))
 
 
+## Narrow dock readings wrap vertically instead of expanding beyond the viewport.
+func _reading(category: StringName, caption: String) -> Label:
+	var box := UiKit.vbox(1)
+	box.add_child(UiKit.wrapped(caption, &"SecondaryLabel"))
+	var value := UiKit.wrapped("")
+	box.add_child(value)
+	pages[category].add_child(box)
+	return value
+
+
 func _row(category: StringName, caption: String, getter: Callable) -> void:
-	var pair: Array = UiKit.value_row(caption)
-	pages[category].add_child(pair[0])
-	var value: Label = pair[1]
+	var value: Label = _reading(category, caption)
 	_updaters[category].append(func() -> void:
 		var reading: Variant = getter.call()
 		if reading is Array:
@@ -216,9 +224,7 @@ func _row(category: StringName, caption: String, getter: Callable) -> void:
 
 
 func _gauge(category: StringName, caption: String, getter: Callable) -> void:
-	var pair: Array = UiKit.value_row(caption)
-	pages[category].add_child(pair[0])
-	var value: Label = pair[1]
+	var value: Label = _reading(category, caption)
 	var bar: ProgressBar = UiKit.gauge()
 	pages[category].add_child(bar)
 	_updaters[category].append(func() -> void:

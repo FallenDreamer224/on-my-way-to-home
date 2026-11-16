@@ -2,7 +2,9 @@
 
 ## Project
 
-On My Way to Home — the project authors. Final public author names and the project's code/art licensing remain pending publisher confirmation. No individual identity is inferred from local machine paths.
+On My Way to Home — the project authors. Public author names and code/art licensing await publisher confirmation.
+
+OpenAI Codex assisted with code and documentation. PixelLab.ai-assisted artwork is identified below and in the asset import records. Character artwork and animations were made by hand in Pixelorama.
 
 ## Godot Engine
 
@@ -13,7 +15,7 @@ Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
 
 Godot is distributed under the [MIT license and official license notice](https://godotengine.org/license/). This credit does not license this game's code or artwork. Future executable distribution must retain applicable engine and dependency notices from the matching build; see [Godot's compliance guidance](https://docs.godotengine.org/en/stable/about/complying_with_licenses.html).
 
-The current temporary `icon.svg` is Godot-branded. [Godot logos use CC BY 4.0 and have usage guidelines](https://godotengine.org/press/). Keep that attribution; replace the temporary application branding with approved game artwork before public release. D2.5 preserves the original icon.
+The current `icon.svg` is Godot-branded. [Godot logos use CC BY 4.0 and have usage guidelines](https://godotengine.org/press/). This attribution must remain while that icon is used. Approved game branding is required before public release.
 
 ## Art and authoring
 
@@ -26,7 +28,10 @@ Original artwork, transparency, source hashes and import metadata are preserved.
 
 ## Fonts and research
 
-The development UI uses Godot's bundled fallback font; no separate font files or external font plugin were found in the project. The matching engine's [third-party notices](https://github.com/godotengine/godot/blob/4.7.2-stable/COPYRIGHT.txt) remain relevant to fonts/libraries embedded in its binary.
+- Departure Mono, copyright 2022–2024 Helena Zhang, uses the [SIL Open Font License 1.1](assets/ui/fonts/departure_mono_OFL.txt).
+- Silkscreen, copyright 2001 The Silkscreen Project Authors, uses the [SIL Open Font License 1.1](assets/ui/fonts/silkscreen_OFL.txt).
+
+Both fonts and their license texts are included under `assets/ui/fonts/`. Godot's [third-party notices](https://github.com/godotengine/godot/blob/4.7.2-stable/COPYRIGHT.txt) cover libraries embedded in the engine binary.
 
 Scientific references are attributed through the [Science Bible](docs/SCIENCE_BIBLE.md), [NASA catalog](docs/NASA_TECHNOLOGY_CATALOG.md) and research registry. NASA and JPL are reference sources, not game sponsors or endorsers. Their names, imagery and insignia have separate [usage rules](https://www.nasa.gov/nasa-brand-center/images-and-media/); no new NASA logos or insignia were introduced in this cleanup.
 

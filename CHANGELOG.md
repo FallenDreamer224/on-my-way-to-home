@@ -2,6 +2,14 @@
 
 No public version or release tag has been created.
 
+## Unreleased — Compact lunar outpost
+
+- Reduced exterior hull footprints by 40% while retaining all nine furnished rooms.
+- Grouped power, life-support, communications and cargo installations; preserved the lander.
+- Updated navigation and airlock guidance for the compact layout.
+- Cleaned menu, inventory, equipment and public documentation copy; retained tool credits, licenses and scientific attribution.
+- Kept settings controls centered when changing interface scale.
+
 ## 0.1.0-rc.1 — Local Windows candidate (2026-11-15)
 
 - Exported the existing Moon prototype using the official Godot 4.7.2 Windows x64 release template.
@@ -27,5 +35,5 @@ No public version or release tag has been created.
 - 0.8E1: utility resource/energy accounting, equipment state, terminals and alarms.
 - Earlier phases: Moon terrain, astronaut/Chiwis art and following, cameras/modes, inventory/interactions, EVA perimeter and modular interiors.
 
-Historical phase reports provide the detailed implementation and acceptance records. D1/D2 menu or release features are not claimed merely because this preparation phase is called D2.5.
+Historical phase reports record implementation and validation for each earlier checkpoint.
 

@@ -220,7 +220,7 @@ func _refresh_continue() -> void:
 		return
 	buttons[&"continue"].disabled = not save_available
 	buttons[&"continue"].focus_mode = Control.FOCUS_ALL if save_available else Control.FOCUS_NONE
-	continue_note.text = "" if save_available else "      NO SAVED SESSION: SAVING IS NOT AVAILABLE YET"
+	continue_note.text = "" if save_available else "      SAVING IS NOT AVAILABLE YET"
 
 
 func _apply_settings() -> void:
@@ -251,4 +251,4 @@ func _play_entrance() -> void:
 
 static func _version_text() -> String:
 	var version: String = str(ProjectSettings.get_setting("application/config/version", ""))
-	return ("VERSION " + version if not version.is_empty() else "DEVELOPMENT BUILD") + "  /  PHASE 0.8F"
+	return ("VERSION " + version + "  /  " if not version.is_empty() else "") + "MOON TUTORIAL"

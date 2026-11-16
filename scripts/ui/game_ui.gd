@@ -196,6 +196,8 @@ func _apply_settings() -> void:
 	scrim.color = active.get_color(&"scrim", UiKit.TOKENS)
 	if is_node_ready():
 		refresh_bindings()
+		if is_instance_valid(system_menu) and system_menu.visible:
+			UiKit.center_modal(system_menu.window, SystemMenu.DESIGN_SIZE)
 
 
 ## Anchors are fractions of the viewport. Dividing the authored anchors by the layer scale

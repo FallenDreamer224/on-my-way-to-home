@@ -55,10 +55,10 @@ func run() -> void:
 	inventory = actor.get_node("Inventory")
 	check(main.lunar_base != null and main.camera_rig.follow_target == actor, "Actual installed base and astronaut camera remain active")
 	check(actor.walk_speed == 80 and actor.run_speed == 140 and dog.movement_speed == 90 and dog.walk_speed == 80, "Explicit walking/run configuration and original companion cap")
-	var center := Vector2(0,-480)
+	var center := Vector2(-320,224)
 	for vector: Vector2 in AstronautDirections.VECTORS:
-		check(actor.walkability.constrain_motion(center,vector.normalized()*112,actor.footprint_half_extent).is_equal_approx(vector.normalized()*112), "Northern test route is genuinely walkable: " + str(vector))
-	check(await walk_to(center), "Reach clear northern regolith by real walking")
+		check(actor.walkability.constrain_motion(center,vector.normalized()*112,actor.footprint_half_extent).is_equal_approx(vector.normalized()*112), "Southern test route is genuinely walkable: " + str(vector))
+	check(await walk_to(center), "Reach clear southern regolith by real walking")
 	for index: int in AstronautDirections.NAMES.size():
 		var facing: StringName = AstronautDirections.NAMES[index]
 		var vector: Vector2 = AstronautDirections.VECTORS[index].normalized()

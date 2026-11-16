@@ -1,6 +1,6 @@
-# Asset inventory — Phase 0.9 world integration
+# Asset inventory — Phase 0.9.2 production layout
 
-Snapshot: Phase 0.9 production integration. Artwork counts and source records below are retained; the current production-use section supersedes earlier preparation-only status. No new artwork, generation or redistribution permission is implied.
+Snapshot: Phase 0.9.2 compact production layout. Artwork counts and source records below are retained; the current production-use section supersedes earlier preparation-only status. No new artwork, generation or redistribution permission is implied.
 
 ## Current totals
 
@@ -708,16 +708,16 @@ F6: `scenes/development/lunar_base_preview.tscn`. F1 entrance, F2 core, F3 green
 
 <!-- PRODUCTION_0_9_BEGIN -->
 
-## Phase 0.9 — Current production use
+## Phase 0.9.2 — Current production use
 
 Normal Main Menu → New Game now instantiates the modular outpost under the real Y-sorted World and uses all nine existing furnished room scenes through HabitatDirector. No development gallery or complete-base PNG substitutes for gameplay. The astronaut, Chiwis, inventory, mission, utilities, airlock and two greenhouse trays are the existing instances/systems.
 
-There are **zero new production PNGs and zero PixelLab jobs/credits** in this phase. The 51 unique G2 components, 34 prepared interior prop definitions, nine rooms, G1 library and prior source/rejection records are preserved. Production uses nine shell roles, the existing native passage/hatch components, twelve existing equipment/lander/cargo images and the existing greenhouse bay. The small cube airlock and small habitat facade remain available but are omitted from this placement to keep the entrance and southern route open.
+There are **zero new production PNGs and zero PixelLab jobs/credits** in this phase. The 51 unique G2 components, 34 prepared interior prop definitions, nine rooms, G1 library and prior source/rejection records are preserved. Production uses five native exterior hulls, existing passage/hatch components and twelve existing equipment/lander/cargo images. Equipment lock shares the crew-airlock hull; living shares the hub; cargo shares engineering; shelter shares health/science. All nine furnished room scenes and their connections remain unchanged. The duplicate greenhouse annex and redundant small facades remain in the library.
 
-Eight existing utility-floor tiles supply native maintenance aprons; they are TileMapLayer placements, not new artwork. Current cargo, utility wiring, pickup staging and footprint/access data are in [lunar_outpost_layout.json](../resources/data/lunar_outpost_layout.json). Its generated [native outpost scene](../scenes/world/lunar_outpost.tscn) inherits the existing assembly. All nine approved room envelopes fit the 40×40 rendered surface; the per-session static mission area includes the eastern shelter column. All 772 advertised safe exterior cells are connected.
+Current cargo, utility wiring, pickup staging and footprint/access data are in [lunar_outpost_layout.json](../resources/data/lunar_outpost_layout.json). Its generated [native outpost scene](../scenes/world/lunar_outpost.tscn) inherits the existing assembly. Exterior hull footprints total 312 cells, down from 524. All 987 advertised safe exterior cells are connected. The 40×40 surface, logical terrain kinds, mission perimeter and lander placement are unchanged. Obsolete isolated access pads were removed, and one inaccessible passage recess remains sealed.
 
 Prepared art is now READY in the actual gameplay path. Optional extra facings and exact socket/collar polish remain cosmetic work; they do not block room access, interactions or the pressure interlock. Delivered composition PNGs remain unchanged. Regression captures write ignored test evidence, not replacement artwork.
 
-See [Phase 0.9 integration report](phase_0_9_lunar_base_world_integration.md) for exact coordinates, supported station bindings, normal gameplay screenshots, test results and remaining limitations. No later phase, new artwork or publication has begun.
+See the [release cleanup report](phase_0_9_2_release_cleanup.md) for current layout, captures and validation. The [Phase 0.9 integration report](phase_0_9_lunar_base_world_integration.md) records the earlier placement. No new artwork or publication is implied.
 
 <!-- PRODUCTION_0_9_END -->

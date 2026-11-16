@@ -77,6 +77,32 @@ func verify_room() -> void:
 		var route := dog.planner.route(dog.global_position, action.global_position)
 		check(not route.is_empty(), "Production station/door reachable by Chiwis: " + String(director.location) + "/" + String(action.action_id))
 
+func verify_lander_escape(ground: TerrainLayer) -> bool:
+	for cell: Vector2i in [Vector2i(-19,13),Vector2i(-19,18),Vector2i(-12,18),Vector2i(-12,11)]:
+		if not await walk_to(IsometricGrid.tile_to_world(cell,ground)):
+			printerr("FAIL: Lander route to " + str(cell) + " stopped at " + str(actor.global_position) + "; full-foot valid=" + str(actor.walkability.is_position_walkable(actor.global_position,actor.footprint_half_extent)))
+			for failure: String in failures: printerr("FAIL: " + failure)
+			return false
+		var travelled: float = 0
+		for heading: Vector2 in [Vector2(-1,-1),Vector2(-1,1),Vector2(1,-1),Vector2(1,1)]:
+			for reverse: bool in [false,true]:
+				var direction: Vector2 = -heading if reverse else heading
+				release_walk()
+				Input.action_press("player_move_right" if direction.x > 0 else "player_move_left")
+				Input.action_press("player_move_down" if direction.y > 0 else "player_move_up")
+				for frame: int in 45:
+					var before: Vector2 = actor.global_position
+					await physics_frame
+					travelled += actor.global_position.distance_to(before)
+					if not actor.walkability.is_position_walkable(actor.global_position,actor.footprint_half_extent):
+						printerr("FAIL: Lander feet embedded from " + str(before) + " to " + str(actor.global_position) + "; direction=" + str(direction))
+						return false
+				release_walk()
+				await physics_frame
+		check(travelled > 1, "Directional changes escape lander/boundary contact")
+	await photo("21_lander_boundary")
+	return true
+
 func run() -> void:
 	capture = "--capture" in OS.get_cmdline_user_args() and DisplayServer.get_name() != "headless"
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUTPUT))
@@ -108,7 +134,7 @@ func run() -> void:
 	var utilities: UtilityService = main.get_node("Systems/Utilities")
 	var identities: Array[int] = [actor.get_instance_id(), dog.get_instance_id(), inventory.get_instance_id(), utilities.get_instance_id(), daily.get_instance_id()]
 	var base: LunarBaseWorld = main.lunar_base
-	check(base != null and base.assembly.is_visible_in_tree() and base.assembly.hulls.size() == 9, "Native modular outpost visible in normal production world")
+	check(base != null and base.assembly.is_visible_in_tree() and base.assembly.hulls.is_empty() and base.assembly.equipment.size() == 2 and base.assembly.layout.modules.size() == 9, "Only the entrance/lander exterior and nine furnished compartments in normal production world")
 	check(base.assembly.get_parent() == main.get_node("World/Entities/Buildings"), "Base belongs to the real Y-sorted world")
 	check(not main.has_node("LunarBasePreview") and base.assembly.scale == Vector2.ONE, "No preview or flattened-image substitute")
 	var ground: TerrainLayer = director.outside_terrain()
@@ -126,6 +152,12 @@ func run() -> void:
 	await key(KEY_I)
 	check(main.game_ui.inventory_window.visible and not actor.control_enabled, "Existing inventory blocks walking")
 	await key(KEY_ESCAPE)
+	if not await verify_lander_escape(ground):
+		release_walk()
+		app.queue_free()
+		await settle()
+		quit(1)
+		return
 	await key(KEY_TAB)
 	check(main.gameplay_modes.is_management_mode() and main.game_ui.dashboard.visible, "Real Base Management camera/dashboard active")
 	var stopped: Vector2 = actor.global_position

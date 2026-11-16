@@ -1,8 +1,8 @@
-[gd_resource type="TileSet" load_steps=8 format=3]
+[gd_resource type="TileSet" format=3 uid="uid://bgh7jgyeb1c3l"]
 
-[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/base_floor_panel_tile.png" id="1"]
-[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/utility_floor_pad_tile.png" id="2"]
-[ext_resource type="Texture2D" path="res://assets/terrain/expansion_e/hazard_stripe_floor_tile.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://buwuyq4tveopy" path="res://assets/terrain/expansion_e/base_floor_panel_tile.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c6marpjqlvcnp" path="res://assets/terrain/expansion_e/utility_floor_pad_tile.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://daix542ejdndc" path="res://assets/terrain/expansion_e/hazard_stripe_floor_tile.png" id="3"]
 
 [sub_resource type="TileSetAtlasSource" id="Source_0"]
 texture = ExtResource("1")

@@ -427,7 +427,7 @@ func _build_pages() -> void:
 	_text(&"maintenance", func() -> String: return _service_text())
 	if is_instance_valid(daily):
 		_row(&"maintenance", "Workstation upkeep logged", func() -> String: return str(int(daily.completed.get("maintenance", 0))))
-	_note(&"maintenance", "Maintenance is started and finished at the Engineering terminals. It is a placeholder routine that uses no parts or resources.")
+	_note(&"maintenance", "Start and finish maintenance at an Engineering terminal. This routine records upkeep without consuming spare parts or resources.")
 
 	# Research
 	if is_instance_valid(daily):
@@ -440,7 +440,7 @@ func _build_pages() -> void:
 	database_button.focus_mode = Control.FOCUS_NONE
 	database_button.disabled = database == null
 	pages[&"research"].add_child(database_button)
-	_note(&"research", "The database separates operational, demonstrated, in-development and research references. Examination results unlock nothing yet.")
+	_note(&"research", "The equipment database lists operational technology, demonstrations, development and research. Sample examinations are logged without unlocking equipment.")
 
 	# Current mission
 	_text(&"mission", func() -> String: return _mission_text())

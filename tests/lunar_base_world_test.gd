@@ -18,9 +18,13 @@ func run() -> void:
 	check(region != source and region.eva_limits != source.eva_limits, "Production configuration is per-session")
 	check(source.cells.is_empty() and source.navigation_exclusions.is_empty() and source.installed_footprints.is_empty(), "Source region is never mutated")
 	check(source.eva_limits.allowed_cells == Rect2i(-19,-19,38,38), "Original policy Resource is unchanged")
-	check(region.eva_limits.allowed_cells == Rect2i(-19,-19,39,38), "Production static policy includes reviewed eastern shelter")
+	check(region.eva_limits.allowed_cells == Rect2i(-19,-19,39,38), "Production mission perimeter remains unchanged")
 	check(ground.terrain_cells == source.create_cells(), "All original logical terrain kinds remain byte-for-value equivalent")
-	check(region.installed_footprints.size() > 500 and region.navigation_exclusions.size() >= region.installed_footprints.size(), "Physical footprints and navigation clearance recorded separately")
+	check(base.assembly.hulls.is_empty() and base.assembly.layout.modules.size() == 9 and base.assembly.equipment.size() == 2, "Only the entrance and lander remain outside; nine furnished compartments retained")
+	check(region.installed_footprints.size() == 20 and region.navigation_exclusions.size() >= region.installed_footprints.size(), "Entrance/lander physical footprints and navigation clearance recorded separately")
+	var lander: Node2D = base.assembly.equipment[&"moon_lander"]
+	var lander_definition: ExteriorAssetDefinition = lander.get_meta("definition")
+	check(lander.position == IsometricGrid.tile_to_position(Vector2i(-17,13))-Vector2(lander_definition.grid_origin) and lander.scale == Vector2.ONE and lander.rotation == 0, "Lander position, scale and orientation remain exact")
 	var start: Vector2i = IsometricGrid.world_to_tile(main.astronaut.global_position, ground)
 	var queue: Array[Vector2i] = [start]
 	var seen: Dictionary[Vector2i,bool] = {start:true}
@@ -45,6 +49,20 @@ func run() -> void:
 	check(isolated.is_empty(), "Every advertised safe exterior cell connects to arrival; isolated="+str(isolated))
 	check(walkable > 500, "Research outpost leaves substantial walkable exploration surface")
 	var planner: TerrainRoutePlanner = main.chiwis.planner
+	for obj: Node2D in base.assembly.hulls.values():
+		check(obj.scale == Vector2.ONE and obj.rotation == 0, "Exterior hull retains native proportions")
+	for item: Dictionary in base.assembly.layout.equipment:
+		var obj: Node2D = base.assembly.equipment[StringName(item.id)]
+		var definition: ExteriorAssetDefinition = obj.get_meta("definition")
+		var origin := LunarBaseAssembly.cell(item.cell)
+		var approachable: bool = false
+		var reserved: Array[Vector2i] = definition.navigation_reserved_cells if definition.collision_enabled else definition.occupied_cells
+		for offset: Vector2i in reserved:
+			for step: Vector2i in IsometricGrid.CARDINAL_STEPS:
+				var access: Vector2i = origin + offset + step
+				if seen.has(access): approachable = true
+		check(approachable, "Installation has a connected exterior approach: " + String(item.id))
+		check(obj.scale == Vector2.ONE and obj.rotation == 0, "Installation retains native proportions: " + String(item.id))
 	for child: WorldPickup in main.get_node("World/Entities/Props").get_children():
 		check(not planner.route(main.chiwis.global_position, child.global_position).is_empty(), "Every preserved pickup is accessible")
 	var director: HabitatDirector = main.get_node("Systems/HabitatDirector")

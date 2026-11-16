@@ -2,13 +2,13 @@
 
 A fully **2D isometric pixel-art** exploration and resource-management prototype built with **Godot 4.7.2** and GDScript.
 
-One astronaut arrives on the Moon with **Chiwis**, a robotic companion, you a small lunar region, bring a sample into the research outpost, and record a powered science examination, you as the player have to find and unlock the data of the nasa to discover new things that will help you in your research.
+Explore a small lunar region with **Chiwis**, your robotic companion. Collect a sample, enter the research outpost through its airlock, and examine it at the science station.
 
-**Development status:** Phase 0.9.1 display and running repairs. Main Menu → New Game loads the modular lunar base and furnished rooms; hold Shift to run. Windowed/fullscreen presentation keeps the 960×540 reference. This phase does not publish a Windows release.
+**Development status:** A playable Moon tutorial with a compact modular outpost, nine furnished rooms, inventory, utilities and greenhouse routines. Main Menu → New Game starts a fresh session. Windowed and borderless fullscreen modes use a 960×540 logical resolution.
 
 ## Prototype screenshots
 
-These are historical 960×540 captures. Current normal-gameplay evidence is listed in the [Phase 0.9 report](docs/phase_0_9_lunar_base_world_integration.md).
+These are historical 960×540 captures. Current gameplay captures are listed in the [release cleanup report](docs/phase_0_9_2_release_cleanup.md).
 
 ![Astronaut and Chiwis exploring the Moon](docs/images/moon_exploration.png)
 
@@ -43,7 +43,7 @@ These are historical 960×540 captures. Current normal-gameplay evidence is list
 
 1. Run the project normally (F5), choose **New Game**, then collect the nearby Lunar Sample beside the lander with E; inspect it with I.
 2. Try Tab and the management camera, then return to Player Mode.
-3. Follow the base exterior to the crew hatch on the north-east side, logical cell (-5, -7).
+3. Follow the base exterior to the crew airlock beside the central habitat.
 4. Seal the outer hatch, inspect suit/dust seals, match habitat pressure, then enter through the inner hatch.
 5. Go Equipment lock → Hub → Health/science.
 6. Use the Science station, choose **Examine sample**, and keep its panel open until completion. The sample remains in inventory.
@@ -75,7 +75,7 @@ Outputs and isolated profiles go under ignored `tests/output/`. Local `.vscode/`
 
 Validation has run on Windows with Godot 4.7.2's Compatibility renderer and an NVIDIA GeForce RTX 3050 Laptop GPU at the 960×540 logical resolution. This is a **tested development environment**, not a minimum hardware requirement or exported-build compatibility claim.
 
-This phase validates the Godot project; a new Windows export and clean-machine release test remain separate work. Disk save/load and campaign progression remain deferred. Base art is now integrated in normal gameplay; some existing socket/end-cap facings remain cosmetic limitations. Detailed medicine/survival, other planetary gameplay, multiplayer and audio remain outside this phase. Development utility fault/scenario controls require release gating.
+Windows export and clean-machine release testing remain separate work. Disk save/load and campaign progression are not available. Some exterior socket and end-cap facings remain cosmetic limitations. Detailed medicine and survival, other planets, multiplayer and audio are outside the current tutorial. Development utility fault controls require release gating.
 
 ## Repository map
 
@@ -99,9 +99,9 @@ No project license has been selected, and no LICENSE file is supplied. Do not in
 NASA publications inform the research documentation.
 **This independent game is not sponsored, approved or endorsed by NASA.**
 No NASA affiliation or hardware qualification is claimed.
-No NASA information was added to AI.
-This game is part of **NASA APP CHALLENGE 2026***
+This game is part of **NASA App Challenge 2026**.
 
-## Clarification
-This game was made with help of AI, being used as a tool, as total, 30% of the game was made with AI, while 70% was handmade, including animations.
+## AI assistance
+
+Development includes code and documentation assistance from OpenAI Codex and artwork produced with PixelLab.ai. Character artwork and animations were made by hand in Pixelorama. Asset provenance and tool credits are recorded in [CREDITS.md](CREDITS.md) and the import manifests.
 

@@ -1,6 +1,6 @@
 # Phase 0.9.1 — Display scaling and character running
 
-Status: implementation complete; final aggregate regression results pending.
+Status: implemented. Follow-up display, running and startup acceptance is recorded in the [Phase 0.9.2 report](phase_0_9_2_release_cleanup.md). The original broad regression run stopped at a settings-modal scaling failure; the follow-up fixes that defect and passes focused regressions. A complete 197-step aggregate pass is not claimed.
 
 ## Diagnosis
 
@@ -78,7 +78,7 @@ Evidence is in ignored `tests/output/phase_0_9_1/`:
 - `astronaut_run_{n,ne,e,se,s,sw,w,nw}.png` and `chiwis_run_{n,ne,e,se,s,sw,w,nw}.png`; each shows both real moving characters in that direction.
 - `animation_source_audit.json`, `baseline.json`, final aggregate/startup logs and preservation audit.
 
-Focused results: **213 headless / 229 graphical running checks**, **41 headless / 119 graphical display checks**, and **95 inventory integration checks** pass with zero errors/warnings. The original 903-check headless run-art suite passes, retaining exact source counts/timing/anchor validation and legacy clip fingerprints. All original inventory assertions remain; its mouse fixture now uses the viewport final transform instead of assuming logical coordinates equal native event coordinates. Capture framing restores the camera and waits for the completed render before checking foot contact, avoiding a fixture mismatch between different camera frames. Final aggregate and preservation results are recorded after completion below.
+Initial focused results: **213 headless / 229 graphical running checks**, **41 headless / 119 graphical display checks**, and **95 inventory integration checks** passed. Phase 0.9.2 expands graphical display acceptance to **140 checks**, including interface scaling, and recenters the open settings modal after scale changes. The original 903-check headless run-art suite retains exact source counts/timing/anchor validation and legacy clip fingerprints. Inventory mouse events use the viewport final transform. Capture framing restores the camera and waits for the completed render before checking foot contact. See the follow-up report for current results and preservation evidence.
 
 ## Modified files
 

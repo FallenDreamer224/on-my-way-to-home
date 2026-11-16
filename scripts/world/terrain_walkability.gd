@@ -3,6 +3,7 @@ extends RefCounted
 ## Swept foot-rectangle vs missing terrain diamonds. No invented obstacle nodes or map size.
 
 const AXES: Array[Vector2] = [Vector2.RIGHT, Vector2.DOWN, Vector2(1, 2), Vector2(1, -2)]
+const CONTACT_MARGIN: float = 0.01
 var layer: TerrainLayer
 
 
@@ -66,7 +67,7 @@ func _fraction(start: Vector2, motion: Vector2, half_extent: Vector2) -> float:
 				result = minf(result, _contact(local_start - layer.map_to_local(cell), motion, half))
 	# Stop just short of a swept contact to avoid roundoff leaving the next step embedded.
 	if motion != Vector2.ZERO and result < 1.0:
-		result = maxf(0.0, result - 0.001 / maxf(motion.length(), 0.001))
+		result = maxf(0.0, result - CONTACT_MARGIN / maxf(motion.length(), CONTACT_MARGIN))
 	return result
 
 

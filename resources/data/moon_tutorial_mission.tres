@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="MissionDefinition" load_steps=9 format=3]
+[gd_resource type="Resource" script_class="MissionDefinition" format=3 uid="uid://bytwku3i2qmxs"]
 
-[ext_resource type="Script" path="res://scripts/gameplay/mission_definition.gd" id="1"]
-[ext_resource type="Script" path="res://scripts/gameplay/objective_definition.gd" id="2"]
+[ext_resource type="Script" uid="uid://bjkd4a8udm5r8" path="res://scripts/gameplay/mission_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://d14314h67e2in" path="res://scripts/gameplay/objective_definition.gd" id="2"]
 
 [sub_resource type="Resource" id="collect_sample"]
 script = ExtResource("2")
@@ -15,7 +15,7 @@ subject = &"lunar_sample"
 script = ExtResource("2")
 objective_id = &"enter_habitat"
 title = "Enter the outpost through the crew airlock"
-guidance = "Follow the outside of the base to the crew hatch on its north-east side. Seal the outer hatch, inspect suit and dust seals, then match habitat pressure."
+guidance = "Follow the base exterior to the crew airlock beside the central habitat. Seal the outer hatch, inspect suit and dust seals, then match habitat pressure."
 condition = &"inside_habitat"
 
 [sub_resource type="Resource" id="examine_sample"]

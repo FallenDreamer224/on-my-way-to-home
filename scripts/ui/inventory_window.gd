@@ -201,7 +201,7 @@ func inspect_slot(index: int) -> void:
 	details_tags.text = _tag_text(item)
 	details_quantity.text = "Quantity: %d   |   Max stack: %d" % [slot.quantity, item.stack_limit()] if item != null else ""
 	details_total.text = "Carried in total: %d" % inventory.get_quantity(item.item_id) if item != null else ""
-	details_description.text = item.description if item != null else "Collect a nearby development pickup to fill an available slot."
+	details_description.text = item.description if item != null else "Collect nearby supplies to fill this slot."
 
 
 func set_filter(tag: String) -> void:

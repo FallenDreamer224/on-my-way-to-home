@@ -15,6 +15,7 @@ func reserve(origin: Vector2i, cells: Array[Vector2i]) -> void:
 	for at: Vector2i in cells: occupied[origin+at] = true
 func _ready() -> void:
 	for module: Dictionary in layout.modules:
+		if module.has("exterior_parent"): continue
 		var id := StringName(module.id)
 		var obj: Node2D = (load("res://scenes/exterior/base_g2/hull_"+String(id)+".tscn") as PackedScene).instantiate()
 		var definition: ExteriorAssetDefinition = obj.get_meta("definition")
@@ -49,12 +50,13 @@ func _ready() -> void:
 	for item: Dictionary in layout.equipment: _existing(item,false)
 	for item: Dictionary in layout.facades: _existing(item,true)
 	_round_passages(route_cells)
-	_new_connection("pressure_junction",Vector2i(-10,17))
+	if not layout.get("compact_exterior",false): _new_connection("pressure_junction",Vector2i(-10,17))
 	var crew: Dictionary
 	for module: Dictionary in layout.modules:
 		if module.id=="crew_airlock": crew=module
 	for portal: Dictionary in crew.portals:
 		if portal.id=="outer": _entry=cell(crew.origin)+cell(portal.threshold)+Vector2i(1,0)
+	if layout.has("exterior_entry_cell"): _entry=cell(layout.exterior_entry_cell)
 	hatch=Sprite2D.new()
 	hatch.name="ExteriorHatch"
 	hatch.centered=false
@@ -64,6 +66,7 @@ func _ready() -> void:
 	hatch.offset=Vector2(-31,-69)
 	add_child(hatch)
 	show_hatch(false)
+	if layout.get("entrance_only",false): hatch.hide()
 	_cables()
 
 func _existing(item: Dictionary, facade: bool) -> void:
